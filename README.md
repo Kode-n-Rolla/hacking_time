@@ -16,5 +16,5 @@ There is a :
 
 
 
-P.S. Thanks to Books and Services, namaly Justin Seitz and Tim Arnold, TryHackMe.com, HackTheBox.com, Daniel G. Graham, Peter Yaworski, Royce Davis
+P.S. Thanks to Books Authors and Services, namaly Justin Seitz and Tim Arnold, TryHackMe.com, HackTheBox.com, Daniel G. Graham, Peter Yaworski, Royce Davis
 on my path to becoming a cybersecurity specialist.
