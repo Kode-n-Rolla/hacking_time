@@ -5,6 +5,7 @@ There is a :
   - commands, for example command to connect to Windows or command, which download file from attacker machine to Windows victim through shell
   - some kind of payloads
   - helpful sites
+  - resume info about my Stars on the gibhub, where real professionals do show their work
   
 
 
