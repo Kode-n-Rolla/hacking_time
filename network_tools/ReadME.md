@@ -1,1 +1,6 @@
-<h2>This directory contain "hotkey" network tools. If you need, for example, check a connection, but you don't have specialize OS, you need to write some tools like tools in this directory. </h3>
+<h2>This directory contain "hotkey" simple network tools. </h3>
+  <li> tcp_client - simple tcp client
+  <li> udp_client - simple udp client
+  <li> tcp_server - simple tcp server
+  <li> netcat - simple analogue of netcat
+  
