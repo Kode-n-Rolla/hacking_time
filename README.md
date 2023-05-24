@@ -8,5 +8,5 @@ There is a :
   <li> cheat sheet injections
 
  
-<h3>Remote Descktop Protocol (rdp)</h3>
+<h3>Remote Desktop Protocol (rdp)</h3>
 xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:MACHINE_IP /u:User /p:'Password'
