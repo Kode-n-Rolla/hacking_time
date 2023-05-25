@@ -4,8 +4,8 @@ There is a :
 <ol>
   <li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'>network tools</a>
   <li> <a href='#n1'>command examples</a>
-  <li> <a href='README.md#n2'>payloads</a>
-  <li> <a href='README.md#n3'>helpful sites</a>
+  <li> <a href='#n2'>payloads</a>
+  <li> <a href='#n3'>helpful sites</a>
   <!--<li> cheat sheet injections
   <li> tools like gitlab hash identify
   <li> shells!-->
@@ -36,3 +36,21 @@ There is a :
       <li> <a href='https://devhints.io/bash'>Bash scripting</a> cheat sheet
       <li> <a href='https://gchq.github.io/CyberChef/'>CyberChef</a> - encode/decode service
       <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'>Flask Session Cookie Decoder</a>
+        
+        
+       
+ $(document).ready(function(){
+	$("#menu").on("click","a", function (event) {
+		//отменяем стандартную обработку нажатия по ссылке
+		event.preventDefault();
+
+		//забираем идентификатор бока с атрибута href
+		var id  = $(this).attr('href'),
+
+		//узнаем высоту от начала страницы до блока на который ссылается якорь
+			top = $(id).offset().top;
+		
+		//анимируем переход на расстояние - top за 1500 мс
+		$('body,html').animate({scrollTop: top}, 1500);
+	});
+});
