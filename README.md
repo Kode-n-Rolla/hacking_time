@@ -1,15 +1,17 @@
 # pentesting_time
 <h1>My pentesting cheat sheet, where I share "hotkey" tools and the same things.</h1>
 There is a :
-<ol>
-  <li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'>network tools</a>
-  <li> <a href='#n1'>command examples</a>
-  <li> <a href='#n2'>payloads</a>
-  <li> <a href='#n3'>helpful sites</a>
+<nav id="menu">
+	<ol>
+  		<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'>network tools</a>
+  		<li> <a href='#n1'>command examples</a>
+  		<li> <a href='#n2'>payloads</a>
+  		<li> <a href='#n3'>helpful sites</a>
   <!--<li> cheat sheet injections
   <li> tools like gitlab hash identify
   <li> shells!-->
-</ol>
+	</ol>
+</nav>
 
 <h2 id='n1'>Commands</h2> 
 <h3>Remote Desktop Protocol (rdp)</h3>
