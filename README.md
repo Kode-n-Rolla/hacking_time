@@ -1,23 +1,21 @@
 # pentesting_time
 <h1>My pentesting cheat sheet, where I share "hotkey" tools and the same things.</h1>
 There is a :
-<nav id="menu">
-	<ol>
-  		<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'>network tools</a>
-  		<li> <a href='#n1'>command examples</a>
-  		<li> <a href='#n2'>payloads</a>
-  		<li> <a href='#n3'>helpful sites</a>
-  <!--<li> cheat sheet injections
-  <li> tools like gitlab hash identify
-  <li> shells!-->
-	</ol>
-</nav>
+<ol>
+	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'>network tools</a>
+  	<li> <a href='#n1'>command examples</a>
+  	<li> <a href='#n2'>payloads</a>
+  	<li> <a href='#n3'>helpful sites</a>
+  	<!--<li> cheat sheet injections
+  	<li> tools like gitlab hash identify
+  	<li> shells!-->
+</ol>
 
 <h2 id='n1'>Commands</h2> 
 <h3>Remote Desktop Protocol (rdp)</h3>
   xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:MACHINE_IP /u:User /p:'Password'
 
-<h2 if='n2'>Payloads</h2>
+<h2 id='n2'>Payloads</h2>
     <h3>XSS Payloads</h3>
     <li> <b>Proof Of Concept (PoC)</b> - <script>alert('Success XSS');</script>
       <p>This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text "Success XSS".
@@ -40,19 +38,3 @@ There is a :
       <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'>Flask Session Cookie Decoder</a>
         
         
-       
- $(document).ready(function(){
-	$("#menu").on("click","a", function (event) {
-		//отменяем стандартную обработку нажатия по ссылке
-		event.preventDefault();
-
-		//забираем идентификатор бока с атрибута href
-		var id  = $(this).attr('href'),
-
-		//узнаем высоту от начала страницы до блока на который ссылается якорь
-			top = $(id).offset().top;
-		
-		//анимируем переход на расстояние - top за 1500 мс
-		$('body,html').animate({scrollTop: top}, 1500);
-	});
-});
