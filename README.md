@@ -6,8 +6,8 @@ There is a :
   	<li> <a href='#n1'>command examples</a>
   	<li> <a href='#n2'>payloads</a>
   	<li> <a href='#n3'>helpful sites</a>
-  	<!--<li> cheat sheet injections
-  	<li> tools like gitlab hash identify
+	<li> <a href='#n4'>tools</a>
+	<!--<li> cheat sheet injections
   	<li> shells!-->
 </ol>
 
@@ -37,4 +37,10 @@ There is a :
       <li> <a href='https://gchq.github.io/CyberChef/'>CyberChef</a> - encode/decode service
       <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'>Flask Session Cookie Decoder</a>
         
-        
+<h2 id='n4'>Tools</h2>
+	<ol>
+		<li><h3><a href='https://www.kali.org/tools/ncurses-hexedit/'>Hexeditor</a></h3>
+	        	<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'>Link</a> to Wiki with List of file signatures. 
+		<li><h3><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'>Tool</a> for hash identification.</h3> 
+			<p> Python file. Very useful.
+	</ol>
