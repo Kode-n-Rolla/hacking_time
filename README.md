@@ -14,6 +14,7 @@ There is a :
 <h2 id='n1'>Commands</h2> 
 <h3>Remote Desktop Protocol (rdp)</h3>
   xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:MACHINE_IP /u:User /p:'Password'
+  <p>xfreerdp /v:10.10.38.213 /u:User /p:Password +clipboard
 
 <h2 id='n2'>Payloads</h2>
     <h3>XSS Payloads</h3>
@@ -36,6 +37,9 @@ There is a :
       <li> <a href='https://devhints.io/bash'>Bash scripting</a> cheat sheet
       <li> <a href='https://gchq.github.io/CyberChef/'>CyberChef</a> - encode/decode service
       <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'>Flask Session Cookie Decoder</a>
+      <li> <a href='https://viewdns.info/'>ViewDNS</a> Offers reverse IP Lookup. OSINT tool. 
+      <li> <a href='https://www.shodan.io/'>ViewDNS</a> is the world's first search engine for Internet-connected devices. OSINT tool.
+      <li> <a href='https://search.censys.io/'>Censys Search</a> Can provide a lot of information about IP addresses and domains. OSINT tool. 
         
 <h2 id='n4'>Tools</h2>
 	<ol>
