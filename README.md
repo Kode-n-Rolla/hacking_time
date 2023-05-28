@@ -11,12 +11,12 @@ There is a :
   	<li> shells!-->
 </ol>
 
-<h2 id='n1'>Commands</h2> 
+<h2 id='n1'><em>Commands</em></h2> 
 <h3>Remote Desktop Protocol (rdp)</h3>
   xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:MACHINE_IP /u:User /p:'Password'
   <p>xfreerdp /v:10.10.38.213 /u:User /p:Password +clipboard
 
-<h2 id='n2'>Payloads</h2>
+<h2 id='n2'><em>Payloads</em></h2>
     <h3>XSS Payloads</h3>
     <li> <b>Proof Of Concept (PoC)</b> - <script>alert('Success XSS!');</script>
       <p>This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text "Success XSS".
@@ -29,7 +29,7 @@ There is a :
     <li><b>Polyglots</b> - jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e
       <p>An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
         
-<h2 id='n3'>Sites</h2>
+<h2 id='n3'><em>Sites</em></h2>
       <li> <a href='https://crackstation.net/'>crackstation.net</a> - online password hash cracker
       <li> <a href='https://www.base64encode.org/'>Base64</a> encode/decode
       <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'>Reverse Shell Cheat Sheet</a>
@@ -46,7 +46,7 @@ There is a :
       <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'>This wiki</a> includes the most well-known collections of passwords.
 	      
         
-<h2 id='n4'>Tools</h2>
+<h2 id='n4'><em>Tools</em></h2>
 	<ol>
 		<li><h3><a href='https://www.kali.org/tools/ncurses-hexedit/'>Hexeditor</a></h3>
 	        	<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'>Link</a> to Wiki with List of file signatures. 
