@@ -47,7 +47,7 @@ There is a :
       <li> <a href='https://cirt.net/passwords'>CIRT.net</a> Dafault Passwords service
       <li> <a href='https://default-password.info/'>Default-Password.info</a> Dafault Passwords service
       <li> <a href='https://datarecovery.com/rd/default-passwords/'>Datarecovery.com</a> Dafault Passwords service
-      <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'>This wiki</a> includes the most well-known collections of passwords.
+      <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'>This</a> wiki page includes the most well-known collections of passwords.
 	      
         
 <h2 id='n4'><em>Tools</em></h2>
