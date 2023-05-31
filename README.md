@@ -58,4 +58,6 @@ There is a :
 			<p> Python file. Very useful.
 		<li><h3><a href='https://www.kali.org/tools/crunch/'>Crunch</a></h3>
 		   <p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: crunch 3 3 12345qwerty -o cranch.txt.
+		<li><h3><a href='https://github.com/therodri2/username_generator'>Username generator</h3>
+			<p>Could help create a list with most of the possible combinations if we have a first name and last name. Use git clone and python3 username_generator.py -h shows the tool's help message and optional arguments.
 	</ol>
