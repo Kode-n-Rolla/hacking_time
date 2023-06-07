@@ -24,7 +24,7 @@ There is a :
   
 <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commands to find in:</h3>
 <h4>&nbsp;&nbsp;&nbsp;Linux</h4>
-	<p> <code>find / -type f</code> - Find all files in / directory
+	<p> <code>find / -type f</code> - Find all files in / directory (-type d for find dirs)
 	<p> <code>find / -type f | grep '&lt;FILE_NAME>'</code> - File name search
 	<p> <code>find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null</code> - Find all path files with ‘config’ in proc dirs
 		
