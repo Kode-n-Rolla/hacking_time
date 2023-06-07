@@ -25,19 +25,19 @@ There is a :
 <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commands to find in:</h3>
 <h4>&nbsp;&nbsp;&nbsp;Linux</h4>
 	<p> <code>find / -type f</code> - Find all files in / directory
-	<p> <code>find / -type f | grep 'flag'</code> - Find all files with 'flag' in file name
-	<p> <code>find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null</code> - Find all path files with ‘config’ 
+	<p> <code>find / -type f | grep '&lt;FILE_NAME>'</code> - File name search
+	<p> <code>find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null</code> - Find all path files with ‘config’ in proc dirs
 		
 <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nmap</h3>
 Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>download</a> script files from github and install it. Thanks for that, Vulners Team!
 
    <p> <code> Nmap -Pn &lt;TARGET_IP> --script=vulnerse.nse -p &lt;PORT(S)></code> - Checking for a vulnerability in the software on the server.
-   <p> <code> nmap --script ssh-brute -p22 &lt;TARGET_IP> --script-args userdb=users.lst,passdb=passwords.lst</code> - Checking brute force resistance on ssh
-   <p> <code> nmap -d --script ftp-brute -p &lt;TARGET_IP></code> - Checking brute force resistance on ftp
+   <p> <code> nmap --script ssh-brute -p &lt;SSH_PORT> &lt;TARGET_IP> --script-args userdb=users.lst,passdb=passwords.lst</code> - Checking brute force resistance on ssh
+   <p> <code> nmap -d --script ftp-brute -p &lt;FTP_PORT> &lt;TARGET_IP></code> - Checking brute force resistance on ftp
    <p> <code> nmap -sV --script=mysql-empty-password &lt;TARGET_IP></code> - Checking mysql anonymous login
-   <p> <code> nmap --script mysql-brute -p 3306 &lt;TARGET_IP> --script-args userdb=users.lst, passdb=passwords.lst</code> - Attempts to select a pair of login/password to enter the mysql database
+   <p> <code> nmap --script mysql-brute -p &lt;MYSQL_PORT> &lt;TARGET_IP> --script-args userdb=users.lst, passdb=passwords.lst</code> - Attempts to select a pair of login/password to enter the mysql database
    <p> <code> nmap -sV -p &lt;PORT> –script http-enum &lt;TARGET_IP></code> - Search for hidden folders and files
-   <p> P.S. If CMS, research <code>^&t;name_0f_CMS_0r_DB> brute force nmap</code>
+   <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
 	
 <h2 align='center' id='n2'><em>Payloads</em></h2>
     <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XSS Payloads</h3>
