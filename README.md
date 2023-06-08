@@ -3,7 +3,7 @@
 	
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Bitter&weight=500&size=40&pause=1000&color=3C4CFF&background=AC51FF00&width=500&height=80&lines=P3netrati0n+T1me!)](https://git.io/typing-svg)
 <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWM2NWI0ZDIwMjA3ZWIyYWRiZmEyYzA5NTFlNThmNTFhYWI1MWE0ZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oz8xA9gtnyVDPZJHW/giphy.gif' width='250'/>
-<h1> My pentesting cheat sheet, where I share "hotkey" tools and the same things. </h1>
+<h1> My pentesting cheat sheet, where I share "hotkey" tools, websites and the same things in one place. </h1>
 There is a :
 <ol>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'> Network tools </a>
@@ -98,7 +98,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       <li> <a href='https://search.censys.io/'> Censys Search </a> Can provide a lot of information about IP addresses and domains. OSINT tool.
       <li> <a href='https://cirt.net/passwords'> CIRT.net </a> Default Passwords service
       <li> <a href='https://default-password.info/'> Default-Password.info </a> Default Passwords service
-      <li> <a href='https://datarecovery.com/rd/default-passwords/'> Datarecovery.com </a> Dafault Passwords service
+      <li> <a href='https://datarecovery.com/rd/default-passwords/'> Datarecovery.com </a> Default Passwords service
       <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'> This </a> wiki page includes the most well-known collections of passwords.
       <li> PowerShell <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> cheatsheet </a>
 	      
