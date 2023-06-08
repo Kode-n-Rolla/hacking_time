@@ -21,7 +21,7 @@ There is a :
 	<li> Remote Desktop Protocol <a href='#n1.1'> (RDP) </a>
 	<li> <a href='#n1.2'> Command </a> to get stable shell from unstable from PowerShell
 	<li> <a href='#n1.3'> Find </a> commands in Linux
-	<li> Nmap <a href='#n1.4'> commands </a> with vulners script
+	<li> <a href='#n1.4'> Nmap </a> commands with vulners script
 	<li> <a href='#n1.5'>Gobuster </a> dirs enumeration command
 	<li> <a href='#n1.6'> Hydra </a> commands
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Remote Desktop Protocol (RDP) </h3>
