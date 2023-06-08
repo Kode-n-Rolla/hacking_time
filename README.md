@@ -71,8 +71,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       <li> <a href='https://viewdns.info/'>ViewDNS</a> Offers reverse IP Lookup. OSINT tool. 
       <li> <a href='https://www.shodan.io/'>ViewDNS</a> is the world's first search engine for Internet-connected devices. OSINT tool.
       <li> <a href='https://search.censys.io/'>Censys Search</a> Can provide a lot of information about IP addresses and domains. OSINT tool.
-      <li> <a href='https://cirt.net/passwords'>CIRT.net</a> Dafault Passwords service
-      <li> <a href='https://default-password.info/'>Default-Password.info</a> Dafault Passwords service
+      <li> <a href='https://cirt.net/passwords'>CIRT.net</a> Default Passwords service
+      <li> <a href='https://default-password.info/'>Default-Password.info</a> Default Passwords service
       <li> <a href='https://datarecovery.com/rd/default-passwords/'>Datarecovery.com</a> Dafault Passwords service
       <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'>This</a> wiki page includes the most well-known collections of passwords.
 	      
