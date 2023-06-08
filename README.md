@@ -87,19 +87,20 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
         
 <h2 align='center' id='n3'><em> Sites </em></h2>
       <h3> Cheat sheets </h3>
-	     <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell Cheat Sheet </a>
-	     <li> <a href='https://devhints.io/bash'> Bash scripting </a> cheat sheet
-             <li> PowerShell <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> cheatsheet </a>	  <h3> Hashes, encode/decode, cracker, identify </h3>
+	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheets
+	      <li> <a href='https://devhints.io/bash'> Bash scripting </a> cheatsheets
+              <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheets	
+      <h3> Hashes, encode/decode, cracker, identify </h3>
 	      <li> <a href='https://crackstation.net/'> crackstation.net </a> - online password hash cracker
 	      <li> <a href='https://www.base64encode.org/'> Base64 </a> encode/decode
 	      <li> <a href='https://hashes.com/en/tools/hash_identifier'> Identify hash types </a>
 	      <li> <a href='https://gchq.github.io/CyberChef/'> CyberChef </a> - encode/decode service
 	      <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'> Flask Session Cookie Decoder </a>
-	  <h3> OSINT </h3>
+      <h3> OSINT </h3>
 	      <li> <a href='https://viewdns.info/'> ViewDNS </a> Offers reverse IP Lookup.
               <li> <a href='https://www.shodan.io/'> Shodan </a> is the world's first search engine for Internet-connected devices.
               <li> <a href='https://search.censys.io/'> Censys Search </a> Can provide a lot of information about IP addresses and domains.	      
-	<h3> Password Services </h3>
+      <h3> Password Services </h3>
 	      <li> <a href='https://cirt.net/passwords'> CIRT.net </a> Default Passwords service
 	      <li> <a href='https://default-password.info/'> Default-Password.info </a> Default Passwords service
 	      <li> <a href='https://datarecovery.com/rd/default-passwords/'> Datarecovery.com </a> Default Passwords service
