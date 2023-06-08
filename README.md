@@ -35,7 +35,7 @@ There is a :
 	<p> <pre><code>find / -type f | grep '&lt;FILE_NAME>'</code></pre> - File name search
 	<p> <pre><code>find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null</code></pre> - Find all path files with ‘config’ in proc dirs
 		
-<h3 id='n1.3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nmap with vulnerse script</h3>
+<h3 id='n1.4'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nmap with vulnerse script</h3>
 Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>download</a> script files from github and install it. Thanks for that, Vulners Team!
 
    <p> <pre><code> Nmap -Pn &lt;TARGET_IP> --script=vulnerse.nse -p &lt;PORT(S)></code></pre> - Checking for a vulnerability in the software on the server.
