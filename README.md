@@ -24,6 +24,8 @@ There is a :
 	<li> <a href='#n1.4'> Nmap </a> commands with vulners script
 	<li> <a href='#n1.5'>Gobuster </a> dirs enumeration command
 	<li> <a href='#n1.6'> Hydra </a> commands
+	<li> <a href='#n1.7'> Dirsearch </a> command example
+	<li> <a href='#n1.8'> Pump </a> shell, if target system has python3
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Remote Desktop Protocol (RDP) </h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
   <p><pre><code> xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard </code></pre>
@@ -70,6 +72,14 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <pre><code> hydra -t 1 -V -f -l &lt;USERNAME> -P &lt;WORDLIST> rdp://&lt;TARGET_IP> </code></pre>
    <p> Craft a more specific request for Hydra to brute force -
    <pre><code> hydra -l &lt;USERNAME> -P .&lt;PASSWORD_LIST> $ip -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location' </code></pre>
+		
+<h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dirsearch </h3>
+   Search a lot of interesting by extensions -
+   <pre><code> dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u '&lt;TARGER_IP>' </code></pre>
+		
+<h3 id='n1.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to pump nc shell </h3>
+   PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell -
+   <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
 	
 <h2 align='center' id='n2'><em> Payloads </em></h2>
     <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
@@ -89,7 +99,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       <h3> Cheat sheets </h3>
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheets
 	      <li> <a href='https://devhints.io/bash'> Bash scripting </a> cheatsheets
-              <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheets	
+              <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheets
+	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How </a> pump nc shell
       <h3> Hashes, encode/decode, cracker, identify </h3>
 	      <li> <a href='https://crackstation.net/'> crackstation.net </a> - online password hash cracker
 	      <li> <a href='https://www.base64encode.org/'> Base64 </a> encode/decode
