@@ -11,8 +11,9 @@ There is a :
   	<li> <a href='#n2'> Payloads </a>
   	<li> <a href='#n3'> Helpful sites </a>
 	<li> <a href='#n4'> Tools </a>
+	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'> Web Shells </a>
 	<!--<li> cheat sheet injections
-  	<li> shells!
+  !
 	<li> resume my stars-->
 </ol>
 
