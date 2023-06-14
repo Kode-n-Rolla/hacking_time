@@ -13,6 +13,7 @@ There is a :
 	<li> <a href='#n4'> Tools </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'> Web Shells </a>
 	<!--<li> cheat sheet injections
+	<li> list of mozilla add-ons
   !
 	<li> resume my stars-->
 </ol>
