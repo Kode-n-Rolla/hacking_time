@@ -60,7 +60,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> <pre><code> nmap --script mysql-brute -p &lt;MYSQL_PORT> &lt;TARGET_IP> --script-args userdb=users.lst, passdb=passwords.lst </code></pre>
    Search for hidden folders and files
    <p> <pre><code> nmap -sV -p &lt;PORT> –script http-enum &lt;TARGET_IP> </code></pre>
-   <p> P.S. If CMS, research <code> &lt;name_0f_CMS_0r_DB> brute force nmap </code>
+   <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
 	   
 <h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gobuster command </h3>
    <pre><code> gobuster dir &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt </code></pre>
