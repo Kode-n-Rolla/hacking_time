@@ -113,6 +113,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://tryhackme.com/'> TryHackMe </a>
 	      <li> <a href='https://www.hackthebox.com/'> HackTheBox </a>
 	      <li> <a href='https://hackthissite.org/'> HackThisSite </a>
+	      <li> <a href='https://ctftime.org/ctfs'> CTF </a> practice
       <h3> OSINT </h3>
 	      <li> <a href='https://viewdns.info/'> ViewDNS </a> Offers reverse IP Lookup.
               <li> <a href='https://www.shodan.io/'> Shodan </a> is the world's first search engine for Internet-connected devices.
