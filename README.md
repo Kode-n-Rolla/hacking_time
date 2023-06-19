@@ -20,7 +20,7 @@ There are:
 </ol>
 
 <h2 align='center' id='n1'><em> Command Examples</em> </h2> 
-	Example commands contains:
+	Topic contains:
 	<li> Remote Desktop Protocol <a href='#n1.1'> (RDP) </a>
 	<li> <a href='#n1.2'> Command </a> to get stable shell from unstable from PowerShell
 	<li> <a href='#n1.3'> Find </a> commands in Linux
