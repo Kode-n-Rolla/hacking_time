@@ -13,6 +13,7 @@ There are:
 	<li> <a href='#n4'> Tools </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'> Web Shells </a>
 	<li> <a href='#n5'> Browser add-ons </a>
+	<li> <a href='#n6'> Some info about Privilege Escalation </a>
 	<!--<li> cheat sheet injections
 	<li> resume my stars 
 	Add XSStrike to Tools!-->
@@ -172,4 +173,18 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<li> <a href='https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap'> Shodan </a> for Chrome
 		<li> <a href='https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc'> TruffleHog Chrome Extension </a> - Scans the websites you visit looking for API keys and credentials and notifies you if they are found
   	</ul>
+
+<h2 align='center' id='n6'><em> Privilege Escalation </em></h2>
+	 <h3> Linux </h3>
+  		Some advice to Linux Privilege Escalation
+    		<ul>
+			<li> Check kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> ) and exploit this
+			<li> Check screen version ( <code>screen -v</code> ) and exploit this
+			<li> Check Cron Tab
+			<li> Check setuid and setgid
+			<li> Check NOPASSWD sudo command ( <code>sudo -l</code> ) and use this command(s)
+			<li> Check PATH ( <code>echo $PATH</code> )
+    		</ul>
+         <!-- <h3> Windows </h3> -->
+
 </body>
