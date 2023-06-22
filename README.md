@@ -168,7 +168,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<li><h3><a href='https://www.kali.org/tools/ncurses-hexedit/'> Hexeditor </a></h3>
 	        	<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'> Link </a> to Wiki with List of file signatures. 
 		<li><h3><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'> Tool </a> for hash identification. </h3> 
-			<p> Python file. Powerful.
+			<p> Python file. Powerful. User friendly interface.
 		<li><h3><a href='https://www.kali.org/tools/crunch/'> Crunch </a></h3>
 		   <p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: <pre><code> crunch 3 3 12345qwerty -o cranch.txt </code></pre>
 		<li><h3><a href='https://github.com/therodri2/username_generator'> Username generator </h3>
