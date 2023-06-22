@@ -151,6 +151,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://www.hackthebox.com/'> HackTheBox </a>
 	      <li> <a href='https://hackthissite.org/'> HackThisSite </a>
 	      <li> <a href='https://ctftime.org/ctfs'> CTF </a> practice
+	      <li> <a href='http://www.itsecgames.com/'> BWAPP </a> - buggy web application. Virtual pentest laboratory to practice.
+	      <li> Free <a href='https://thexssrat.podia.com/ratatatata'> set </a> of practice tasks. Thanks to <a href='https://www.youtube.com/c/TheXSSrat'> TheXSSrat </a>
       <h3> OSINT </h3>
 	      <li> <a href='https://viewdns.info/'> ViewDNS </a> Offers reverse IP Lookup.
               <li> <a href='https://www.shodan.io/'> Shodan </a> is the world's first search engine for Internet-connected devices.
