@@ -80,6 +80,7 @@ There are:
 	<p> <pre><code> find / -type f | grep '&lt;FILE_NAME>' </code></pre>
 	Find all path files with ‘config’ in proc dirs:
 	<p> <pre><code> find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null </code></pre>
+ <!-- Add Windows commands !>
 		
 <h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nmap with vulnerse script </h3>
 Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'> download </a> script files from github and install it. Thanks for that, <a href='https://github.com/vulnerscom'> Vulners Team </a>!
