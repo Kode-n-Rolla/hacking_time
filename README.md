@@ -4,7 +4,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Bitter&weight=500&size=40&pause=1000&color=3C4CFF&background=AC51FF00&width=500&height=80&lines=P3netrati0n+T1me!)](https://git.io/typing-svg)
 <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWM2NWI0ZDIwMjA3ZWIyYWRiZmEyYzA5NTFlNThmNTFhYWI1MWE0ZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oz8xA9gtnyVDPZJHW/giphy.gif' width='250'/>
 <h1> My pentesting cheat sheet library, where I share "hotkey" tools, websites and the same things in one place during my learning path and increasing Cyber Security skills. </h1>
-<h3 id='start'>There are:</h3>
+<h3 id='start'> There are: </h3>
 <ol>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'> Network tools </a>
   	<li> <a href='#n1'> Command examples </a>
@@ -18,7 +18,7 @@
 	<!--<li> cheat sheet injections
 	<li> resume my stars 
 	Add XSStrike to Tools!-->
- 	<p> <h3> <ins>N.B. BACK link - Return to the table of contents.</ins> </h3>
+ 	<p> <h3> <ins>N.B. <-- Back link - Means return to the table of contents.</ins> </h3>
 
 </ol>
 
@@ -121,6 +121,9 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 <h3 id='n1.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to pump nc shell </h3>
    PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell:
    <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
+
+<h3 align='right'><a href='#start'> <-- Back </a></h3>
+   
 	
 <h2 align='center' id='n2'><em> Payloads </em></h2>
     <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
@@ -134,6 +137,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       <p> This payload is a lot more specific than the above examples. This would be about calling a particular network resource or a JavaScript function. For example, imagine a JavaScript function for changing the user's email address called user.changeEmail().
     <li> <b> Polyglots </b> - <pre><code> jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e </code></pre>
       <p> An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
+
+<h3 align='right'><a href='#start'> <-- Back </a></h3>
 	      
         
 <h2 align='center' id='n3'><em> Sites </em></h2>
@@ -166,7 +171,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://datarecovery.com/rd/default-passwords/'> Datarecovery.com </a> Default Passwords service
 	      <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'> This </a> wiki page includes the most well-known collections of passwords.
 
-	      
+<h3 align='right'><a href='#start'> <-- Back </a></h3>
+       
         
 <h2 align='center' id='n4'><em> Tools </em></h2>
 	<ol>
@@ -187,6 +193,9 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 			<p> http://target_site.com is the URL that will be used
 			<p> As a result, now have a decently sized wordlist based on relevant words for the specific enterprise, like names, locations, and a lot of their business lingo. Similarly, the wordlist that was created could be used to fuzz for usernames. 
 	</ol>
+			
+<h3 align='right'><a href='#start'> <-- Back </a></h3>
+
 
  <h2 align='center' id='n5'><em> Browser add-ons </em></h2>
  <h3> Mozilla FireFox </h3>
@@ -212,6 +221,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<li> <a href='https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap'> Shodan </a> for Chrome
 		<li> <a href='https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc'> TruffleHog Chrome Extension </a> - Scans the websites you visit looking for API keys and credentials and notifies you if they are found
   	</ul>
+   
+<h3 align='right'><a href='#start'> <-- Back </a></h3>
 
 <h2 align='center' id='n6'><em> Privilege Escalation </em></h2>
 	 <h3> Linux </h3>
@@ -224,7 +235,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 			<li> Check NOPASSWD sudo command ( <code>sudo -l</code> ) and use this command(s)
 			<li> Check PATH ( <code>echo $PATH</code> )
     		</ul>
-      <h3 align='right'><a href='#start'> Back </a></h3>
-         <!-- <h3> Windows </h3> -->
+       <!-- <h3> Windows </h3> -->
+      
+<h3 align='right'><a href='#start'> <-- Back </a></h3>        
 
 </body>
