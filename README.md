@@ -14,7 +14,7 @@
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'> Web Shells </a>
 	<li> <a href='#n5'> Browser add-ons </a>
 	<li> <a href='#n6'> Some info about Privilege Escalation </a>
-	<li> <a href ='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Action_Plan_Map.md'> Action Plan Map </a> where I write about methodology and similar things during a penetration testing
+	<li> <a href ='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Action_Plan_Map.md'> Help </a> about pentest process
 	<!--<li> cheat sheet injections
 	<li> resume my stars 
 	Add XSStrike to Tools!-->
