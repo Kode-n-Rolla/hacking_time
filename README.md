@@ -234,6 +234,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 			<li> Check setuid and setgid
 			<li> Check NOPASSWD sudo command ( <code>sudo -l</code> ) and use this command(s)
 			<li> Check PATH ( <code>echo $PATH</code> )
+			<li> Check commands history <code>cat ~/.bash_history</code>
     		</ul>
        <!-- <h3> Windows </h3> -->
       
