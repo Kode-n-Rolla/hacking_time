@@ -147,6 +147,11 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://devhints.io/bash'> Bash scripting </a> cheatsheets
               <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheets
 	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How </a> pump nc shell
+      <h3> CVE and Vulnerabilities db search and help </h3>
+	      <li> <a href='https://cve.mitre.org/'> DataBase </a> of Common Vulnerabilities and Exposures
+	      <li> <a href='https://vulners.com/'> Vulners </a> database
+	      <li> <a href='https://www.exploit-db.com/'> OffSec </a> exploit db
+	      <li> <a href='https://vuldb.com/'> Platform </a> for control vulnerabilities and Threat analysis
       <h3> Hashes, encode/decode, cracker, identify </h3>
 	      <li> <a href='https://crackstation.net/'> crackstation.net </a> - online password hash cracker
 	      <li> <a href='https://www.base64encode.org/'> Base64 </a> encode/decode
@@ -161,10 +166,17 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://ctftime.org/ctfs'> CTF </a> practice
 	      <li> <a href='http://www.itsecgames.com/'> BWAPP </a> - buggy web application. Virtual pentest laboratory to practice.
 	      <li> Free <a href='https://thexssrat.podia.com/ratatatata'> set </a> of practice tasks. Thanks to <a href='https://www.youtube.com/c/TheXSSrat'> TheXSSrat </a>
+      <h3> MSFVenom help </h3>
+	      <li> <a href='https://gist.github.com/dejisec/8cdc3398610d1a0a91d01c9e1fb02ea1'> gist.github </a>
+	      <li> <a href='https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/'> Cheat Sheet </a> 
       <h3> OSINT </h3>
+	      <li> <a href='https://osintframework.com/'> Aggregation </a> of all popular tools and resources for OSINT
 	      <li> <a href='https://viewdns.info/'> ViewDNS </a> Offers reverse IP Lookup.
               <li> <a href='https://www.shodan.io/'> Shodan </a> is the world's first search engine for Internet-connected devices.
-              <li> <a href='https://search.censys.io/'> Censys Search </a> Can provide a lot of information about IP addresses and domains.	
+	      <li> <a href='https://spark-interfax.ru/'> This </a> is a system that gathers all available information about companies and extracts data from it
+              <li> <a href='https://search.censys.io/'> Censys Search </a> Can provide a lot of information about IP addresses and domains
+	      <li> <a href='https://dnsdumpster.com/'> This </a> is a passive and fast search domains and subdomains and etc
+	      <li> <a href='https://crt.sh/'> DataBase </a> SSL/TLS-certificates issued for domain names
       <h3> Password Services </h3>
 	      <li> <a href='https://cirt.net/passwords'> CIRT.net </a> Default Passwords service
 	      <li> <a href='https://default-password.info/'> Default-Password.info </a> Default Passwords service
