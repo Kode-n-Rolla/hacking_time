@@ -26,12 +26,13 @@
 	Topic contains:
 	<li> Remote Desktop Protocol <a href='#n1.1'> (RDP) </a>
 	<li> <a href='#n1.2'> PowerShell </a> commands
-	<li> <a href='#n1.3'> Find </a> commands in Linux
-	<li> <a href='#n1.4'> Nmap </a> commands with vulners script
-	<li> <a href='#n1.5'>Gobuster </a> dirs enumeration command
-	<li> <a href='#n1.6'> Hydra </a> commands
-	<li> <a href='#n1.7'> Dirsearch </a> command example
-	<li> <a href='#n1.8'> Pump </a> shell, if target system has python3
+	<li> <a href='#n1.3'> Linux </a> commands
+	<li> <a href='#n1.4'> Windows </a> commands
+	<li> <a href='#n1.5'> Nmap </a> commands with vulners script
+	<li> <a href='#n1.6'>Gobuster </a> dirs enumeration command
+	<li> <a href='#n1.7'> Hydra </a> commands
+	<li> <a href='#n1.8'> Dirsearch </a> command
+	<li> <a href='#n1.9'> Pump </a> shell, if target system has python3
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Remote Desktop Protocol (RDP): </h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
   <p><pre><code> xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard </code></pre>
@@ -74,17 +75,30 @@
 
 </ul>
   
-<h3 id='n1.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Commands to find in: </h3>
-<h4> &nbsp;&nbsp;&nbsp; Linux </h4>
+<h3 id='n1.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linux </h3>
+<h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
 	Find all files in / directory (-type d for find dirs):
 	<p> <pre><code> find / -type f </code></pre>
 	File name search:
 	<p> <pre><code> find / -type f | grep '&lt;FILE_NAME>' </code></pre>
 	Find all path files with ‘config’ in proc dirs:
 	<p> <pre><code> find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null </code></pre>
- <!-- Add Windows commands --!>
+
+<h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Windows </h3>
+<h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
+	This command searches for the string "password" inside all files with the extensions .xml, .ini, .txt, and .config on the current C: drive:
+ 	<pre><code>cd C:\ & findstr /s /p /i /n /m "password" *.xml *.ini *.txt *.config</code></pre>
+  	<ul>
+		<li> cd C:\ - changes to the root directory of the C: drive
+		<li> findstr - command for searching strings in files
+		<li> /s - performs a search in all subdirectories
+		<li> /p - skips files with non-printable characters
+		<li> /i - ignores case sensitivity when searching for strings
+		<li> /n - displays the line number containing the string
+		<li> /m - displays only the file name if a match is found
+   	</ul>
 		
-<h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nmap with vulnerse script </h3>
+<h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nmap with vulnerse script </h3>
 Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'> download </a> script files from github and install it. Thanks for that, <a href='https://github.com/vulnerscom'> Vulners Team </a>!
 
    Checking for a vulnerability in the software on the server:
@@ -101,10 +115,10 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> <pre><code> nmap -sV -p &lt;PORT> –script http-enum &lt;TARGET_IP> </code></pre>
    <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
 	   
-<h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gobuster command: </h3>
+<h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gobuster command: </h3>
    <pre><code> gobuster dir &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt </code></pre>
 		
-<h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hydra </h3>
+<h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hydra </h3>
    Brute force against a protocol of some choice:
    	<pre><code> hydra -P &lt;WORLIST> -v &lt;TARGET_IP> &lt;PROTOCOL> </code></pre>
    <p> Brute Force ssh:
@@ -118,11 +132,11 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> Craft a more specific request for Hydra to brute force:
    	<pre><code> hydra -l &lt;USERNAME> -P .&lt;PASSWORD_LIST> $ip -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location' </code></pre>
 		
-<h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dirsearch </h3>
+<h3 id='n1.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dirsearch </h3>
    Search a lot of interesting by extensions:
    <pre><code> dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u '&lt;TARGER_IP>' </code></pre>
 		
-<h3 id='n1.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to pump nc shell </h3>
+<h3 id='n1.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to pump nc shell </h3>
    PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell:
    <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
 
