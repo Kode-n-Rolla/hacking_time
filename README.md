@@ -269,7 +269,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 <h2 align='center' id='n6'><em> Privilege Escalation </em></h2>
 	 <h3> Linux </h3>
   		Some advice to Linux Privilege Escalation
-    		<p> ENUMERATION is key!
+    		<p> ENUMERATION is a key!
     		<ul>
 			<li> Check kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> ) and exploit this
 			<li> Check screen version ( <code>screen -v</code> ) and exploit this
