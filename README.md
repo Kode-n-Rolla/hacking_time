@@ -15,6 +15,7 @@
 	<li> <a href='#n5'> Browser add-ons </a>
 	<li> <a href='#n6'> Some info about Privilege Escalation </a>
 	<li> <a href ='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help </a> about pentest process
+	<li> <a href=''> Scripts </a>
 	<!--<li> cheat sheet injections
 	<li> resume my stars 
 	Add XSStrike to Tools!-->
