@@ -8,7 +8,8 @@
 <ol>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'> Network tools </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'> Web Shells </a>
-	<li> <a href=''> Scripts </a>
+	<!-- <li> <a href=''> Scripts </a> 
+		SQLMAP-->
   	<li> <a href='#n1'> Command examples </a>
   	<li> <a href='#n2'> Payloads </a>
   	<li> <a href='#n3'> Helpful sites </a>
