@@ -27,13 +27,13 @@
 <h2 align='center' id='n1'><em> Command Examples</em> </h2> 
 	Topic contains:
 	<li> Remote Desktop Protocol <a href='#n1.1'> (RDP) </a>
-	<li> <a href='#n1.2'> PowerShell </a> commands
-	<li> <a href='#n1.3'> Linux </a> commands
-	<li> <a href='#n1.4'> Windows </a> commands
+	<li> <a href='#n1.2'> PowerShell </a>
+	<li> <a href='#n1.3'> Linux </a>
+	<li> <a href='#n1.4'> Windows </a>
 	<li> <a href='#n1.5'> Nmap </a> commands with vulners script
 	<li> <a href='#n1.6'>Gobuster </a> dirs enumeration command
-	<li> <a href='#n1.7'> Hydra </a> commands
-	<li> <a href='#n1.8'> Dirsearch </a> command
+	<li> <a href='#n1.7'> Hydra </a>
+	<li> <a href='#n1.8'> Dirsearch </a>
 	<li> <a href='#n1.9'> Pump </a> shell, if target system has python3
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Remote Desktop Protocol (RDP): </h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
