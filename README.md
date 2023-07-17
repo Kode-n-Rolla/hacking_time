@@ -119,7 +119,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
 	   
 <h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gobuster command: </h3>
-   <pre><code> gobuster dir &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt </code></pre>
+   <pre><code> gobuster dir -u &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt </code></pre>
 		
 <h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hydra </h3>
    Brute force against a protocol of some choice:
