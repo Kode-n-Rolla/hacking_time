@@ -186,10 +186,11 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
         
 <h2 align='center' id='n3'><em> Sites </em></h2>
       <h3> Cheat sheets </h3>
-	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheets
-	      <li> <a href='https://devhints.io/bash'> Bash scripting </a> cheatsheets
-              <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheets
+	      <li> <a href='https://devhints.io/bash'> Bash scripting </a>
 	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How </a> pump nc shell
+	      <li> <a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap </a>
+              <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheets
+	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheets
       <h3> CVE and Vulnerabilities db search and help </h3>
 	      <li> <a href='https://cve.mitre.org/'> DataBase </a> of Common Vulnerabilities and Exposures
 	      <li> <a href='https://vulners.com/'> Vulnerabilities </a> database
