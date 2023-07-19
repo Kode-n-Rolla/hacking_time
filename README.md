@@ -145,7 +145,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 
 <h3 id='n1.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLmap </h3>
 	Start SQL injection attack:
- 	<pre><code>sqlmap -u "&lt;TARGTE_URL>" --dbs --batch</code></pre>
+ 	<pre><code>sqlmap -u "&lt;TARGET_URL>" --dbs --batch</code></pre>
   		-u - target URL
    		<p>--dbs - get db name
     		<p>--batch -default whenever user input is unavoidable
