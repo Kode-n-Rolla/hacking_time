@@ -9,7 +9,7 @@
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'> Network tools </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'> Web Shells </a>
 	<!-- <li> <a href=''> Scripts </a> 
-		JOHN THE RIPPER AND HASHCAT!!!-->
+		-->
   	<li> <a href='#n1'> Command examples </a>
   	<li> <a href='#n2'> Payloads </a>
   	<li> <a href='#n3'> Helpful sites </a>
@@ -36,6 +36,9 @@
 	<li> <a href='#n1.8'> Dirsearch </a>
 	<li> <a href='#n1.9'> Pump </a> shell, if target system has python3
 	<li> <a href='#n1.10'> SQLmap </a>
+	<li> <a href='#n1.11'> John The Ripper </a>
+ 	<li> <a href='#n1.12'> Hashcat </a>
+		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Remote Desktop Protocol (RDP): </h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
   <p><pre><code> xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard </code></pre>
@@ -115,24 +118,24 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    Attempts to select a pair of login/password to enter the mysql database:
    <p> <pre><code> nmap --script mysql-brute -p &lt;MYSQL_PORT> &lt;TARGET_IP> --script-args userdb=users.lst, passdb=passwords.lst </code></pre>
    Search for hidden folders and files:
-   <p> <pre><code> nmap -sV -p &lt;PORT> –script http-enum &lt;TARGET_IP> </code></pre>
+   <p> <pre><code> nmap -sV -p &lt;PORT> --script http-enum &lt;TARGET_IP> </code></pre>
    <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
 	   
 <h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gobuster command: </h3>
    <pre><code> gobuster dir -u &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt </code></pre>
 		
 <h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hydra </h3>
-   Brute force against a protocol of some choice:
+    &nbsp;&nbsp;&nbsp; Brute force against a protocol of some choice:
    	<pre><code> hydra -P &lt;WORLIST> -v &lt;TARGET_IP> &lt;PROTOCOL> </code></pre>
-   <p> Brute Force ssh:
+   <p> &nbsp;&nbsp;&nbsp; Brute Force ssh:
 	   <pre><code>hydra -L /path/to/file/user.txt -P /path/to/file/pass.txt &lt;TARGET_IP> ssh -t 4</code></pre>
-   <p> Brute Force smb example:
+   <p> &nbsp;&nbsp;&nbsp; Brute Force smb example:
 	<pre><code> hydra -L ~/path/to_file/user.txt -P ~.path/to_file/pass.txt &lt;TARGET_IP> smb -V</code></pre>   
-   <p> Can use Hydra to bruteforce usernames as well as passwords. It will loop through every combination in some lists. (-vV = verbose mode, showing login attempts):
+   <p> &nbsp;&nbsp;&nbsp; Can use Hydra to bruteforce usernames as well as passwords. It will loop through every combination in some lists. (-vV = verbose mode, showing login attempts):
    	<pre><code> hydra -v -V -u -L &lt;USERNAME_LIST> -P &lt;PASSWORD_LIST> -t 1 -u &lt;TARGET_IP> &lt;PROTOCOL> </code></pre>
-   <p> Attack a Windows Remote Desktop with a password list:
+   <p> &nbsp;&nbsp;&nbsp; Attack a Windows Remote Desktop with a password list:
    	<pre><code> hydra -t 1 -V -f -l &lt;USERNAME> -P &lt;WORDLIST> rdp://&lt;TARGET_IP> </code></pre>
-   <p> Craft a more specific request for Hydra to brute force:
+   <p> &nbsp;&nbsp;&nbsp; Craft a more specific request for Hydra to brute force:
    	<pre><code> hydra -l &lt;USERNAME> -P .&lt;PASSWORD_LIST> $ip -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location' </code></pre>
 		
 <h3 id='n1.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dirsearch </h3>
@@ -144,25 +147,71 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
 
 <h3 id='n1.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLmap </h3>
-	Start SQL injection attack:
+	&nbsp;&nbsp;&nbsp; Start SQL injection attack:
  	<pre><code>sqlmap -u "&lt;TARGET_URL>" --dbs --batch</code></pre>
   		-u - target URL
    		<p>--dbs - get db name
     		<p>--batch -default whenever user input is unavoidable
-     	<p> When get the db name to get tables name
+     	<p> &nbsp;&nbsp;&nbsp; When get the db name to get tables name
 	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> --tables --batch</code></pre>
 		-D - db name
   		<p>--tables - tables enumiration
-    	<p> To get columns name in the table of interest
+    	<p> &nbsp;&nbsp;&nbsp; To get columns name in the table of interest
      	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> -T &lt;table_name> --columns --batch</code></pre>
 		-T - selected table
   		<p>--columns - to output db columns
-    	<p> Get data from table
+    	<p> &nbsp;&nbsp;&nbsp; Get data from table
      	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> -T &lt;table_name> --dump --batch</code></pre>
       		--dump - unload information from the DBMS database 
-	<p> Will execute all the above functions at once and output all information about the database, including table names, columns, etc.
+	<p> &nbsp;&nbsp;&nbsp; Will execute all the above functions at once and output all information about the database, including table names, columns, etc.
      	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> --dump-all --batch</code></pre>
       		--dump-all - unload all information from the DBMS database 
+
+ <h3 id='n1.11'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; John The Ripper </h3>
+ 	Firstly use hash-identifier. 
+ 	<p><h4> &nbsp;&nbsp;&nbsp; Cracking some type of hashes: </h4>
+  		<pre><code>john --format=raw-&lt;encryption> --wordlist=path/to/wordlist.txt to_crack.txt</code></pre>
+   		&lt;encryption> - md4, md5, sha1, sha256, whirlpool
+    	<p><h4> &nbsp;&nbsp;&nbsp; Single Mode </h4>
+		<p> There is a username and hash password (username:d776dd32d662b8efbdf853837269bd725203c579 and this line in file to-crack.txt), so use this mode to generate password variations (Username, USERNAME, UseRNAmE, and so on):
+     		<pre><code>john --single --format=raw-sha1 to_crack.txt</code></pre>
+     	<p><h4> &nbsp;&nbsp;&nbsp; Dictionary Mode </h4>
+		<p>There is a file to_crack.txt with edba955d0ea15fdef4f61726ef97e5af507430c0, for example.
+      		<p> The command to run John in dictionary mode using the wordlist:
+       		<pre><code>john --wordlist=path/to/wordlist.txt --format=raw-sha1 to_crack.txt</code></pre>
+	<p><h4> &nbsp;&nbsp;&nbsp; Incremental Mode </h4>
+ 		<p>It tries all possible character combinations as passwords. Can go on for a long time if the password is too long or a combination of alphanumeric characters and symbols:
+   		<pre><code>john -i:digits passwordfile.txt</code></pre>
+		<p> -i - tells John that to use the increment mode
+  		<p> digits - can be used to set the maximum number of digits in the password
+    	<p><h4> &nbsp;&nbsp;&nbsp; To crack LM/NTLM: </h4>
+     		<pre><code>john --format=lm to_crack.txt</code></pre>
+       	<p><h4> &nbsp;&nbsp;&nbsp; To crack a Linux password </h4>
+	<p>The unshadow command combines the passwd (/etc/passwd) and shadow(/etc/shadow) files together into a single file. This can then be used by John to crack passwords.
+		<p> The command will combine the files together and create an output.db file:
+		<pre><code>unshadow /etc/passwd /etc/shadow > output.db</code></pre>
+  		<p> Now crack the output.db file:
+    		<pre><code>john output.db</code></pre>
+      <p><h4> &nbsp;&nbsp;&nbsp; Cracking a Zip file password </h4>
+      		<p> First have to get the hash of the zip file’s password. Command will get the hash from the zip file and store it in the zip.hashes file:
+      		<pre><code>zip2john file.zip > zip.hashes</code></pre>
+		<p> Then to crack the hash:
+  		<pre><code>john zip.hashes</code></pre>
+      
+<h3 id='n1.12'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hashcat </h3>
+	<p><h4> &nbsp;&nbsp;&nbsp; MD5 Hashes </h4>
+ 	<p> hash.txt contains 8743b52063cd84097a65d1633f5c74f5
+  	<p> To crack:
+   		<pre><code>hashcat -m 0 -a 0 hash.txt passwordlist.txt</code></pre>
+     		<p> -m 0 - MD5 hash mode
+       		<p> -a 0 - dictionary mode
+	 	<p> hash.txt - txt file containing hash in a compliant format
+   		<p> passwordlist.txt - dictionary file containing passwords in plain text
+     <p><h4> &nbsp;&nbsp;&nbsp; Salted MD5 Hashes </h4>
+     	<p> Here hash.txt contains md5($pass.$salt):  01dfae6e5d4d90d9892622325959afbe:7050461
+      	<p> To crack:
+       		<pre><code>hashcat -m10 -a0 hash.txt passwordlist.txt</code></pre>
+	 	<p> -m 10 - salted MD5 hash mode
 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
