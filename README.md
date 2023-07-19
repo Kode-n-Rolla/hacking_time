@@ -30,7 +30,7 @@
 	<li> <a href='#n1.2'> PowerShell </a>
 	<li> <a href='#n1.3'> Linux </a>
 	<li> <a href='#n1.4'> Windows </a>
-	<li> <a href='#n1.5'> Nmap </a> commands with vulners script
+	<li> <a href='#n1.5'> Nmap </a> commands with search vulnerabilities script
 	<li> <a href='#n1.6'>Gobuster </a> dirs enumeration command
 	<li> <a href='#n1.7'> Hydra </a>
 	<li> <a href='#n1.8'> Dirsearch </a>
@@ -192,7 +192,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How </a> pump nc shell
       <h3> CVE and Vulnerabilities db search and help </h3>
 	      <li> <a href='https://cve.mitre.org/'> DataBase </a> of Common Vulnerabilities and Exposures
-	      <li> <a href='https://vulners.com/'> Vulners </a> database
+	      <li> <a href='https://vulners.com/'> Vulnerabilities </a> database
 	      <li> <a href='https://www.exploit-db.com/'> OffSec </a> exploit db
 	      <li> <a href='https://vuldb.com/'> Platform </a> for control vulnerabilities and Threat analysis
       <h3> Hashes, encode/decode, cracker, identify </h3>
