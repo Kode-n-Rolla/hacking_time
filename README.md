@@ -15,7 +15,7 @@
   	<li> <a href='#n3'> Helpful sites </a>
 	<li> <a href='#n4'> Tools </a>
 	<li> <a href='#n5'> Browser add-ons </a>
-	<li> <a href='#n6'> Some info about Privilege Escalation </a>
+	<li> <a href='#n6'> Privilege Escalation </a>
 	<li> <a href ='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help </a> about pentest process
 	<!--<li> cheat sheet injections
 	<li> resume my stars 
@@ -347,10 +347,14 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
   		Some advice to Linux Privilege Escalation
     		<p> ENUMERATION is a key!
     		<ul>
-			<li> Check kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> ) and exploit this
-			<li> Check screen version ( <code>screen -v</code> ) and exploit this
+			<li> Check kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )
+			<li> Check screen version ( <code>screen -v</code> )
 			<li> Check Cron Tab
-			<li> Check setuid and setgid
+			<li> Check setuid and setgid 
+				<p> To find files with sticky bit:
+					<pre><code>find / -prem -u=s -type f 2>/dev/null</code></pre>
+				<p> To check rights
+				<p> <pre><code>ls -la</code></pre>
 			<li> Check NOPASSWD sudo command ( <code>sudo -l</code> ) and use this command(s)
 			<li> Check PATH ( <code>echo $PATH</code> )
 			<li> Check commands history <code>cat ~/.bash_history</code>
