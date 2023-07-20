@@ -200,18 +200,45 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       
 <h3 id='n1.12'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hashcat </h3>
 	<p><h4> &nbsp;&nbsp;&nbsp; MD5 Hashes </h4>
- 	<p> hash.txt contains 8743b52063cd84097a65d1633f5c74f5
-  	<p> To crack:
+ 	<p> hash.txt > 8743b52063cd84097a65d1633f5c74f5
+  	<p> Use:
    		<pre><code>hashcat -m 0 -a 0 hash.txt passwordlist.txt</code></pre>
      		<p> -m 0 - MD5 hash mode
        		<p> -a 0 - dictionary mode
 	 	<p> hash.txt - txt file containing hash in a compliant format
    		<p> passwordlist.txt - dictionary file containing passwords in plain text
      <p><h4> &nbsp;&nbsp;&nbsp; Salted MD5 Hashes </h4>
-     	<p> Here hash.txt contains md5($pass.$salt):  01dfae6e5d4d90d9892622325959afbe:7050461
-      	<p> To crack:
+     	<p> hash.txt > md5($pass.$salt):  01dfae6e5d4d90d9892622325959afbe:7050461
        		<pre><code>hashcat -m10 -a0 hash.txt passwordlist.txt</code></pre>
 	 	<p> -m 10 - salted MD5 hash mode
+   	<p><h4> &nbsp;&nbsp;&nbsp; MD5Crypt Digets </h4>
+    	<p> hash.txt > md5crypt, MD5 (Unix), Cisco-IOS $1$ (MD5) $1$28772684$iEwNOgGugqO9.bIz5sk8k/ 
+     		<pre><code>hashcat -m 500 -a 0 hash.txt passwordlist.txt</code></pre>
+       		<p> -m 500 - MD5Crypt Digests hash mode
+	 <p><h4> &nbsp;&nbsp;&nbsp; HMAC-SHA1 key </h4>
+       	 <p> hash.txt > HMAC-SHA1 (key = $pass) c898896f3f70f61bc3fb19bef222aa860e5ea717:1234
+  		<pre><code>hashcat -m150 -a 0 hash.txt passwordlist.txt</code></pre>
+    		<p> -m 150 - HMAC-SHA1 key hash mode
+      <p><h4> &nbsp;&nbsp;&nbsp; SHA-1 Digets </h4>
+      <p> hash.txt > b89eaac7e61417341b710b727768294d0e6a277b
+      		<pre><code>hashcat -m100 -a 0 hash.txt passwordlist.txt</code></pre>
+		<p> -m 100 - SHA1 digest hash mode
+  	<p><h4> &nbsp;&nbsp;&nbsp; SHA2-384 Hash </h4>
+   	<p> hash.txt > SHA2-384 07371af1ca1fca7c6941d2399f3610f1e392c56c6d73fddffe38f18c430a2817028dae1ef09ac683b62148a2c8757f42
+     		<pre><code>hashcat -m 10800 -a 0 hash.txt passwordlist.txt</code></pre>
+       		<p> -m 10800 - SHA-2 Digests hash mode
+	 <p><h4> &nbsp;&nbsp;&nbsp; SHA3-512 Hash </h4>
+  	 <p> hash.txt > SHA3–512 7c2dc1d743735d4e069f3bda85b1b7e9172033dfdd8cd599ca094ef8570f3930c3f2c0b7afc8d6152ce4eaad6057a2ff22e71934b3a3dd0fb55a7fc84a53144e
+      		<pre><code>hashcat -m 17600 -a 0 hash.txt passwordlist.txt</code></pre>
+		<p> -m 17600 - SHA3–512 hash mode
+	<p><h4> &nbsp;&nbsp;&nbsp; NTLM Hashes </h4>
+	<p> hash.txt > b4b9b02e6f09a9bd760f388b67351e2b
+ 		<pre><code>hashcat -m 1000 -a 0 hash.txt passwordlist.txt</code></pre>
+   		<p> -m 1000 - NTLM Digests hash mode
+     	<p><h4> &nbsp;&nbsp;&nbsp; CRC32 hashes </h4>
+      	<p> hash.txt > c762de4a:00000000
+       		<pre><code> hashcat -m 11500 -a 0 hash.txt passwordlist.txt</code></pre>
+	 	<p> -m 11500 - CRC32 hash mode
 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
