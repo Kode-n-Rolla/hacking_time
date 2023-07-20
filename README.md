@@ -352,7 +352,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 			<li> Check Cron Tab
 			<li> Check setuid and setgid 
 				<p> To find files with sticky bit:
-					<pre><code>find / -prem -u=s -type f 2>/dev/null</code></pre>
+					<pre><code>find / -perm -u=s -type f 2>/dev/null</code></pre>
 				<p> To check rights
 				<p> <pre><code>ls -la</code></pre>
 			<li> Check NOPASSWD sudo command ( <code>sudo -l</code> ) and use this command(s)
