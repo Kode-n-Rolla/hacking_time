@@ -370,7 +370,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 
 <h2 align='center' id='n6'><em> Privilege Escalation </em></h2>
 <h3> ENUMERATION is a key! </h3>
-	 <h3> Linux </h3>
+	 <h3> <ins>Linux</ins> </h3>
   		Some advice to Linux Privilege Escalation
     		<ul>
 			<li> Check kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )
@@ -385,7 +385,9 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 			<li> Check PATH ( <code>echo $PATH</code> )
 			<li> Check commands history <code>cat ~/.bash_history</code>
     		</ul>
-       <!-- <h3> Windows </h3> -->
+       <h3><ins> Windows </ins></h3>
+		<pre><code>systeminfo</code></pre>
+       
       
 <h3 align='right'><a href='#start'> <-- Back </a></h3>        
 
