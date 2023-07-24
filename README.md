@@ -386,7 +386,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 			<li> Check commands history <code>cat ~/.bash_history</code>
     		</ul>
        <h3><ins> Windows </ins></h3>
-       		Information about the taget system:
+       		Information about the target system:
 		<pre><code>systeminfo</code></pre>
        
       
