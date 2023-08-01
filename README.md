@@ -311,13 +311,13 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
         
 <h2 align='center' id='n4'><em> GitHub Tools </em></h2>
 <ol>
-	<li><a href='#n4.1'> BruteForce & Wordlists
-	<li>
-	<li>
-	<li>
-	<li>
-	<li>
-	<li>
+	<li><a href='#n4.1'> BruteForce & Wordlists </a>
+	<li><a href='#n4.2'> Enumiration </a>
+	<li><a href='#n4.3'> OSINT </a>
+	<li><a href='#n4.4'> Payloads </a>
+	<li><a href='#n4.5'> Privilege Escalation </a>
+	<li><a href='#n4.6'> Social Engineering </a>
+	<li><a href='#n4.7'> Another </a>
 </ol>
 	<ol>
 		<h3 id='n4.1'><li>BruteForce and Wordlists </h3>
