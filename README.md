@@ -14,7 +14,7 @@
   	<li> <a href='#n1'> Command examples </a>
   	<li> <a href='#n2'> Payloads </a>
   	<li> <a href='#n3'> Helpful sites </a>
-	<li> <a href='#n4'> Tools </a>
+	<li> <a href='#n4'> GitHub Tools </a>
 	<li> <a href='#n5'> Browser add-ons </a>
 	<li> <a href='#n6'> Privilege Escalation </a>
 	<li> <a href ='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help </a> about pentest process
@@ -309,25 +309,80 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
        
         
-<h2 align='center' id='n4'><em> Tools </em></h2>
+<h2 align='center' id='n4'><em> GitHub Tools </em></h2>
 	<ol>
-		<li><h3><a href='https://www.kali.org/tools/ncurses-hexedit/'> Hexeditor </a></h3>
-	        	<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'> Link </a> to Wiki with List of file signatures. 
-		<li><h3><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'> Tool </a> for hash identification. </h3> 
-			<p> Python file. Powerful. User friendly interface.
-		<li><h3><a href='https://www.kali.org/tools/crunch/'> Crunch </a></h3>
-		   <p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: <pre><code> crunch 3 3 12345qwerty -o cranch.txt </code></pre>
-		<li><h3><a href='https://github.com/therodri2/username_generator'> Username generator </h3>
-			<p> Could help create a list with most of the possible combinations if we have a first name and last name. Use git clone and <p> <pre><code> python3 username_generator.py -h </code></pre> shows the tool's help message and optional arguments.
-		<li><h3><a href='https://github.com/digininja/CeWL'> Cewl </a></h3>
-			Cewl can be used to effectively crawl a website and extract strings or keywords. Cewl is a powerful tool to generate a wordlist specific to a given company or target. Consider the following example below:
-			<pre><code> cewl -w list.txt -d 5 -m 5 http://target_site.com </code></pre>
-			<p> -w will write the contents to a file, here is list.txt.
-			<p> -m 5 gathers strings (words) that are 5 characters or more
-			<p> -d 5 is the depth level of web crawling/spidering (default 2)
-			<p> http://target_site.com is the URL that will be used
-			<p> As a result, now have a decently sized wordlist based on relevant words for the specific enterprise, like names, locations, and a lot of their business lingo. Similarly, the wordlist that was created could be used to fuzz for usernames. 
-	</ol>
+		<h3><li> BruteForce and Wordlists </h3>
+			<ul>
+				<li><a href='https://github.com/Cryilllic/Active-Directory-Wordlists'> Active Directory </a> Wordlists contains User.txt and Pass.txt
+				<li><a href='https://github.com/duyet/bruteforce-database'> BruteForce </a> Database
+				<li><a href='https://github.com/empty-jack/YAWR'> YAWR</a>. Yet Another Wordlists Repo. Contains OS,RECON,WEB,brute folders
+				<li><a href='https://www.kali.org/tools/crunch/'> Crunch </a>
+		   			<p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: <pre><code> crunch 3 3 12345qwerty -o cranch.txt </code></pre>
+				<li> Top wordlists by <a href='https://github.com/danielmiessler/SecLists'> DanielMiessler </a>
+				<li><a href='https://github.com/blark/aiodnsbrute'> DNS </a> asynchronous bruteforce
+ 				<li><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'> Tool </a> for hash identification. 
+					<p> Python file. Powerful. User friendly interface.
+				<li><a href='https://github.com/ropnop/kerbrute'> Kerberos </a> bruteforcing
+				<li><a href='https://github.com/therodri2/username_generator'> Username generator </a>
+					<p> Could help create a list with most of the possible combinations if we have a first name and last name. Use git clone and 					<p> <pre><code> python3 username_generator.py -h </code></pre> shows the tool's help message and optional arguments.
+				<li><a href='https://github.com/kkrypt0nn/wordlists'> Wordlists </a> by kkrypt0nn. A collection of wordlists for many different usages
+    			</ul>
+		<h3><li> Enumiration </h3>
+			<ul>
+				<li><a href='https://github.com/ly4k/Certipy'> Crtipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
+				<li><a href='https://github.com/ffuf/ffuf'> Fuzzer </a>
+				<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux </a> smart enumiration
+				<li><a href='https://github.com/aboul3la/Sublist3r'> Sublist3r</a>. Subdomains enumiration python tool
+			</ul>
+		<h3><li> OSINT </h3>
+			<ul>
+				<li><a href='https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan'> Fast Google Dorks Scan </a>
+				<li><a href='https://github.com/khast3x/h8mail'> h8mail </a> is an email OSINT and breach hunting tool
+				<li><a href='https://github.com/laramies/theHarvester'> theHarvester</a>. E-mails, subdomains and names Harvester 
+			</ul>
+		<h3><li> Payloads </h3>
+			<ul>
+				<li><a href='https://github.com/swisskyrepo/PayloadsAllTheThings'> All </a> kind of payloads and bypasses
+				<li><a href='https://github.com/payloadbox/command-injection-payload-list'> Payloads </a> for Unix and Windows OS
+				<li><a href='https://github.com/capture0x/XSS-LOADER'> XSS-LOADER</a>. All in one tools for XSS PAYLOAD GENERATOR -XSS SCANNER-XSS DORK FINDER
+    			</ul>
+		<h3><li> Privilege Escalation </h3>
+			<ul>
+				<li><a href='https://github.com/carlospolop/PEASS-ng'> Privilege Escalation </a> (LinPEAS & WinPEAS)
+				<li><a href='https://github.com/luke-goddard/enumy'> Enumy</a>. Linux post exploitation privilege escalation enumeration
+				<li><a href='https://github.com/linted/linuxprivchecker'> Linux </a> PrivEsc Check Script
+				<li><a href='https://github.com/The-Z-Labs/linux-exploit-suggester'> Linux PrivEsc </a>
+				<li><a href='https://github.com/gentilkiwi/mimikatz'> Mimikatz</a>. Windows PrivEsc
+				<li><a href='https://github.com/mostaphabahadou/postenum'> Postenum </a> is a Linux enumeration and privilege escalation tool
+				<li><a href='https://github.com/antonioCoco/RogueWinRM'> RougeWinRM</a>. Win PrivEsc
+			</ul>
+		<h3><li> Social Engineering </h3>
+			<ul>
+				<li><a href='https://github.com/giuliacassara/awesome-social-engineering'> Awesome </a> social engineering resources
+				<li><a href='https://github.com/trustedsec/social-engineer-toolkit'> SET</a>. Social Engineer Toolkit
+    			</ul>
+		<h3><li> Another </h3>
+			<ul>
+				<li><a href='https://github.com/wapiti-scanner/wapiti'> Wapiti</a>. Web vulnerability scanner
+				<li><a href='https://github.com/Bearer/bearer'> Bearer</a>. Scans source code against top security and privacy risks
+				<li><a href='https://github.com/Porchetta-Industries/CrackMapExec'> CrackMapExec</a>. A swiss army knife for pentesting networks
+				<li><a href='https://github.com/BloodHoundAD/BloodHound'> BloodHound</a>. Six Degrees of Domain Admin
+				<li><a href='https://github.com/digininja/CeWL'> Cewl </a> can be used to effectively crawl a website and extract strings or keywords. Cewl is a powerful tool to generate a wordlist specific to a given company or target. Consider the following example below:
+					<pre><code> cewl -w list.txt -d 5 -m 5 http://target_site.com </code></pre>
+					<p> -w will write the contents to a file, here is list.txt.
+					<p> -m 5 gathers strings (words) that are 5 characters or more
+					<p> -d 5 is the depth level of web crawling/spidering (default 2)
+					<p> http://target_site.com is the URL that will be used
+					<p> As a result, now have a decently sized wordlist based on relevant words for the specific enterprise, like names, locations, and a lot of their business lingo. Similarly, the wordlist that was created could be used to fuzz for usernames. 
+				<li><a href='https://www.kali.org/tools/ncurses-hexedit/'> Hexeditor </a>
+	        			<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'> Link </a> to Wiki with List of file signatures. 
+				<li><a href='https://github.com/CISOfy/lynis'> Lynis</a>. Check Linux security
+				<li><a href='https://github.com/DominicBreuker/pspy'> Pspy</a>. Great for enumeration of Linux systems in CTFs and more.
+				<li><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'> Hash Identifier </a>. Python file. Powerful. User friendly interface.
+			</ul>
+		</ol>
+
+
 			
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
 
