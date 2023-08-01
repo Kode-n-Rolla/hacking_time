@@ -336,26 +336,26 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 					<p> Could help create a list with most of the possible combinations if we have a first name and last name. Use git clone and 					<p> <pre><code> python3 username_generator.py -h </code></pre> shows the tool's help message and optional arguments.
 				<li><a href='https://github.com/kkrypt0nn/wordlists'> Wordlists </a> by kkrypt0nn. A collection of wordlists for many different usages
     			</ul>
-		<h3><li> Enumiration </h3>
+		<h3 id='n4.2'><li> Enumiration </h3>
 			<ul>
 				<li><a href='https://github.com/ly4k/Certipy'> Crtipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
 				<li><a href='https://github.com/ffuf/ffuf'> Fuzzer </a>
 				<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux </a> smart enumiration
 				<li><a href='https://github.com/aboul3la/Sublist3r'> Sublist3r</a>. Subdomains enumiration python tool
 			</ul>
-		<h3><li> OSINT </h3>
+		<h3 id='n4.3'><li> OSINT </h3>
 			<ul>
 				<li><a href='https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan'> Fast Google Dorks Scan </a>
 				<li><a href='https://github.com/khast3x/h8mail'> h8mail </a> is an email OSINT and breach hunting tool
 				<li><a href='https://github.com/laramies/theHarvester'> theHarvester</a>. E-mails, subdomains and names Harvester 
 			</ul>
-		<h3><li> Payloads </h3>
+		<h3 id='n4.4'><li> Payloads </h3>
 			<ul>
 				<li><a href='https://github.com/swisskyrepo/PayloadsAllTheThings'> All </a> kind of payloads and bypasses
 				<li><a href='https://github.com/payloadbox/command-injection-payload-list'> Payloads </a> for Unix and Windows OS
 				<li><a href='https://github.com/capture0x/XSS-LOADER'> XSS-LOADER</a>. All in one tools for XSS PAYLOAD GENERATOR -XSS SCANNER-XSS DORK FINDER
     			</ul>
-		<h3><li> Privilege Escalation </h3>
+		<h3 id='n4.5'><li> Privilege Escalation </h3>
 			<ul>
 				<li><a href='https://github.com/carlospolop/PEASS-ng'> Privilege Escalation </a> (LinPEAS & WinPEAS)
 				<li><a href='https://github.com/luke-goddard/enumy'> Enumy</a>. Linux post exploitation privilege escalation enumeration
@@ -365,12 +365,12 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 				<li><a href='https://github.com/mostaphabahadou/postenum'> Postenum </a> is a Linux enumeration and privilege escalation tool
 				<li><a href='https://github.com/antonioCoco/RogueWinRM'> RougeWinRM</a>. Win PrivEsc
 			</ul>
-		<h3><li> Social Engineering </h3>
+		<h3 id='n4.6'><li> Social Engineering </h3>
 			<ul>
 				<li><a href='https://github.com/giuliacassara/awesome-social-engineering'> Awesome </a> social engineering resources
 				<li><a href='https://github.com/trustedsec/social-engineer-toolkit'> SET</a>. Social Engineer Toolkit
     			</ul>
-		<h3><li> Another </h3>
+		<h3 id='n4.7'><li> Another </h3>
 			<ul>
 				<li><a href='https://github.com/wapiti-scanner/wapiti'> Wapiti</a>. Web vulnerability scanner
 				<li><a href='https://github.com/Bearer/bearer'> Bearer</a>. Scans source code against top security and privacy risks
