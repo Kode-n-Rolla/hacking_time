@@ -354,7 +354,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 				<li><a href='https://github.com/swisskyrepo/PayloadsAllTheThings'> All </a> kind of payloads and bypasses
 				<li><a href='https://github.com/payloadbox/command-injection-payload-list'> Payloads </a> for Unix and Windows OS
 				<li><a href='https://github.com/capture0x/XSS-LOADER'> XSS-LOADER</a>. All in one tools for XSS PAYLOAD GENERATOR -XSS SCANNER-XSS DORK FINDER
-    			</ul>
+				<li><a href='https://github.com/payloadbox/xss-payload-list'> XSS </a> payloads
+   </ul>
 		<h3 id='n4.5'><li> Privilege Escalation </h3>
 			<ul>
 				<li><a href='https://github.com/carlospolop/PEASS-ng'> Privilege Escalation </a> (LinPEAS & WinPEAS)
