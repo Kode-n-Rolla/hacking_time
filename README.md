@@ -338,7 +338,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
     			</ul>
 		<h3 id='n4.2'><li> Enumiration </h3>
 			<ul>
-				<li><a href='https://github.com/ly4k/Certipy'> Crtipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
+				<li><a href='https://github.com/ly4k/Certipy'> Certipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
 				<li><a href='https://github.com/ffuf/ffuf'> Fuzzer </a>
 				<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux </a> smart enumiration
 				<li><a href='https://github.com/aboul3la/Sublist3r'> Sublist3r</a>. Subdomains enumiration python tool
