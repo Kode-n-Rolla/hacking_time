@@ -248,7 +248,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<li> intitle - search in title
 		<li> inurl - search by url
 		<li> related - returns sites to the specified one
-		<li> ext или filteype - search by page extension
+		<li> ext or filteype - search by page extension
 		<li> More <a href='https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc'> here </a>
 	</ul>
 
