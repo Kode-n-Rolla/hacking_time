@@ -39,6 +39,7 @@
 	<li> <a href='#n1.10'> SQLmap </a>
 	<li> <a href='#n1.11'> John The Ripper </a>
  	<li> <a href='#n1.12'> Hashcat </a>
+  	<li> <a href='#n1.13'> Google Dorks </a>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -240,6 +241,17 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       	<p> hash.txt > c762de4a:00000000
        		<pre><code> hashcat -m 11500 -a 0 hash.txt passwordlist.txt</code></pre>
 	 	<p> -m 11500 - CRC32 hash mode
+
+<h3 id='n1.13'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Google Dorks </ins></h3>
+	<ul>
+		<li> site - returns results for the specified domain
+		<li> intitle - search in title
+		<li> inurl - search by url
+		<li> related - returns sites to the specified one
+		<li> ext или filteype - search by page extension
+		<li> More <a href='https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc'> here </a>
+	</ul>
+
 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
