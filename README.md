@@ -40,6 +40,7 @@
 	<li> <a href='#n1.11'> John The Ripper </a>
  	<li> <a href='#n1.12'> Hashcat </a>
   	<li> <a href='#n1.13'> Google Dorks </a>
+   	<li> <a href='#n1.14'> Ffuf </a>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -251,6 +252,9 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<li> ext or filteype - search by page extension
 		<li> More <a href='https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc'> here </a>
 	</ul>
+
+ <h3 id='n1.14'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> FFUF</ins></h3>
+ 	<pre><code>ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://<SERVER_IP>:<PORT>/FUZZ.php</code></pre>
 
 
 
