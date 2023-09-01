@@ -294,7 +294,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       <h3> CVE and Vulnerabilities db </h3>
 	      <li> <a href='https://www.first.org/cvss/calculator/3.0'> CVSS </a> calculator to vulnerability assessment
 	      <li> <a href='https://cve.mitre.org/'> DataBase </a> of Common Vulnerabilities and Exposures
-	      <li> <a href='https://lana.codes/lanavdb/'> Lana </a> Codes Vulnerability Database
+	      <li> <a href='https://lana.codes/lanavdb/'> Lana </a> Codes Vulnerability Database (WordPress plugins)
 	      <li> <a href='https://vulners.com/'> Vulnerabilities </a> database
 	      <li> <a href='https://www.exploit-db.com/'> OffSec </a> exploit db
 	      <li> <a href='https://vuldb.com/'> Platform </a> for control vulnerabilities and Threat analysis
