@@ -111,7 +111,7 @@
 Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'> download </a> script files from github and install it. Thanks for that, <a href='https://github.com/vulnerscom'> Vulners Team </a>!
 
    Checking for a vulnerability in the software on the server:
-   <p> <pre><code> Nmap -Pn &lt;TARGET_IP> --script=vulnerse.nse -p &lt;PORT(S)> </code></pre>
+   <p> <pre><code> Nmap -Pn &lt;TARGET_IP> --script=vulners.nse -p &lt;PORT(S)> </code></pre>
    Checking brute force resistance on ssh:
    <p> <pre><code> nmap --script ssh-brute -p &lt;SSH_PORT> &lt;TARGET_IP> --script-args userdb=users.lst,passdb=passwords.lst </code></pre>
    Checking brute force resistance on ftp:
