@@ -359,13 +359,15 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 					<p> Python file. Powerful. User friendly interface.
 				<li><a href='https://github.com/ropnop/kerbrute'> Kerberos </a> bruteforcing
 				<li><a href='https://github.com/therodri2/username_generator'> Username generator </a>
-					<p> Could help create a list with most of the possible combinations if we have a first name and last name. Use git clone and 					<p> <pre><code> python3 username_generator.py -h </code></pre> shows the tool's help message and optional arguments.
+					<p> Could help create a list with most of the possible combinations if we have a first name and last name. Use git clone and 
+					<p> <pre><code> python3 username_generator.py -h </code></pre> shows the tool's help message and optional arguments.
 				<li><a href='https://github.com/kkrypt0nn/wordlists'> Wordlists </a> by kkrypt0nn. A collection of wordlists for many different usages
     			</ul>
 		<h3 id='n4.2'><li> Enumiration </h3>
 			<ul>
 				<li><a href='https://github.com/ly4k/Certipy'> Certipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
 				<li><a href='https://github.com/ffuf/ffuf'> Fuzzer </a>
+				<li><a href='https://github.com/fuzzdb-project/fuzzdb'> fuzzdb </a>
 				<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux </a> smart enumiration
 				<li><a href='https://github.com/aboul3la/Sublist3r'> Sublist3r</a>. Subdomains enumiration python tool
 			</ul>
