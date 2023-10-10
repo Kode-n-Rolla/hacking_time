@@ -490,9 +490,9 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 			<li> Check PATH ( <code>echo $PATH</code> )
 			<li> Check commands history <code>cat ~/.bash_history</code>
     		</ul>
-       <h3><ins> Windows </ins></h3>
+    <!--   <h3><ins> Windows </ins></h3>
        		Information about the target system:
-		<pre><code>systeminfo</code></pre>
+		<pre><code>systeminfo</code></pre> -->
        
       
 <h3 align='right'><a href='#start'> <-- Back </a></h3>        
