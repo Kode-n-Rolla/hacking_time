@@ -308,6 +308,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       <h3> Learning Path </h3>
 	      <li> <a href='https://tryhackme.com/'> TryHackMe </a>
 	      <li> <a href='https://www.hackthebox.com/'> HackTheBox </a>
+	      <li> <a href='https://portswigger.net/web-security'> Port Swigger </a>
 	      <li> <a href='https://hackthissite.org/'> HackThisSite </a>
 	      <li> <a href='https://ctftime.org/ctfs'> CTF </a> practice
 	      <li> <a href='http://www.itsecgames.com/'> BWAPP </a> - buggy web application. Virtual pentest laboratory to practice.
@@ -343,10 +344,11 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	<li><a href='#n4.4'> Payloads </a>
 	<li><a href='#n4.5'> Privilege Escalation </a>
 	<li><a href='#n4.6'> Social Engineering </a>
-	<li><a href='#n4.7'> Another </a>
+	<li><a href='#n4.7'> Burp Suite Extensions </a>
+	<li><a href='#n4.8'> Another </a>
 </ol>
 	<ol>
-		<h3 id='n4.1'><li>BruteForce and Wordlists </h3>
+		<li><h3 id='n4.1'>BruteForce and Wordlists </h3>
 			<ul>
 				<li><a href='https://github.com/Cryilllic/Active-Directory-Wordlists'> Active Directory </a> Wordlists contains User.txt and Pass.txt
 				<li><a href='https://github.com/duyet/bruteforce-database'> BruteForce </a> Database
@@ -363,7 +365,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 					<p> <pre><code> python3 username_generator.py -h </code></pre> shows the tool's help message and optional arguments.
 				<li><a href='https://github.com/kkrypt0nn/wordlists'> Wordlists </a> by kkrypt0nn. A collection of wordlists for many different usages
     			</ul>
-		<h3 id='n4.2'><li> Enumiration </h3>
+		<li><h3 id='n4.2'> Enumiration </h3>
 			<ul>
 				<li><a href='https://github.com/ly4k/Certipy'> Certipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
 				<li><a href='https://github.com/ffuf/ffuf'> Fuzzer </a>
@@ -371,20 +373,20 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 				<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux </a> smart enumiration
 				<li><a href='https://github.com/aboul3la/Sublist3r'> Sublist3r</a>. Subdomains enumiration python tool
 			</ul>
-		<h3 id='n4.3'><li> OSINT </h3>
+		<li><h3 id='n4.3'> OSINT </h3>
 			<ul>
 				<li><a href='https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan'> Fast Google Dorks Scan </a>
 				<li><a href='https://github.com/khast3x/h8mail'> h8mail </a> is an email OSINT and breach hunting tool
 				<li><a href='https://github.com/laramies/theHarvester'> theHarvester</a>. E-mails, subdomains and names Harvester 
 			</ul>
-		<h3 id='n4.4'><li> Payloads </h3>
+		<li><h3 id='n4.4'> Payloads </h3>
 			<ul>
 				<li><a href='https://github.com/swisskyrepo/PayloadsAllTheThings'> All </a> kind of payloads and bypasses
 				<li><a href='https://github.com/payloadbox/command-injection-payload-list'> Payloads </a> for Unix and Windows OS
 				<li><a href='https://github.com/capture0x/XSS-LOADER'> XSS-LOADER</a>. All in one tools for XSS PAYLOAD GENERATOR -XSS SCANNER-XSS DORK FINDER
 				<li><a href='https://github.com/payloadbox/xss-payload-list'> XSS </a> payloads
-   </ul>
-		<h3 id='n4.5'><li> Privilege Escalation </h3>
+  			 </ul>
+		<li><h3 id='n4.5'> Privilege Escalation </h3>
 			<ul>
 				<li><a href='https://github.com/carlospolop/PEASS-ng'> Privilege Escalation </a> (LinPEAS & WinPEAS)
 				<li><a href='https://github.com/luke-goddard/enumy'> Enumy</a>. Linux post exploitation privilege escalation enumeration
@@ -394,12 +396,16 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 				<li><a href='https://github.com/mostaphabahadou/postenum'> Postenum </a> is a Linux enumeration and privilege escalation tool
 				<li><a href='https://github.com/antonioCoco/RogueWinRM'> RougeWinRM</a>. Win PrivEsc
 			</ul>
-		<h3 id='n4.6'><li> Social Engineering </h3>
+		<li><h3 id='n4.6'> Social Engineering </h3>
 			<ul>
 				<li><a href='https://github.com/giuliacassara/awesome-social-engineering'> Awesome </a> social engineering resources
 				<li><a href='https://github.com/trustedsec/social-engineer-toolkit'> SET</a>. Social Engineer Toolkit
     			</ul>
-		<h3 id='n4.7'><li> Another </h3>
+		<li><h3 id='n4.7'> Burp Suite Extensions </h3>
+			<ul>
+				<li><a href='https://github.com/portswigger/hackvertor'> Hackvertor </a> is a tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.
+			</ul>
+		<li><h3 id='n4.8'> Another </h3>
 			<ul>
 				<li><a href='https://github.com/wapiti-scanner/wapiti'> Wapiti</a>. Web vulnerability scanner
 				<li><a href='https://github.com/Bearer/bearer'> Bearer</a>. Scans source code against top security and privacy risks
