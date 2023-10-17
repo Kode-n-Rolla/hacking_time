@@ -125,11 +125,11 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
 	   
 <h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Gobuster command: </ins></h3>
-	Directories enumeration:
+	 &nbsp;&nbsp;&nbsp;Directories enumeration:
  		<p>-u - target url
    		<p>-w - wordlist
    		<pre><code> gobuster dir -u &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt </code></pre>
-   	Subdomains enumeration:
+   	 &nbsp;&nbsp;&nbsp;Subdomains enumeration:
     		<p>vhost - for brute-forcing	
    		<pre><code> gobuster vhost -w &lt;/path/to/wordlist> -u &lt;url> </code></pre>
 	
