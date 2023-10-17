@@ -32,7 +32,7 @@
 	<li> <a href='#n1.3'> Linux </a>
 	<li> <a href='#n1.4'> Windows </a>
 	<li> <a href='#n1.5'> Nmap </a> commands with search vulnerabilities script
-	<li> <a href='#n1.6'>Gobuster </a> dirs enumeration command
+	<li> <a href='#n1.6'>Gobuster </a> dirs amd subdomains enumeration commands
 	<li> <a href='#n1.7'> Hydra </a>
 	<li> <a href='#n1.8'> Dirsearch </a>
 	<li> <a href='#n1.9'> Pump </a> shell, if target system has python3
