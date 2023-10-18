@@ -4,7 +4,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Bitter&weight=500&size=40&pause=1000&color=3C4CFF&background=AC51FF00&width=500&height=80&lines=P3netrati0n+T1me!)](https://git.io/typing-svg)
 <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWM2NWI0ZDIwMjA3ZWIyYWRiZmEyYzA5NTFlNThmNTFhYWI1MWE0ZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oz8xA9gtnyVDPZJHW/giphy.gif' width='250'/>
 
-<h2 align='center'> My pentesting cheat sheet library, where I share commands, tools, websites and <p> the same things in one place during my path and increasing skills. </h2>
+<h2 align='center'> My pentesting cheat sheet library, where I share commands, tools, websites and <p> the same things in one place during my path and increasing skills.</h2>
 
 <h3 id='start'> There are: </h3>
 <ol>
@@ -17,6 +17,7 @@
 	<li> <a href='#n4'> GitHub Tools </a>
 	<li> <a href='#n5'> Browser add-ons </a>
 	<li> <a href='#n6'> Privilege Escalation </a>
+	<li> <a href='#n7'> AWS </a>
 	<li> <a href ='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help </a> about pentest process
 	<!--<li> cheat sheet injections
 	<li> resume my stars 
@@ -41,6 +42,8 @@
  	<li> <a href='#n1.12'> Hashcat </a>
   	<li> <a href='#n1.13'> Google Dorks </a>
    	<li> <a href='#n1.14'> Ffuf </a>
+    	<li> <a href='#n1.15'> Rustscan </a>
+      	<li> <a href='#n1.16'> Masscan </a>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -262,6 +265,10 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
  <h3 id='n1.14'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> FFUF</ins></h3>
  	<pre><code>ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://&lt;SERVER_IP>:&lt;PORT>/FUZZ.php</code></pre>
 
+ <h3 id='n1.15'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Rustscan</ins></h3>
+
+
+ <h3 id='n1.16'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Masscan</ins></h3>
 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
@@ -507,6 +514,11 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<pre><code>systeminfo</code></pre> -->
        
       
-<h3 align='right'><a href='#start'> <-- Back </a></h3>        
+<h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
+ 
+<h2 align='center' id='n7'><em> AWS </em></h2>
+
+<h3 align='right'><a href='#start'> <-- Back </a></h3> 
+	
 </body>
