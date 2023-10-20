@@ -266,6 +266,21 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
  	<pre><code>ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://&lt;SERVER_IP>:&lt;PORT>/FUZZ.php</code></pre>
 
  <h3 id='n1.15'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Rustscan</ins></h3>
+ 	<ul>
+		<li> Download <a href='https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb'> deb packet </a>
+		<li> Install: <pre><code>sudo dpkg -i rustscan_2.0.1_amd64.deb</code></pre>
+		<li> Use:
+			<ul>
+				<li> Simple ports scanning:
+					<pre><code>rustscan -a www.&lt;target_site.com></code></pre>
+				<li> Specific port scanning:
+					<pre><code>rustscan -a www.&lt;target_site.com> -p 443</code></pre>
+					<p> Or few ports:
+					<pre><code>rustscan -a www.&lt;target_site.com> -p 21,22,80,443</code></pre>
+				<li> Ports detection in the range 1-1000:
+					<pre><code>rustscan -a www.&lt;target_site.com> --range 1-1000</code></pre>
+    			</ul>
+  	</ul>
 
 
  <h3 id='n1.16'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Masscan</ins></h3>
