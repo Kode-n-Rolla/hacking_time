@@ -284,6 +284,28 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 
 
  <h3 id='n1.16'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Masscan</ins></h3>
+ 	<ul>
+	 	<li> Scanning a Single IP Address:
+	  		<pre><code>masscan &lt;target_ip></code></pre>
+		<li> Scanning an IP Range:
+			<pre><code>masscan 192.168.0.0-192.168.0.255</code></pre>
+		<li> Scanning Specific Ports:
+			<pre><code>masscan -p80,443 192.168.0.1</code></pre>
+		<li> Scanning All Ports:
+			<pre><code>masscan -p0-65535 192.168.0.1</code></pre>
+		<li> Setting Scan Rate:
+			<pre><code>masscan -p80 192.168.0.1 --rate 10000</code></pre>
+				<p> --rate - lets set the scan rate. In this case, scanning occurs at 10,000 packets per second. Select the speed individually. IMHO 500-1000 is ok.
+		<li> Saving Results to a File:
+			<pre><code>masscan -p80 192.168.0.1 -oG results.txt</code></pre>
+				<p> -oG - allows to save scan results in grepable format to a file.
+		<li> Scanning Specific Packet Types:
+			<pre><code>masscan -p80 192.168.0.1 --packet 1-5</code></pre>
+				<p> --packet - lets specify packet types for scanning.
+		<li> Scanning via SOCKS5 Proxy:
+			<pre><code>masscan -p80 192.168.0.1 --source-ip &lt;proxy_ip> --source-port &lt;proxy_port></code></pre>
+				<p> flags allows to specify the source IP and port for scanning through a SOCKS5 proxy.
+ 	</ul>
 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
