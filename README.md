@@ -44,6 +44,7 @@
    	<li> <a href='#n1.14'> Ffuf </a>
     	<li> <a href='#n1.15'> Rustscan </a>
       	<li> <a href='#n1.16'> Masscan </a>
+        <li> <a href='#n1.17'> Meterpreter </a>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -307,6 +308,35 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 				<p> flags allows to specify the source IP and port for scanning through a SOCKS5 proxy.
  	</ul>
 
+ <h3 id='n1.17'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Meterpreter</ins></h3>
+ 	<ul>
+		<li> arp - display MAC and IP addresses of local devices interacted with
+		<li> cd - command to change to another directory/folder
+		<li> dir/ls - list files and folders in the specified directory
+		<li> download - download files from the remote machine to the local machine
+		<li> getpid - display the process ID under which Meterpreter is running
+		<li> getproxy - retrieve information about the system's proxy server
+		<li> getsystem - attempt to escalate privileges
+		<li> getuid - display the current user on behalf of whom Meterpreter is running
+		<li> hashdump - dump all password hashes
+		<li> help - help, display help documentation
+		<li> idletime - display user inactivity time on the remote computer
+		<li> ifconfig/ipconfig - display network settings
+		<li> migrate - migrate meterpreter to another process
+		<li> netstat - display current network connections
+		<li> ps - list all current processes
+		<li> pwd - display the current directory/folder
+		<li> record_mic - record audio on the remote machine
+		<li> route - display the routing table
+		<li> run persistance &lt;with_parameters> - get backdoor (persistance help)
+		<li> search - search for files, modules
+		<li> show_mount - list physycal and logical disks
+		<li> sysinfo - dislay brief information about the remote system
+		<li> upload - upload files from the local machine to the remote machine
+		<li> webcam_chat - organize a video chat
+		<li> webcam_snap - take a snapshot from the remote built-in camera
+		<li> webcam_stream - obtain a video stream from the remote built-in camera
+  	</ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
