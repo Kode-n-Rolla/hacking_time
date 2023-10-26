@@ -45,6 +45,7 @@
     	<li> <a href='#n1.15'> Rustscan </a>
       	<li> <a href='#n1.16'> Masscan </a>
         <li> <a href='#n1.17'> Meterpreter </a>
+	<li> <a href='#n1.18'> CMD </a>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -310,33 +311,76 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 
  <h3 id='n1.17'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Meterpreter</ins></h3>
  	<ul>
-		<li> arp - display MAC and IP addresses of local devices interacted with
+		<li> arp - displays MAC and IP addresses of local devices interacted with
 		<li> cd - command to change to another directory/folder
-		<li> dir/ls - list files and folders in the specified directory
-		<li> download - download files from the remote machine to the local machine
-		<li> getpid - display the process ID under which Meterpreter is running
-		<li> getproxy - retrieve information about the system's proxy server
-		<li> getsystem - attempt to escalate privileges
-		<li> getuid - display the current user on behalf of whom Meterpreter is running
+		<li> dir/ls - lists files and folders in the specified directory
+		<li> download - downloads files from the remote machine to the local machine
+		<li> getpid - displays the process ID under which Meterpreter is running
+		<li> getproxy - retrieves information about the system's proxy server
+		<li> getsystem - attempts to escalate privileges
+		<li> getuid - displays the current user on behalf of whom Meterpreter is running
 		<li> hashdump - dump all password hashes
 		<li> help - help, display help documentation
-		<li> idletime - display user inactivity time on the remote computer
-		<li> ifconfig/ipconfig - display network settings
-		<li> migrate - migrate meterpreter to another process
-		<li> netstat - display current network connections
-		<li> ps - list all current processes
-		<li> pwd - display the current directory/folder
-		<li> record_mic - record audio on the remote machine
-		<li> route - display the routing table
+		<li> idletime - displays user inactivity time on the remote computer
+		<li> ifconfig/ipconfig - displays network settings
+		<li> migrate - migrates meterpreter to another process
+		<li> netstat - displays current network connections
+		<li> ps - lists all current processes
+		<li> pwd - displays the current directory/folder
+		<li> record_mic - records audio on the remote machine
+		<li> route - displays the routing table
 		<li> run persistance &lt;with_parameters> - get backdoor (persistance help)
 		<li> search - search for files, modules
-		<li> show_mount - list physycal and logical disks
-		<li> sysinfo - dislay brief information about the remote system
-		<li> upload - upload files from the local machine to the remote machine
+		<li> show_mount - lists physycal and logical disks
+		<li> sysinfo - dislays brief information about the remote system
+		<li> upload - uploads files from the local machine to the remote machine
 		<li> webcam_chat - organize a video chat
-		<li> webcam_snap - take a snapshot from the remote built-in camera
-		<li> webcam_stream - obtain a video stream from the remote built-in camera
+		<li> webcam_snap - takes a snapshot from the remote built-in camera
+		<li> webcam_stream - obtains a video stream from the remote built-in camera
   	</ul>
+
+ <h3 id='n1.18'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> CMD </ins></h3>
+ <ol>
+	<li> Viewing System Information
+		<ul>
+			<li> systeminfo - displays system information and installed patches
+			<li> net user - lists local users
+			<li> whoami /all - provides information the current user
+			<li> driverquery - lists installed drivers
+   		</ul>
+	<li> Network Settings
+		<ul>
+			<li> ipconfig /all - shows network settings
+			<li> ipconfig /displaydns - display cached DNS records
+			<li> arp -a - lists IP addresses that the computer has communicated with
+			<li> netstat - shows established connections
+			<li> netstat -a - lists open ports
+			<li> netstat -ao - displays open ports and associated IDs
+			<li> netstat -abo - lists open ports, associated process IDs, and their names
+			<li> netstat -r - shows the routing table
+			<li> netsh firewall show config - views firewall settings
+			<li> netsh firewall set opmode disable - disables the firewall
+   		</ul>
+	<li> Working with Services
+		<ul>
+			<li> tasklist - lists current processes
+			<li> taskkill /f /pid "process_number" - terminates a process
+			<li> schtasks - displays scheduled tasks
+			<li> sc query - lists all services
+			<li> sc query "service_name" - checks the status of a service
+			<li> sc start/stop "service_name" - starts or stops service
+			<li> net start - lists running services
+		</ul>
+	<li> Working with the File System
+		<ul>
+			<li> cd - navigates through the file system
+			<li> dir - lists files and folders in the current directory
+			<li> dir /ah - displays hidden files and folders
+			<li> dir /ad - lists folders only
+			<li> dir /b /s "folder and search term" - searches for files based on a keyword
+			<li> mkdir - creates a new folder
+		</ul>
+ </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
