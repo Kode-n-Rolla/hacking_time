@@ -313,6 +313,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
  	<ul>
 		<li> arp - displays MAC and IP addresses of local devices interacted with
 		<li> cd - command to change to another directory/folder
+		<li> clearev - clears logs (need administration privs)
 		<li> dir/ls - lists files and folders in the specified directory
 		<li> download - downloads files from the remote machine to the local machine
 		<li> getpid - displays the process ID under which Meterpreter is running
