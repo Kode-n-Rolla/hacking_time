@@ -342,6 +342,18 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 
  <h3 id='n1.18'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> CMD </ins></h3>
  <ol>
+	<li> Clearing log files
+		<ul>
+			<li> wevtutil cl Application
+			<li> wevtutil cl System
+			<li> wevtutil cl Security
+			<p> OR check firewall settings to find location of log file
+			<li> netsh firewall show config (old command)
+			<li> netsh advfirewall show currentprofile (MS recomends that command) -> cd log file direcroty, more file.log for read -> disable firewall
+			<li> netsh firewall set opmode disable - disables the firewall (old command)
+			<li> netsh advfirewall set currentprofile state off
+			<li> del file.log
+		</ul>
 	<li> Viewing System Information
 		<ul>
 			<li> systeminfo - displays system information and installed patches
@@ -359,8 +371,6 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 			<li> netstat -ao - displays open ports and associated IDs
 			<li> netstat -abo - lists open ports, associated process IDs, and their names
 			<li> netstat -r - shows the routing table
-			<li> netsh firewall show config - views firewall settings
-			<li> netsh firewall set opmode disable - disables the firewall
    		</ul>
 	<li> Working with Services
 		<ul>
