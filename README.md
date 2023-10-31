@@ -649,6 +649,20 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 <h2 align='center' id='n8'><em> Tips </em></h2>
 <ul>
 	<li> If you have JSON in request, try to change JSON to XML
+	<li> Command Injection
+		&nbsp;&nbsp;<p> If you find Command Injection and the WAF blocks keywords, you can attempt a bypass method by adding a backslash and a newline character between the blacklisted words.
+			<pre><code>c\%0aat /et\%0ac/pas\%0aswd</code></pre>
+	<li> Interesting file location:
+		<p> Windows hashes
+		<ul> Local computer:
+			<li> File: \%systemroot%\system32\config\SAM
+			<li> Registry: HKEY_LOCAL_MACHINE\SAM
+			<li> File: \%systemroot%\system32\confog\SECURITY
+			<li> Registry: HKEY_LOCAL_MACHINE\SECURITY\SAM
+		</ul> <p>
+		<ul>Active Directory:
+			<li> %systemroot%\ntds\ntds.dit
+		</ul>
 </ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
