@@ -630,7 +630,12 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 				<p> <pre><code>ls -la</code></pre>
 			<li> Check NOPASSWD sudo command ( <code>sudo -l</code> ) and use this command(s)
 			<li> Check PATH ( <code>echo $PATH</code> )
-			<li> Check commands history <code>cat ~/.bash_history</code>
+			<li> Check history:
+				<p><code>cat ~/.bash_history</code>
+				<p><code>cat ~/.mysql_history</code>
+				<p><code>cat ~/.nano_history</code>
+				<p><code>cat ~/.php_history</code>
+				<p><code>cat ~/.atftp_history</code>
     		</ul>
     <!--   <h3><ins> Windows </ins></h3>
        		Information about the target system:
