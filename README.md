@@ -37,7 +37,7 @@ Topic contains:
 	<li> <a href='#n1.6'>Gobuster </a> dirs amd subdomains enumeration commands
 	<li> <a href='#n1.7'> Hydra </a>
 	<li> <a href='#n1.8'> Dirsearch </a>
-	<li> <a href='#n1.9'> Pump </a> shell, if target system has python3
+	<li> <a href='#n1.9'> Pumping </a> shell
 	<li> <a href='#n1.10'> SQLmap </a>
 	<li> <a href='#n1.11'> John The Ripper </a>
  	<li> <a href='#n1.12'> Hashcat </a>
@@ -160,6 +160,10 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 <h3 id='n1.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to <ins>pump</ins>nc shell </h3>
    PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell:
    <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
+   <p>After nc connecting:
+   	<pre><code>stty raw -echo && fg</code></pre>
+   <p> If no python:
+   	<pre><code>/usr/bin/script -qc /bin/bash /dev/null</code></pre>
 
 <h3 id='n1.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> SQLmap </ins></h3>
 	&nbsp;&nbsp;&nbsp; Start SQL injection attack:
@@ -622,13 +626,17 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
     		<ul>
 			<li> Check kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )
 			<li> Check screen version ( <code>screen -v</code> )
-			<li> Check Cron Tab
+			<li> Check Cron Tab:
+				<p><code>ls -la /etc/cron.d</code>
+				<p><code>ls -la /etc/init.d</code>
 			<li> Check setuid and setgid 
 				<p> To find files with sticky bit:
 					<pre><code>find / -perm -u=s -type f 2>/dev/null</code></pre>
 				<p> To check rights
 				<p> <pre><code>ls -la</code></pre>
-			<li> Check NOPASSWD sudo command ( <code>sudo -l</code> ) and use this command(s)
+			<li> Find world writable files for every users:
+				<p><code>find / -perm -2 -type f 2>/dev/null</code>
+			<li> Check NOPASSWD sudo command ( <code>sudo -l</code> )
 			<li> Check PATH ( <code>echo $PATH</code> )
 			<li> Check history:
 				<p><code>cat ~/.bash_history</code>
@@ -636,6 +644,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 				<p><code>cat ~/.nano_history</code>
 				<p><code>cat ~/.php_history</code>
 				<p><code>cat ~/.atftp_history</code>
+			<li> Check executable files in:
+				<p><code> home directory</code> and <code>/var/www</code> or the same
     		</ul>
     <!--   <h3><ins> Windows </ins></h3>
        		Information about the target system:
