@@ -432,12 +432,15 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
               <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheets
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheets
       <h3> CVE and Vulnerabilities db </h3>
+	      <li> <a href='https://cve.circl.lu/'> CVE.circl </a> db
 	      <li> <a href='https://www.first.org/cvss/calculator/3.0'> CVSS </a> calculator to vulnerability assessment
-	      <li> <a href='https://cve.mitre.org/'> DataBase </a> of Common Vulnerabilities and Exposures
+	      <li> <a href='https://cve.mitre.org/'> CVE.mitre </a> db of Common Vulnerabilities and Exposures
 	      <li> <a href='https://lana.codes/lanavdb/'> Lana </a> Codes Vulnerability Database (WordPress plugins)
-	      <li> <a href='https://vulners.com/'> Vulnerabilities </a> database
+	      <li> <a href='https://vulners.com/'> Vulners.com </a> database
 	      <li> <a href='https://www.exploit-db.com/'> OffSec </a> exploit db
-	      <li> <a href='https://vuldb.com/'> Platform </a> for control vulnerabilities and Threat analysis
+	      <li> <a href='https://www.rapid7.com/db/vulnerabilities'> Rapid7 </a> db
+	      <li> <a href='https://vuldb.com/'> Vuldb.com </a> platform for control vulnerabilities and Threat analysis
+	      <li> <a href='https://0day.today/search'> 0day </a> db. Need tor
       <h3> Hashes, encode/decode, cracker, identify </h3>
 	      <li> <a href='https://crackstation.net/'> crackstation.net </a> - online password hash cracker
 	      <li> <a href='https://www.base64encode.org/'> Base64 </a> encode/decode
