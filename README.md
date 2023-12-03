@@ -17,7 +17,7 @@
 	<li> <a href='#n4'> GitHub Tools </a>
 	<li> <a href='#n5'> Browser add-ons </a>
 	<li> <a href='#n6'> Privilege Escalation </a>
-	<li> <a href='#n7'> AWS </a>
+	<!-- <li> <a href='#n7'> AWS </a> -->
 	<li> <a href='#n8'> Tips </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help </a> about pentest process
 	<!--<li> cheat sheet injections
@@ -659,10 +659,10 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
 
-<h2 align='center' id='n7'><em> AWS </em></h2>
+<!-- <h2 align='center' id='n7'><em> AWS </em></h2>
 
 
-<h3 align='right'><a href='#start'> <-- Back </a></h3> 
+<h3 align='right'><a href='#start'> <-- Back </a></h3> -->
 
 
 <h2 align='center' id='n8'><em> Tips </em></h2>
