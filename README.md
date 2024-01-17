@@ -46,7 +46,7 @@ Topic contains:
     	<li> <a href='#n1.15'> Rustscan </a>
       	<li> <a href='#n1.16'> Masscan </a>
         <li> <a href='#n1.17'> Meterpreter </a>
-	<li> <a href='#n1.18'> CMD </a>
+	<li> <a href='#n1.18'> CMD (Windows)</a>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
