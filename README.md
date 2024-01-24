@@ -464,7 +464,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://archive.org/'> Archive </a> of sites history
 	      <li> <a href='https://haveibeenpwned.com/'> Emails leak </a>
 	      <li> Another source of <a href='https://www.dehashed.com/'> emails leak </a>
-	      <li> <a href='https://viewdns.info/'> ViewDNS </a> Offers reverse IP Lookup.
+	      <li> <a href='https://viewdns.info/'> ViewDNS </a> Offers reverse IP Lookup
+	      <li> <a href='https://sitereport.netcraft.com/?url=http://google.com'> Netcraft.</a> Information about domain. Temple of searching: <pre><code>https://sitereport.netcraft.com/?url=&lt;TARGET_URL></code></pre>
               <li> <a href='https://www.shodan.io/'> Shodan </a> is the world's first search engine for Internet-connected devices.
 	      <li> <a href='https://spark-interfax.ru/'> This </a> is a system that gathers all available information about companies and extracts data from it
               <li> <a href='https://search.censys.io/'> Censys Search </a> Can provide a lot of information about IP addresses and domains
