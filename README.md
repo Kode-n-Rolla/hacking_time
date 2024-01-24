@@ -459,7 +459,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       <h3> MSFVenom help </h3>
 	      <li> <a href='https://gist.github.com/dejisec/8cdc3398610d1a0a91d01c9e1fb02ea1'> gist.github </a>
 	      <li> <a href='https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/'> Cheat Sheet </a> 
-      <h3> OSINT </h3>
+      <h3> OSINT and Information Gathering </h3>
 	      <li> <a href='https://osintframework.com/'> Aggregation </a> of all popular tools and resources for OSINT
 	      <li> <a href='https://archive.org/'> Archive </a> of sites history
 	      <li> <a href='https://haveibeenpwned.com/'> Emails leak </a>
