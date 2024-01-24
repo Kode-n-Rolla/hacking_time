@@ -470,7 +470,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://spark-interfax.ru/'> This </a> is a system that gathers all available information about companies and extracts data from it
               <li> <a href='https://search.censys.io/'> Censys Search </a> Can provide a lot of information about IP addresses and domains
 	      <li> <a href='https://dnsdumpster.com/'> This </a> is a passive and fast search domains and subdomains and etc
-	      <li> <a hre='https://www.robtex.com/'> Robtex </a> Whois like tool. Techs, servers, ips and another info about target
+	      <li> <a hre='https://www.robtex.com/'> Robtex </a> Whois like tool. Techs, servers, ips, dns configuration and another info about target
 	      <li> <a href='https://crt.sh/'> DataBase </a> SSL/TLS-certificates issued for domain names
       <h3> Password Services </h3>
 	      <li> <a href='https://cirt.net/passwords'> CIRT.net </a> Default Passwords service
