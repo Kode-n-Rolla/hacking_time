@@ -515,7 +515,8 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 				<li><a href='https://github.com/ly4k/Certipy'> Certipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
 				<li><a href='https://github.com/ffuf/ffuf'> Fuzzer </a>
 				<li><a href='https://github.com/fuzzdb-project/fuzzdb'> fuzzdb </a>
-				<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux </a> smart enumiration
+				<li><a href='https://github.com/guelfoweb/knock'> Knock.py</a> - subdomain scanner
+				<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux</a> smart enumiration
 				<li><a href='https://github.com/aboul3la/Sublist3r'> Sublist3r</a>. Subdomains enumiration python tool
 			</ul>
 		<li><h3 id='n4.3'> OSINT </h3>
