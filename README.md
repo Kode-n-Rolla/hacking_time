@@ -441,6 +441,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://www.rapid7.com/db/vulnerabilities'> Rapid7 </a> db
 	      <li> <a href='https://vuldb.com/'> Vuldb.com </a> platform for control vulnerabilities and Threat analysis
 	      <li> <a href='https://0day.today/search'> 0day </a> db. Need tor
+	      <li> <a href='https://modemly.com/m1/pulse'> Routers</a> db
       <h3> Hashes, encode/decode, cracker, identify </h3>
 	      <li> <a href='https://crackstation.net/'> crackstation.net </a> - online password hash cracker
 	      <li> <a href='https://www.base64encode.org/'> Base64 </a> encode/decode
