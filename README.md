@@ -92,12 +92,21 @@ Topic contains:
   
 <h3 id='n1.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Linux </ins></h3>
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
-	Find all files in / directory (-type d for find dirs):
-	<p> <pre><code> find / -type f </code></pre>
-	File name search:
-	<p> <pre><code> find / -type f | grep '&lt;FILE_NAME>' </code></pre>
-	Find all path files with ‘config’ in proc dirs:
-	<p> <pre><code> find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null </code></pre>
+	<ul>
+		<li> Find all files in / directory (-type d for find dirs):
+			<p> <pre><code> find / -type f </code></pre>
+		<li> File name search:
+			<p> <pre><code> find / -type f | grep '&lt;FILE_NAME>' </code></pre>
+		<li> Find all path files with ‘config’ in proc dirs:
+			<p> <pre><code> find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null </code></pre>
+	 	<li> To turn off send hostname via DHCP
+	  		<p> <pre><code> sudo nano /etc/NetworkManager/system-connections/Wired\ connection\ 1 </code></pre>
+	    		<p> &nbsp;&nbsp; [ipv4]
+	      		<p> &nbsp;&nbsp; method=auto
+			<p> &nbsp;&nbsp; dhcp-send-hostname=false
+		<li> To allow traffic routing on your part (Main rule for MITM)
+			<p> <pre><code> sudo sysctl -w net.ipv4.ip_forward=1 </code></pre>
+	</ul>
 
 <h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows </ins></h3>
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
