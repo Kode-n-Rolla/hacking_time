@@ -477,6 +477,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://archive.org/'> Archive </a> of sites history
 	      <li> <a href='https://haveibeenpwned.com/'> Emails leak </a>
 	      <li> Another source of <a href='https://www.dehashed.com/'> emails leak </a>
+	      <li> <a href='https://geospy.web.app/'> Geospy </a>. This is an online service for determining the physical address of the location depicted in a photograph
 	      <li> <a href='https://viewdns.info/'> ViewDNS </a> Offers reverse IP Lookup
 	      <li> <a href='https://sitereport.netcraft.com/?url=http://google.com'> Netcraft.</a> Information about domain. Temple of searching: <pre><code>https://sitereport.netcraft.com/?url=&lt;TARGET_URL></code></pre>
               <li> <a href='https://www.shodan.io/'> Shodan </a> is the world's first search engine for Internet-connected devices.
