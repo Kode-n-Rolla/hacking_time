@@ -91,6 +91,7 @@ Topic contains:
 </ul>
   
 <h3 id='n1.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Linux </ins></h3>
+<a href='https://explainshell.com/'> ExplainShell</a>. Provides a convenient interface for searching help information for any command
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
 	<ul>
 		<li> Find all files in / directory (-type d for find dirs):
