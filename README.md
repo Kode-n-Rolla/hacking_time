@@ -140,7 +140,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> <pre><code> nmap -sV -p &lt;PORT> --script http-enum &lt;TARGET_IP> </code></pre>
    <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
    <p> P.P.S. Full <a href='https://www.infosecmatter.com/ultimate-list-of-nmap-nse-scripts-interactive-table/'>list</a> of NMAP NSE sctipts.
-   <p>&nbsp;&nbsp;Catogories: - auth, broadcast, brute, default, discovery, dos, exploit, external, fuzzer, intrusive, malware, safe, version, vuln.
+   <p>&nbsp;&nbsp;Catogories: auth, broadcast, brute, default, discovery, dos, exploit, external, fuzzer, intrusive, malware, safe, version, vuln.
 	   
 <h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Gobuster command: </ins></h3>
 	 &nbsp;&nbsp;&nbsp;Directories enumeration:
