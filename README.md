@@ -19,9 +19,9 @@
 	<li> <a href='#n6'> Privilege Escalation </a>
 	<!-- <li> <a href='#n7'> AWS </a> -->
 	<li> <a href='#n8'> Tips </a>
+	<li> <a href='#n9'> Burp Suite extensions</a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help </a> about pentest process
-	<!--<li> cheat sheet injections
-	<li> resume my stars 
+	<!--<li> cheat sheet injections 
 	Add XSStrike to Tools!-->
  	<p> <h3> <ins>N.B. <-- Back link - Means return to the table of contents.</ins> </h3>
 
@@ -710,5 +710,19 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 </ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
-	
+
+<h2 align='center' id='n9'><em> Burp Suite Extension </em></h2>
+<ul>
+	<li> <a href='https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb'> Software Vulnerability Scanner </a> - This extension displays public vulnerabilities for applications detected in the traffic proxied by Burp. Essentially, it acts as a layer between Burp and the API of this excellent vulnerability aggregator.
+	<li> <a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'> Backslash Powered Scanner </a> - Enhances Burp's active scanner using a novel approach capable of finding and confirming both known and unknown classes of server-side injection vulnerabilities.
+	<li> <a href='https://portswigger.net/bappstore/f154175126a04bfe8edc6056f340f52e'> SQLiPy </a> - A tool that integrates Burp Suite with SQLMap using the SQLMap API to check for SQL injection vulnerabilities.
+	<li> <a href='https://portswigger.net/bappstore/3123d5b5f25c4128894d97ea1acc4976'> Active Scan++ </a> - Expands the range of checks performed by the active and passive scanners. It identifies vulnerabilities such as cache poisoning, DNS rebinding, various injections, and also performs additional checks to detect XXE injections and more.
+	<li> <a href='https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988'> Turbo Intruder </a> - A faster alternative to Intruder equipped with a scriptable engine for sending a large number of HTTP requests and analyzing the results. Useful when speed is required.
+	<li> <a href='https://portswigger.net/bappstore/ae2611da3bbc4687953a1f4ba6a4e04c'> Bypass WAF </a> - A tool for bypassing web application firewalls (WAFs).
+	<li> <a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'> BurpJS Link Finder </a> - Helps identify and discover links based on JavaScript in web applications.
+	<li> <a href='https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122'> 403 Bypasser Extension </a> - A tool designed to bypass 403 errors commonly encountered when attempting to access restricted areas of a website.
+</ul>
+
+<h3 align='right'><a href='#start'> <-- Back </a></h3> 
+
 </body>
