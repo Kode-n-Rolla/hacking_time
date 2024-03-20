@@ -20,7 +20,7 @@
 	<!-- <li> <a href='#n7'> AWS </a> -->
 	<li> <a href='#n8'> Tips </a>
 	<li> <a href='#n9'> Burp Suite extensions</a>
-	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help </a> about pentest process
+	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help</a> about pentest process
 	<!--<li> cheat sheet injections 
 	Add XSStrike to Tools!-->
  	<p> <h3> <ins>N.B. <-- Back link - Means return to the table of contents.</ins> </h3>
