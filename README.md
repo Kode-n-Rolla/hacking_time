@@ -11,7 +11,7 @@
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'> Network tools </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'> Web Shells </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/scripts'> Scripts </a>
-  	<li> <a href='#n1'> Command examples </a>
+  	<li> <a href='#n1'> Commands </a>
   	<li> <a href='#n2'> Payloads </a>
   	<li> <a href='#n3'> Helpful sites </a>
 	<li> <a href='#n4'> GitHub Tools </a>
@@ -27,7 +27,7 @@
 
 </ol>
 
-<h2 align='center' id='n1'><em> Command Examples </em></h2> 
+<h2 align='center' id='n1'><em> Commands </em></h2> 
 Topic contains:
 	<li> Remote Desktop Protocol <a href='#n1.1'> (RDP) </a>
 	<li> <a href='#n1.2'> PowerShell </a> </li>
