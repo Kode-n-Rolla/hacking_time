@@ -19,7 +19,8 @@
 	<li> <a href='#n6'> Privilege Escalation </a>
 	<!-- <li> <a href='#n7'> AWS </a> -->
 	<li> <a href='#n8'> Tips </a>
-	<li> <a href='#n9'> Burp Suite extensions</a>
+	<li> <a href='#n9'> Burp Suite extensions </a>
+	<li> <a href='#n10'>GPTs (Agents) for Cybersecurity </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help</a> about pentest process
 	<!--<li> cheat sheet injections 
 	Add XSStrike to Tools!-->
@@ -758,4 +759,20 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
+<h2 align='center' id='n10'><em>GPTs (Agents) for Cybersecurity </em></h2>
+<ul>
+	<li> <a href='https://chat.openai.com/g/g-U5ZnmObzh-magicunprotect'> MagicUnprotect</a> - allows interacting with the Unprotect knowledge base on malware evasion techniques
+	<li> <a href='https://chat.openai.com/g/g-Vy4rIqiCF-threat-intel-bot'> Threat Intel Bot</a> - GPT agent for retrieving the latest data on APT groups
+	<li> <a href='https://chat.openai.com/g/g-RfQI5RmAX-hacker-news-gpt'> Hacker News GPT</a> - summarizes the most relevant and discussed Hacker News articles
+	<li> <a href='https://chat.openai.com/g/g-fCIE7hCLx-att-ck-mate'> ATT&CK Mate</a> - get any answer about the ATT&CK knowledge base
+	<li> <a href='https://chat.openai.com/g/g-VRtUR3Jpv-smart-contract-auditor'> Smart Contract Audit Assistant</a> - a high-precision tool for auditing smart contracts
+	<li> <a href='https://chat.openai.com/g/g-0p2l975AN-alphahoundai'> AlphaHoundAI</a> - expert in BloodHound CE, Cypher, SharpHound, and related tools
+	<li> <a href='https://chat.openai.com/g/g-UKY6elM2U-zkgpt'> zkGPT</a> - if you want to master cryptography, use this agent
+	<li> <a href='https://chat.openai.com/g/g-Ep6YFTwsn-osistent'> OSISTent</a> - will assist you in solving various OSINT tasks and research
+	<li> <a href='https://chat.openai.com/g/g-hnDH58fct-bug-bounty-assistant'> Bug Bounty Assistant</a> - a guide for web application security
+	<li> <a href='https://github.com/Awesome-GPT-Agents'>  Full List </a> 
+</ul>
+
+<h3 align='right'><a href='#start'> <-- Back </a></h3> 
+	
 </body>
