@@ -472,31 +472,39 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
       <h3> CVE and Vulnerabilities db </h3>
-	      <li> <a href='https://cve.circl.lu/'> CVE.circl </a> db
-	      <li> <a href='https://www.first.org/cvss/calculator/3.0'> CVSS </a> calculator to vulnerability assessment
-	      <li> <a href='https://cve.mitre.org/'> CVE.mitre </a> db of Common Vulnerabilities and Exposures
-	      <li> <a href='https://lana.codes/lanavdb/'> Lana </a> Codes Vulnerability Database (WordPress plugins)
-	      <li> <a href='https://vulners.com/'> Vulners.com </a> database
-	      <li> <a href='https://www.exploit-db.com/'> OffSec </a> exploit db
-	      <li> <a href='https://www.rapid7.com/db/vulnerabilities'> Rapid7 </a> db
-	      <li> <a href='https://vuldb.com/'> Vuldb.com </a> platform for control vulnerabilities and Threat analysis
-	      <li> <a href='https://0day.today/search'> 0day </a> db. Need tor
+	      <li> <a href='https://cve.circl.lu/'> CVE.circl</a> db
+	      <li> <a href='https://www.first.org/cvss/calculator/3.0'> CVSS</a> calculator to vulnerability assessment
+	      <li> <a href='https://cve.mitre.org/'> CVE.mitre</a> db of Common Vulnerabilities and Exposures
+	      <li> <a href='https://lana.codes/lanavdb/'> Lana</a> Codes Vulnerability Database (WordPress plugins)
+	      <li> <a href='https://vulners.com/'> Vulners.com</a> database
+	      <li> <a href='https://www.exploit-db.com/'> OffSec</a> exploit db
+	      <li> <a href='https://www.rapid7.com/db/vulnerabilities'> Rapid7</a> db
+	      <li> <a href='https://vuldb.com/'> Vuldb.com</a> platform for control vulnerabilities and Threat analysis
+	      <li> <a href='https://0day.today/search'> 0day</a> db. Need tor
 	      <li> <a href='https://modemly.com/m1/pulse'> Routers</a> db
       <h3> Hashes, encode/decode, cracker, identify </h3>
-	      <li> <a href='https://crackstation.net/'> crackstation.net </a> - online password hash cracker
-	      <li> <a href='https://www.base64encode.org/'> Base64 </a> encode/decode
+	      <li> <a href='https://crackstation.net/'> crackstation.net</a> - online password hash cracker
+	      <li> <a href='https://www.base64encode.org/'> Base64</a> encode/decode
 	      <li> <a href='https://hashes.com/en/tools/hash_identifier'> Identify hash types </a>
-	      <li> <a href='https://gchq.github.io/CyberChef/'> CyberChef </a> - encode/decode service
+	      <li> <a href='https://gchq.github.io/CyberChef/'> CyberChef</a> - encode/decode service
 	      <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'> Flask Session Cookie Decoder </a>
-	      <li> <a href='https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html'> RSA </a> calculator
-      <h3> Learning Path </h3>
+	      <li> <a href='https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html'> RSA</a> calculator
+      <h3> Learning Path & Practise </h3>
+	      <li> <a href='https://ctf365.com/?source=post_page---------------------------'> CTF365 </a> - suitable for security professionals looking to acquire offensive skills, or system administrators interested in enhancing their defensive skills
 	      <li> <a href='https://tryhackme.com/'> TryHackMe </a>
 	      <li> <a href='https://www.hackthebox.com/'> HackTheBox </a>
 	      <li> <a href='https://portswigger.net/web-security'> Port Swigger </a>
-	      <li> <a href='https://hackthissite.org/'> HackThisSite </a>
-	      <li> <a href='https://ctftime.org/ctfs'> CTF </a> practice
-	      <li> <a href='http://www.itsecgames.com/'> BWAPP </a> - buggy web application. Virtual pentest laboratory to practice.
-	      <li> Free <a href='https://thexssrat.podia.com/ratatatata'> set </a> of practice tasks. Thanks to <a href='https://www.youtube.com/c/TheXSSrat'> TheXSSrat </a>
+	      <li> <a href='https://hackthissite.org/'> HackThisSite</a> - a free website with wargames to test and improve your white hat hacking skills. It offers a variety of hacking challenges in several categories, including basic tasks, fricking, JavaScript, forensics, steganography, and more
+	      <li> <a href='https://ctftime.org/ctfs'> CTF</a> practice
+	      <li> <a href='http://www.itsecgames.com/'> BWAPP</a> - buggy web application. Virtual pentest laboratory to practice
+	      <li> Free <a href='https://thexssrat.podia.com/ratatatata'> set</a> of practice tasks. Thanks to <a href='https://www.youtube.com/c/TheXSSrat'> TheXSSrat </a>
+	      <li> <a href='https://overthewire.org/wargames/'> OVERTHEWIRE</a> - uitable for anyone looking to learn the theory of information security and apply it in practice regardless of their experience level
+	      <li> <a href='https://hacking-lab.com/services/'> HACKING-LAB</a> - provides CTF challenges for the European Cyber Security Challenge, but they also host regular competitions on their platform that anyone can participate in
+	      <li> <a href='https://pwnable.kr/'> PWNABLE.KR</a> - this platform focuses on pwn challenges similar to CTF, which involve finding, reading, and submitting flag files that are present in each task
+	      <li> <a href='https://w3challs.com/'> W3Challs</a> - an educational platform with a variety of tasks in different categories, including hacking, wargames, forensics, cryptography, steganography, and programming. The platform aims to provide realistic challenges. Depending on the difficulty of the solved task, you earn points. There is also a forum where you can discuss and solve tasks with other participants
+	      <li> <a href='https://www.smashthestack.org/'> SmashTheStack</a> - consists of 7 different wargames: Amateria, Apfel (currently offline), Blackbox, Blowfish, CTF (currently offline), Logic, and Tux. Each wargame contains a variety of tasks ranging from standard vulnerabilities to reverse engineering challenges
+	      <li> <a href='https://microcorruption.com/'> Microcorruption</a> - is a CTF where you need to "reverse" fictional electronic locking devices called Lockitall. Lockitall devices protect bonds stored in warehouses owned by the fictional company Cy Yombinator. On the way to stealing the bonds, you will learn about assembly language, how to use a debugger, step through code, set breakpoints, and explore memory
+	      <li> <a href='https://pwn0.com/'> The platform pwn0</a> - is a VPN where almost anything can happen. Fight against bots or users and earn points by gaining control over other systems
       <h3> MSFVenom help </h3>
 	      <li> <a href='https://gist.github.com/dejisec/8cdc3398610d1a0a91d01c9e1fb02ea1'> gist.github </a>
 	      <li> <a href='https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/'> Cheat Sheet </a> 
