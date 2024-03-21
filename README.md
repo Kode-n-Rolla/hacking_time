@@ -709,13 +709,13 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 			<li> Check out the routing table by <code> route </code> or <code> netstat -rn </code>
 			<li> Check out arp table - <code> arp -a </code>
 			<li> Check out history:
-				<p><code>cat ~/.bash_history</code>
-				<p><code>cat ~/.mysql_history</code>
-				<p><code>cat ~/.nano_history</code>
-				<p><code>cat ~/.php_history</code>
-				<p><code>cat ~/.atftp_history</code>
+				<p><code> cat ~/.bash_history </code>
+				<p><code> cat ~/.mysql_history </code>
+				<p><code> cat ~/.nano_history </code>
+				<p><code> cat ~/.php_history </code>
+				<p><code> cat ~/.atftp_history </code>
 			<li> Check out executable files in:
-				<p><code> home directory</code> and <code>/var/www</code> or the same
+				<p><code> home directory </code> and <code> /var/www </code> or the same
 			<li> Check out some additional information about the host itself such as the CPU type/version - <code> lscpu </code>
     		</ul>
     <!--   <h3><ins> Windows </ins></h3>
@@ -733,7 +733,7 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 
 
 <h2 align='center' id='n8'><em> Tips </em></h2>
-<ul>
+<ol>
 	<li> If you have JSON in request, try to change JSON to XML
 	<li> Command Injection
 		&nbsp;&nbsp;<p> If you find Command Injection and the WAF blocks keywords, you can attempt a bypass method by adding a backslash and a newline character between the blacklisted words.
@@ -749,7 +749,16 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 		<ul>Active Directory:
 			<li> %systemroot%\ntds\ntds.dit
 		</ul>
-</ul>
+	<li> Identifying Algorithm from the first hash blocks:
+		<ul>
+			<li> Salted MD5	- <code> $1$... </code>
+			<li> SHA-256	- <code> $5$... </code>
+			<li> SHA-512	- <code> $6$... </code>
+			<li> BCrypt	- <code> $2a$... </code>
+			<li> Scrypt	- <code> $7$... </code>
+			<li> Argon2	- <code> $argon2i$... </code>
+   		</ul>
+</ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
