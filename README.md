@@ -687,28 +687,36 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 	 <h3> <ins>Linux</ins> </h3>
   		Some advice to Linux Privilege Escalation
     		<ul>
-			<li> Check kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )
-			<li> Check screen version ( <code>screen -v</code> )
-			<li> Check Cron Tab:
+			<li> Check out user are running - <code> whoami </code>
+			<li> Check out groups does running user belong to - <code> id </code>
+			<li> Check out what is the server named - <code> hostname </code>
+			<li> Check out what subnet did land in - <code> ifconfig </code> or <code> ip -a </code>
+			<li> Check out kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )
+			<li> Check out screen version - <code> screen -v</code>
+			<li> Check out all environment variables <code> env </code>
+			<li> Check out login shells exist on the server - <code> cat /etc/shells </code> 
+			<li> Check out Cron Tab:
 				<p><code>ls -la /etc/cron.d</code>
 				<p><code>ls -la /etc/init.d</code>
-			<li> Check setuid and setgid 
+			<li> Check out setuid and setgid 
 				<p> To find files with sticky bit:
 					<pre><code>find / -perm -u=s -type f 2>/dev/null</code></pre>
-				<p> To check rights
+				<p> To check out rights
 				<p> <pre><code>ls -la</code></pre>
-			<li> Find world writable files for every users:
-				<p><code>find / -perm -2 -type f 2>/dev/null</code>
-			<li> Check NOPASSWD sudo command ( <code>sudo -l</code> )
-			<li> Check PATH ( <code>echo $PATH</code> )
-			<li> Check history:
+			<li> Find world writable files for every users - <code> find / -perm -2 -type f 2>/dev/null </code>
+			<li> Check out NOPASSWD sudo command - <code> sudo -l</code>
+			<li> Check out PATH - <code>echo $PATH</code>
+			<li> Check out the routing table by <code> route </code> or <code> netstat -rn </code>
+			<li> Check out arp table - <code> arp -a </code>
+			<li> Check out history:
 				<p><code>cat ~/.bash_history</code>
 				<p><code>cat ~/.mysql_history</code>
 				<p><code>cat ~/.nano_history</code>
 				<p><code>cat ~/.php_history</code>
 				<p><code>cat ~/.atftp_history</code>
-			<li> Check executable files in:
+			<li> Check out executable files in:
 				<p><code> home directory</code> and <code>/var/www</code> or the same
+			<li> Check out some additional information about the host itself such as the CPU type/version - <code> lscpu </code>
     		</ul>
     <!--   <h3><ins> Windows </ins></h3>
        		Information about the target system:
