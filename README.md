@@ -491,12 +491,14 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'> Flask Session Cookie Decoder </a>
 	      <li> <a href='https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html'> RSA</a> calculator
       <h3> Learning Path & Practise </h3>
+	      <li> <a href='https://www.eccouncil.org/'> CEH </a>
 	      <li> <a href='https://ctf365.com/?source=post_page---------------------------'> CTF365 </a> - suitable for security professionals looking to acquire offensive skills, or system administrators interested in enhancing their defensive skills
 	      <li> <a href='https://tryhackme.com/'> TryHackMe </a>
 	      <li> <a href='https://www.hackthebox.com/'> HackTheBox </a>
 	      <li> <a href='https://portswigger.net/web-security'> Port Swigger </a>
 	      <li> <a href='https://hackthissite.org/'> HackThisSite</a> - a free website with wargames to test and improve your white hat hacking skills. It offers a variety of hacking challenges in several categories, including basic tasks, fricking, JavaScript, forensics, steganography, and more
-	      <li> <a href='https://ctftime.org/ctfs'> CTF</a> practice
+	      <li> <a href='https://hackaday.com/'> Hackaday</a> - serves up Fresh Hacks Every Day from around the Internet
+	      <li> <a href='https://ctftime.org/ctfs'> CTFtime</a>. CTF practice
 	      <li> <a href='http://www.itsecgames.com/'> BWAPP</a> - buggy web application. Virtual pentest laboratory to practice
 	      <li> Free <a href='https://thexssrat.podia.com/ratatatata'> set</a> of practice tasks. Thanks to <a href='https://www.youtube.com/c/TheXSSrat'> TheXSSrat </a>
 	      <li> <a href='https://overthewire.org/wargames/'> OVERTHEWIRE</a> - uitable for anyone looking to learn the theory of information security and apply it in practice regardless of their experience level
