@@ -529,10 +529,11 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://www.robtex.com/'> Robtex </a> Whois like tool. Techs, servers, ips, dns configuration and another info about target
 	      <li> <a href='https://crt.sh/'> DataBase </a> SSL/TLS-certificates issued for domain names
       <h3> Password Services </h3>
-	      <li> <a href='https://cirt.net/passwords'> CIRT.net </a> Default Passwords service
-	      <li> <a href='https://default-password.info/'> Default-Password.info </a> Default Passwords service
-	      <li> <a href='https://datarecovery.com/rd/default-passwords/'> Datarecovery.com </a> Default Passwords service
-	      <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'> This </a> wiki page includes the most well-known collections of passwords.
+	      <li> <a href='https://cirt.net/passwords'> CIRT.net</a> Default Passwords service
+	      <li> <a href='https://default-password.info/'> Default-Password.info</a> Default Passwords service
+	      <li> <a href='https://datarecovery.com/rd/default-passwords/'> Datarecovery.com</a> Default Passwords service
+	      <li> <a href='https://passwordsdatabase.com/'> Passwordsdatabase</a> another one default passwords service
+	      <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'> This</a> wiki page includes the most well-known collections of passwords.
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
        
