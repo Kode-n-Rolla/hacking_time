@@ -463,16 +463,16 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      
         
 <h2 align='center' id='n3'><em> Sites </em></h2>
-      <h3> Someone main </h3>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Someone main </h3>
       	      <li> <a href='https://gtfobins.github.io/#'> GTFO</a> bins. How to escalqte privs, how to get shells and much more with binary in tarhet system 
-      <h3> Cheat sheets </h3>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets </h3>
 	      <li> <a href='https://devhints.io/bash'> Bash scripting </a>
 	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How </a> pump nc shell
 	      <li> <a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap </a>
               <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheet
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
-      <h3> CVE and Vulnerabilities db </h3>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVE and Vulnerabilities db </h3>
 	      <li> <a href='https://cve.circl.lu/'> CVE.circl</a> db
 	      <li> <a href='https://www.first.org/cvss/calculator/3.0'> CVSS</a> calculator to vulnerability assessment
 	      <li> <a href='https://cve.mitre.org/'> CVE.mitre</a> db of Common Vulnerabilities and Exposures
@@ -483,14 +483,14 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://vuldb.com/'> Vuldb.com</a> platform for control vulnerabilities and Threat analysis
 	      <li> <a href='https://0day.today/search'> 0day</a> db. Need tor
 	      <li> <a href='https://modemly.com/m1/pulse'> Routers</a> db
-      <h3> Hashes, encode/decode, cracker, identify </h3>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hashes, encode/decode, cracker, identify </h3>
 	      <li> <a href='https://crackstation.net/'> crackstation.net</a> - online password hash cracker
 	      <li> <a href='https://www.base64encode.org/'> Base64</a> encode/decode
 	      <li> <a href='https://hashes.com/en/tools/hash_identifier'> Identify hash types </a>
 	      <li> <a href='https://gchq.github.io/CyberChef/'> CyberChef</a> - encode/decode service
 	      <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'> Flask Session Cookie Decoder </a>
 	      <li> <a href='https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html'> RSA</a> calculator
-      <h3> Learning Path & Practise </h3>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learning Path & Practise </h3>
 	      <li> <a href='https://www.eccouncil.org/'> CEH </a>
 	      <li> <a href='https://ctf365.com/?source=post_page---------------------------'> CTF365 </a> - suitable for security professionals looking to acquire offensive skills, or system administrators interested in enhancing their defensive skills
 	      <li> <a href='https://tryhackme.com/'> TryHackMe </a>
@@ -508,10 +508,10 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://www.smashthestack.org/'> SmashTheStack</a> - consists of 7 different wargames: Amateria, Apfel (currently offline), Blackbox, Blowfish, CTF (currently offline), Logic, and Tux. Each wargame contains a variety of tasks ranging from 			standard vulnerabilities to reverse engineering challenges
 	      <li> <a href='https://microcorruption.com/'> Microcorruption</a> - is a CTF where you need to "reverse" fictional electronic locking devices called Lockitall. Lockitall devices protect bonds stored in warehouses owned by the fictional company Cy 				Yombinator. On the way to stealing the bonds, you will learn about assembly language, how to use a debugger, step through code, set breakpoints, and explore memory
 	      <li> <a href='https://pwn0.com/'> The platform pwn0</a> - is a VPN where almost anything can happen. Fight against bots or users and earn points by gaining control over other systems
-      <h3> MSFVenom help </h3>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MSFVenom help </h3>
 	      <li> <a href='https://gist.github.com/dejisec/8cdc3398610d1a0a91d01c9e1fb02ea1'> gist.github </a>
 	      <li> <a href='https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/'> Cheat Sheet </a> 
-      <h3> OSINT and Information Gathering </h3>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OSINT and Information Gathering </h3>
 	      <li> <a href='https://osintframework.com/'> Aggregation </a> of all popular tools and resources for OSINT
 	      <li> <a href='https://archive.org/'> Archive </a> of sites history
 	      <li> <a href='https://haveibeenpwned.com/'> Emails leak </a>
@@ -528,9 +528,20 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://dnsdumpster.com/'> This </a> is a passive and fast search domains and subdomains and etc
 	      <li> <a href='https://www.robtex.com/'> Robtex </a> Whois like tool. Techs, servers, ips, dns configuration and another info about target
 	      <li> <a href='https://crt.sh/'> DataBase </a> SSL/TLS-certificates issued for domain names
-	      <li> <a href='https://www.faganfinder.com/'> Fagan Finder</a> - is an excellent source of information. You enter a query, then click on the desired source. Then you are redirected to the relevant page. The most important thing is that it shows how many 			sources there can be and how diverse they can be: from the Library of Congress website to leak publication services (Metasearch Engine)
-	      <li> <a href='https://intelx.io/'> Intelligence X</a> - it not only searches for leaks but also helps navigate other OSINT tools. Services for email verification, DNS search - you'll find them here too. Go to the Tools section and search specifically 			(Metasearch Engine)
-      <h3> Password Services </h3>
+	      <li> Metasearch Engine:
+		      <ol>
+			      <li> <a href='https://www.faganfinder.com/'> Fagan Finder</a> - is an excellent source of information. You enter a query, then click on the desired source. Then you are redirected to the relevant page. The most important thing is that it 					shows how many sources there can be and how diverse they can be: from the Library of Congress website to leak publication services
+	      		      <li> <a href='https://intelx.io/'> Intelligence X</a> - it not only searches for leaks but also helps navigate other OSINT tools. Services for email verification, DNS search - you'll find them here too. Go to the Tools section and search 					specifically 
+		      </ol>
+	      <li> Tools for people search by photo:
+		      <ol>
+			      <li> <a href='https://social-catfish.pxf.io/c/1359419/1472958/12693?subId1=face-recognition-search-engines'> Social Catfish</a> - is the perfect facial recognition search engine that can search for people by face, name, email, address, and 					username
+			      <li> <a href='https://www.spokeo.com/?g=name_face9recognition9search9engines_A3313266936'> Spokeo</a> - is a database used for identifying people and providing accurate information about them. It is constantly updated and boasts over 6 					million consumers, 130 million property records, 600 million legal records, and over 120 social networks, making it an ideal people search system for personal and business use
+			      <li> <a href='https://images.google.com/'> Google Image Search</a> - uses the powerful Google Bot to scan all publicly accessible websites for images to create the largest and most frequently updated image database in the world
+			      <li> <a href='https://pimeyes.com/'> PimEyes</a> - is one of the best facial recognition search engine tools that allows you to perform in-depth image searches on the internet. Advanced convolutional neural networks analyze the image you 					upload to find objects and match them with the database
+			      <li> <a href='https://FaceCheck.ID'> FaceCheck.ID</a> - is one of the best reverse image search tools for facial recognition. You can use it to search for images of a specific person. It identifies faces in the photo you upload, and then finds similar faces in social media posts, online videos, fraudulent accounts, websites, news and blog pages, as well as in product marketing
+		      </ol>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Password Services </h3>
 	      <li> <a href='https://cirt.net/passwords'> CIRT.net</a> Default Passwords service
 	      <li> <a href='https://default-password.info/'> Default-Password.info</a> Default Passwords service
 	      <li> <a href='https://datarecovery.com/rd/default-passwords/'> Datarecovery.com</a> Default Passwords service
