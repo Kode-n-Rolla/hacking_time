@@ -742,6 +742,7 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 			<li> Check out executable files in:
 				<p><code> home directory </code> and <code> /var/www </code> or the same
 			<li> Check out some additional information about the host itself such as the CPU type/version - <code> lscpu </code>
+			<li> Check out logrotate version - <code> logrotate --version</code>. This <a href='https://github.com/whotwagner/logrotten'> github tool</a> can help with privesc
     		</ul>
     <!--   <h3><ins> Windows </ins></h3>
        		Information about the target system:
