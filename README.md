@@ -542,14 +542,15 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I categorized github tools.
 <p> 👇Some of the most popular tools👇
 <ol>
-	<li><a href='#n4.1'> BruteForce & Wordlists </a>
-	<li><a href='#n4.2'> Enumiration </a>
-	<li><a href='#n4.3'> OSINT </a>
-	<li><a href='#n4.4'> Payloads </a>
-	<li><a href='#n4.5'> Privilege Escalation </a>
-	<li><a href='#n4.6'> Social Engineering </a>
-	<li><a href='#n4.7'> Burp Suite Extensions </a>
-	<li><a href='#n4.8'> Another </a>
+	<li> <a href='#n4.1'> BruteForce & Wordlists </a>
+	<li> <a href='#n4.2'> Enumiration </a>
+	<li> <a href='#n4.3'> OSINT </a>
+	<li> <a href='#n4.4'> Payloads </a>
+	<li> <a href='#n4.5'> Privilege Escalation </a>
+	<li> <a href='#n4.6'> Social Engineering </a>
+	<li> <a href='#n4.7'> Burp Suite Extensions </a>
+	<li> <a href='#n4.8'> Looking for exploits and vulnerabilities </a>
+	<li> <a href='#n4.9'> Another </a>
 </ol>
 	<ol>
 		<li><h3 id='n4.1'>BruteForce and Wordlists </h3>
@@ -610,7 +611,15 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 			<ul>
 				<li><a href='https://github.com/portswigger/hackvertor'> Hackvertor </a> is a tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.
 			</ul>
-		<li><h3 id='n4.8'> Another </h3>
+   		<li><h3 id='n4.8'> Looking for exploits and vulnerabilities </h3>
+			<ul>
+				<li><a href='https://gitlab.com/kalilinux/packages/exploitdb'> Searchsploit</a> - provides direct access to the Exploit Database from the Kali Linux terminal. Users can utilize powerful search commands to quickly discover exploits and vulnerabilities. This tool is an indispensable assistant for security professionals working in the Kali Linux environment
+				<li><a href='https://github.com/vulnersCom/getsploit'> getsploit</a> - combines the functionality of searchsploit with the ability to download exploits. It allows users to conduct online searches across databases such as Exploit-DB, Metasploit, and Packetstorm. Additionally, it provides the capability to download exploit source code directly, making the search and retrieval of necessary data for pentesting simple and effective
+				<li><a href='https://github.com/projectdiscovery/cvemap'> CVEMap</a> - a tool from Projectdiscovery designed for quick and convenient searching across all known vulnerability databases
+				<li><a href='https://github.com/rfunix/Pompem'> Pompem</a> - a tool pre-installed in Parrot OS, automates the process of searching for exploits and vulnerabilities. It uses an advanced search system to check databases such as PacketStorm Security, CXSecurity, ZeroDay, Vulners, and NVD
+				<li><a href='https://github.com/justakazh/sicat'> SiCat</a> - stands out for its comprehensive approach to exploit searching. It adeptly extracts information about exploits from open sources and local repositories
+			</ul>
+		<li><h3 id='n4.9'> Another </h3>
 			<ul>
 				<li><a href='https://github.com/wapiti-scanner/wapiti'> Wapiti</a>. Web vulnerability scanner
 				<li><a href='https://github.com/Bearer/bearer'> Bearer</a>. Scans source code against top security and privacy risks
