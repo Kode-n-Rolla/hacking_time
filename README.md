@@ -512,22 +512,24 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://gist.github.com/dejisec/8cdc3398610d1a0a91d01c9e1fb02ea1'> gist.github </a>
 	      <li> <a href='https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/'> Cheat Sheet </a> 
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OSINT and Information Gathering </h3>
-	      <li> <a href='https://osintframework.com/'> Aggregation </a> of all popular tools and resources for OSINT
-	      <li> <a href='https://archive.org/'> Archive </a> of sites history
+	      <li> <a href='https://osintframework.com/'> Aggregation</a> of all popular tools and resources for OSINT
+	      <li> <a href='https://archive.org/'> Archive</a> of sites history
+	      <li> <a href='https://crt.sh/'> Crt.sh</a>
+	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a>
 	      <li> <a href='https://haveibeenpwned.com/'> Emails leak </a>
 	      <li> Another source of <a href='https://www.dehashed.com/'> emails leak </a>
-	      <li> <a href='https://geospy.web.app/'> Geospy </a>. This is an online service for determining the physical address of the location depicted in a photograph
+	      <li> <a href='https://geospy.web.app/'> Geospy</a>. This is an online service for determining the physical address of the location depicted in a photograph
 	      <li> <a href='https://www.google.com/alerts?hl=ru'> Google Alert</a>. Notifies you when the specified information appears on the Internet
-	      <li> <a href='https://viewdns.info/'> ViewDNS </a> Offers reverse IP Lookup
+	      <li> <a href='https://viewdns.info/'> ViewDNS</a> Offers reverse IP Lookup
 	      <li> <a href='https://sitereport.netcraft.com/?url=http://google.com'> Netcraft.</a> Information about domain. Temple of searching: <pre><code>https://sitereport.netcraft.com/?url=&lt;TARGET_URL></code></pre>
-              <li> <a href='https://www.shodan.io/'> Shodan </a> is the world's first search engine for Internet-connected devices.
-	      <li> <a href='https://securityheaders.com/'> SecurityHeaders </a> Scanner of headers security
-	      <li> <a href='https://observatory.mozilla.org/'> Observatory.mozilla </a> Scanner of headers security
-	      <li> <a href='https://spark-interfax.ru/'> This </a> is a system that gathers all available information about companies and extracts data from it
-              <li> <a href='https://search.censys.io/'> Censys Search </a> Can provide a lot of information about IP addresses and domains
-	      <li> <a href='https://dnsdumpster.com/'> This </a> is a passive and fast search domains and subdomains and etc
-	      <li> <a href='https://www.robtex.com/'> Robtex </a> Whois like tool. Techs, servers, ips, dns configuration and another info about target
-	      <li> <a href='https://crt.sh/'> DataBase </a> SSL/TLS-certificates issued for domain names
+              <li> <a href='https://www.shodan.io/'> Shodan</a> is the world's first search engine for Internet-connected devices.
+	      <li> <a href='https://securityheaders.com/'> SecurityHeaders</a> Scanner of headers security
+	      <li> <a href='https://observatory.mozilla.org/'> Observatory.mozilla</a> Scanner of headers security
+	      <li> <a href='https://spark-interfax.ru/'> This</a> is a system that gathers all available information about companies and extracts data from it
+              <li> <a href='https://search.censys.io/'> Censys Search</a> Can provide a lot of information about IP addresses and domains
+	      <li> <a href='https://dnsdumpster.com/'> This</a> is a passive and fast search domains and subdomains and etc
+	      <li> <a href='https://www.robtex.com/'> Robtex</a> Whois like tool. Techs, servers, ips, dns configuration and another info about target
+	      <li> <a href='https://crt.sh/'> DataBase</a> SSL/TLS-certificates issued for domain names
 	      <li> Metasearch Engine:
 		      <ol>
 			      <li> <a href='https://www.faganfinder.com/'> Fagan Finder</a> - is an excellent source of information. You enter a query, then click on the desired source. Then you are redirected to the relevant page. The most important thing is that it 					shows how many sources there can be and how diverse they can be: from the Library of Congress website to leak publication services
