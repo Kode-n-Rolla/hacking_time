@@ -489,6 +489,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 	      <li> <a href='https://hashes.com/en/tools/hash_identifier'> Identify hash types </a>
 	      <li> <a href='https://gchq.github.io/CyberChef/'> CyberChef</a> - encode/decode service
 	      <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'> Flask Session Cookie Decoder </a>
+	      <li> <a href='https://ntlm.pw/'> NTLM.pw</a>. Help with NTLM hashes.
 	      <li> <a href='https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html'> RSA</a> calculator
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learning Path & Practise </h3>
 	      <li> <a href='https://www.eccouncil.org/'> CEH </a>
