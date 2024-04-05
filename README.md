@@ -494,6 +494,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learning Path & Practise </h3>
 	      <li> <a href='https://www.eccouncil.org/'> CEH </a>
 	      <li> <a href='https://ctf365.com/?source=post_page---------------------------'> CTF365 </a> - suitable for security professionals looking to acquire offensive skills, or system administrators interested in enhancing their defensive skills
+	      <li> <a href='https://cryptohack.org/'> Cryptohack</a>. A free, fun platform for learning modern cryptography
 	      <li> <a href='https://tryhackme.com/'> TryHackMe </a>
 	      <li> <a href='https://www.hackthebox.com/'> HackTheBox </a>
 	      <li> <a href='https://portswigger.net/web-security'> Port Swigger </a>
