@@ -172,6 +172,7 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
 Need to install script. Thanks for that, <a href='https://github.com/scipag'> Scip ag</a>!
 	<ol>
 		<li><pre><code> git clone https://github.com/scipag/vulscan.git </code></pre>
+			<p> Or read Scip ag instructions. It`s easy. 
   		<li> Copy to /usr/share/nmap/scripts/ or another folder where you keep nmap scripts
     		<li> Get rights
       		<li> <pre><code> nmap -sV --script=vulscan/vulscan.nse &lt;TARGET> </code></pre>
