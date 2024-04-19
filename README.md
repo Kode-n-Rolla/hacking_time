@@ -34,7 +34,7 @@ Topic contains:
 	<li> <a href='#n1.2'> PowerShell </a> </li>
 	<li> <a href='#n1.3'> Linux </a>
 	<li> <a href='#n1.4'> Windows </a>
-	<li> <a href='#n1.5'> Nmap </a> commands with search vulnerabilities script
+	<li> <a href='#n1.5'> Nmap </a> commands with search vulnerabilities scripts
 	<li> <a href='#n1.6'>Gobuster </a> dirs amd subdomains enumeration commands
 	<li> <a href='#n1.7'> Hydra </a>
 	<li> <a href='#n1.8'> Dirsearch </a>
@@ -149,8 +149,8 @@ Topic contains:
 		<li> /m - displays only the file name if a match is found
    	</ul>
 		
-<h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Nmap</ins> with vulnerse script </h3>
-Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'> download </a> script files from github and install it. Thanks for that, <a href='https://github.com/vulnerscom'> Vulners Team </a>!
+<h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Nmap</ins> with vulnerse script (1)</h3>
+Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'> download </a> script files from github and copy to nmap scripts folder. Thanks for that, <a href='https://github.com/vulnerscom'> Vulners Team </a>!
 
    Checking for a vulnerability in the software on the server:
    <p> <pre><code> Nmap -Pn &lt;TARGET_IP> --script=vulners.nse -p&lt;PORT(S)> </code></pre>
@@ -167,6 +167,14 @@ Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'>
    <p> P.S. If CMS, research <code>&lt;name_0f_CMS_0r_DB> brute force nmap</code>
    <p> P.P.S. Full <a href='https://www.infosecmatter.com/ultimate-list-of-nmap-nse-scripts-interactive-table/'>list</a> of NMAP NSE sctipts.
    <p>&nbsp;&nbsp;Catogories: auth, broadcast, brute, default, discovery, dos, exploit, external, fuzzer, intrusive, malware, safe, version, vuln.
+
+<h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Nmap</ins> with vulnerse script (2)</h3>
+Need to install script. Thanks for that, <a href='https://github.com/scipag'> Scip ag</a>!
+	<ol>
+		<li><pre><code> git clone https://github.com/scipag/vulscan.git </code></pre>
+  		<li> Copy to /usr/share/nmap/scripts/ or another folder where you keep nmap scripts
+    		<li> Get rights
+      		<li> <pre><code> nmap -sV --script=vulscan/vulscan.nse &lt;TARGET> </code></pre>
 	   
 <h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Gobuster command: </ins></h3>
 	 &nbsp;&nbsp;&nbsp;Directories enumeration:
