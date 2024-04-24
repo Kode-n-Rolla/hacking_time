@@ -749,6 +749,8 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 			<li> Check out PATH - <code>echo $PATH</code>
 			<li> Check out the routing table by <code> route </code> or <code> netstat -rn </code>
 			<li> Check out arp table - <code> arp -a </code>
+			<li> Check out environ:
+				<p><pre><code> cat /proc/self/environ </code></pre>
 			<li> Check out history:
 				<p><code> cat ~/.bash_history </code>
 				<p><code> cat ~/.mysql_history </code>
