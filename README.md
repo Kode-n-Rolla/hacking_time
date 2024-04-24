@@ -185,8 +185,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
    	 &nbsp;&nbsp;&nbsp;Subdomains enumeration:
     		<p>vhost - for brute-forcing	
    		<pre><code> gobuster vhost -w &lt;/path/to/wordlist> -u &lt;url> </code></pre>
-         &nbsp;&nbsp;&nbsp;Subdomains enumeration:
-	 	<pre>t - threads
+         &nbsp;&nbsp;&nbsp; OR
+	 	<p>t - threads
 	 	<pre><code> gobuster dns &lt;TARGET> -w /usr/share/wordlists/dns/subdomains_list.txt -t 50</code></pre>
 	
 <h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Hydra </ins></h3>
