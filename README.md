@@ -486,6 +486,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, OSCP and CTFs
 	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'> This</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'> this</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'> this </a> can help with ports
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
+	      <li> <a href='https://vimsheet.com/'> A Great Vim</a> Cheat Sheet
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVE and Vulnerabilities db </h3>
 	      <li> <a href='https://cve.circl.lu/'> CVE.circl</a> db
