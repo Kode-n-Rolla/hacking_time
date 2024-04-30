@@ -176,6 +176,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
   		<li> Copy to /usr/share/nmap/scripts/ or another folder where you keep nmap scripts
     		<li> Get rights
       		<li> <pre><code> nmap -sV --script=vulscan/vulscan.nse &lt;TARGET> </code></pre>
+	</ol>
 	   
 <h3 id='n1.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Gobuster command: </ins></h3>
 	 &nbsp;&nbsp;&nbsp;Directories enumeration:
