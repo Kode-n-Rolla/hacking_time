@@ -479,7 +479,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Someone main </h3>
       	      <li> <a href='https://gtfobins.github.io/#'> GTFO</a> bins. How to escalqte privs, how to get shells and much more with binary in tarhet system 
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets </h3>
-	      <li> <a href='https://book.hacktricks.xyz/'> Hacktricks</a> - must have!!!
+	      <li> <a href='https://book.hacktricks.xyz/'> Hacktricks</a> - must have!!! PrivEsc, brute force, pentest network and wifi, metodologies cheatsheets and much more!
 	      <li> <a href='https://devhints.io/bash'> Bash scripting </a>
 	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How </a> pump nc shell
 	      <li> <a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap </a>
