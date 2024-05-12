@@ -523,6 +523,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html'> RSA</a> calculator
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learning Path & Practise </h3>
 	      <li> <a href='https://www.eccouncil.org/'> CEH </a>
+	      <li> <a href='https://www.root-me.org/'> Root.me </a>
 	      <li> <a href='https://ctf365.com/?source=post_page---------------------------'> CTF365 </a> - suitable for security professionals looking to acquire offensive skills, or system administrators interested in enhancing their defensive skills
 	      <li> <a href='https://cryptohack.org/'> Cryptohack</a>. A free, fun platform for learning modern cryptography
 	      <li> <a href='https://tryhackme.com/'> TryHackMe </a>
