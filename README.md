@@ -143,17 +143,21 @@ Topic contains:
 
 <h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows </ins></h3>
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
-	This command searches for the string "password" inside all files with the extensions .xml, .ini, .txt, and .config on the current C: drive:
- 	<pre><code>cd C:\ & findstr /s /p /i /n /m "password" *.xml *.ini *.txt *.config</code></pre>
-  	<ul>
-		<li> cd C:\ - changes to the root directory of the C: drive
-		<li> findstr - command for searching strings in files
-		<li> /s - performs a search in all subdirectories
-		<li> /p - skips files with non-printable characters
-		<li> /i - ignores case sensitivity when searching for strings
-		<li> /n - displays the line number containing the string
-		<li> /m - displays only the file name if a match is found
-   	</ul>
+	<ol>
+		<li> This command searches for the string "password" inside all files with the extensions .xml, .ini, .txt, and .config on the current C: drive:
+	 	<pre><code>cd C:\ & findstr /s /p /i /n /m "password" *.xml *.ini *.txt *.config</code></pre>
+		  	<ul>
+				<li> cd C:\ - changes to the root directory of the C: drive
+				<li> findstr - command for searching strings in files
+				<li> /s - performs a search in all subdirectories
+				<li> /p - skips files with non-printable characters
+				<li> /i - ignores case sensitivity when searching for strings
+				<li> /n - displays the line number containing the string
+				<li> /m - displays only the file name if a match is found
+		   	</ul>
+     		<li> <code> dir </code> - like ls in linux
+		<li> <code> tree </code> utility is useful for graphically displaying the directory structure of a path or disk
+  			<p> <code> tree c:\ /f | more </code> - used to walk through all the files in the C drive
 		
 <h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Nmap</ins> with vulnerse script (1)</h3>
 Need to <a href='https://github.com/vulnersCom/nmap-vulners/archive/master.zip'> download </a> script files from github and copy to nmap scripts folder. Thanks for that, <a href='https://github.com/vulnerscom'> Vulners Team </a>!
