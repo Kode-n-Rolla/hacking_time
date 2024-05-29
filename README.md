@@ -524,7 +524,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap </a>
               <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheet
 	      <li> <a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, OSCP and CTFs
-	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'> This</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'> this</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'> this </a> can help with ports
+	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'> 1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'> 2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'> 3</a> can help with ports
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
 	      <li> <a href='https://vimsheet.com/'> A Great Vim</a> Cheat Sheet
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
