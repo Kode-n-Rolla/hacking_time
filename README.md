@@ -22,6 +22,7 @@
 	<li> <a href='#n9'> Burp Suite extensions </a>
 	<li> <a href='#n10'>GPTs (Agents) for Cybersecurity </a>
 	<li> <a href='#n11'>OSINT</a>
+	<li> <a href='#n12'>Kali tools</a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help</a> about pentest process
 	<!--<li> cheat sheet injections 
 	Add XSStrike to Tools!-->
@@ -518,6 +519,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
       	      <li> <a href='https://gtfobins.github.io/#'> GTFO</a> bins. How to escalqte privs, how to get shells and much more with binary in target system
 	      <li> <a href='https://book.hacktricks.xyz/'> Hacktricks</a> - must have!!! PrivEsc, brute force, pentest network and wifi, metodologies cheatsheets and much more
 	      <li> <a href='https://lolbas-project.github.io/#'> LOLBAS</a>. Help with Windows
+	      <li> <a href='https://search-engine-bug-bounty.netlify.app/'> Search engine bug bounty</a>. Help with vulns scanning
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets </h3>
 	      <li> <a href='https://devhints.io/bash'> Bash scripting </a>
 	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How </a> pump nc shell
@@ -528,6 +530,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
 	      <li> <a href='https://vimsheet.com/'> A Great Vim</a> Cheat Sheet
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
+	      <li> Another one <a href='https://tib3rius.com/sqli'> SQLi</a> cheatsheet
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVE and Vulnerabilities db </h3>
 	      <li> <a href='https://cve.circl.lu/'> CVE.circl</a> db
 	      <li> <a href='https://www.first.org/cvss/calculator/3.0'> CVSS</a> calculator to vulnerability assessment
@@ -896,5 +899,12 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
-	
+
+ <h2 align='center' id='n12'><em>Kali Tools</em></h2>
+ <ol>
+	<li> <a href='https://www.kali.org/tools/name-that-hash/'> Name That Hash</a> - Instantly name the type of any hash (with hashcat command).
+		<pre><code> name-that-hash --help </code></pre>
+ </ol>
+
+ <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 </body>
