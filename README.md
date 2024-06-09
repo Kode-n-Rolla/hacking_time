@@ -613,6 +613,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://datarecovery.com/rd/default-passwords/'> Datarecovery.com</a> Default Passwords service
 	      <li> <a href='https://passwordsdatabase.com/'> Passwordsdatabase</a> another one default passwords service
 	      <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'> This</a> wiki page includes the most well-known collections of passwords.
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dashboards for Cyber Threat Monitoring </h3>
+       	      <li> <a href='https://cybermap.kaspersky.com/'> cybermap.kaspersky</a>. A colorful globe designed in the best traditions of Hollywood hacker movies. Its real value lies not in its design but in the informative panel with statistics collected from the company's security products. Additionally, Kaspersky Lab supports a dashboard with information on current threats, located <a href='https://statistics.securelist.com/'> here</a>.
+	      <li> <a href='https://livethreatmap.radware.com/'> Live Threat Map</a>. Here, you can view summary statistics on cyberattacks over the last hour, day, or month, as well as highlight the most targeted countries, top attack vectors, and most scanned ports.
+              <li> <a href='https://www.talosintelligence.com/reputation_center'> Talos Reputation Center</a>. A dashboard with general information on cyber threats, created by Talos with support from Cisco.
+	      <li> <a href='https://talosintelligence.com/fullpage_maps/pulse'> Cyber Attack Map</a>. A map featuring the top spam and malware-spreading servers.
+              <li> <a href='https://www.sicherheitstacho.eu/'> Sicherheitstacho</a>. A cyberattack dashboard from Deutsche Telekom, which operates on the open-source honeypot network: <a href='https://github.com/telekom-security/tpotce'> T-Pot</a>. 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
        
