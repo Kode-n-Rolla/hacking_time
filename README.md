@@ -859,6 +859,10 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 			<li> Scrypt	- <code> $7$... </code>
 			<li> Argon2	- <code> $argon2i$... </code>
    		</ul>
+	<li> Headers:
+		<ul>
+			<li> X-Forwarded-For. (XFF) header is an HTTP header used to identify the original IP address of a client connecting to a web server through an HTTP proxy or load balancer. By including this header, the server can log and track the original 				client's IP address instead of the proxy or load balancer's IP.
+		</ul>
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
