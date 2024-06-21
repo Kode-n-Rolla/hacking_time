@@ -520,13 +520,14 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://book.hacktricks.xyz/'> Hacktricks</a> - must have!!! PrivEsc, brute force, pentest network and wifi, metodologies cheatsheets and much more
 	      <li> <a href='https://lolbas-project.github.io/#'> LOLBAS</a>. Help with Windows
 	      <li> <a href='https://search-engine-bug-bounty.netlify.app/'> Search engine bug bounty</a>. Help with vulns scanning
+	      <li> <a href='https://app.interactsh.com/#/'> interactsh.com</a>. Like a Burp Collaborator.
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets </h3>
 	      <li> <a href='https://devhints.io/bash'> Bash scripting </a>
 	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How </a> pump nc shell
 	      <li> <a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap </a>
               <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheet
-	      <li> <a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, OSCP and CTFs
-	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'> 1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'> 2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'> 3</a> can help with ports
+	      <li> <a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, 			OSCP and CTFs
+	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'> 1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'> 2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-				udp-ports-nmap-default/'> 3</a> can help with ports
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
 	      <li> <a href='https://vimsheet.com/'> A Great Vim</a> Cheat Sheet
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
@@ -581,7 +582,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://crt.sh/'> Crt.sh</a>
 	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a>
 	      <li> <a href='https://haveibeenpwned.com/'> Have I been pwned</a>. Emails leak
-	      <li> Another source of <a href='https://www.dehashed.com/'> Dehashed</a>.emails leak
+	      <li> <a href='https://www.dehashed.com/'> Dehashed</a>.Another source of emails leak
 	      <li> <a href='https://geospy.web.app/'> Geospy</a>. This is an online service for determining the physical address of the location depicted in a photograph
 	      <li> <a href='https://www.google.com/alerts?hl=ru'> Google Alert</a>. Notifies you when the specified information appears on the Internet
 	      <li> <a href='https://viewdns.info/'> ViewDNS</a> Offers reverse IP Lookup
@@ -596,16 +597,16 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://crt.sh/'> DataBase</a> SSL/TLS-certificates issued for domain names
 	      <li> Metasearch Engine:
 		      <ol>
-			      <li> <a href='https://www.faganfinder.com/'> Fagan Finder</a> - is an excellent source of information. You enter a query, then click on the desired source. Then you are redirected to the relevant page. The most important thing is that it 					shows how many sources there can be and how diverse they can be: from the Library of Congress website to leak publication services
-	      		      <li> <a href='https://intelx.io/'> Intelligence X</a> - it not only searches for leaks but also helps navigate other OSINT tools. Services for email verification, DNS search - you'll find them here too. Go to the Tools section and search 					specifically 
+			      <li> <a href='https://www.faganfinder.com/'> Fagan Finder</a> - is an excellent source of information. You enter a query, then click on the desired source. Then you are redirected to the 					relevant page. The most important thing is that it shows how many sources there can be and how diverse they can be: from the Library of Congress website to leak publication services
+	      		      <li> <a href='https://intelx.io/'> Intelligence X</a> - it not only searches for leaks but also helps navigate other OSINT tools. Services for email verification, DNS search - you'll find 					them here too. Go to the Tools section and search specifically 
 		      </ol>
 	      <li> Tools for people search by photo:
 		      <ol>
-			      <li> <a href='https://social-catfish.pxf.io/c/1359419/1472958/12693?subId1=face-recognition-search-engines'> Social Catfish</a> - is the perfect facial recognition search engine that can search for people by face, name, email, address, and 					username
-			      <li> <a href='https://www.spokeo.com/?g=name_face9recognition9search9engines_A3313266936'> Spokeo</a> - is a database used for identifying people and providing accurate information about them. It is constantly updated and boasts over 6 					million consumers, 130 million property records, 600 million legal records, and over 120 social networks, making it an ideal people search system for personal and business use
-			      <li> <a href='https://images.google.com/'> Google Image Search</a> - uses the powerful Google Bot to scan all publicly accessible websites for images to create the largest and most frequently updated image database in the world
-			      <li> <a href='https://pimeyes.com/'> PimEyes</a> - is one of the best facial recognition search engine tools that allows you to perform in-depth image searches on the internet. Advanced convolutional neural networks analyze the image you 					upload to find objects and match them with the database
-			      <li> <a href='https://FaceCheck.ID'> FaceCheck.ID</a> - is one of the best reverse image search tools for facial recognition. You can use it to search for images of a specific person. It identifies faces in the photo you upload, and then finds similar faces in social media posts, online videos, fraudulent accounts, websites, news and blog pages, as well as in product marketing
+			      <li> <a href='https://social-catfish.pxf.io/c/1359419/1472958/12693?subId1=face-recognition-search-engines'> Social Catfish</a> - is the perfect facial recognition search engine that can 					search for people by face, name, email, address, and username
+			      <li> <a href='https://www.spokeo.com/?g=name_face9recognition9search9engines_A3313266936'> Spokeo</a> - is a database used for identifying people and providing accurate information about 					them. It is constantly updated and boasts over 6 million consumers, 130 million property records, 600 million legal records, and over 120 social networks, making it an ideal people 					search system for personal and business use
+			      <li> <a href='https://images.google.com/'> Google Image Search</a> - uses the powerful Google Bot to scan all publicly accessible websites for images to create the largest and most 						frequently updated image database in the world
+			      <li> <a href='https://pimeyes.com/'> PimEyes</a> - is one of the best facial recognition search engine tools that allows you to perform in-depth image searches on the internet. Advanced 					convolutional neural networks analyze the image you upload to find objects and match them with the database
+			      <li> <a href='https://FaceCheck.ID'> FaceCheck.ID</a> - is one of the best reverse image search tools for facial recognition. You can use it to search for images of a specific person. It 					identifies faces in the photo you upload, and then finds similar faces in social media posts, online videos, fraudulent accounts, websites, news and blog pages, as well as in 						product marketing
 		      </ol>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Password Services </h3>
 	      <li> <a href='https://cirt.net/passwords'> CIRT.net</a> Default Passwords service
@@ -614,11 +615,11 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://passwordsdatabase.com/'> Passwordsdatabase</a> another one default passwords service
 	      <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'> This</a> wiki page includes the most well-known collections of passwords.
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dashboards for Cyber Threat Monitoring </h3>
-       	      <li> <a href='https://cybermap.kaspersky.com/'> cybermap.kaspersky</a>. A colorful globe designed in the best traditions of Hollywood hacker movies. Its real value lies not in its design but in the informative panel with statistics collected from the company's security products. Additionally, Kaspersky Lab supports a dashboard with information on current threats, located <a href='https://statistics.securelist.com/'> here</a>.
-	      <li> <a href='https://livethreatmap.radware.com/'> Live Threat Map</a>. Here, you can view summary statistics on cyberattacks over the last hour, day, or month, as well as highlight the most targeted countries, top attack vectors, and most scanned ports.
+       	      <li> <a href='https://cybermap.kaspersky.com/'> cybermap.kaspersky</a>. A colorful globe designed in the best traditions of Hollywood hacker movies. Its real value lies not in its design but in the 				informative panel with statistics collected from the company's security products. Additionally, Kaspersky Lab supports a dashboard with information on current threats, located 						<a href='https://statistics.securelist.com/'> here</a>.
+	      <li> <a href='https://livethreatmap.radware.com/'> Live Threat Map</a>. Here, you can view summary statistics on cyberattacks over the last hour, day, or month, as well as highlight the most targeted 				countries, top attack vectors, and most scanned ports.
               <li> <a href='https://www.talosintelligence.com/reputation_center'> Talos Reputation Center</a>. A dashboard with general information on cyber threats, created by Talos with support from Cisco.
 	      <li> <a href='https://talosintelligence.com/fullpage_maps/pulse'> Cyber Attack Map</a>. A map featuring the top spam and malware-spreading servers.
-              <li> <a href='https://www.sicherheitstacho.eu/'> Sicherheitstacho</a>. A cyberattack dashboard from Deutsche Telekom, which operates on the open-source honeypot network: <a href='https://github.com/telekom-security/tpotce'> T-Pot</a>. 
+              <li> <a href='https://www.sicherheitstacho.eu/'> Sicherheitstacho</a>. A cyberattack dashboard from Deutsche Telekom, which operates on the open-source honeypot network: 							<a href='https://github.com/telekom-security/tpotce'> T-Pot</a>. 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
        
