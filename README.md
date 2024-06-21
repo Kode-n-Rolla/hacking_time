@@ -580,8 +580,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://archive.org/'> Archive</a> of sites history
 	      <li> <a href='https://crt.sh/'> Crt.sh</a>
 	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a>
-	      <li> <a href='https://haveibeenpwned.com/'> Emails leak </a>
-	      <li> Another source of <a href='https://www.dehashed.com/'> emails leak </a>
+	      <li> <a href='https://haveibeenpwned.com/'> Have I been pwned</a>. Emails leak
+	      <li> Another source of <a href='https://www.dehashed.com/'> Dehashed</a>.emails leak
 	      <li> <a href='https://geospy.web.app/'> Geospy</a>. This is an online service for determining the physical address of the location depicted in a photograph
 	      <li> <a href='https://www.google.com/alerts?hl=ru'> Google Alert</a>. Notifies you when the specified information appears on the Internet
 	      <li> <a href='https://viewdns.info/'> ViewDNS</a> Offers reverse IP Lookup
