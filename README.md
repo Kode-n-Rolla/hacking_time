@@ -521,13 +521,14 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://lolbas-project.github.io/#'> LOLBAS</a>. Help with Windows
 	      <li> <a href='https://search-engine-bug-bounty.netlify.app/'> Search engine bug bounty</a>. Help with vulns scanning
 	      <li> <a href='https://app.interactsh.com/#/'> interactsh.com</a>. Like a Burp Collaborator.
-      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets </h3>
-	      <li> <a href='https://devhints.io/bash'> Bash scripting </a>
-	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How </a> pump nc shell
-	      <li> <a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap </a>
-              <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell </a> cheatsheet
-	      <li> <a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, 			OSCP and CTFs
-	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'> 1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'> 2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-				udp-ports-nmap-default/'> 3</a> can help with ports
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets, Tips </h3>
+	      <li> <a href='https://devhints.io/bash'> Bash scripting</a>
+	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How</a> pump nc shell
+	      <li> <a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap</a>
+              <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell</a> cheatsheet
+	      <li> <a href="https://redteamrecipe.com/powershell-tips-tricks"> PowerShell</a> tips and tricks
+	      <li> <a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, OSCP and CTFs
+	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'> 1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'> 2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'> 3</a> can help with ports
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
 	      <li> <a href='https://vimsheet.com/'> A Great Vim</a> Cheat Sheet
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
