@@ -872,6 +872,17 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 				<pre><code>VBoxManage.exe list vms</code></pre>
 				<pre><code>VBoxManage.exe modifyvm &lt;"NAME_OF_MACHINE"> --nested-hw-virt on</code></pre>
 		</ul>
+	<li> Configuration files:
+		<ul>
+			<li> /.htaccess
+			<li> /.htpasswd
+			<li> /web.config
+			<li> /.git/config
+			<li> /nginx.conf
+			<li> /server-status
+			<li> /status
+			<li> /cgi-bin/php.ini
+   		</ul>
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
