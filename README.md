@@ -544,6 +544,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://vuldb.com/'> Vuldb.com</a> platform for control vulnerabilities and Threat analysis
 	      <li> <a href='https://0day.today/search'> 0day</a> db. Need tor
 	      <li> <a href='https://modemly.com/m1/pulse'> Routers</a> db
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dorks</h3>
+		<li> <a href='https://dorki.io'> Dorki.io</a>
+		<li> <a href='https://taksec.github.io/google-dorks-bug-bounty/'> Dorks Bug Bounty</a>
+		<li> <a href='https://dorksearch.com'> Dorksearch.com</a>
+		<li> <a href='https://dorkgenius.com'> Dorkgenius.com</a>
+		<li> <a href='https://dorks.faisalahmed.me'> Dorks helper</a>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hashes, encode/decode, cracker, identify </h3>
 	      <li> <a href='https://crackstation.net/'> crackstation.net</a> - online password hash cracker
 	      <li> <a href='https://www.base64encode.org/'> Base64</a> encode/decode
