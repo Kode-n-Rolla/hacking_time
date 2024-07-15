@@ -587,7 +587,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://osintframework.com/'> Aggregation</a> of all popular tools and resources for OSINT
 	      <li> <a href='https://archive.org/'> Archive</a> of sites history
 	      <li> <a href='https://crt.sh/'> Crt.sh</a>
-	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a>
+	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a> for passive and fast search domains and subdomains and etc
+	      <li> <a href='https://urldna.io/'> Urldna.io</a>. Free, complex, power tool for research web. Collect ssl info, ip addreses, headers, cookies, some info about techs and etc
 	      <li> <a href='https://haveibeenpwned.com/'> Have I been pwned</a>. Emails leak
 	      <li> <a href='https://www.dehashed.com/'> Dehashed</a>.Another source of emails leak
 	      <li> <a href='https://geospy.web.app/'> Geospy</a>. This is an online service for determining the physical address of the location depicted in a photograph
@@ -599,7 +600,6 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://observatory.mozilla.org/'> Observatory.mozilla</a> Scanner of headers security
 	      <li> <a href='https://spark-interfax.ru/'> This</a> is a system that gathers all available information about companies and extracts data from it
               <li> <a href='https://search.censys.io/'> Censys Search</a> Can provide a lot of information about IP addresses and domains
-	      <li> <a href='https://dnsdumpster.com/'> This</a> is a passive and fast search domains and subdomains and etc
 	      <li> <a href='https://www.robtex.com/'> Robtex</a> Whois like tool. Techs, servers, ips, dns configuration and another info about target
 	      <li> <a href='https://crt.sh/'> DataBase</a> SSL/TLS-certificates issued for domain names
 	      <li> Metasearch Engine:
