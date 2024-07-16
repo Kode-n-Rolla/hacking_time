@@ -527,8 +527,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap</a>
               <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell</a> cheatsheet
 	      <li> <a href="https://redteamrecipe.com/powershell-tips-tricks"> PowerShell</a> tips and tricks
-	      <li> <a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, OSCP and CTFs
-	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'> 1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'> 2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'> 3</a> can help with ports
+	      <li> <a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, 			OSCP and CTFs
+	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'> 1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'> 2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-				udp-ports-nmap-default/'> 3</a> can help with ports
 	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
 	      <li> <a href='https://vimsheet.com/'> A Great Vim</a> Cheat Sheet
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
@@ -561,24 +561,24 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learning Path & Practise </h3>
 	      <li> <a href='https://www.eccouncil.org/'> CEH </a>
 	      <li> <a href='https://www.root-me.org/'> Root.me </a>
-	      <li> <a href='https://ctf365.com/?source=post_page---------------------------'> CTF365 </a> - suitable for security professionals looking to acquire offensive skills, or system administrators interested in enhancing their defensive skills
+	      <li> <a href='https://ctf365.com/?source=post_page---------------------------'> CTF365 </a> - suitable for security professionals looking to acquire offensive skills, or system administrators interested in 			enhancing their defensive skills
 	      <li> <a href='https://cryptohack.org/'> Cryptohack</a>. A free, fun platform for learning modern cryptography
 	      <li> <a href='https://tryhackme.com/'> TryHackMe </a>
 	      <li> <a href='https://www.hackthebox.com/'> HackTheBox </a>
 	      <li> <a href='https://portswigger.net/web-security'> Port Swigger </a>
 	      <li> <a href='https://pentesterlab.com/'> Pentersterlab.com</a>. Сourses explaining vulnerabilities
 	      <li> <a href='https://ohmygit.org'> Ohmygit.org</a>. Help with git in play mode.
-	      <li> <a href='https://hackthissite.org/'> HackThisSite</a> - a free website with wargames to test and improve your white hat hacking skills. It offers a variety of hacking challenges in several categories, including basic tasks, fricking, JavaScript, 			forensics, steganography, and more
+	      <li> <a href='https://hackthissite.org/'> HackThisSite</a> - a free website with wargames to test and improve your white hat hacking skills. It offers a variety of hacking challenges in several categories, 			including basic tasks, fricking, JavaScript, forensics, steganography, and more
 	      <li> <a href='https://hackaday.com/'> Hackaday</a> - serves up Fresh Hacks Every Day from around the Internet
 	      <li> <a href='https://ctftime.org/ctfs'> CTFtime</a>. CTF practice
 	      <li> <a href='http://www.itsecgames.com/'> BWAPP</a> - buggy web application. Virtual pentest laboratory to practice
 	      <li> Free <a href='https://thexssrat.podia.com/ratatatata'> set</a> of practice tasks. Thanks to <a href='https://www.youtube.com/c/TheXSSrat'> TheXSSrat </a>
 	      <li> <a href='https://overthewire.org/wargames/'> OVERTHEWIRE</a> - uitable for anyone looking to learn the theory of information security and apply it in practice regardless of their experience level
-	      <li> <a href='https://hacking-lab.com/services/'> HACKING-LAB</a> - provides CTF challenges for the European Cyber Security Challenge, but they also host regular competitions on their platform that anyone can participate in
+	      <li> <a href='https://hacking-lab.com/services/'> HACKING-LAB</a> - provides CTF challenges for the European Cyber Security Challenge, but they also host regular competitions on their platform that anyone 			can participate in
 	      <li> <a href='https://pwnable.kr/'> PWNABLE.KR</a> - this platform focuses on pwn challenges similar to CTF, which involve finding, reading, and submitting flag files that are present in each task
-	      <li> <a href='https://w3challs.com/'> W3Challs</a> - an educational platform with a variety of tasks in different categories, including hacking, wargames, forensics, cryptography, steganography, and programming. The platform aims to provide realistic 			challenges. Depending on the difficulty of the solved task, you earn points. There is also a forum where you can discuss and solve tasks with other participants
-	      <li> <a href='https://www.smashthestack.org/'> SmashTheStack</a> - consists of 7 different wargames: Amateria, Apfel (currently offline), Blackbox, Blowfish, CTF (currently offline), Logic, and Tux. Each wargame contains a variety of tasks ranging from 			standard vulnerabilities to reverse engineering challenges
-	      <li> <a href='https://microcorruption.com/'> Microcorruption</a> - is a CTF where you need to "reverse" fictional electronic locking devices called Lockitall. Lockitall devices protect bonds stored in warehouses owned by the fictional company Cy 				Yombinator. On the way to stealing the bonds, you will learn about assembly language, how to use a debugger, step through code, set breakpoints, and explore memory
+	      <li> <a href='https://w3challs.com/'> W3Challs</a> - an educational platform with a variety of tasks in different categories, including hacking, wargames, forensics, cryptography, steganography, and 				programming. The platform aims to provide realistic challenges. Depending on the difficulty of the solved task, you earn points. There is also a forum where you can discuss and solve tasks with 			other participants
+	      <li> <a href='https://www.smashthestack.org/'> SmashTheStack</a> - consists of 7 different wargames: Amateria, Apfel (currently offline), Blackbox, Blowfish, CTF (currently offline), Logic, and Tux. Each 			wargame contains a variety of tasks ranging from standard vulnerabilities to reverse engineering challenges
+	      <li> <a href='https://microcorruption.com/'> Microcorruption</a> - is a CTF where you need to "reverse" fictional electronic locking devices called Lockitall. Lockitall devices protect bonds stored in 				warehouses owned by the fictional company CyYombinator. On the way to stealing the bonds, you will learn about assembly language, how to use a debugger, step through code, set breakpoints, and 			explore memory
 	      <li> <a href='https://pwn0.com/'> The platform pwn0</a> - is a VPN where almost anything can happen. Fight against bots or users and earn points by gaining control over other systems
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MSFVenom help </h3>
 	      <li> <a href='https://gist.github.com/dejisec/8cdc3398610d1a0a91d01c9e1fb02ea1'> gist.github </a>
@@ -589,12 +589,13 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://crt.sh/'> Crt.sh</a>
 	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a> for passive and fast search domains and subdomains and etc
 	      <li> <a href='https://urldna.io/'> Urldna.io</a>. Free, complex, power tool for research web. Collect ssl info, ip addreses, headers, cookies, some info about techs and etc
+	      <li> <a href='https://web-check.xyz/'> Web-check.xyz</a>. In just 20 seconds, you can see what attackers already know
 	      <li> <a href='https://haveibeenpwned.com/'> Have I been pwned</a>. Emails leak
 	      <li> <a href='https://www.dehashed.com/'> Dehashed</a>.Another source of emails leak
 	      <li> <a href='https://geospy.web.app/'> Geospy</a>. This is an online service for determining the physical address of the location depicted in a photograph
 	      <li> <a href='https://www.google.com/alerts?hl=ru'> Google Alert</a>. Notifies you when the specified information appears on the Internet
 	      <li> <a href='https://viewdns.info/'> ViewDNS</a> Offers reverse IP Lookup
-	      <li> <a href='https://sitereport.netcraft.com/?url=http://google.com'> Netcraft.</a> Information about domain. Temple of searching: <pre><code>https://sitereport.netcraft.com/?url=&lt;TARGET_URL></code></pre>
+	      <li> <a href='https://sitereport.netcraft.com/?url=http://google.com'> Netcraft.</a> Information about domain. Temple of searching: <pre><code>https://sitereport.netcraft.com/?url=&lt;TARGET_URL>				</code></pre>
               <li> <a href='https://www.shodan.io/'> Shodan</a> is the world's first search engine for Internet-connected devices.
 	      <li> <a href='https://securityheaders.com/'> SecurityHeaders</a> Scanner of headers security
 	      <li> <a href='https://observatory.mozilla.org/'> Observatory.mozilla</a> Scanner of headers security
@@ -929,9 +930,9 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 		<p> <a href='https://snusbase.com/'>Snusbase</a> indexes information from leaks and provides access to searching compromised email addresses, logins, names, IP addresses, phone numbers, and password hashes
 		<p> <a href='https://haveibeenpwned.com/'>Have I Been Pwned?</a> is a data breach search engine. It allows you to check which incidents a specific email address has been involved in
 		<p> <a href='https://hunter.io/'>Hunter</a> and <a href='http://www.skymem.info/'>Skymem</a> - search for corporate email addresses by URL
-		<p> <a href='https://whatsmyname.app/'>Whatsmyname</a> - searches for accounts on various services by username. The service is based on <a href='https://github.com/WebBreacher/WhatsMyName'>publicly available JSON</a>
+		<p> <a href='https://whatsmyname.app/'>Whatsmyname</a> - searches for accounts on various services by username. The service is based on <a href='https://github.com/WebBreacher/WhatsMyName'>publicly 				available JSON</a>
 		<p> <a href='https://www.user-searcher.com/'>User Searcher</a> - a free tool that helps find users by login on over 2,000 websites
-		<p> <a href='https://checkusernames.com/'>CheckUserNames</a>, <a href='https://instantusername.com/#/'>Instant</a>, <a href='https://www.namecheckr.com/'>Namecheckr</a>, <a href='https://www.peekyou.com/username'>Peekyou</a>, <a href='https://usersearch.org/'>Usersearch</a> - online services for searching user accounts by username
+		<p> <a href='https://checkusernames.com/'>CheckUserNames</a>, <a href='https://instantusername.com/#/'>Instant</a>, <a href='https://www.namecheckr.com/'>Namecheckr</a>, <a 							href='https://www.peekyou.com/username'>Peekyou</a>, <a href='https://usersearch.org/'>Usersearch</a> - online services for searching user accounts by username
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
