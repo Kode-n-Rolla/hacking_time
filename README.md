@@ -890,6 +890,11 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 			<li> /status
 			<li> /cgi-bin/php.ini
    		</ul>
+	<li> Secure your machine!
+		<ul>
+			<li> <a href='https://reqrypt.org/tallow.html'> Tallow</a>. All traffic throw tor
+			<li> <a href='https://safing.io/'> Safing Portmaster</a>. Your firewall
+		</ul>
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
