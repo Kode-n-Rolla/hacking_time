@@ -895,7 +895,7 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 			<li> <a href='https://reqrypt.org/tallow.html'> Tallow</a>. All traffic throw tor
 			<li> <a href='https://safing.io/'> Safing Portmaster</a>. Your firewall
 		</ul>
-	<li> <a href='https://0xacab.org/jvoisin/mat2'> mat2</a>. Tool gets rid of metadate everywhere
+	<li> <a href='https://0xacab.org/jvoisin/mat2'> mat2</a>. Tool gets rid of metadata everywhere
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
