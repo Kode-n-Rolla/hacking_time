@@ -12,7 +12,7 @@
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'> Web Shells </a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/scripts'> Scripts </a>
   	<li> <a href='#n1'> Commands </a>
-  	<li> <a href='#n2'> Payloads </a>
+  	<li> <a href='#n2'> Payloads</a> with description. <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/payloads'>Here</a> just payloads in file
   	<li> <a href='#n3'> Helpful sites </a>
 	<li> <a href='#n4'> GitHub Tools </a>
 	<li> <a href='#n5'> Browser add-ons </a>
