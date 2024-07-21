@@ -535,6 +535,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
 	      <li> Another one <a href='https://tib3rius.com/sqli'> SQLi</a> cheatsheet
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVE and Vulnerabilities db </h3>
+	      <li> <a href='https://cvexploits.io/'> Cvexploits.io</a>
 	      <li> <a href='https://cve.circl.lu/'> CVE.circl</a> db
 	      <li> <a href='https://www.first.org/cvss/calculator/3.0'> CVSS</a> calculator to vulnerability assessment
 	      <li> <a href='https://cve.mitre.org/'> CVE.mitre</a> db of Common Vulnerabilities and Exposures
