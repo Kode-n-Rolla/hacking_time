@@ -505,6 +505,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
       <p> This payload is a lot more specific than the above examples. This would be about calling a particular network resource or a JavaScript function. For example, imagine a JavaScript function for changing the user's email address called user.changeEmail().
     <li> <b> Polyglots </b> - <pre><code> jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e </code></pre>
       <p> An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
+    <li> Description of XSS payloads <a href='https://netsec.expert/posts/xss-in-2020/'>here</a>
 
 <h3 id='n2.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads </h3>
 	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'> For Linux </a>
