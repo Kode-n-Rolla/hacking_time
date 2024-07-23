@@ -14,15 +14,12 @@
   	<li> <a href='#n1'> Commands </a>
   	<li> <a href='#n2'> Payloads</a> with description. <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/payloads'>Here</a> just payloads in file
   	<li> <a href='#n3'> Helpful sites </a>
-	<li> <a href='#n4'> GitHub Tools </a>
-	<li> <a href='#n5'> Browser add-ons </a>
-	<li> <a href='#n6'> Privilege Escalation </a>
+	<li> <a href='#n4'> Tools </a>
+	<li> <a href='#n5'> Privilege Escalation </a>
 	<!-- <li> <a href='#n7'> AWS </a> -->
-	<li> <a href='#n8'> Tips </a>
-	<li> <a href='#n9'> Burp Suite extensions </a>
-	<li> <a href='#n10'>GPTs (Agents) for Cybersecurity </a>
-	<li> <a href='#n11'>OSINT</a>
-	<li> <a href='#n12'>Kali tools</a>
+	<li> <a href='#n6'> Tips </a>
+	<li> <a href='#n7'>GPTs (Agents) for Cybersecurity </a>
+	<li> <a href='#n8'>OSINT</a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help</a> about pentest process
 	<!--<li> cheat sheet injections 
 	Add XSStrike to Tools!-->
@@ -634,163 +631,182 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
        
         
-<h2 align='center' id='n4'><em> GitHub Tools </em></h2>
-My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I categorized github tools.
-<p> 👇Some of the most popular tools👇
+<h2 align='center' id='n4'><em> Tools </em></h2>
 <ol>
-	<li> <a href='#n4.1'> BruteForce & Wordlists </a>
-	<li> <a href='#n4.2'> Enumiration </a>
-	<li> <a href='#n4.3'> OSINT </a>
-	<li> <a href='#n4.4'> Payloads </a>
-	<li> <a href='#n4.5'> Privilege Escalation </a>
-	<li> <a href='#n4.6'> Social Engineering </a>
-	<li> <a href='#n4.7'> Burp Suite Extensions </a>
-	<li> <a href='#n4.8'> Looking for exploits and vulnerabilities </a>
-	<li> <a href='#n4.9'> Another </a>
+        <li> <a href='#n4.1'> GitHub Tools</a>
+	<li> <a href='#n4.2'> Browsers extensions</a>
+	<li> <a href='#n4.3'> Burp Suite Extensions</a>
+	<li> <a href='#n4.4'> Kali Tools</a>
 </ol>
-	<ol>
-		<li><h3 id='n4.1'>BruteForce and Wordlists </h3>
-			<ul>
-				<li><a href='https://github.com/Cryilllic/Active-Directory-Wordlists'> Active Directory </a> Wordlists contains User.txt and Pass.txt
-				<li><a href='https://github.com/duyet/bruteforce-database'> BruteForce </a> Database
-				<li><a href='https://github.com/empty-jack/YAWR'> YAWR</a>. Yet Another Wordlists Repo. Contains OS,RECON,WEB,brute folders
-				<li><a href='https://www.kali.org/tools/crunch/'> Crunch </a>
-		   			<p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: <pre><code> crunch 3 3 12345qwerty -o cranch.txt </code></pre>
-				<li> Top wordlists by <a href='https://github.com/danielmiessler/SecLists'> DanielMiessler </a>
-				<li><a href='https://github.com/blark/aiodnsbrute'> DNS </a> asynchronous bruteforce
- 				<li><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'> Tool </a> for hash identification. 
-					<p> Python file. Powerful. User friendly interface.
-				<li><a href='https://github.com/ropnop/kerbrute'> Kerberos </a> bruteforcing
-				<li><a href='https://github.com/therodri2/username_generator'> Username generator </a>
-					<p> Could help create a list with most of the possible combinations if we have a first name and last name. Use git clone and 
-					<p> <pre><code> python3 username_generator.py -h </code></pre> shows the tool's help message and optional arguments.
-				<li><a href='https://github.com/kkrypt0nn/wordlists'> Wordlists </a> by kkrypt0nn. A collection of wordlists for many different usages
-    			</ul>
-		<li><h3 id='n4.2'> Enumiration </h3>
-			<ul>
-				<li><a href='https://github.com/ly4k/Certipy'> Certipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
-				<li><a href='https://github.com/ffuf/ffuf'> Fuzzer </a>
-				<li><a href='https://github.com/fuzzdb-project/fuzzdb'> fuzzdb </a>
-				<li><a href='https://github.com/guelfoweb/knock'> Knock.py</a> - subdomain scanner
-				<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux</a> smart enumiration
-				<li><a href='https://github.com/aboul3la/Sublist3r'> Sublist3r</a>. Subdomains enumiration python tool
-			</ul>
-		<li><h3 id='n4.3'> OSINT </h3>
-			<ul>
-				<li><a href='https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan'> Fast Google Dorks Scan </a>
-				<li><a href='https://github.com/khast3x/h8mail'> h8mail </a> is an email OSINT and breach hunting tool
-				<li><a href='https://github.com/laramies/theHarvester'> theHarvester</a>. E-mails, subdomains and names Harvester 
-			</ul>
-		<li><h3 id='n4.4'> Payloads </h3>
-			<ul>
-				<li><a href='https://github.com/swisskyrepo/PayloadsAllTheThings'> All </a> kind of payloads and bypasses
-				<li><a href='https://github.com/payloadbox/command-injection-payload-list'> Payloads </a> for Unix and Windows OS
-				<li><a href='https://github.com/capture0x/XSS-LOADER'> XSS-LOADER</a>. All in one tools for XSS PAYLOAD GENERATOR -XSS SCANNER-XSS DORK FINDER
-				<li><a href='https://github.com/payloadbox/xss-payload-list'> XSS </a> payloads
-  			 </ul>
-		<li><h3 id='n4.5'> Privilege Escalation </h3>
-			<ul>
-				<li><a href='https://github.com/carlospolop/PEASS-ng'> Privilege Escalation </a> (LinPEAS & WinPEAS)
-				<li><a href='https://github.com/luke-goddard/enumy'> Enumy</a>. Linux post exploitation privilege escalation enumeration
-				<li><a href='https://github.com/linted/linuxprivchecker'> Linux </a> PrivEsc Check Script
-				<li><a href='https://github.com/The-Z-Labs/linux-exploit-suggester'> Linux PrivEsc </a>
-				<li><a href='https://github.com/gentilkiwi/mimikatz'> Mimikatz</a>. Windows PrivEsc
-				<li><a href='https://github.com/mostaphabahadou/postenum'> Postenum </a> is a Linux enumeration and privilege escalation tool
-				<li><a href='https://github.com/antonioCoco/RogueWinRM'> RougeWinRM</a>. Win PrivEsc
-			</ul>
-		<li><h3 id='n4.6'> Social Engineering </h3>
-			<ul>
-				<li><a href='https://github.com/giuliacassara/awesome-social-engineering'> Awesome </a> social engineering resources
-				<li><a href='https://github.com/trustedsec/social-engineer-toolkit'> SET</a>. Social Engineer Toolkit
-    			</ul>
-		<li><h3 id='n4.7'> Burp Suite Extensions </h3>
-			<ul>
-				<li><a href='https://github.com/portswigger/hackvertor'> Hackvertor </a> is a tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.
-			</ul>
-   		<li><h3 id='n4.8'> Looking for exploits and vulnerabilities </h3>
-			<ul>
-				<li><a href='https://gitlab.com/kalilinux/packages/exploitdb'> Searchsploit</a> - provides direct access to the Exploit Database from the Kali Linux terminal. Users can utilize powerful search commands to quickly discover exploits and vulnerabilities. This tool is an indispensable assistant for security professionals working in the Kali Linux environment
-				<li><a href='https://github.com/vulnersCom/getsploit'> getsploit</a> - combines the functionality of searchsploit with the ability to download exploits. It allows users to conduct online searches across databases such as Exploit-DB, Metasploit, and Packetstorm. Additionally, it provides the capability to download exploit source code directly, making the search and retrieval of necessary data for pentesting simple and effective
-				<li><a href='https://github.com/projectdiscovery/cvemap'> CVEMap</a> - a tool from Projectdiscovery designed for quick and convenient searching across all known vulnerability databases
-				<li><a href='https://github.com/rfunix/Pompem'> Pompem</a> - a tool pre-installed in Parrot OS, automates the process of searching for exploits and vulnerabilities. It uses an advanced search system to check databases such as PacketStorm Security, CXSecurity, ZeroDay, Vulners, and NVD
-				<li><a href='https://github.com/justakazh/sicat'> SiCat</a> - stands out for its comprehensive approach to exploit searching. It adeptly extracts information about exploits from open sources and local repositories
-			</ul>
-		<li><h3 id='n4.9'> Another </h3>
-			<ul>
-				<li><a href='https://github.com/wapiti-scanner/wapiti'> Wapiti</a>. Web vulnerability scanner
-				<li><a href='https://github.com/Bearer/bearer'> Bearer</a>. Scans source code against top security and privacy risks
-				<li><a href='https://github.com/Porchetta-Industries/CrackMapExec'> CrackMapExec</a>. A swiss army knife for pentesting networks
-				<li><a href='https://github.com/BloodHoundAD/BloodHound'> BloodHound</a>. Six Degrees of Domain Admin
-				<li><a href='https://github.com/digininja/CeWL'> Cewl </a> can be used to effectively crawl a website and extract strings or keywords. Cewl is a powerful tool to generate a wordlist specific to a given company or target. Consider the following example below:
-					<pre><code> cewl -w list.txt -d 5 -m 5 http://target_site.com </code></pre>
-					<p> -w will write the contents to a file, here is list.txt.
-					<p> -m 5 gathers strings (words) that are 5 characters or more
-					<p> -d 5 is the depth level of web crawling/spidering (default 2)
-					<p> http://target_site.com is the URL that will be used
-					<p> As a result, now have a decently sized wordlist based on relevant words for the specific enterprise, like names, locations, and a lot of their business lingo. Similarly, the wordlist that was created could be used to fuzz for usernames. 
-				<li><a href='https://www.kali.org/tools/ncurses-hexedit/'> Hexeditor </a>
-	        			<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'> Link </a> to Wiki with List of file signatures. 
-				<li><a href='https://github.com/CISOfy/lynis'> Lynis</a>. Check Linux security
-				<li><a href='https://github.com/DominicBreuker/pspy'> Pspy</a>. Great for enumeration of Linux systems in CTFs and more.
-				<li><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'> Hash Identifier </a>. Python file. Powerful. User friendly interface.
-			</ul>
+	<h3 id='n4.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>GitHub Tools</ins></h3>
+		My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I categorized github tools.
+		<p> 👇Some of the most popular tools👇
+		<ol>
+			<li> <a href='#n4.1.1'> BruteForce & Wordlists </a>
+			<li> <a href='#n4.1.2'> Enumiration </a>
+			<li> <a href='#n4.1.3'> OSINT </a>
+			<li> <a href='#n4.1.4'> Payloads </a>
+			<li> <a href='#n4.1.5'> Privilege Escalation </a>
+			<li> <a href='#n4.1.6'> Social Engineering </a>
+			<li> <a href='#n4.1.7'> Burp Suite Extensions </a>
+			<li> <a href='#n4.1.8'> Looking for exploits and vulnerabilities </a>
+			<li> <a href='#n4.1.9'> Another </a>
 		</ol>
+			<ol>
+				<li><h3 id='n4.1.1'>BruteForce and Wordlists </h3>
+					<ul>
+						<li><a href='https://github.com/Cryilllic/Active-Directory-Wordlists'> Active Directory </a> Wordlists contains User.txt and Pass.txt
+						<li><a href='https://github.com/duyet/bruteforce-database'> BruteForce </a> Database
+						<li><a href='https://github.com/empty-jack/YAWR'> YAWR</a>. Yet Another Wordlists Repo. Contains OS,RECON,WEB,brute folders
+						<li><a href='https://www.kali.org/tools/crunch/'> Crunch </a>
+				   			<p> This is one of many powerful tools for creating an offline wordlist. With crunch, you can specify numerous options, including min, max, and options. The following example creates a wordlist containing all 								possible combinations of 3 characters, including 1-5 and qwerty. You can use the -o argument to save. <p>Example: <pre><code> crunch 3 3 12345qwerty -o cranch.txt </code></pre>
+						<li> Top wordlists by <a href='https://github.com/danielmiessler/SecLists'> DanielMiessler </a>
+						<li><a href='https://github.com/blark/aiodnsbrute'> DNS </a> asynchronous bruteforce
+		 				<li><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'> Tool </a> for hash identification. 
+							<p> Python file. Powerful. User friendly interface.
+						<li><a href='https://github.com/ropnop/kerbrute'> Kerberos </a> bruteforcing
+						<li><a href='https://github.com/therodri2/username_generator'> Username generator </a>
+							<p> Could help create a list with most of the possible combinations if we have a first name and last name. Use git clone and 
+							<p> <pre><code> python3 username_generator.py -h </code></pre> shows the tool's help message and optional arguments.
+						<li><a href='https://github.com/kkrypt0nn/wordlists'> Wordlists </a> by kkrypt0nn. A collection of wordlists for many different usages
+		    			</ul>
+				<li><h3 id='n4.1.2'> Enumiration </h3>
+					<ul>
+						<li><a href='https://github.com/ly4k/Certipy'> Certipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
+						<li><a href='https://github.com/ffuf/ffuf'> Fuzzer </a>
+						<li><a href='https://github.com/fuzzdb-project/fuzzdb'> fuzzdb </a>
+						<li><a href='https://github.com/guelfoweb/knock'> Knock.py</a> - subdomain scanner
+						<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux</a> smart enumiration
+						<li><a href='https://github.com/aboul3la/Sublist3r'> Sublist3r</a>. Subdomains enumiration python tool
+					</ul>
+				<li><h3 id='n4.1.3'> OSINT </h3>
+					<ul>
+						<li><a href='https://github.com/IvanGlinkin/Fast-Google-Dorks-Scan'> Fast Google Dorks Scan </a>
+						<li><a href='https://github.com/khast3x/h8mail'> h8mail </a> is an email OSINT and breach hunting tool
+						<li><a href='https://github.com/laramies/theHarvester'> theHarvester</a>. E-mails, subdomains and names Harvester 
+					</ul>
+				<li><h3 id='n4.1.4'> Payloads </h3>
+					<ul>
+						<li><a href='https://github.com/swisskyrepo/PayloadsAllTheThings'> All </a> kind of payloads and bypasses
+						<li><a href='https://github.com/payloadbox/command-injection-payload-list'> Payloads </a> for Unix and Windows OS
+						<li><a href='https://github.com/capture0x/XSS-LOADER'> XSS-LOADER</a>. All in one tools for XSS PAYLOAD GENERATOR -XSS SCANNER-XSS DORK FINDER
+						<li><a href='https://github.com/payloadbox/xss-payload-list'> XSS </a> payloads
+		  			 </ul>
+				<li><h3 id='n4.1.5'> Privilege Escalation </h3>
+					<ul>
+						<li><a href='https://github.com/carlospolop/PEASS-ng'> Privilege Escalation </a> (LinPEAS & WinPEAS)
+						<li><a href='https://github.com/luke-goddard/enumy'> Enumy</a>. Linux post exploitation privilege escalation enumeration
+						<li><a href='https://github.com/linted/linuxprivchecker'> Linux </a> PrivEsc Check Script
+						<li><a href='https://github.com/The-Z-Labs/linux-exploit-suggester'> Linux PrivEsc </a>
+						<li><a href='https://github.com/gentilkiwi/mimikatz'> Mimikatz</a>. Windows PrivEsc
+						<li><a href='https://github.com/mostaphabahadou/postenum'> Postenum </a> is a Linux enumeration and privilege escalation tool
+						<li><a href='https://github.com/antonioCoco/RogueWinRM'> RougeWinRM</a>. Win PrivEsc
+					</ul>
+				<li><h3 id='n4.1.6'> Social Engineering </h3>
+					<ul>
+						<li><a href='https://github.com/giuliacassara/awesome-social-engineering'> Awesome </a> social engineering resources
+						<li><a href='https://github.com/trustedsec/social-engineer-toolkit'> SET</a>. Social Engineer Toolkit
+		    			</ul>
+				<li><h3 id='n4.1.7'> Burp Suite Extensions </h3>
+					<ul>
+						<li><a href='https://github.com/portswigger/hackvertor'> Hackvertor </a> is a tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.
+					</ul>
+		   		<li><h3 id='n4.1.8'> Looking for exploits and vulnerabilities </h3>
+					<ul>
+						<li><a href='https://gitlab.com/kalilinux/packages/exploitdb'> Searchsploit</a> - provides direct access to the Exploit Database from the Kali Linux terminal. Users can utilize powerful search commands to quickly discover 							exploits and vulnerabilities. This tool is an indispensable assistant for security professionals working in the Kali Linux environment
+						<li><a href='https://github.com/vulnersCom/getsploit'> getsploit</a> - combines the functionality of searchsploit with the ability to download exploits. It allows users to conduct online searches across databases such as 							Exploit-DB, Metasploit, and Packetstorm. Additionally, it provides the capability to download exploit source code directly, making the search and retrieval of necessary data for pentesting simple and effective
+						<li><a href='https://github.com/projectdiscovery/cvemap'> CVEMap</a> - a tool from Projectdiscovery designed for quick and convenient searching across all known vulnerability databases
+						<li><a href='https://github.com/rfunix/Pompem'> Pompem</a> - a tool pre-installed in Parrot OS, automates the process of searching for exploits and vulnerabilities. It uses an advanced search system to check databases 							such as PacketStorm Security, CXSecurity, ZeroDay, Vulners, and NVD
+						<li><a href='https://github.com/justakazh/sicat'> SiCat</a> - stands out for its comprehensive approach to exploit searching. It adeptly extracts information about exploits from open sources and local repositories
+					</ul>
+				<li><h3 id='n4.1.9'> Another </h3>
+					<ul>
+						<li><a href='https://github.com/wapiti-scanner/wapiti'> Wapiti</a>. Web vulnerability scanner
+						<li><a href='https://github.com/Bearer/bearer'> Bearer</a>. Scans source code against top security and privacy risks
+						<li><a href='https://github.com/Porchetta-Industries/CrackMapExec'> CrackMapExec</a>. A swiss army knife for pentesting networks
+						<li><a href='https://github.com/BloodHoundAD/BloodHound'> BloodHound</a>. Six Degrees of Domain Admin
+						<li><a href='https://github.com/digininja/CeWL'> Cewl </a> can be used to effectively crawl a website and extract strings or keywords. Cewl is a powerful tool to generate a wordlist specific to a given company or target. 							Consider the following example below:
+							<pre><code> cewl -w list.txt -d 5 -m 5 http://target_site.com </code></pre>
+							<p> -w will write the contents to a file, here is list.txt.
+							<p> -m 5 gathers strings (words) that are 5 characters or more
+							<p> -d 5 is the depth level of web crawling/spidering (default 2)
+							<p> http://target_site.com is the URL that will be used
+							<p> As a result, now have a decently sized wordlist based on relevant words for the specific enterprise, like names, locations, and a lot of their business lingo. Similarly, the wordlist that was created could be 								used to fuzz for usernames. 
+						<li><a href='https://www.kali.org/tools/ncurses-hexedit/'> Hexeditor </a>
+			        			<p> Tools for change files signature. <a href='https://en.wikipedia.org/wiki/List_of_file_signatures'> Link </a> to Wiki with List of file signatures. 
+						<li><a href='https://github.com/CISOfy/lynis'> Lynis</a>. Check Linux security
+						<li><a href='https://github.com/DominicBreuker/pspy'> Pspy</a>. Great for enumeration of Linux systems in CTFs and more.
+						<li><a href='https://gitlab.com/kalilinux/packages/hash-identifier/-/tree/kali/master'> Hash Identifier </a>. Python file. Powerful. User friendly interface.
+					</ul>
+				</ol>		
+			 <h3 id='n4.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Browser extensions </ins></h3>
+			 <h3> Mozilla FireFox </h3>
+				<ul>
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/'> Wappalyzer </a> - Defines CMS, JS-libraries, frameworks and another technologies used on the site
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/'> Foxy Proxy </a> - Fast change proxy, for example, use with Burp Suite
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/hacktools/'> HackTools </a> - is a web extension facilitating your web application penetration tests, it includes cheat sheets as well as all the tools used during a 						test such as XSS payloads, Reverse shells to test your web application
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/'> Cookie Editor </a> - Allows you to change, delete, add cookie values for various testing purposes. Can be tested for access control errors, privilege 						escalation, etc
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/maxs-hackbar/'> Hackbar </a> - Contains payloads for XSS attacks, SQL injections, WAF bypass, LFI, etc
+					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/'> User-Agent </a> Swither
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/beautifer-minify/'> Beautifer & Minify </a> - Brings readable CSS, HTML and JavaScript code
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/builtwith/'> BuiltWith </a> - Get web app technologies
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/dotgit/'> DotGit </a> - An extension to check for the presence of .git on websites you visit. Also checks open .env files, security.txt and more
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/mailshunt-email-extractor/'> Email Extractor </a> - Automatically saves email addresses from the web pages visit. Helps with social engineering attacks, brute force 						attacks, etc
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/'> Exif-Viewer </a> - Help to check photo metadata
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/fake-filler/'> Fake Filler </a> - Simplifies and speeds up testing of fillable forms by developers and testers. Helps to populate all input forms (text fields, areas, 						dropdowns, etc.) with fake and randomly generated data
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/knoxss-community-edition/'> Knoxss </a> - Finds XSS vulnerabilities. Community Edition and Pro Version
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/'> ModHeader </a> - Helps to easily change HTTP request and response headers in the browser
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/nimbus-screenshot/'> Nimbus Screenshot </a> - To make screenshot
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/'> Privicy Badger  </a> - Automatically learns to block invisible trackers
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/temp-mail/'> Temp Mail </a> - Temporary disposable email address. Protect your email from spam, bots and phishing with Temp-Mail
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/retire-js/'> Retire.js </a> - Displays the presence of vulnerable JavaScript libraries. This helps to find known vulnerabilities in JS and some CVEs affecting sites 						with vulnerable JS libraries
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/'> Shodan </a> - The Shodan plugin tells you where the website is hosted (country, city), who owns the IP and what other services/ ports are open
+					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/'> Ublock Origin </a> - An efficient wide-spectrum content blocker
+				</ul>
+			 <h3> Google Chrome </h3>
+				<ul>
+					<li> <a href='https://chrome.google.com/webstore/detail/beautifer-minify/ahhjkfcneijonkihlcplndcnlpofjaip?hl=en'> Beautifer & Minify </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en'> BuiltWith </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/chaff/jgjhamliocfhehbocekgcddfjpgdjnje'> Chaff </a> - Generate fake traffic
+					<li> <a href='https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en'> Cookie-Editor </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/dotgit/pampamgoihgcedonnphgehgondkhikel?hl=en'> DotGit </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/email-extractor/jdianbbpnakhcmfkcckaboohfgnngfcc?hl=en'> Email Extractor </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/exif-viewer-pro/mmbhfeiddhndihdjeganjggkmjapkffm'> Exif-Viewer </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=en'> Fake Filler </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=en'> Foxy Proxy </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/hackbar/ginpbkfigcoaokgflihfhhmglmbchinc?hl=en'> HackBar </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/modheader-modify-http-hea/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en'> ModHeader </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj'> Nimbus Screenshot </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en'> Privacy Badger </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/retirejs/moibopkbhjceeedibkbkbchbjnkadmom?hl=en'> Retire.js </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap'> Shodan </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc'> TruffleHog Chrome Extension </a> - Scans the websites you visit looking for API keys and credentials and notifies you if they 						are found
+					<li> <a href='https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en'> uBlock Origin </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg'> User-Agent Switcher </a>
+					<li> <a href='https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en'> Wappalyzer </a>
+			  	</ul>
+			<h3 id='n4.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Burp Suite Extensions</ins></h3>
+					<ul>
+						<li> <a href='https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb'> Software Vulnerability Scanner </a> - This extension displays public vulnerabilities for applications detected in the traffic proxied by 							Burp. Essentially, it acts as a layer between Burp and the API of this excellent vulnerability aggregator.
+						<li> <a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'> Backslash Powered Scanner </a> - Enhances Burp's active scanner using a novel approach capable of finding and confirming both known and 							unknown classes of server-side injection vulnerabilities.
+						<li> <a href='https://portswigger.net/bappstore/f154175126a04bfe8edc6056f340f52e'> SQLiPy </a> - A tool that integrates Burp Suite with SQLMap using the SQLMap API to check for SQL injection vulnerabilities.
+						<li> <a href='https://portswigger.net/bappstore/3123d5b5f25c4128894d97ea1acc4976'> Active Scan++ </a> - Expands the range of checks performed by the active and passive scanners. It identifies vulnerabilities such as cache 							poisoning, DNS rebinding, various injections, and also performs additional checks to detect XXE injections and more.
+						<li> <a href='https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988'> Turbo Intruder </a> - A faster alternative to Intruder equipped with a scriptable engine for sending a large number of HTTP requests and 							analyzing the results. Useful when speed is required.
+						<li> <a href='https://portswigger.net/bappstore/ae2611da3bbc4687953a1f4ba6a4e04c'> Bypass WAF </a> - A tool for bypassing web application firewalls (WAFs).
+						<li> <a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'> BurpJS Link Finder </a> - Helps identify and discover links based on JavaScript in web applications.
+						<li> <a href='https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122'> 403 Bypasser Extension </a> - A tool designed to bypass 403 errors commonly encountered when attempting to access restricted areas of a 							website.
+						<li> <a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'> InQL</a> to assist in your GraphQL security testing efforts.
+					</ul>
+     			<h3 id='n4.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Kali Tools</ins></h3>
+				 <ol>
+					<li> <a href='https://www.kali.org/tools/name-that-hash/'> Name That Hash</a> - Instantly name the type of any hash (with hashcat command).
+						<pre><code> name-that-hash --help </code></pre>
+ 				</ol>
 
-
-			
-<h3 align='right'><a href='#start'> <-- Back </a></h3>
-
-
- <h2 align='center' id='n5'><em> Browser extensions </em></h2>
- <h3> Mozilla FireFox </h3>
-	<ul>
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/'> Wappalyzer </a> - Defines CMS, JS-libraries, frameworks and another technologies used on the site
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/'> Foxy Proxy </a> - Fast change proxy, for example, use with Burp Suite
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/hacktools/'> HackTools </a> - is a web extension facilitating your web application penetration tests, it includes cheat sheets as well as all the tools used during a test such as XSS payloads, Reverse shells to test your web application
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/'> Cookie Editor </a> - Allows you to change, delete, add cookie values for various testing purposes. Can be tested for access control errors, privilege escalation, etc
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/maxs-hackbar/'> Hackbar </a> - Contains payloads for XSS attacks, SQL injections, WAF bypass, LFI, etc
-		<li><a href='https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/'> User-Agent </a> Swither
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/beautifer-minify/'> Beautifer & Minify </a> - Brings readable CSS, HTML and JavaScript code
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/builtwith/'> BuiltWith </a> - Get web app technologies
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/dotgit/'> DotGit </a> - An extension to check for the presence of .git on websites you visit. Also checks open .env files, security.txt and more
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/mailshunt-email-extractor/'> Email Extractor </a> - Automatically saves email addresses from the web pages visit. Helps with social engineering attacks, brute force attacks, etc
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/'> Exif-Viewer </a> - Help to check photo metadata
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/fake-filler/'> Fake Filler </a> - Simplifies and speeds up testing of fillable forms by developers and testers. Helps to populate all input forms (text fields, areas, dropdowns, etc.) with fake and randomly generated data
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/knoxss-community-edition/'> Knoxss </a> - Finds XSS vulnerabilities. Community Edition and Pro Version
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/'> ModHeader </a> - Helps to easily change HTTP request and response headers in the browser
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/nimbus-screenshot/'> Nimbus Screenshot </a> - To make screenshot
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/'> Privicy Badger  </a> - Automatically learns to block invisible trackers
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/temp-mail/'> Temp Mail </a> - Temporary disposable email address. Protect your email from spam, bots and phishing with Temp-Mail
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/retire-js/'> Retire.js </a> - Displays the presence of vulnerable JavaScript libraries. This helps to find known vulnerabilities in JS and some CVEs affecting sites with vulnerable JS libraries
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/'> Shodan </a> - The Shodan plugin tells you where the website is hosted (country, city), who owns the IP and what other services/ ports are open
-		<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/'> Ublock Origin </a> - An efficient wide-spectrum content blocker
-	</ul>
- <h3> Google Chrome </h3>
-	<ul>
-		<li> <a href='https://chrome.google.com/webstore/detail/beautifer-minify/ahhjkfcneijonkihlcplndcnlpofjaip?hl=en'> Beautifer & Minify </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en'> BuiltWith </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/chaff/jgjhamliocfhehbocekgcddfjpgdjnje'> Chaff </a> - Generate fake traffic
-		<li> <a href='https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en'> Cookie-Editor </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/dotgit/pampamgoihgcedonnphgehgondkhikel?hl=en'> DotGit </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/email-extractor/jdianbbpnakhcmfkcckaboohfgnngfcc?hl=en'> Email Extractor </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/exif-viewer-pro/mmbhfeiddhndihdjeganjggkmjapkffm'> Exif-Viewer </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=en'> Fake Filler </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=en'> Foxy Proxy </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/hackbar/ginpbkfigcoaokgflihfhhmglmbchinc?hl=en'> HackBar </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/modheader-modify-http-hea/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en'> ModHeader </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj'> Nimbus Screenshot </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en'> Privacy Badger </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/retirejs/moibopkbhjceeedibkbkbchbjnkadmom?hl=en'> Retire.js </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap'> Shodan </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc'> TruffleHog Chrome Extension </a> - Scans the websites you visit looking for API keys and credentials and notifies you if they are found
-		<li> <a href='https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en'> uBlock Origin </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg'> User-Agent Switcher </a>
-		<li> <a href='https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en'> Wappalyzer </a>
-  	</ul>
    
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
 
-<h2 align='center' id='n6'><em> Privilege Escalation </em></h2>
+<h2 align='center' id='n5'><em> Privilege Escalation </em></h2>
 <h3> ENUMERATION is a key! </h3>
 	 <h3> <ins>Linux</ins> </h3>
   		Some advice to Linux Privilege Escalation
@@ -844,7 +860,7 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> -->
 
 
-<h2 align='center' id='n8'><em> Tips </em></h2>
+<h2 align='center' id='n6'><em> Tips </em></h2>
 <ol>
 	<li> If you have JSON in request, try to change JSON to XML
 	<li> Command Injection
@@ -902,21 +918,8 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
-<h2 align='center' id='n9'><em> Burp Suite Extension </em></h2>
-<ul>
-	<li> <a href='https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb'> Software Vulnerability Scanner </a> - This extension displays public vulnerabilities for applications detected in the traffic proxied by Burp. Essentially, it acts as a layer between Burp and the API of this excellent vulnerability aggregator.
-	<li> <a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'> Backslash Powered Scanner </a> - Enhances Burp's active scanner using a novel approach capable of finding and confirming both known and unknown classes of server-side injection vulnerabilities.
-	<li> <a href='https://portswigger.net/bappstore/f154175126a04bfe8edc6056f340f52e'> SQLiPy </a> - A tool that integrates Burp Suite with SQLMap using the SQLMap API to check for SQL injection vulnerabilities.
-	<li> <a href='https://portswigger.net/bappstore/3123d5b5f25c4128894d97ea1acc4976'> Active Scan++ </a> - Expands the range of checks performed by the active and passive scanners. It identifies vulnerabilities such as cache poisoning, DNS rebinding, various injections, and also performs additional checks to detect XXE injections and more.
-	<li> <a href='https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988'> Turbo Intruder </a> - A faster alternative to Intruder equipped with a scriptable engine for sending a large number of HTTP requests and analyzing the results. Useful when speed is required.
-	<li> <a href='https://portswigger.net/bappstore/ae2611da3bbc4687953a1f4ba6a4e04c'> Bypass WAF </a> - A tool for bypassing web application firewalls (WAFs).
-	<li> <a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'> BurpJS Link Finder </a> - Helps identify and discover links based on JavaScript in web applications.
-	<li> <a href='https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122'> 403 Bypasser Extension </a> - A tool designed to bypass 403 errors commonly encountered when attempting to access restricted areas of a website.
-</ul>
 
-<h3 align='right'><a href='#start'> <-- Back </a></h3> 
-
-<h2 align='center' id='n10'><em>GPTs (Agents) for Cybersecurity </em></h2>
+<h2 align='center' id='n7'><em>GPTs (Agents) for Cybersecurity </em></h2>
 <ul>
 	<li> <a href='https://chat.openai.com/g/g-U5ZnmObzh-magicunprotect'> MagicUnprotect</a> - allows interacting with the Unprotect knowledge base on malware evasion techniques
 	<li> <a href='https://chat.openai.com/g/g-Vy4rIqiCF-threat-intel-bot'> Threat Intel Bot</a> - GPT agent for retrieving the latest data on APT groups
@@ -932,7 +935,7 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
-<h2 align='center' id='n11'><em>OSINT</em></h2>
+<h2 align='center' id='n8'><em>OSINT</em></h2>
 <ol>
 	<li> Tools for searching data by email and logins
 		<p> <a href='https://snusbase.com/'>Snusbase</a> indexes information from leaks and provides access to searching compromised email addresses, logins, names, IP addresses, phone numbers, and password hashes
@@ -945,11 +948,5 @@ My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I 
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
- <h2 align='center' id='n12'><em>Kali Tools</em></h2>
- <ol>
-	<li> <a href='https://www.kali.org/tools/name-that-hash/'> Name That Hash</a> - Instantly name the type of any hash (with hashcat command).
-		<pre><code> name-that-hash --help </code></pre>
- </ol>
 
- <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 </body>
