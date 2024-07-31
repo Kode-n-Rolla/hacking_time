@@ -546,9 +546,10 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
 	      <li> Another one <a href='https://tib3rius.com/sqli'> SQLi</a> cheatsheet
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVE and Vulnerabilities db </h3>
+	      <li> <a href='https://www.first.org/cvss/calculator/3.0'>First.org</a>. CVSS calculator 3.0
 	      <li> <a href='https://cvexploits.io/'> Cvexploits.io</a>
 	      <li> <a href='https://cve.circl.lu/'> CVE.circl</a> db
-	      <li> <a href='https://www.first.org/cvss/calculator/3.0'> CVSS</a> calculator to vulnerability assessment
+	      <li> <a href='https://www.first.org/cvss/calculator/3.0'> CVSS</a> search vulnerability
 	      <li> <a href='https://cve.mitre.org/'> CVE.mitre</a> db of Common Vulnerabilities and Exposures
 	      <li> <a href='https://lana.codes/lanavdb/'> Lana</a> Codes Vulnerability Database (WordPress plugins)
 	      <li> <a href='https://vulners.com/'> Vulners.com</a> database
