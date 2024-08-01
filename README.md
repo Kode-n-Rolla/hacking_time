@@ -237,13 +237,22 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
    Search a lot of interesting by extensions:
    <pre><code> dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u '&lt;TARGER_IP>' </code></pre>
 		
-<h3 id='n1.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Python command to <ins>pump</ins>nc shell </h3>
-   PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell:
-   <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
-   <p>After nc connecting:
-   	<pre><code>stty raw -echo && fg</code></pre>
-   <p> If no python:
-   	<pre><code>/usr/bin/script -qc /bin/bash /dev/null</code></pre>
+<h3 id='n1.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Way to <ins>pump</ins> nc shell </h3>
+   <ul>
+	   <li>Python way. PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell:
+	   <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
+	   <p>After nc connecting:
+	   	<pre><code>stty raw -echo && fg</code></pre>
+	   <p> If no python:
+	   	<pre><code>/usr/bin/script -qc /bin/bash /dev/null</code></pre>
+ 	   <li> Another way:
+		   <pre><code>script /dev/null -c /bin/bash</code></pre>
+		   Console to bg (Ctrl+Z) ->
+		   <!--<pre><code>^Z</code></pre>-->
+		   <pre><code>stty raw -echo; fg</code></pre>
+		   Then double Enter and we again in shell and input
+		   <pre><code>export TERM=xterm</code></pre>
+   </ul>
 
 <h3 id='n1.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> SQLmap </ins></h3>
 	&nbsp;&nbsp;&nbsp; Start SQL injection attack:
