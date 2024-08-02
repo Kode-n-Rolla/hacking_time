@@ -874,11 +874,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<li> Check out environ:
 				<p><pre><code> cat /proc/self/environ </code></pre>
 			<li> Check out history:
-				<p><code> cat ~/.bash_history </code>
-				<p><code> cat ~/.mysql_history </code>
-				<p><code> cat ~/.nano_history </code>
-				<p><code> cat ~/.php_history </code>
-				<p><code> cat ~/.atftp_history </code>
+				<p><code>history</code>
+				<p><code>cat ~/.bash_history</code>
+				<p><code>cat ~/.mysql_history</code>
+				<p><code>cat ~/.nano_history</code>
+				<p><code>cat ~/.php_history</code>
+				<p><code>cat ~/.atftp_history</code>
 			<li> Check out executable files in:
 				<p><code> home directory </code> and <code> /var/www </code> or the same
 			<li> Check out some additional information about the host itself such as the CPU type/version - <code> lscpu </code>
