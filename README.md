@@ -834,6 +834,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 						<li> <a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'> BurpJS Link Finder </a> - Helps identify and discover links based on JavaScript in web applications.
 						<li> <a href='https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122'> 403 Bypasser Extension </a> - A tool designed to bypass 403 errors commonly encountered when attempting to access restricted areas of a 							website.
 						<li> <a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'> InQL</a> to assist in your GraphQL security testing efforts.
+						<li> <a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'>Backslash Powered Scanner</a>. This extension complements Burp's active scanner by using a novel approach capable of finding and confirming 							both known and unknown classes of server-side injection vulnerabilities.
 					</ul>
      			<h3 id='n4.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Kali Tools</ins></h3>
 				 <ol>
