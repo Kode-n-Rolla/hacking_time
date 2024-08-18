@@ -575,7 +575,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
         
 <h2 align='center' id='n3'><em> Sites </em></h2>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Someone main </h3>
-	      <li> <a href='https://book.hacktricks.xyz/'> Hacktricks</a> - must have!!! PrivEsc, brute force, pentest network and wifi, metodologies cheatsheets and much more
+	      <li> <a href='https://book.hacktricks.xyz/'> HackTricks</a> - must have!!! PrivEsc, brute force, pentest network and wifi, metodologies cheatsheets and much more
+	      <li> <a href='https://cloud.hacktricks.xyz/'> Cloud HackTricks</a>
               <li> <a href='https://ppn.snovvcrash.rocks/'> Pentest notes</a> by <a href='https://snovvcrash.rocks/about'>snovvcrash</a>
 	      <li> <a href='https://gtfobins.github.io/#'> GTFO</a> bins. How to escalqte privs, how to get shells and much more with binary in target system
 	      <li> <a href='https://lolbas-project.github.io/#'> LOLBAS</a>. Help with Windows
