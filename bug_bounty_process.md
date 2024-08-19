@@ -6,7 +6,7 @@
       <li><a href='https://web.archive.org/'>Web archive</a>
       <li><a href='https://www.whois.com/whois/'>Whois</a>
       <li><a href='https://whoisfreaks.com/'>Whois Freaks</a>
-      <li>$dig, nslookup, host, dnsenum, fierce, dnsrecon, theHarvester
+      <li>$dig, nslookup, host, theHarvester
       <li>Social Media
       <li><a href='https://github.com/'>GitHub</a>, <a href='https://about.gitlab.com/'>GitLab</a>
       <li>Google Dorking
@@ -17,7 +17,7 @@
       <li>gobuster
       <li>dirb
       <li>sublist3r
-      <li>amass
+      <li><a href='https://github.com/owasp-amass/amass'>amass</a>, <a href='https://github.com/fwaeytens/dnsenum'>dnsenum</a>, <a href='https://github.com/mschwager/fierce'>fierce</a>, <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>, <a                            href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>, <a href='https://github.com/d3mondev/puredns'>puredns</a>
       <li>robots.txt
     </ul>
 </ol>
