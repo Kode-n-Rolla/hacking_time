@@ -6,7 +6,7 @@
       <li><a href='https://web.archive.org/'>Web archive</a>
       <li><a href='https://www.whois.com/whois/'>Whois</a>
       <li><a href='https://whoisfreaks.com/'>Whois Freaks</a>
-      <li>$dig, nslookup, host, dnsenum, fierce, dnsrecon
+      <li>$dig, nslookup, host, dnsenum, fierce, dnsrecon, theHarvester
       <li>Social Media
       <li><a href='https://github.com/'>GitHub</a>, <a href='https://about.gitlab.com/'>GitLab</a>
       <li>Google Dorking
