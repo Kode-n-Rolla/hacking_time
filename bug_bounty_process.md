@@ -15,6 +15,7 @@
       <li>nmap
       <li>ffuf
       <li>gobuster
+      <li><a href='https://github.com/epi052/feroxbuster'>feroxbuster</a>
       <li>dirb
       <li>sublist3r
       <li><a href='https://github.com/owasp-amass/amass'>amass</a>, <a href='https://github.com/fwaeytens/dnsenum'>dnsenum</a>, <a href='https://github.com/mschwager/fierce'>fierce</a>, <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>, <a                            href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>, <a href='https://github.com/d3mondev/puredns'>puredns</a>
