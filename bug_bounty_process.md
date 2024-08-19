@@ -2,6 +2,7 @@
   <h1><li>Reconnaissance</h1>
     <ul> <h2>Passive</h2>
       <li><a href='https://www.shodan.io/'>Shodan</a>
+      <li><a href='https://search.censys.io/'>Censys</a>
       <li><a href='https://crt.sh/'>crt.sh</a>
       <li><a href='https://web.archive.org/'>Web archive</a>
       <li><a href='https://www.whois.com/whois/'>Whois</a>
