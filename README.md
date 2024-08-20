@@ -352,11 +352,15 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 
 <h3 id='n1.13'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Google Dorks </ins></h3>
 	<ul>
-		<li> site - returns results for the specified domain
-		<li> intitle - search in title
-		<li> inurl - search by url
-		<li> related - returns sites to the specified one
-		<li> ext or filteype - search by page extension
+		<li> site: - returns results for the specified domain
+		<li> intitle: - search in title
+		<li> inurl: - search by url
+		<li> related: - returns sites to the specified one
+		<li> ext: or filtype: - search by page extension or filetype
+		<li> cahce:
+		<li> intext:
+		<li> allintext:
+		<li> allinurl:
 		<li> More <a href='https://gist.github.com/stevenswafford/393c6ec7b5375d5e8cdc'> here </a>
 	</ul>
  
