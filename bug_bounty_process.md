@@ -18,8 +18,15 @@
       <li>gobuster - use dns and vhost (vhost -u -w --append-domain -> used to automatically append the domain to all discovered subdomains during a scan. This is useful when scanning for subdomains and needing to quickly generate a full list of URLs for further analysis)
       <li><a href='https://github.com/epi052/feroxbuster'>feroxbuster</a>
       <li>dirb
-      <li>sublist3r
+      <li><a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
       <li><a href='https://github.com/owasp-amass/amass'>amass</a>, <a href='https://github.com/fwaeytens/dnsenum'>dnsenum</a>, <a href='https://github.com/mschwager/fierce'>fierce</a>, <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>, <a                            href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>, <a href='https://github.com/d3mondev/puredns'>puredns</a>
       <li>robots.txt
+      <li>View source code
+    </ul>
+    <ul> <h2>Fingerprinting</h2>
+      <li>Wappalyzer (browser extension)
+      <li>whatweb, wafw00f (CLI)
+      <li><code>curl -I &lt;TARGET_HOST></code> - to get server banner
+      <li><code>nikto -h &lt;TARGET_HOST> -Tuning b</code>
     </ul>
 </ol>
