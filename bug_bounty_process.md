@@ -7,7 +7,7 @@
       <li><a href='https://web.archive.org/'>Web archive</a>
       <li><a href='https://www.whois.com/whois/'>Whois</a>
       <li><a href='https://whoisfreaks.com/'>Whois Freaks</a>
-      <li>$dig (axfr), nslookup, host, theHarvester
+      <li>$dig (axfr), nslookup, host, <a href='https://github.com/laramies/theHarvester'>theHarvester</a>
       <li>Social Media
       <li><a href='https://github.com/'>GitHub</a>, <a href='https://about.gitlab.com/'>GitLab</a>
       <li>Google Dorking
@@ -35,5 +35,11 @@
     <ul><h2>Crawlers</h2>
       <li><a href='https://portswigger.net/blog/burp-2-0-where-are-the-spider-and-scanner'>Burp Suite Spider</a>, <a href='https://www.zaproxy.org/'>OWASP ZAP (Zed Attack Proxy)</a>, 
         <a href='https://github.com/scrapy/scrapy'>Scrapy (Python Framework)</a>, <a href='https://github.com/apache/nutch'>Apache Nutch (Scalable Crawler)</a>
+    </ul>
+    <ul><h2>Another Tools for Recon</h2>
+      <li><a href='https://github.com/thewhiteh4t/FinalRecon'>FinalRecon</a>
+      <li><a href='https://github.com/lanmaster53/recon-ng'>Recon-ng</a>
+      <li><a href='https://github.com/smicallef/spiderfoot'>Spiderfoot</a>
+      <li><a href='https://osintframework.com/'>OSINT Framework</a>
     </ul>
 </ol>
