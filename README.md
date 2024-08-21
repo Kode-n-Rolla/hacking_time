@@ -387,6 +387,10 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li> Passphrase
 			<pre><code>passphrase * path:**/.json</code></pre>
 		<li> Check commit and issues
+		<li> Search and looking for vulns in codes (for example SQLi and SSRF)
+			<pre><code>/SELECT \* FROM.*\$_GET/</code></pre>
+			<pre><code>/file_get_contents\(.*\$_GET|curl_exec\(.*\$_GET/</code></pre>
+			<pre><code>/(subprocess|exec|spawn|system).*chrome.*--headless/</code></pre>
 	</ul>
 
  <h3 id='n1.15'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> FFUF</ins></h3>
