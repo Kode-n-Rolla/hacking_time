@@ -736,9 +736,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<li> <a href='#n4.1.4'> Payloads </a>
 			<li> <a href='#n4.1.5'> Privilege Escalation </a>
 			<li> <a href='#n4.1.6'> Social Engineering </a>
-			<li> <a href='#n4.1.7'> Burp Suite Extensions </a>
-			<li> <a href='#n4.1.8'> Looking for exploits and vulnerabilities </a>
-			<li> <a href='#n4.1.9'> Another </a>
+			<li> <a href='#n4.1.7'> Looking for exploits and vulnerabilities </a>
+			<li> <a href='#n4.1.8'> Another </a>
 		</ol>
 			<ol>
 				<li><h3 id='n4.1.1'>BruteForce and Wordlists </h3>
@@ -795,14 +794,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 						<li><a href='https://github.com/giuliacassara/awesome-social-engineering'> Awesome </a> social engineering resources
 						<li><a href='https://github.com/trustedsec/social-engineer-toolkit'> SET</a>. Social Engineer Toolkit
 		    			</ul>
-				<li><h3 id='n4.1.7'> Burp Suite Extensions </h3>
-					<ul>
-						<li><a href='https://github.com/portswigger/hackvertor'> Hackvertor</a> is a tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.
-						<li><a href='https://portswigger.net/bappstore/6bf7574b632847faaaa4eb5e42f1757c'>OpenAPI Parser</a>. Extension streamlines the process of assessing web services that use OpenAPI-based APIs.
-						<li><a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'>JS Link Finder</a>. Extension for a passively scanning JavaScript files for endpoint links. - Export results the text file - Exclude 								specific 'js' files e.g. jquery, google-analytics (Professional)
-						<li><a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'>InQL - GraphQL Scanner</a>. Extension is designed to assist in your GraphQL security testing efforts.
-					</ul>
-		   		<li><h3 id='n4.1.8'> Looking for exploits and vulnerabilities </h3>
+		   		<li><h3 id='n4.1.7'> Looking for exploits and vulnerabilities </h3>
 					<ul>
 						<li><a href='https://gitlab.com/kalilinux/packages/exploitdb'> Searchsploit</a> - provides direct access to the Exploit Database from the Kali Linux terminal. Users can utilize powerful search commands to quickly discover 							exploits and vulnerabilities. This tool is an indispensable assistant for security professionals working in the Kali Linux environment
 						<li><a href='https://github.com/vulnersCom/getsploit'> getsploit</a> - combines the functionality of searchsploit with the ability to download exploits. It allows users to conduct online searches across databases such as 							Exploit-DB, Metasploit, and Packetstorm. Additionally, it provides the capability to download exploit source code directly, making the search and retrieval of necessary data for pentesting simple and effective
@@ -810,7 +802,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 						<li><a href='https://github.com/rfunix/Pompem'> Pompem</a> - a tool pre-installed in Parrot OS, automates the process of searching for exploits and vulnerabilities. It uses an advanced search system to check databases 							such as PacketStorm Security, CXSecurity, ZeroDay, Vulners, and NVD
 						<li><a href='https://github.com/justakazh/sicat'> SiCat</a> - stands out for its comprehensive approach to exploit searching. It adeptly extracts information about exploits from open sources and local repositories
 					</ul>
-				<li><h3 id='n4.1.9'> Another </h3>
+				<li><h3 id='n4.1.8'> Another </h3>
 					<ul>
 						<li><a href='https://github.com/wapiti-scanner/wapiti'> Wapiti</a>. Web vulnerability scanner
 						<li><a href='https://github.com/Bearer/bearer'> Bearer</a>. Scans source code against top security and privacy risks
@@ -888,6 +880,17 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 						<li> <a href='https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122'> 403 Bypasser Extension </a> - A tool designed to bypass 403 errors commonly encountered when attempting to access restricted areas of a 							website.
 						<li> <a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'> InQL</a> to assist in your GraphQL security testing efforts.
 						<li> <a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'>Backslash Powered Scanner</a>. This extension complements Burp's active scanner by using a novel approach capable of finding and confirming 							both known and unknown classes of server-side injection vulnerabilities.
+						<li><a href='https://github.com/portswigger/hackvertor'> Hackvertor</a> is a tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.
+						<li><a href='https://portswigger.net/bappstore/6bf7574b632847faaaa4eb5e42f1757c'>OpenAPI Parser</a>. Extension streamlines the process of assessing web services that use OpenAPI-based APIs.
+						<li><a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'>JS Link Finder</a>. Extension for a passively scanning JavaScript files for endpoint links. - Export results the text file - Exclude 								specific 'js' files e.g. jquery, google-analytics (Professional)
+						<li><a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'>InQL - GraphQL Scanner</a>. Extension is designed to assist in your GraphQL security testing efforts.
+						<li><a href='https://portswigger.net/bappstore/db57ecbe2cb7446292a94aa6181c9278'>Content Type Converter</a>. This extension converts data submitted within requests between various common formats: 
+							<ul>
+								<li>JSON To XML
+								<li>XML to JSON
+								<li>Body parameters to JSON
+								<li>Body parameters to XML
+							</ul>
 					</ul>
      			<h3 id='n4.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Kali Tools</ins></h3>
 				 <ol>
