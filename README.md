@@ -891,6 +891,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 								<li>Body parameters to JSON
 								<li>Body parameters to XML
 							</ul>
+						<li><a href='https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943'>Param miner</a>. Extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.
 					</ul>
      			<h3 id='n4.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Kali Tools</ins></h3>
 				 <ol>
