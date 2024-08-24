@@ -467,6 +467,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li> webcam_chat - organize a video chat
 		<li> webcam_snap - takes a snapshot from the remote built-in camera
 		<li> webcam_stream - obtains a video stream from the remote built-in camera
+		<li> <code>run post/multi/recon/local_exploit_suggester</code> - recon for privesc
+		<li> <code>load kiwi</code> - to load mimikatz
   	</ul>
 
  <h3 id='n1.19'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> CMD </ins></h3>
