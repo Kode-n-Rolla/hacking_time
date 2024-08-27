@@ -15,7 +15,9 @@
     <ul><h2>Active</h2>
       <li>nmap
       <li>ffuf
-      <li>gobuster - use dns and vhost (vhost -u -w --append-domain -> used to automatically append the domain to all discovered subdomains during a scan. This is useful when scanning for subdomains and needing to quickly         generate a full list of URLs for further analysis)
+      <li>gobuster:
+        <pre><code>gobuster dns -d &lt;TARGET_DOMAIN.com> -w /usr/share/SecLists/Discovery/DNS/subdomains-top1million-5000.txt</code></pre>
+        <pre><code>gobuster vhost -u &lt;TARGET_URL> -w /usr/share/SecLists/Discovery/Web-Content/common.txt --append-domain</code></pre>
       <li><a href='https://github.com/epi052/feroxbuster'>feroxbuster</a>
       <li>dirb
       <li><a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
