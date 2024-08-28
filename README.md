@@ -215,6 +215,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
    		<p>-w - wordlist
 		<p>-s - include only responses with the specified status codes (comma-separated)
 		<p>-d - exclude responses with the specified status codes (comma-separated)
+		<p>--exclude-length - exclude responses with specific content lengths (comma-separated, supports ranges)
    		<pre><code>gobuster dir -u &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt</code></pre>
    	 &nbsp;&nbsp;&nbsp;Subdomains enumeration:
     		<p>vhost - for brute-forcing	
@@ -396,6 +397,18 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	</ul>
 
  <h3 id='n1.15'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> FFUF</ins></h3>
+ 	Flags:
+  	<p>-mc (match code) - Include only responses that match the specified status codes (e.g., 200,204,301, 400-499)
+	<p>-ms (match size) - Include only responses that match a specific size or range of sizes
+	<p>-mw (match word count) - Include only responses that have the specified amount of words in the response body (-fw "admin")
+	<p>-ml (match line count) - Include only responses that have the specified amount of lines in the response body
+	<p>-mt (match time) - Include only responses that meet a specific time-to-first-byte (TTFB) condition. This is useful for identifying responses that are unusually slow or fast, potentially indicating interesting behavior
+	<p>-fc (filter code) - Exclude responses that match the specified status codes, using the same format as -mc
+	<p>-fs (filter size) - Exclude responses with a specific size or range of sizes
+	<p>-fw (filter word) - Enclude only responses containing the specified word or phrase in the response body
+	<p>-fl (filter line) - Exclude responses with a specific number of lines or range of lines. For example, -fl 5 will filter out responses with 5 lines
+	<p>-e - extension`s file
+	<p>-recursion - recursion fuzzing
  	<pre><code>ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -u http://&lt;TARGET_IP>:&lt;TARGET_PORT>/FUZZ -e .php,.html,.txt</code></pre>
   	<pre><code>ffuf -w /path/to/wordlist1.txt -w /path/to/wordlist2.txt -u https://example.com/FUZZ?param=FUZZ -mc 200 -ic</code></pre>
    	<pre><code>ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt  -u http://&lt;TARGET_IP>:&lt;TARGET_PORT>/FUZZ -recursion</code></pre>
