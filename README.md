@@ -34,7 +34,7 @@ Topic contains:
 	<li> <a href='#n1.3'>Linux</a>
 	<li> <a href='#n1.4'>Windows</a>
 	<li> <a href='#n1.5'>Nmap</a> commands with search vulnerabilities scripts
-	<li> <a href='#n1.6'>Gobuster</a> dirs amd subdomains enumeration commands
+	<li> <a href='#n1.6'>Gobuster</a>
 	<li> <a href='#n1.7'>Hydra</a>
 	<li> <a href='#n1.8'>Dirsearch</a>
 	<li> <a href='#n1.9'>Pumping</a> shell
@@ -213,13 +213,15 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	 &nbsp;&nbsp;&nbsp;Directories enumeration:
  		<p>-u - target url
    		<p>-w - wordlist
-   		<pre><code> gobuster dir -u &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt </code></pre>
+		<p>-s - include only responses with the specified status codes (comma-separated)
+		<p>-d - exclude responses with the specified status codes (comma-separated)
+   		<pre><code>gobuster dir -u &lt;TARGET_URL> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt</code></pre>
    	 &nbsp;&nbsp;&nbsp;Subdomains enumeration:
     		<p>vhost - for brute-forcing	
-   		<pre><code> gobuster vhost -w &lt;/path/to/wordlist> -u &lt;url> </code></pre>
+   		<pre><code>gobuster vhost -w &lt;/path/to/wordlist> -u &lt;url></code></pre>
          &nbsp;&nbsp;&nbsp; OR
 	 	<p>t - threads
-	 	<pre><code> gobuster dns &lt;TARGET> -w /usr/share/wordlists/dns/subdomains_list.txt -t 50</code></pre>
+	 	<pre><code>gobuster dns &lt;TARGET> -w /usr/share/wordlists/dns/subdomains_list.txt -t 50</code></pre>
 	
 <h3 id='n1.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Hydra </ins></h3>
     &nbsp;&nbsp;&nbsp; Brute force against a protocol of some choice:
