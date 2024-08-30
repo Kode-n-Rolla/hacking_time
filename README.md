@@ -923,50 +923,57 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 
 <h2 align='center' id='n5'><em> Privilege Escalation </em></h2>
 <h3> ENUMERATION is a key! </h3>
-	 <h3> <ins>Linux</ins> </h3>
-  		Some advice to Linux Privilege Escalation
-    		<ul>
-			<li> Check out user are running - <code> whoami </code>
-			<li> Check out groups does running user belong to - <code> id </code>
-			<li> Check out what is the server named - <code> hostname </code>
-			<li> Check out what subnet did land in - <code> ifconfig </code> or <code> ip -a </code>
-			<li> Check out kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )
-			<li> Check out screen version - <code> screen -v</code>
-			<li> Check out .ssh folder in <code>/home/&lt;USERNAME>/.ssh</code> or <code>/root/.ssh</code>
-			<li> Check out all environment variables <code> env </code>
-			<li> Check out login shells exist on the server - <code> cat /etc/shells </code> 
-			<li> Check out Cron Tab:
-				<p><code>ls -la /etc/cron.d</code>
-				<p><code>ls -la /etc/init.d</code>
-			<li> Check out setuid and setgid 
-				<p> To find files with sticky bit:
-					<pre><code>find / -perm -u=s -type f 2>/dev/null</code></pre>
-					<pre><code>find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null</code></pre>	
-				<p> To check out rights
-				<p> <pre><code>ls -la</code></pre>
-			<li> Find world writable files for every users - <code> find / -perm -2 -type f 2>/dev/null </code>
-			<li> Check out NOPASSWD sudo command - <code> sudo -l</code>
-			<li> Check out PATH - <code>echo $PATH</code>
-			<li> Check out the routing table by <code> route </code> or <code> netstat -rn </code>
-			<li> Check out arp table - <code> arp -a </code>
-			<li> Check out environ:
-				<p><pre><code> cat /proc/self/environ </code></pre>
-			<li> Check out history:
-				<p><code>history</code>
-				<p><code>cat ~/.bash_history</code>
-				<p><code>cat ~/.mysql_history</code>
-				<p><code>cat ~/.nano_history</code>
-				<p><code>cat ~/.php_history</code>
-				<p><code>cat ~/.atftp_history</code>
-				<p><code>cat ~/.*history | less</code> - all history search
-			<li> Check out executable files in:
-				<p><code> home directory </code> and <code> /var/www </code> or the same
-			<li> Check out some additional information about the host itself such as the CPU type/version - <code> lscpu </code>
-			<li> Check out logrotate version - <code> logrotate --version</code>. This <a href='https://github.com/whotwagner/logrotten'> github tool</a> can help with privesc
-    		</ul>
-    <!--   <h3><ins> Windows </ins></h3>
-       		Information about the target system:
-		<pre><code>systeminfo</code></pre> -->
+	<ul>
+		<li><a href='#n5.1'>Linux</a>
+	 	<li><a href='#n5.2'>Windows</a>
+	</ul>
+		 <h3 id='n5.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Linux</ins> </h3>
+	  		Some advice to Linux Privilege Escalation
+	    		<ol>
+				<li> Check out user are running - <code> whoami </code>
+				<li> Check out groups does running user belong to - <code> id </code>
+				<li> Check out what is the server named - <code> hostname </code>
+				<li> Check out what subnet did land in - <code> ifconfig </code> or <code> ip -a </code>
+				<li> Check out kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )
+				<li> Check out screen version - <code> screen -v</code>
+				<li> Check out .ssh folder in <code>/home/&lt;USERNAME>/.ssh</code> or <code>/root/.ssh</code>
+				<li> Check out all environment variables <code> env </code>
+				<li> Check out login shells exist on the server - <code> cat /etc/shells </code> 
+				<li> Check out Cron Tab:
+					<p><code>ls -la /etc/cron.d</code>
+					<p><code>ls -la /etc/init.d</code>
+				<li> Check out setuid and setgid 
+					<p> To find files with sticky bit:
+						<pre><code>find / -perm -u=s -type f 2>/dev/null</code></pre>
+						<pre><code>find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null</code></pre>	
+					<p> To check out rights
+					<p> <pre><code>ls -la</code></pre>
+				<li> Find world writable files for every users - <code> find / -perm -2 -type f 2>/dev/null </code>
+				<li> Check out NOPASSWD sudo command - <code> sudo -l</code>
+				<li> Check out PATH - <code>echo $PATH</code>
+				<li> Check out the routing table by <code> route </code> or <code> netstat -rn </code>
+				<li> Check out arp table - <code> arp -a </code>
+				<li> Check out environ:
+					<p><pre><code> cat /proc/self/environ </code></pre>
+				<li> Check out history:
+					<p><code>history</code>
+					<p><code>cat ~/.bash_history</code>
+					<p><code>cat ~/.mysql_history</code>
+					<p><code>cat ~/.nano_history</code>
+					<p><code>cat ~/.php_history</code>
+					<p><code>cat ~/.atftp_history</code>
+					<p><code>cat ~/.*history | less</code> - all history search
+				<li> Check out executable files in:
+					<p><code> home directory </code> and <code> /var/www </code> or the same
+				<li> Check out some additional information about the host itself such as the CPU type/version - <code> lscpu </code>
+				<li> Check out logrotate version - <code> logrotate --version</code>. This <a href='https://github.com/whotwagner/logrotten'> github tool</a> can help with privesc
+	    		</ol>
+	    <h3 id='n5.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows</ins> </h3>
+			<ol>
+				<li><code>systeminfo</code> - information about the target system
+				<li><code>cmdkey /list</code> - list any saved credentials\
+			</ol>
+
        
       
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
