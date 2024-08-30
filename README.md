@@ -20,6 +20,7 @@
 	<li> <a href='#n6'> Tips </a>
 	<li> <a href='#n7'>GPTs (Agents) for Cybersecurity </a>
 	<li> <a href='#n8'>OSINT</a>
+	<li> <a href='#n9'>API</a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help</a> about pentest process
 	<!--<li> cheat sheet injections 
 	Add XSStrike to Tools!-->
@@ -1066,10 +1067,30 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<p> <a href='https://snusbase.com/'>Snusbase</a> indexes information from leaks and provides access to searching compromised email addresses, logins, names, IP addresses, phone numbers, and password hashes
 		<p> <a href='https://haveibeenpwned.com/'>Have I Been Pwned?</a> is a data breach search engine. It allows you to check which incidents a specific email address has been involved in
 		<p> <a href='https://hunter.io/'>Hunter</a> and <a href='http://www.skymem.info/'>Skymem</a> - search for corporate email addresses by URL
-		<p> <a href='https://whatsmyname.app/'>Whatsmyname</a> - searches for accounts on various services by username. The service is based on <a href='https://github.com/WebBreacher/WhatsMyName'>publicly 				available JSON</a>
+		<p> <a href='https://whatsmyname.app/'>Whatsmyname</a> - searches for accounts on various services by username. The service is based on <a href='https://github.com/WebBreacher/WhatsMyName'>publicly available JSON</a>
 		<p> <a href='https://www.user-searcher.com/'>User Searcher</a> - a free tool that helps find users by login on over 2,000 websites
 		<p> <a href='https://checkusernames.com/'>CheckUserNames</a>, <a href='https://instantusername.com/#/'>Instant</a>, <a href='https://www.namecheckr.com/'>Namecheckr</a>, <a 							href='https://www.peekyou.com/username'>Peekyou</a>, <a href='https://usersearch.org/'>Usersearch</a> - online services for searching user accounts by username
 </ol>
+
+<h3 align='right'><a href='#start'> <-- Back </a></h3> 
+
+<h2 align='center' id='n9'><em>API</em></h2>
+	<ol>
+		<li><a href='n9.1'>GraphQL</a>
+		<li>REST API - in progress
+	</ol>
+	<h3 id='n9.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphQL</ins></h3>
+ 		<ol>
+			<li>Endpoints:
+				<ul>
+					<li>/graphql
+					<li>/api
+					<li>/api/graphql
+					<li>/graphql/api
+					<li>/graphql/graphql
+					<li>If these common endpoints don't return a GraphQL response, you could also try appending /v1 to the path
+				</ul>
+		</ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
