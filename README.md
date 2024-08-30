@@ -1081,6 +1081,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	</ol>
 	<h3 id='n9.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphQL</ins></h3>
  		<ol>
+			<li>Wordlists: /seclists/Discovery/Web-Content/api/
 			<li>Endpoints:
 				<ul>
 					<li>/graphql
