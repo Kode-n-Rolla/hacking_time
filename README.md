@@ -1076,7 +1076,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 
 <h2 align='center' id='n9'><em>API</em></h2>
 	<ol>
-		<li><a href='n9.1'>GraphQL</a>
+		<li><a href='#n9.1'>GraphQL</a>
 		<li>REST API - in progress
 	</ol>
 	<h3 id='n9.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphQL</ins></h3>
