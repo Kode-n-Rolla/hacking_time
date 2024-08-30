@@ -1082,6 +1082,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<h3 id='n9.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphQL</ins></h3>
  		<ol>
 			<li>Wordlists: /seclists/Discovery/Web-Content/api/
+			<li>Request -> To Repeater -> right-click > GraphQL > Set introspection query. To insert an introspection query into the request body to see much more about GraphQL tree data and manipulate
 			<li>Endpoints:
 				<ul>
 					<li>/graphql
