@@ -3,6 +3,8 @@
     <ul><h2>Passive</h2>
       <li><a href='https://www.shodan.io/'>Shodan</a>
       <li><a href='https://search.censys.io/'>Censys</a>
+        <p>Dork like this help to find subdomains and don`t forget check setting for include Virtual Hosts
+          <p><code>(services.tls.certificates.leaf_data.names: &lt;TARGET_DOMAIN>) and services.http.response.status_code=”200"</code>
       <li><a href='https://crt.sh/'>crt.sh</a>
       <li><a href='https://web.archive.org/'>Web archive</a>
       <li><a href='https://www.whois.com/whois/'>Whois</a>
