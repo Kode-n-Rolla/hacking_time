@@ -949,7 +949,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 				<li> Check out setuid and setgid 
 					<p> To find files with sticky bit:
 						<pre><code>find / -perm -u=s -type f 2>/dev/null</code></pre>
-						<pre><code>find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null</code></pre>	
+						<pre><code>find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null</code></pre>
+      						<pre><code>find / -perm -4000 2>/dev/null</code></pre>
 					<p> To check out rights
 					<p> <pre><code>ls -la</code></pre>
 				<li> Find world writable files for every users - <code> find / -perm -2 -type f 2>/dev/null </code>
