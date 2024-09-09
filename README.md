@@ -21,6 +21,7 @@
 	<li> <a href='#n7'>GPTs (Agents) for Cybersecurity </a>
 	<li> <a href='#n8'>OSINT</a>
 	<li> <a href='#n9'>API</a>
+	<li> <a href='#n10'>WordPress</a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest%20process.md'> Help</a> about pentest process
 	<!--<li> cheat sheet injections 
 	Add XSStrike to Tools!-->
@@ -1097,6 +1098,15 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		</ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
+
+<h2 align='center' id='n10'><em>WordPress</em></h2>
+	<ul>
+		<li>Endpoints:
+			<p>wp-json/wp/v2/users
+	</ul>
+
+<h3 align='right'><a href='#start'> <-- Back </a></h3> 
+
 
 
 </body>
