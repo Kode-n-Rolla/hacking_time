@@ -737,6 +737,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other </h3>
  		<li> <a href='https://fpcentral.irisa.fr/'>fpcentral.irisa.fr</a>. Check fingerprint
    		<li> <a href='https://amiunique.org/'>amiunique.org</a>. Like from above
+     		<li> <a href='https://blindf.com/'>blindf.com</a>. Helps with Blind XSS
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
        
