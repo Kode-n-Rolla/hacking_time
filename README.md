@@ -622,6 +622,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://lolbas-project.github.io/#'> LOLBAS</a>. Help with Windows
 	      <li> <a href='https://shell-storm.org/'>Shell-Storm</a>. DB of shell-codes
 	      <li> <a href='https://www.thehacker.recipes/'> thehacker.recipes</a>. Help with AD
+	      <li> <a href='https://appsecexplained.gitbook.io/appsecexplained'>appsecexplained.gitbook.io</a>Help with explotation vulns.
 	      <li> <a href='https://search-engine-bug-bounty.netlify.app/'> Search engine bug bounty</a>. Help with vulns scanning
 	      <li> <a href='https://app.interactsh.com/#/'> interactsh.com</a>. Like a Burp Collaborator.
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets, Tips </h3>
