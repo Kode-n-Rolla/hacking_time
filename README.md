@@ -922,11 +922,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 								<li>Body parameters to XML
 							</ul>
 						<li><a href='https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943'>Param miner</a>. Extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities.
+						<li><a href='https://portswigger.net/bappstore/af490ae7e79546fa81a28d8d0b90874e'>Pentest Mapper</a>. Is a extension that integrates the Burp Suite request logging with a custom application testing checklist
 					</ul>
      			<h3 id='n4.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Kali Tools</ins></h3>
 				 <ol>
 					<li><a href='https://www.kali.org/tools/name-that-hash/'>Name That Hash</a> - Instantly name the type of any hash (with hashcat command)
-						<pre><code> name-that-hash --help </code></pre>
+						<pre><code>name-that-hash --help</code></pre>
 					<li><a href='https://www.kali.org/tools/wafw00f/'>wafw00f</a> - This package identifies and fingerprints Web Application Firewall (WAF) products
 						<pre><code>wafw00f -h</code></pre>
 					<li><a href='https://www.kali.org/tools/gowitness/'>gowitness</a> - Is a website screenshot utility, that uses Chrome Headless to generate screenshots of web interfaces using the command line
