@@ -1104,10 +1104,23 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 
 <h2 align='center' id='n9'><em>API</em></h2>
 	<ol>
-		<li><a href='#n9.1'>GraphQL</a>
+		<li><a href='#n9.1'>Tips
+		<li><a href='#n9.2'>Fuzzing
+		<li><a href='#n9.3'>GraphQL</a>
 		<li>REST API - in progress
 	</ol>
-	<h3 id='n9.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphQL</ins></h3>
+	<h3 id='n9.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuzzing</ins></h3>
+			<ol>
+				<li>Check the JS files to find api endpoints
+				<li>Try to change methods
+				<li>If BFLA doesn`t allow to see one record, try to get all (/users instead of /user/1)
+			</ol>
+	<h3 id='n9.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuzzing</ins></h3>
+		<ol>
+			<li>Try number of version (for example v0, v1, v2, v3, v4 etc)
+			<li>Fuzz parameters and/or query
+		</ol>
+	<h3 id='n9.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphQL</ins></h3>
  		<ol>
 			<li>Wordlists: /seclists/Discovery/Web-Content/api/
 			<li>Request -> To Repeater -> right-click > GraphQL > Set introspection query. To insert an introspection query into the request body to see much more about GraphQL tree data and manipulate
