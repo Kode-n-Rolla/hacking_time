@@ -1059,16 +1059,21 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<li> <a href='https://reqrypt.org/tallow.html'> Tallow</a>. All traffic throw tor
 			<li> <a href='https://safing.io/'> Safing Portmaster</a>. Your firewall
 		</ul>
-	<li> <a href='https://0xacab.org/jvoisin/mat2'> mat2</a>. Tool gets rid of metadata everywhere
-	<li>Unified Kill Chain
-		<p>1. Reconnaissance (<a href='https://attack.mitre.org/tactics/TA0043/'>MITRE Tactic TA0043</a>)
-		<p>2. Weaponization (<a href='https://attack.mitre.org/tactics/TA0001/'>MITRE Tactic TA0001</a>)
-		<p>3. Social Engineering (<a href='https://attack.mitre.org/tactics/TA0001/'>MITRE Tactic TA0001</a>)
-		<p>4. Exploitation (<a href='https://attack.mitre.org/tactics/TA0002/'>MITRE Tactic TA0002</a>)
-		<p>5. Persistence (<a href='https://attack.mitre.org/tactics/TA0003/'>MITRE Tactic TA0003</a>)
-  		<p>6. Defence Evasion (<a href='https://attack.mitre.org/tactics/TA0005/'>MITRE Tactic TA0005</a>)
-		<p>7. Command & Control (<a href='https://attack.mitre.org/tactics/TA0011/'>MITRE Tactic TA0011</a>)
-		<p>8. Pivoting (<a href='https://attack.mitre.org/tactics/TA0008/'>MITRE Tactic TA0008)/a>)
+	<li> <a href='https://0xacab.org/jvoisin/mat2'>mat2</a>. Tool gets rid of metadata everywhere
+		<li>Unified Kill Chain
+			<p>1. Reconnaissance (<a href='https://attack.mitre.org/tactics/TA0043/'>MITRE Tactic TA0043</a>)
+			<p>2. Weaponization (<a href='https://attack.mitre.org/tactics/TA0001/'>MITRE Tactic TA0001</a>)
+			<p>3. Social Engineering (<a href='https://attack.mitre.org/tactics/TA0001/'>MITRE Tactic TA0001</a>)
+			<p>4. Exploitation (<a href='https://attack.mitre.org/tactics/TA0002/'>MITRE Tactic TA0002</a>)
+			<p>5. Persistence (<a href='https://attack.mitre.org/tactics/TA0003/'>MITRE Tactic TA0003</a>)
+	  		<p>6. Defence Evasion (<a href='https://attack.mitre.org/tactics/TA0005/'>MITRE Tactic TA0005</a>)
+			<p>7. Command & Control (<a href='https://attack.mitre.org/tactics/TA0011/'>MITRE Tactic TA0011</a>)
+			<p>8. Pivoting (<a href='https://attack.mitre.org/tactics/TA0008/'>MITRE Tactic TA0008)/a>)
+	<li>Jenkins endpoints.
+		<ul>
+			<li>•  /signup
+			<li>•  /jenkins/signup
+		</ul>
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
