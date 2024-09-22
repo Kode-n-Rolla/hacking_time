@@ -414,6 +414,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
  	<pre><code>ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt -u http://&lt;TARGET_IP>:&lt;TARGET_PORT>/FUZZ -e .php,.html,.txt</code></pre>
   	<pre><code>ffuf -w /path/to/wordlist1.txt -w /path/to/wordlist2.txt -u https://example.com/FUZZ?param=FUZZ -mc 200 -ic</code></pre>
    	<pre><code>ffuf -w /usr/share/seclists/Discovery/Web-Content/directory-list-2.3-medium.txt  -u http://&lt;TARGET_IP>:&lt;TARGET_PORT>/FUZZ -recursion</code></pre>
+    	<pre><code>ffuf -u http://&lt;TARGET_URL> -H "FUZZ.&lt;TARGET.DOMAIN>" -w /path/to/worlist</code></pre>
 
  <h3 id='n1.16'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Rustscan</ins></h3>
  	<ul>
