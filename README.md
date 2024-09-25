@@ -1121,6 +1121,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 				<li>Check the JS files to find api endpoints
 				<li>Try to change methods
 				<li>If BFLA doesn`t allow to see one record, try to get all (/users instead of /user/1)
+				<li>/usr/share/seclists/Discovery/Web-Content/api/
 			</ol>
 	<h3 id='n9.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuzzing</ins></h3>
 		<ol>
