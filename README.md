@@ -712,6 +712,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://www.babelstreet.com/'> Babel street</a>.
 	      <li> <a href='https://crt.sh/'> Crt.sh</a>
 	      <li><a href='https://netlas.io/'>Netlas.io</a>. Discover, scan and monitor any online assets
+       <li><a href='https://intelx.io/'>Intelx.io</a>. Search engine woth leak from darkweb resourses
 	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a> for passive and fast search domains and subdomains and etc
 	      <li> <a href='https://urldna.io/'> Urldna.io</a>. Free, complex, power tool for research web. Collect ssl info, ip addreses, headers, cookies, some info about techs and etc
 	      <li> <a href='https://web-check.xyz/'> Web-check.xyz</a>. In just 20 seconds, you can see what attackers already know
