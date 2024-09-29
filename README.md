@@ -1022,6 +1022,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<li> Command Injection
 		&nbsp;&nbsp;<p> If you find Command Injection and the WAF blocks keywords, you can attempt a bypass method by adding a backslash and a newline character between the blacklisted words.
 			<pre><code>c\%0aat /et\%0ac/pas\%0aswd</code></pre>
+	<li> If target use svg files, try to upload svg with XSS or XML payload
 	<li> Interesting file location:
 		<p> Windows hashes
 		<ul> Local computer:
