@@ -802,12 +802,13 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		    			</ul>
 				<li><h3 id='n4.1.2'> Enumiration </h3>
 					<ul>
-						<li><a href='https://github.com/ly4k/Certipy'> Certipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
-						<li><a href='https://github.com/ffuf/ffuf'> Fuzzer </a>
-						<li><a href='https://github.com/fuzzdb-project/fuzzdb'> fuzzdb </a>
-						<li><a href='https://github.com/guelfoweb/knock'> Knock.py</a> - subdomain scanner
-						<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'> Linux</a> smart enumiration
-						<li><a href='https://github.com/aboul3la/Sublist3r'> Sublist3r</a>. Subdomains enumiration python tool
+						<li><a href='https://github.com/h4r5h1t/webcopilot'>WebCopilot</a> is an automation tool designed to enumerate subdomains of the target and detect bugs using different open-source tools
+						<li><a href='https://github.com/ly4k/Certipy'>Certipy</a>. Tool for Active Directory Certificate Services enumeration and abuse
+						<li><a href='https://github.com/ffuf/ffuf'>Fuzzer </a>
+						<li><a href='https://github.com/fuzzdb-project/fuzzdb'>fuzzdb </a>
+						<li><a href='https://github.com/guelfoweb/knock'>Knock.py</a> - subdomain scanner
+						<li><a href='https://github.com/diego-treitos/linux-smart-enumeration'>Linux</a> smart enumiration
+						<li><a href='https://github.com/aboul3la/Sublist3r'>Sublist3r</a>. Subdomains enumiration python tool
 					</ul>
 				<li><h3 id='n4.1.3'> OSINT </h3>
 					<ul>
@@ -839,7 +840,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		    			</ul>
 		   		<li><h3 id='n4.1.7'> Looking for exploits and vulnerabilities </h3>
 					<ul>
-						<li><a href='https://gitlab.com/kalilinux/packages/exploitdb'> Searchsploit</a> - provides direct access to the Exploit Database from the Kali Linux terminal. Users can utilize powerful search commands to quickly discover 							exploits and vulnerabilities. This tool is an indispensable assistant for security professionals working in the Kali Linux environment
+						<li><a href='https://gitlab.com/kalilinux/packages/exploitdb'> Searchsploit</a> - provides direct access to the Exploit Database from the Kali Linux terminal. Users can utilize powerful search commands to quickly 								discover exploits and vulnerabilities. This tool is an indispensable assistant for security professionals working in the Kali Linux environment
 						<li><a href='https://github.com/vulnersCom/getsploit'> getsploit</a> - combines the functionality of searchsploit with the ability to download exploits. It allows users to conduct online searches across databases such as 							Exploit-DB, Metasploit, and Packetstorm. Additionally, it provides the capability to download exploit source code directly, making the search and retrieval of necessary data for pentesting simple and effective
 						<li><a href='https://github.com/projectdiscovery/cvemap'> CVEMap</a> - a tool from Projectdiscovery designed for quick and convenient searching across all known vulnerability databases
 						<li><a href='https://github.com/rfunix/Pompem'> Pompem</a> - a tool pre-installed in Parrot OS, automates the process of searching for exploits and vulnerabilities. It uses an advanced search system to check databases 							such as PacketStorm Security, CXSecurity, ZeroDay, Vulners, and NVD
@@ -914,15 +915,16 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			  	</ul>
 			<h3 id='n4.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Burp Suite Extensions</ins></h3>
 					<ul>
+						<li><a href='https://portswigger.net/bappstore/4826bfa0c67d41a8b518139186693131'>PyCrypt</a> enables users to encrypt and decrypt requests and response for manual and automated application penetration testing
 						<li><a href='https://portswigger.net/bappstore/26aaa5ded2f74beea19e2ed8345a93dd'>JWT Editor</a>. Is a extension or editing, signing, verifying, encrypting and decrypting JSON Web Tokens (JWTs).
-						<li> <a href='https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb'> Software Vulnerability Scanner </a> - This extension displays public vulnerabilities for applications detected in the traffic proxied by 							Burp. Essentially, it acts as a layer between Burp and the API of this excellent vulnerability aggregator.
-						<li> <a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'> Backslash Powered Scanner </a> - Enhances Burp's active scanner using a novel approach capable of finding and confirming both known and 							unknown classes of server-side injection vulnerabilities.
-						<li> <a href='https://portswigger.net/bappstore/f154175126a04bfe8edc6056f340f52e'> SQLiPy </a> - A tool that integrates Burp Suite with SQLMap using the SQLMap API to check for SQL injection vulnerabilities.
-						<li> <a href='https://portswigger.net/bappstore/3123d5b5f25c4128894d97ea1acc4976'> Active Scan++ </a> - Expands the range of checks performed by the active and passive scanners. It identifies vulnerabilities such as 							cache poisoning, DNS rebinding, various injections, and also performs additional checks to detect XXE injections and more.
-						<li> <a href='https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988'> Turbo Intruder </a> - A faster alternative to Intruder equipped with a scriptable engine for sending a large number of HTTP requests and 							analyzing the results. Useful when speed is required.
-						<li> <a href='https://portswigger.net/bappstore/ae2611da3bbc4687953a1f4ba6a4e04c'> Bypass WAF </a> - A tool for bypassing web application firewalls (WAFs).
-						<li> <a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'> BurpJS Link Finder </a> - Helps identify and discover links based on JavaScript in web applications.
-						<li> <a href='https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122'> 403 Bypasser Extension </a> - A tool designed to bypass 403 errors commonly encountered when attempting to access restricted areas of a 							website.
+						<li> <a href='https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb'>Software Vulnerability Scanner </a> - This extension displays public vulnerabilities for applications detected in the traffic proxied by 							Burp. Essentially, it acts as a layer between Burp and the API of this excellent vulnerability aggregator.
+						<li> <a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'>Backslash Powered Scanner </a> - Enhances Burp's active scanner using a novel approach capable of finding and confirming both known and 							unknown classes of server-side injection vulnerabilities.
+						<li> <a href='https://portswigger.net/bappstore/f154175126a04bfe8edc6056f340f52e'>SQLiPy </a> - A tool that integrates Burp Suite with SQLMap using the SQLMap API to check for SQL injection vulnerabilities.
+						<li> <a href='https://portswigger.net/bappstore/3123d5b5f25c4128894d97ea1acc4976'>Active Scan++ </a> - Expands the range of checks performed by the active and passive scanners. It identifies vulnerabilities such as 							cache poisoning, DNS rebinding, various injections, and also performs additional checks to detect XXE injections and more.
+						<li> <a href='https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988'>Turbo Intruder </a> - A faster alternative to Intruder equipped with a scriptable engine for sending a large number of HTTP requests and 							analyzing the results. Useful when speed is required.
+						<li> <a href='https://portswigger.net/bappstore/ae2611da3bbc4687953a1f4ba6a4e04c'>Bypass WAF </a> - A tool for bypassing web application firewalls (WAFs).
+						<li> <a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'>BurpJS Link Finder </a> - Helps identify and discover links based on JavaScript in web applications.
+						<li> <a href='https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122'>403 Bypasser Extension </a> - A tool designed to bypass 403 errors commonly encountered when attempting to access restricted areas of a 							website.
 						<li> <a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'> InQL</a> to assist in your GraphQL security testing efforts.
 						<li> <a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'>Backslash Powered Scanner</a>. This extension complements Burp's active scanner by using a novel approach capable of finding and confirming 							both known and unknown classes of server-side injection vulnerabilities.
 						<li><a href='https://github.com/portswigger/hackvertor'> Hackvertor</a> is a tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc.
