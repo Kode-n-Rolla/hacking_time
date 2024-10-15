@@ -13,6 +13,9 @@
       <li>Social Media
       <li><a href='https://github.com/'>GitHub</a>, <a href='https://about.gitlab.com/'>GitLab</a>
       <li>Google Dorking
+      <li><a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
+      <li><a href='https://github.com/owasp-amass/amass'>amass</a>
+      <li>subfinder
     </ul>
     <ul><h2>Active</h2>
       <li>nmap
@@ -22,8 +25,8 @@
         <pre><code>gobuster vhost -u &lt;TARGET_URL> -w /usr/share/SecLists/Discovery/Web-Content/common.txt --append-domain</code></pre>
       <li><a href='https://github.com/epi052/feroxbuster'>feroxbuster</a>
       <li>dirb
-      <li><a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
-      <li><a href='https://github.com/owasp-amass/amass'>amass</a>, <a href='https://github.com/fwaeytens/dnsenum'>dnsenum</a>, <a href='https://github.com/mschwager/fierce'>fierce</a>,
+      <li>dirbuster
+      <li><a href='https://github.com/fwaeytens/dnsenum'>dnsenum</a>, <a href='https://github.com/mschwager/fierce'>fierce</a>,
         <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>, <a href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>, <a href='https://github.com/d3mondev/puredns'>puredns</a>
       <li>/robots.txt
       <li>/sitemap.xml
