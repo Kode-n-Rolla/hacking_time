@@ -1179,6 +1179,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h2 align='center' id='n11'><em>JWT</em></h2>
 	Some tips:
  		<ul>
+			<li>Great tool for work with JWT - <a href='https://github.com/ticarpi/jwt_tool'>JWT_Tool</a>
 			<li>Try easy change params
 			<li>Check delete all or delete a couple of chars of signature and send a response
 			<li>Try to brute force signature key
