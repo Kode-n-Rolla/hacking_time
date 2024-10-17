@@ -1179,9 +1179,11 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h2 align='center' id='n11'><em>JWT</em></h2>
 	Some tips:
  		<ul>
-			<li>Check delete signature and send a response
-			<li>Send a response without signature and set "alg":"none"
-			<li>Try use JWK
+			<li>Try easy change params
+			<li>Check delete all or delete a couple of chars of signature and send a response
+			<li>Try to brute force signature key
+			<li>Send a response without signature and set "alg":"none"(or None, or nOne, or NONE). Try send with and without second dot.
+			<li>Try to use JWK
 		</ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
