@@ -1179,8 +1179,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h2 align='center' id='n11'><em>JWT</em></h2>
 	Some tips:
  		<ul>
-			<li>Check delete sign and send a response
-			<li>Send a response without sign and "alg":"none"
+			<li>Check delete signature and send a response
+			<li>Send a response without signature and set "alg":"none"
 			<li>Try use JWK
 		</ul>
 
