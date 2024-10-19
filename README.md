@@ -16,7 +16,6 @@
   	<li><a href='#n3'>Sites</a>
 	<li><a href='#n4'>Tools</a>
 	<li><a href='#n5'>Privilege Escalation</a>
-	<!-- <li> <a href='#n7'> AWS </a> -->
 	<li><a href='#n6'>Tips</a>
 	<li><a href='#n7'>GPTs (Agents) for Cybersecurity</a>
 	<li><a href='#n8'>OSINT</a>
@@ -24,7 +23,8 @@
 	<li><a href='#n10'>WordPress</a>
 	<li><a href='#n11'>JWT</a>
 	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest_methodology.md'>Help</a> about pentest process
-	<!--<li> cheat sheet injections 
+	<!--<li> cheat sheet injections
+	<li> <a href='#nx'>Cloud</a>
 	Add XSStrike to Tools!-->
  	<p> <h3> <ins>N.B. <-- Back link - Means return to the table of contents.</ins> </h3>
 
@@ -640,7 +640,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
 	      
         
-<h2 align='center' id='n3'><em> Sites </em></h2>
+<h2 align='center' id='n3'><em>Sites</em></h2>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Someone main </h3>
 	      <li> <a href='https://book.hacktricks.xyz/'> HackTricks</a> - must have!!! PrivEsc, brute force, pentest network and wifi, metodologies cheatsheets and much more
 	      <li> <a href='https://cloud.hacktricks.xyz/'> Cloud HackTricks</a>
@@ -722,6 +722,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://archive.org/'> Archive</a> of sites history
 	      <li> <a href='https://www.babelstreet.com/'> Babel street</a>.
 	      <li> <a href='https://crt.sh/'> Crt.sh</a>
+	      <li><a href='https://chaos.projectdiscovery.io/'>chaos.projectdiscovery.io</a>
 	      <li><a href='https://netlas.io/'>Netlas.io</a>. Discover, scan and monitor any online assets
        	      <li><a href='https://intelx.io/'>Intelx.io</a>. Search engine woth leak from darkweb resourses
 	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a> for passive and fast search domains and subdomains and etc
