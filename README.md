@@ -22,9 +22,9 @@
 	<li><a href='#n9'>API</a>
 	<li><a href='#n10'>WordPress</a>
 	<li><a href='#n11'>JWT</a>
-	<li> <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest_methodology.md'>Help</a> about pentest process
+	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest_methodology.md'>Help</a> about pentest process
+	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Cloud.md'>Cloud</a>
 	<!--<li> cheat sheet injections
-	<li> <a href='#nx'>Cloud</a>
 	Add XSStrike to Tools!-->
  	<p> <h3> <ins>N.B. <-- Back link - Means return to the table of contents.</ins> </h3>
 
