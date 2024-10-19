@@ -38,8 +38,4 @@
     <li>Google Cloud Platform/SecOps <a href='https://cloud.google.com/terms'>Terms</a> of Service
     <li>Google Cloud Platform Acceptable Use <a href='https://cloud.google.com/terms/aup?hl=ru'>Policy</a>
   </ul>
-    <li>GCP own instruments:
-    <ul>
-      <li><a href='https://aws.amazon.com/inspector/'>Amazon Inspector</a>
-    </ul>
 </ol>
