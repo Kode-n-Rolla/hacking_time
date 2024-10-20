@@ -19,14 +19,14 @@
       <li><a href='https://github.com/MindPointGroup/cloudfrunt'>CloudFrunt</a>. To find misconfiguration in AWS CloudFront. Open-source
       <li><a href='https://github.com/ihamburglar/Redboto'>Redboto</a>. Collection of script to aid in AWS red team engagements
     </ul>
-  <li>For Azure:
+<!--  <li>For Azure:
     <ul>
       <li>
     </ul>
   <li>For GCP:
     <ul>
       <li>
-    </ul>
+    </ul>-->
   <li>For three:
     <ul>
       <li><a href='https://github.com/prowler-cloud/prowler'>Prowler</a>. Open-source.
