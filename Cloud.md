@@ -10,28 +10,37 @@
   <li>For AWS:
     <ul>
       <li>toniblyx`s <a href='https://github.com/toniblyx/my-arsenal-of-aws-security-tools#Offensive'>arsenal</a> of aws security
-      <li><a href='https://github.com/WithSecureLabs/awspx'>awspx</a>. Open-source
+      <li><a href='https://github.com/WithSecureLabs/awspx'>awspx</a>. Open source
       <li><a href='https://www.acunetix.com/'>Acunetix</a>. Vulnerability Scanner. Commercial Software
-      <li><a href='https://github.com/carnal0wnage/weirdAAL'>weirdAAl</a>. AWS attack library. Open-source
-      <li><a href='https://github.com/RhinoSecurityLabs/Security-Research/tree/master/tools/aws-pentest-tools/s3'>S3 bucket scanner</a>. Open-source
-      <li><a href='https://github.com/RhinoSecurityLabs/pacu'>Pacu</a>. AWS pentesting framework. Open-source
-      <li><a href='https://github.com/disruptops/cred_scanner'>Cred Scanner</a>. To find AWS credentials in files. Open-source
-      <li><a href='https://github.com/MindPointGroup/cloudfrunt'>CloudFrunt</a>. To find misconfiguration in AWS CloudFront. Open-source
+      <li><a href='https://github.com/carnal0wnage/weirdAAL'>weirdAAl</a>. AWS attack library. Open source
+      <li><a href='https://github.com/RhinoSecurityLabs/Security-Research/tree/master/tools/aws-pentest-tools/s3'>S3 bucket scanner</a>. Open source
+      <li><a href='https://github.com/RhinoSecurityLabs/pacu'>Pacu</a>. AWS pentesting framework. Open source
+      <li><a href='https://github.com/disruptops/cred_scanner'>Cred Scanner</a>. To find AWS credentials in files. Open source
+      <li><a href='https://github.com/MindPointGroup/cloudfrunt'>CloudFrunt</a>. To find misconfiguration in AWS CloudFront. Open source
       <li><a href='https://github.com/ihamburglar/Redboto'>Redboto</a>. Collection of script to aid in AWS red team engagements
-      <li><a href='https://github.com/jordanpotti/AWSBucketDump'>AWSBucketDump</a>. Quickly enumerate AWS S3 buckets. Open-source
+      <li><a href='https://github.com/jordanpotti/AWSBucketDump'>AWSBucketDump</a>. Quickly enumerate AWS S3 buckets. Open source
     </ul>
-<!--  <li>For Azure:
+  <li>For Azure:
     <ul>
-      <li>
+      <li><a href='https://github.com/NetSPI/MicroBurst'>MicroBurst</a>. A PowerShell Toolkit. Open source
+      <li><a href='https://github.com/hausec/PowerZure'>PowerZure</a>. Created to assess and exploit resources within Microsoft’s cloud platform. Open source
+      <li><a href='https://github.com/nccgroup/ScoutSuite'>ScoutSuite</a>. Open source multi-cloud security-auditing tool
+      <li><a href='https://github.com/FSecureLABS/Azurite'>Azurite</a>. Novel way to use PowerShellfor pentesting Azure. Open source
+      <li><a href='https://github.com/Azure/Cloud-Katana'>Cloud-Katana</a>. To automate the execution of simulation steps in multi-cloud and hybrid cloud environments. Open source
+      <li><a href='https://github.com/cyberark/SkyArk'>SkyArk</a>. Cloud security project with main scanning modules. Open source
+      <li><a href='https://github.com/dafthack/MFASweep'>MFASweep</a>. Help with MFA in Microsoft services. Open source
+      <li><a href='https://github.com/dirkjanm/adconnectdump'>Adconnectdump</a>. Exploit vulnerabilities in how AD is configured in Azure to extract passwords. Open source
+      <li><a href='https://github.com/cyberark/BlobHunter'>BlobHunter</a>. Helps to identify Azure blob storage poorly configured containers. Open source
     </ul>
-  <li>For GCP:
+  <!--<li>For GCP:
     <ul>
       <li>
     </ul>-->
   <li>For three:
     <ul>
-      <li><a href='https://github.com/prowler-cloud/prowler'>Prowler</a>. Open-source.
-      <li><a href='https://www.intruder.io/'>Intruder</a>. Auromated scan. Montly or annual subscription.
+      <li><a href='https://github.com/prowler-cloud/prowler'>Prowler</a>. Open source
+      <li><a href='https://www.intruder.io/'>Intruder</a>. Auromated scan. Montly or annual subscription
+      <li><a href='https://github.com/0xsha/CloudBrute'>CloudBrute</a>. A tool to find a company (target) infrastructure, files, and apps on the top cloud providers. Open source
     </ul>
 </ol>
 
