@@ -1,6 +1,6 @@
 <h1 align='center'>Cloud</h1>
 <h3>There are:</h3>
-  <li><a href='Tools'>Tools</a>
+  <li><a href='Tools'>Third-Party Tools</a>
   <li><a href='AWS'>Amazon Web Services</a>
   <li><a href='Azure'>Microsoft Azure</a>
   <li><a href='GCP'>Google Cloud Platform</a>
