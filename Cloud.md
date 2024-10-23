@@ -80,5 +80,5 @@
     <li>Google Cloud Platform Acceptable Use <a href='https://cloud.google.com/terms/aup?hl=ru'>Policy</a>
   </ul>
 </ol>
-
+<h2 align='center'></h2>
 <h3 align='center'><em>Feel free to check out my GitHub Stars for more cloud tools and resources!</em></h3>
