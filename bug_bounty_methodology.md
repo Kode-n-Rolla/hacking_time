@@ -16,6 +16,7 @@
       <li><a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
       <li><a href='https://github.com/owasp-amass/amass'>amass</a>
       <li><a href='https://github.com/projectdiscovery/subfinder'>subfinder</a>
+      <li><a href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>
     </ul>
     <ul><h2>Active</h2>
       <li>nmap
