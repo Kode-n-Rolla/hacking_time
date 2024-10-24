@@ -15,7 +15,7 @@
       <li>Google Dorking
       <li><a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
       <li><a href='https://github.com/owasp-amass/amass'>amass</a>
-      <li>subfinder
+      <li><a href='https://github.com/projectdiscovery/subfinder'>subfinder</a>
     </ul>
     <ul><h2>Active</h2>
       <li>nmap
