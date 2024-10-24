@@ -28,11 +28,14 @@
       <li>dirb
       <li>dirbuster
       <li><a href='https://github.com/fwaeytens/dnsenum'>dnsenum</a>, <a href='https://github.com/mschwager/fierce'>fierce</a>,
-        <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>, <a href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>, <a href='https://github.com/d3mondev/puredns'>puredns</a>
+        <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>, <a href='https://github.com/d3mondev/puredns'>puredns</a>
       <li>/robots.txt
       <li>/sitemap.xml
       <li>/.well-known/openid-configuration and other /.well-known/... More <a href='https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml'>info</a>
       <li>View source code
+    </ul>
+    <ul><h2>Both</h2>
+      <li><a href='https://github.com/owasp-amass/amass'>amass</a>. <code>amass enum -d example.com</code> - active, <code>amass enum -passive -d example.com</code> - passive
     </ul>
     <ul> <h2>Fingerprinting</h2>
       <li>Wappalyzer (browser extension)
