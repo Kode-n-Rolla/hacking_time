@@ -24,7 +24,6 @@
     <ul>
       <li><a href='https://github.com/NetSPI/MicroBurst'>MicroBurst</a>. A PowerShell Toolkit. Open source
       <li><a href='https://github.com/hausec/PowerZure'>PowerZure</a>. Created to assess and exploit resources within Microsoft’s cloud platform. Open source
-      <li><a href='https://github.com/nccgroup/ScoutSuite'>ScoutSuite</a>. Open source multi-cloud security-auditing tool
       <li><a href='https://github.com/FSecureLABS/Azurite'>Azurite</a>. Novel way to use PowerShellfor pentesting Azure. Open source
       <li><a href='https://github.com/Azure/Cloud-Katana'>Cloud-Katana</a>. To automate the execution of simulation steps in multi-cloud and hybrid cloud environments. Open source
       <li><a href='https://github.com/cyberark/SkyArk'>SkyArk</a>. Cloud security project with main scanning modules. Open source
@@ -32,15 +31,20 @@
       <li><a href='https://github.com/dirkjanm/adconnectdump'>Adconnectdump</a>. Exploit vulnerabilities in how AD is configured in Azure to extract passwords. Open source
       <li><a href='https://github.com/cyberark/BlobHunter'>BlobHunter</a>. Helps to identify Azure blob storage poorly configured containers. Open source
     </ul>
-  <!--<li>For GCP:
+  <<li>For GCP:
     <ul>
-      <li>
-    </ul>-->
+      <li><a href='https://github.com/RhinoSecurityLabs/GCPBucketBrute'>GCPBucketBrute</a>. A script to enumerate Google Storage buckets. Open source
+      <li><a href='https://github.com/DenizParlak/hayat'>hayat</a>. Script to audit Cloud SQL, IAM, Cloud Storage, network configuration, VMs etc. Open source
+      <li><a href='https://github.com/dxa4481/gcploit'>gcploit</a>. Pentrsting tools to find vulnerabilities in GCP. Open source
+      <li><a href='https://github.com/darkbitio/gcp-iam-role-permissions'>gcp-iam-role-permissions</a>. Open source
+      <li><a href='https://github.com/google/gcp_scanner'>GCP Scanner</a>. Open source
+    </ul>
   <li>For three:
     <ul>
       <li><a href='https://github.com/prowler-cloud/prowler'>Prowler</a>. Open source
       <li><a href='https://www.intruder.io/'>Intruder</a>. Auromated scan. Montly or annual subscription
       <li><a href='https://github.com/0xsha/CloudBrute'>CloudBrute</a>. A tool to find a company (target) infrastructure, files, and apps on the top cloud providers. Open source
+      <li><a href='https://github.com/nccgroup/ScoutSuite'>ScoutSuite</a>. Open source multi-cloud security-auditing tool
     </ul>
 </ol>
 
