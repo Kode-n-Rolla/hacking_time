@@ -243,7 +243,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		
 <h3 id='n1.8'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Dirsearch </ins></h3>
    Search a lot of interesting by extensions:
-   <pre><code> dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u '&lt;TARGER_IP>' </code></pre>
+   <pre><code> dirsearch -e php,log,sql,txt,bak,tar,tar.gz,zip,rar,swp,gz,asp,aspx -u '&lt;TARGET_IP>' </code></pre>
 		
 <h3 id='n1.9'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Way to <ins>pump</ins> nc shell </h3>
    <ul>
