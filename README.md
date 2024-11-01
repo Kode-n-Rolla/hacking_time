@@ -777,26 +777,27 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
         
 <h2 align='center' id='n4'><em> Tools </em></h2>
 <ol>
-        <li> <a href='#n4.1'> GitHub Tools</a>
-	<li> <a href='#n4.2'> Browsers extensions</a>
-	<li> <a href='#n4.3'> Burp Suite Extensions</a>
-	<li> <a href='#n4.4'> Kali Tools</a>
+        <li><a href='#n4.1'>GitHub Tools</a>
+	<li><a href='#n4.2'>Browsers extensions</a>
+	<li><a href='#n4.3'>Burp Suite Extensions</a>
+	<li><a href='#n4.4'>Kali Tools</a>
+	<li><a href='#n4.5'>Platforms for hacking and pentesting</a>
 </ol>
 	<h3 id='n4.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>GitHub Tools</ins></h3>
 		My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I categorized github tools.
-		<p> 👇Some of the most popular tools👇
+		<p> 👇Some of the most awesome tools (IHMO)👇
 		<ol>
-			<li> <a href='#n4.1.1'> BruteForce & Wordlists </a>
-			<li> <a href='#n4.1.2'> Enumiration </a>
-			<li> <a href='#n4.1.3'> OSINT </a>
-			<li> <a href='#n4.1.4'> Payloads </a>
-			<li> <a href='#n4.1.5'> Privilege Escalation </a>
-			<li> <a href='#n4.1.6'> Social Engineering </a>
-			<li> <a href='#n4.1.7'> Looking for exploits and vulnerabilities </a>
-			<li> <a href='#n4.1.8'> Another </a>
+			<li><a href='#n4.1.1'>BruteForce & Wordlists </a>
+			<li><a href='#n4.1.2'>Enumiration </a>
+			<li><a href='#n4.1.3'>OSINT </a>
+			<li><a href='#n4.1.4'>Payloads </a>
+			<li><a href='#n4.1.5'>Privilege Escalation </a>
+			<li><a href='#n4.1.6'>Social Engineering </a>
+			<li><a href='#n4.1.7'>Looking for exploits and vulnerabilities </a>
+			<li><a href='#n4.1.8'>Another </a>
 		</ol>
 			<ol>
-				<li><h3 id='n4.1.1'>BruteForce and Wordlists </h3>
+				<li><h3 id='n4.1.1'>BruteForce and Wordlists</h3>
 					<ul>
 						<li><a href='https://github.com/Cryilllic/Active-Directory-Wordlists'> Active Directory </a> Wordlists contains User.txt and Pass.txt
 						<li><a href='https://github.com/duyet/bruteforce-database'> BruteForce </a> Database
@@ -962,6 +963,11 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 						<pre><code>wafw00f -h</code></pre>
 					<li><a href='https://www.kali.org/tools/gowitness/'>gowitness</a> - Is a website screenshot utility, that uses Chrome Headless to generate screenshots of web interfaces using the command line
  				</ol>
+			<h3 id='n4.5'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Platforms for hacking and pentesting</ins></h3>
+   				<ul>
+					<li><a href='https://pentest-tools.com/'>Pentest-Tools</a>
+					<li><a href='https://hackertarget.com/'>HackerTarget</a>
+				</ul>
 
    
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
