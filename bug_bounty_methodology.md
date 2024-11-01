@@ -9,19 +9,25 @@
       <li><a href='https://web.archive.org/'>Web archive</a>
       <li><a href='https://www.whois.com/whois/'>Whois</a>
       <li><a href='https://whoisfreaks.com/'>Whois Freaks</a>
+      <li><a href='https://viewdns.info/'>ViewDNS.info</a>
+      <li><a href='https://www.yougetsignal.com/'>YouGetSignal.com</a>. Remote Address Lookup, Port Forwarding Tester, Whois Lookup, Visual Trace Route, Reverse IP Lookup, Network Location Tool and much more
+      <li><a href='https://rapiddns.io/'>Rapiddns.io</a>. DNS data
+      <li><a href='https://securitytrails.com/'>Securitytrails.com</a>
+      <li><a href='https://dnsdumpster.com/'>Dnsdumpster.com</a>
+      <li><a href='https://urlscan.io/'>Urlscan.io</a>
       <li><code>dig domain.com ANY</code> (<code>dig @ns1.domain.com domain AXFR</code>), <code>nslookup domain.com</code>, <code>host domain.com</code>
       <li><a href='https://github.com/laramies/theHarvester'>theHarvester</a>
       <li>Social Media
       <li><a href='https://github.com/'>GitHub</a>, <a href='https://about.gitlab.com/'>GitLab</a>
       <li>Google Dorking
       <li><a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
-      <li><a href='https://github.com/owasp-amass/amass'>amass</a>
       <li><a href='https://github.com/projectdiscovery/subfinder'>subfinder</a>
       <li><a href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>
       <li><a href='https://github.com/gotr00t0day/spyhunt'>spyhunt</a>. Comprehensive network scanning and vulnerability assessment tool.
     </ul>
     <ul><h2>Active</h2>
-      <li><a href='https://github.com/projectdiscovery/httpx'>httpx</a>. Check subdomains for alive
+      <li><a href='https://github.com/projectdiscovery/httpx'>httpx</a>. Check active subdomains
+      <li><a href='https://github.com/robertdavidgraham/masscan'>masscan</a>
       <li><a href='https://github.com/nmap/nmap'>nmap</a>
       <li><a href='https://github.com/ffuf/ffuf'>ffuf</a>
       <li><a href='https://github.com/OJ/gobuster'>gobuster</a>:
@@ -36,6 +42,7 @@
       <li>/sitemap.xml
       <li>/.well-known/openid-configuration and other /.well-known/... More <a href='https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml'>info</a>
       <li>View source code
+      <li><a href='https://otx.alienvault.com/'>Otx.alienvault.com</a>
     </ul>
     <ul><h2>Both</h2>
       <li><a href='https://github.com/owasp-amass/amass'>amass</a>. <code>amass enum -d example.com</code> - active, <code>amass enum -passive -d example.com</code> - passive
