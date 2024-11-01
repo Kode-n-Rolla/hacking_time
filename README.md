@@ -22,7 +22,7 @@
 	<li><a href='#n9'>API</a>
 	<li><a href='#n10'>WordPress</a>
 	<li><a href='#n11'>JWT</a>
-	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest_methodology.md'>Help</a> about pentest process
+	<li>Help with <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest_methodology.md'>Pentesting</a> and <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/bug_bounty_methodology.md'>Bug Bounty</a> processes
 	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Cloud.md'>Cloud</a>
 	<!--<li> cheat sheet injections
 	Add XSStrike to Tools!-->
