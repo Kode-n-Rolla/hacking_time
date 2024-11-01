@@ -18,6 +18,7 @@
       <li><a href='https://github.com/owasp-amass/amass'>amass</a>
       <li><a href='https://github.com/projectdiscovery/subfinder'>subfinder</a>
       <li><a href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>
+      <li><a href='https://github.com/gotr00t0day/spyhunt'>spyhunt</a>. Comprehensive network scanning and vulnerability assessment tool.
     </ul>
     <ul><h2>Active</h2>
       <li><a href='https://github.com/projectdiscovery/httpx'>httpx</a>. Check subdomains for alive
