@@ -28,7 +28,7 @@
         <pre><code>gobuster vhost -u &lt;TARGET_URL> -w /usr/share/SecLists/Discovery/Web-Content/common.txt --append-domain</code></pre>
       <li><a href='https://github.com/epi052/feroxbuster'>feroxbuster</a>
       <li><a href='https://github.com/v0re/dirb'>dirb</a>
-      <li><a herf='https://github.com/KajanM/DirBuster'>dirbuster</a>
+      <li><a href='https://github.com/KajanM/DirBuster'>dirbuster</a>
       <li><a href='https://github.com/fwaeytens/dnsenum'>dnsenum</a>, <a href='https://github.com/mschwager/fierce'>fierce</a>,
         <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>, <a href='https://github.com/d3mondev/puredns'>puredns</a>
       <li>/robots.txt
