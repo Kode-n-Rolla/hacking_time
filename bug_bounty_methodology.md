@@ -9,7 +9,8 @@
       <li><a href='https://web.archive.org/'>Web archive</a>
       <li><a href='https://www.whois.com/whois/'>Whois</a>
       <li><a href='https://whoisfreaks.com/'>Whois Freaks</a>
-      <li>$dig (axfr), nslookup, host, <a href='https://github.com/laramies/theHarvester'>theHarvester</a>
+      <li><code>dig domain.com ANY</code> (<code>dig @ns1.domain.com domain AXFR</code>), <code>nslookup domain.com</code>, <code>host domain.com</code>
+      <li><a href='https://github.com/laramies/theHarvester'>theHarvester</a>
       <li>Social Media
       <li><a href='https://github.com/'>GitHub</a>, <a href='https://about.gitlab.com/'>GitLab</a>
       <li>Google Dorking
@@ -19,14 +20,15 @@
       <li><a href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>
     </ul>
     <ul><h2>Active</h2>
-      <li>nmap
-      <li>ffuf
-      <li>gobuster:
+      <li><a href='https://github.com/projectdiscovery/httpx'>httpx</a>. Check subdomains for alive
+      <li><a href='https://github.com/nmap/nmap'>nmap</a>
+      <li><a href='https://github.com/ffuf/ffuf'>ffuf</a>
+      <li><a href='https://github.com/OJ/gobuster'>gobuster</a>:
         <pre><code>gobuster dns -d &lt;TARGET_DOMAIN.com> -w /usr/share/SecLists/Discovery/DNS/subdomains-top1million-5000.txt</code></pre>
         <pre><code>gobuster vhost -u &lt;TARGET_URL> -w /usr/share/SecLists/Discovery/Web-Content/common.txt --append-domain</code></pre>
       <li><a href='https://github.com/epi052/feroxbuster'>feroxbuster</a>
-      <li>dirb
-      <li>dirbuster
+      <li><a href='https://github.com/v0re/dirb'>dirb</a>
+      <li><a herf='https://github.com/KajanM/DirBuster'>dirbuster</a>
       <li><a href='https://github.com/fwaeytens/dnsenum'>dnsenum</a>, <a href='https://github.com/mschwager/fierce'>fierce</a>,
         <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>, <a href='https://github.com/d3mondev/puredns'>puredns</a>
       <li>/robots.txt
