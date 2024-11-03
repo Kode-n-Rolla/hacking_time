@@ -45,6 +45,7 @@
       <li><a href='https://www.intruder.io/'>Intruder</a>. Auromated scan. Montly or annual subscription
       <li><a href='https://github.com/0xsha/CloudBrute'>CloudBrute</a>. A tool to find a company (target) infrastructure, files, and apps on the top cloud providers. Open source
       <li><a href='https://github.com/nccgroup/ScoutSuite'>ScoutSuite</a>. Open source multi-cloud security-auditing tool
+      <li><a href='https://buckets.grayhatwarfare.com/'>buckets.grayhatwarfare.com</a>
     </ul>
 </ol>
 
