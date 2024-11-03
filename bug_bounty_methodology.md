@@ -28,7 +28,8 @@
     <ul><h2>Active</h2>
       <li><a href='https://github.com/projectdiscovery/httpx'>httpx</a>. Check active subdomains
       <li><a href='https://github.com/robertdavidgraham/masscan'>masscan</a>
-      <li><a href='https://github.com/nmap/nmap'>nmap</a>
+      <li><a href='https://github.com/nmap/nmap'>Nmap</a>
+      <li><a href='https://github.com/RustScan/RustScan'>RustScan</a>
       <li><a href='https://github.com/ffuf/ffuf'>ffuf</a>
       <li><a href='https://github.com/OJ/gobuster'>gobuster</a>:
         <pre><code>gobuster dns -d &lt;TARGET_DOMAIN.com> -w /usr/share/SecLists/Discovery/DNS/subdomains-top1million-5000.txt</code></pre>
@@ -36,8 +37,10 @@
       <li><a href='https://github.com/epi052/feroxbuster'>feroxbuster</a>
       <li><a href='https://github.com/v0re/dirb'>dirb</a>
       <li><a href='https://github.com/KajanM/DirBuster'>dirbuster</a>
+      <li><a href='https://github.com/s0md3v/Arjun'>Arjun</a>
       <li><a href='https://github.com/fwaeytens/dnsenum'>dnsenum</a>, <a href='https://github.com/mschwager/fierce'>fierce</a>,
         <a href='https://github.com/darkoperator/dnsrecon'>dnsrecon</a>, <a href='https://github.com/d3mondev/puredns'>puredns</a>
+      <li><a href='https://www.kali.org/tools/whatweb/'>WhatWeb</a>
       <li>/robots.txt
       <li>/sitemap.xml
       <li>/.well-known/openid-configuration and other /.well-known/... More <a href='https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml'>info</a>
@@ -54,8 +57,10 @@
       <li><code>nikto -h &lt;TARGET_HOST> -Tuning b</code>
     </ul>
     <ul><h2>Crawlers</h2>
+      <li><a href='https://github.com/jaeles-project/gospider'>Gospider</a> 
       <li><a href='https://portswigger.net/blog/burp-2-0-where-are-the-spider-and-scanner'>Burp Suite Spider</a>, <a href='https://www.zaproxy.org/'>OWASP ZAP (Zed Attack Proxy)</a>, 
-        <a href='https://github.com/scrapy/scrapy'>Scrapy (Python Framework)</a>, <a href='https://github.com/apache/nutch'>Apache Nutch (Scalable Crawler)</a>
+      <li><a href='https://github.com/scrapy/scrapy'>Scrapy (Python Framework)</a>
+      <li><a href='https://github.com/apache/nutch'>Apache Nutch (Scalable Crawler)</a>
     </ul>
     <ul><h2>Another Tools for Recon</h2>
       <li><a href='https://github.com/thewhiteh4t/FinalRecon'>FinalRecon</a>
