@@ -779,7 +779,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h2 align='center' id='n4'><em> Tools </em></h2>
 <ol>
         <li><a href='#n4.1'>GitHub Tools</a>
-	<li><a href='#n4.2'>Browsers extensions</a>
+	<li><a href='#n4.2'>Browsers extensions</a>. Note: Chrome extensions also work with Brave Browser
 	<li><a href='#n4.3'>Burp Suite Extensions</a>
 	<li><a href='#n4.4'>Kali Tools</a>
 	<li><a href='#n4.5'>Platforms for hacking and pentesting</a>
@@ -882,53 +882,32 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 					</ul>
 				</ol>		
 			 <h3 id='n4.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Browser extensions </ins></h3>
-			 <h3> Mozilla FireFox </h3>
 				<ul>
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/'> Wappalyzer </a> - Defines CMS, JS-libraries, frameworks and another technologies used on the site
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/'> Foxy Proxy </a> - Fast change proxy, for example, use with Burp Suite
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/rested/'>Rested</a>. Quick API req helper
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/hacktools/'> HackTools </a> - is a web extension facilitating your web application penetration tests, it includes cheat sheets as well as all the tools used during a 						test such as XSS payloads, Reverse shells to test your web application
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/'> Cookie Editor </a> - Allows you to change, delete, add cookie values for various testing purposes. Can be tested for access control errors, privilege 						escalation, etc
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/maxs-hackbar/'> Hackbar </a> - Contains payloads for XSS attacks, SQL injections, WAF bypass, LFI, etc
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/'> User-Agent </a> Swither
+					<li><a href='https://www.wappalyzer.com/'>Wappalyzer</a> (<a href='https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/wappalyzer-technology-								pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en'>Chrome</a>) - Defines CMS, JS-libraries, frameworks and another technologies used on the site
+					<li>Foxy Proxy (<a href='https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=en'>Chrome</a>) 						- Fast change proxy, for example, use with Burp Suite
+					<li>Rested (<a href='https://addons.mozilla.org/en-US/firefox/addon/rested/'>FireFox</a>) - Quick request sender. Usefull with API 
+					<li>HackTools (<a href='https://addons.mozilla.org/en-US/firefox/addon/hacktools/'>FireFox</a>) - is a web extension facilitating your web application penetration tests, it includes cheat sheets as well as all the tools used 						during a test such as XSS payloads, Reverse shells to test your web application
+					<li>Cookie Editor (<a href='https://addons.mozilla.org/en-US/firefox/addon/cookie-editor/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en'>Chrome</a>)- 							Allows you to change, delete, add cookie values for various testing purposes. Can be tested for access control errors, privilege escalation, etc
+					<li>Hackbar (<a href='https://addons.mozilla.org/en-US/firefox/addon/maxs-hackbar/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/hackbar/ginpbkfigcoaokgflihfhhmglmbchinc?hl=en'>Chrome</a>) - Contains payloads 						for XSS attacks, SQL injections, WAF bypass, LFI, etc
+					<li>User-Agent Switcher (<a href='https://addons.mozilla.org/en-US/firefox/addon/user-agent-string-switcher/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/user-agent-switcher-and-										m/bhchdcejhohfmigjafbampogmaanbfkg'>Chrome</a>)
 					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/'>Firefox Multi-Account Containers</a>. Lets you keep parts of your online life separated into color-coded tabs.
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/beautifer-minify/'> Beautifer & Minify </a> - Brings readable CSS, HTML and JavaScript code
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/builtwith/'> BuiltWith </a> - Get web app technologies
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/dotgit/'> DotGit </a> - An extension to check for the presence of .git on websites you visit. Also checks open .env files, security.txt and more
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/mailshunt-email-extractor/'> Email Extractor </a> - Automatically saves email addresses from the web pages visit. Helps with social engineering attacks, brute force 						attacks, etc
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/'> Exif-Viewer </a> - Help to check photo metadata
-					<li><a href='https://addons.mozilla.org/en-US/firefox/addon/fake-filler/'> Fake Filler </a> - Simplifies and speeds up testing of fillable forms by developers and testers. Helps to populate all input forms (text fields, areas, 						dropdowns, etc.) with fake and randomly generated data
-					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/knoxss-community-edition/'> Knoxss </a> - Finds XSS vulnerabilities. Community Edition and Pro Version
-					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/'> ModHeader </a> - Helps to easily change HTTP request and response headers in the browser
-					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/nimbus-screenshot/'> Nimbus Screenshot </a> - To make screenshot
-					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/'> Privicy Badger  </a> - Automatically learns to block invisible trackers
-					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/temp-mail/'> Temp Mail </a> - Temporary disposable email address. Protect your email from spam, bots and phishing with Temp-Mail
-					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/retire-js/'> Retire.js </a> - Displays the presence of vulnerable JavaScript libraries. This helps to find known vulnerabilities in JS and some CVEs affecting sites 						with vulnerable JS libraries
-					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/'> Shodan </a> - The Shodan plugin tells you where the website is hosted (country, city), who owns the IP and what other services/ ports are open
-					<li> <a href='https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/'> Ublock Origin </a> - An efficient wide-spectrum content blocker
+					<li>Beautifer & Minify (<a href='https://addons.mozilla.org/en-US/firefox/addon/beautifer-minify/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/beautifer-minify/ahhjkfcneijonkihlcplndcnlpofjaip?								hl=en'>Chrome</a>) - Brings readable CSS, HTML and JavaScript code
+					<li>BuiltWith (<a href='https://addons.mozilla.org/en-US/firefox/addon/builtwith/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en'>Chrome</a>) - 						Get web app technologies
+					<li>DotGit (<a href='https://addons.mozilla.org/en-US/firefox/addon/dotgit/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/dotgit/pampamgoihgcedonnphgehgondkhikel?hl=en'>Chrome</a>) - An extension to check for 						the presence of .git on websites you visit. Also checks open .env files, security.txt and more
+					<li>Email Extractor (<a href='https://addons.mozilla.org/en-US/firefox/addon/mailshunt-email-extractor/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/email-extractor/jdianbbpnakhcmfkcckaboohfgnngfcc?							hl=en'>Chrome</a>) - Automatically saves email addresses from the web pages visit. Helps with social engineering attacks, brute force attacks, etc
+					<li>Exif-Viewer (<a href='https://addons.mozilla.org/en-US/firefox/addon/exif-viewer/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/exif-viewer-pro/mmbhfeiddhndihdjeganjggkmjapkffm'>Chrome</a>) - Help to 						check photo metadata
+					<li>Fake Filler (<a href='https://addons.mozilla.org/en-US/firefox/addon/fake-filler/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=en'>Chrome</a>) - Simplifies 						and speeds up testing of fillable forms by developers and testers. Helps to populate all input forms (text fields, areas, dropdowns, etc.) with fake and randomly generated data
+					<li>Knoxss (<a href='https://addons.mozilla.org/en-US/firefox/addon/knoxss-community-edition/'>FireFox</a>) - Finds XSS vulnerabilities. Community Edition and Pro Version
+					<li>ModHeader (<a href='https://addons.mozilla.org/en-US/firefox/addon/modheader-firefox/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/modheader-modify-http-hea/idgpnmonknjnojddfkpgkljpfnnfcklj?								hl=en'>Chrome</a>) - Helps to easily change HTTP request and response headers in the browser
+					<li>Nimbus Screenshot (<a href='https://addons.mozilla.org/en-US/firefox/addon/nimbus-screenshot/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/nimbus-screenshot-												screen/bpconcjcammlapcogcnnelfmaeghhagj'>Chrome</a>) - To make screenshot
+					<li>Privicy Badger (<a href='https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en'>Chrome</a>) - 						Automatically learns to block invisible trackers
+					<li>Temp Mail (<a href='https://addons.mozilla.org/en-US/firefox/addon/temp-mail/'>FireFox</a>) - Temporary disposable email address. Protect your email from spam, bots and phishing with Temp-Mail
+					<li>Retire.js (<a href='https://addons.mozilla.org/en-US/firefox/addon/retire-js/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/retirejs/moibopkbhjceeedibkbkbchbjnkadmom?hl=en'>Chrome</a>) - Displays the 						presence of vulnerable JavaScript libraries. This helps to find known vulnerabilities in JS and some CVEs affecting sites with vulnerable JS libraries
+					<li>Shodan (<a href='https://addons.mozilla.org/en-US/firefox/addon/shodan-addon/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap'>Chrome</a>) - The Shodan plugin tells 						you where the website is hosted (country, city), who owns the IP and what other services/ ports are open
+					<li>Ublock Origin (<a href='https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en'>Chrome</a>) - An 						efficient wide-spectrum content blocker
+					<li>Chaff (<a href='https://chrome.google.com/webstore/detail/chaff/jgjhamliocfhehbocekgcddfjpgdjnje'>Chrome</a>) - Generate fake traffic
+					<li>TruffleHog Chrome Extension (<a href='https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc'>Chrome</a>) - Scans the websites you visit looking for API keys and credentials and notifies you if 						they are found
 				</ul>
-			 <h3> Google Chrome </h3>
-				<ul>
-					<li> <a href='https://chrome.google.com/webstore/detail/beautifer-minify/ahhjkfcneijonkihlcplndcnlpofjaip?hl=en'> Beautifer & Minify </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en'> BuiltWith </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/chaff/jgjhamliocfhehbocekgcddfjpgdjnje'> Chaff </a> - Generate fake traffic
-					<li> <a href='https://chrome.google.com/webstore/detail/cookie-editor/hlkenndednhfkekhgcdicdfddnkalmdm?hl=en'> Cookie-Editor </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/dotgit/pampamgoihgcedonnphgehgondkhikel?hl=en'> DotGit </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/email-extractor/jdianbbpnakhcmfkcckaboohfgnngfcc?hl=en'> Email Extractor </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/exif-viewer-pro/mmbhfeiddhndihdjeganjggkmjapkffm'> Exif-Viewer </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/fake-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=en'> Fake Filler </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=en'> Foxy Proxy </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/hackbar/ginpbkfigcoaokgflihfhhmglmbchinc?hl=en'> HackBar </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/modheader-modify-http-hea/idgpnmonknjnojddfkpgkljpfnnfcklj?hl=en'> ModHeader </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/nimbus-screenshot-screen/bpconcjcammlapcogcnnelfmaeghhagj'> Nimbus Screenshot </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp?hl=en'> Privacy Badger </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/retirejs/moibopkbhjceeedibkbkbchbjnkadmom?hl=en'> Retire.js </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/shodan/jjalcfnidlmpjhdfepjhjbhnhkbgleap'> Shodan </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc'> TruffleHog Chrome Extension </a> - Scans the websites you visit looking for API keys and credentials and notifies you if they 						are found
-					<li> <a href='https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en'> uBlock Origin </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/user-agent-switcher-and-m/bhchdcejhohfmigjafbampogmaanbfkg'> User-Agent Switcher </a>
-					<li> <a href='https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en'> Wappalyzer </a>
-			  	</ul>
 			<h3 id='n4.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Burp Suite Extensions</ins></h3>
 					<ul>
 						<li><a href='https://portswigger.net/bappstore/4826bfa0c67d41a8b518139186693131'>PyCrypt</a> enables users to encrypt and decrypt requests and response for manual and automated application penetration testing
