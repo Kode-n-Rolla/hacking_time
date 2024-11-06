@@ -1090,6 +1090,10 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<li>•  /signup
 			<li>•  /jenkins/signup
 		</ul>
+	<li>403 Bypass
+		<ul>
+			<li>Try to change method to PATCH and add header <code>Accept: application/json</code>
+		</ul>
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
