@@ -14,6 +14,7 @@
       <li><a href='https://rapiddns.io/'>Rapiddns.io</a>. DNS data
       <li><a href='https://securitytrails.com/'>Securitytrails.com</a>
       <li><a href='https://dnsdumpster.com/'>Dnsdumpster.com</a>
+      <li><a href='https://centralops.net/co/'>centralops.net</a>
       <li><a href='https://urlscan.io/'>Urlscan.io</a>
       <li><code>dig domain.com ANY</code> (<code>dig @ns1.domain.com domain AXFR</code>), <code>nslookup domain.com</code>, <code>host domain.com</code>
       <li><a href='https://github.com/laramies/theHarvester'>theHarvester</a>
@@ -23,7 +24,8 @@
       <li><a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
       <li><a href='https://github.com/projectdiscovery/subfinder'>subfinder</a>
       <li><a href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>
-      <li><a href='https://github.com/gotr00t0day/spyhunt'>spyhunt</a>. Comprehensive network scanning and vulnerability assessment tool.
+      <li><a href='https://github.com/gotr00t0day/spyhunt'>spyhunt</a>. Comprehensive network scanning and vulnerability assessment tool
+      <li><a href='https://github.com/makefu/dnsmap'>dnsmap</a>
     </ul>
     <ul><h2>Active</h2>
       <li><a href='https://github.com/projectdiscovery/httpx'>httpx</a>. Check active subdomains
