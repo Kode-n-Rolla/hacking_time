@@ -907,6 +907,9 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 					<li>Ublock Origin (<a href='https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en'>Chrome</a>) - An 						efficient wide-spectrum content blocker
 					<li>Chaff (<a href='https://chrome.google.com/webstore/detail/chaff/jgjhamliocfhehbocekgcddfjpgdjnje'>Chrome</a>) - Generate fake traffic
 					<li>TruffleHog Chrome Extension (<a href='https://chrome.google.com/webstore/detail/trufflehog/bafhdnhjnlcdbjcdcnafhdcphhnfnhjc'>Chrome</a>) - Scans the websites you visit looking for API keys and credentials and notifies you if 						they are found
+					<li>Vulners Web Scanner (<a href='https://addons.mozilla.org/en-US/firefox/addon/vulners-web-scanner/'>FireFox</a> | <a href='https://chromewebstore.google.com/detail/vulners-web-												scanner/dgdelbjijbkahooafjfnonijppnffhmd'>Chrome</a>) - Tiny and passive vulnerability scanner based on vulners.com vulnerability database
+					<li>Web Developer (<a herf='https://addons.mozilla.org/en-US/firefox/addon/web-developer/'>FireFox</a> | <a href='https://chromewebstore.google.com/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm'>Chrome</a>) - Adds a 						toolbar button with various web developer tools
+					<li>Panic Button (<a href='https://addons.mozilla.org/en-US/firefox/addon/panic-button/'>FireFox</a> | <a href='https://chromewebstore.google.com/detail/panic-button/mglkbkfblclhiapcciclfblcncdabdhe'>Chrome</a>) - Quickly hide 						all browser windows with a click of a button
 				</ul>
 			<h3 id='n4.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Burp Suite Extensions</ins></h3>
 					<ul>
