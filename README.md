@@ -779,7 +779,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h2 align='center' id='n4'><em> Tools </em></h2>
 <ol>
         <li><a href='#n4.1'>GitHub Tools</a>
-	<li><a href='#n4.2'>Browsers extensions</a>. Note: Chrome extensions also work with Brave Browser
+	<li><a href='#n4.2'>Browsers extensions</a>. Note: Chrome extensions also work with <a href='https://brave.com/download/'>Brave Browser</a>
 	<li><a href='#n4.3'>Burp Suite Extensions</a>
 	<li><a href='#n4.4'>Kali Tools</a>
 	<li><a href='#n4.5'>Platforms for hacking and pentesting</a>
