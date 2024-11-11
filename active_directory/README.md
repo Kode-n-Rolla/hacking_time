@@ -59,7 +59,7 @@
 <h3><li>Users` data with priviligies</li></h3>
     <ul>
       <li>Useful tool - <a href='https://github.com/BloodHoundAD/BloodHound'>BloodHound</a></li>
-      <li>PowerView and PowerShell Empire module:</li>
+      <li>PowerView and <a href='https://github.com/BC-SECURITY/Empire'>PowerShell Empire</a> module:</li>
         <pre><code>Find-DomainUserLocation -UserIdentity USER_NAME</code></pre>
         <pre><code>Find-DomainUserLocation -UserGroupIdentity GROUP_NAME</code></pre>
       <li>Local Data:</li>
