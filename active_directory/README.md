@@ -56,4 +56,25 @@
       <li><code>nasadmin:nasadmin</code></li>
       <li><code>admin:"no pass"</code></li>
     </ul>
+<h3><li>Users` data with priviligies</li></h3>
+    <ul>
+      <li>Useful tool - <a href='https://github.com/BloodHoundAD/BloodHound'>BloodHound</a></li>
+      <li>PowerView and PowerShell Empire module:</li>
+        <pre><code>Find-DomainUserLocation -UserIdentity USER_NAME</code></pre>
+        <pre><code>Find-DomainUserLocation -UserGroupIdentity GROUP_NAME</code></pre>
+      <li>Local Data:</li>
+        <p>Metasploit modules for check browser passwords:</p>
+          <ul>
+            <li><code>post/windows/gather/enum_chrome</code></li>
+            <li><code>post/multi/gather/firefox/creds</code></li>
+            <li><code>post/firefox/gather/cookies</code></li>
+            <li><code>post/firefox/gather/passwords</code></li>
+            <li><code>post/windows/gather/forensics/browser_history</code></li>
+          </ul>
+        <p>PowerShell Empire modules:
+          <ul>
+            <li><code>collcetion/ChromeDump</code></li>
+            <li><code>collection/FoxDump</code></li>
+          </ul>
+    </ul>
 </ol>
