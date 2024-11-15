@@ -768,6 +768,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li> <a href='https://www.babelstreet.com/'> Babel street</a>.
 	      <li> <a href='https://crt.sh/'> Crt.sh</a>
 	      <li><a href='https://chaos.projectdiscovery.io/'>chaos.projectdiscovery.io</a>
+	      <li><a href='https://fofa.info/'>Fofa</a>. Passive scaner like shodan
 	      <li><a href='https://netlas.io/'>Netlas.io</a>. Discover, scan and monitor any online assets
        	      <li><a href='https://intelx.io/'>Intelx.io</a>. Search engine woth leak from darkweb resourses
 	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a> for passive and fast search domains and subdomains and etc
