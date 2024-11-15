@@ -6,6 +6,7 @@
         <p>Dork like this help to find subdomains and don`t forget check setting for include Virtual Hosts
           <p><code>(services.tls.certificates.leaf_data.names: &lt;TARGET_DOMAIN>) and services.http.response.status_code=”200"</code>
       <li><a href='https://crt.sh/'>crt.sh</a>
+      <li><a href='https://fofa.info/'>fofa</a>
       <li><a href='https://web.archive.org/'>Web archive</a>
       <li><a href='https://www.whois.com/whois/'>Whois</a>
       <li><a href='https://whoisfreaks.com/'>Whois Freaks</a>
