@@ -1,8 +1,9 @@
  <!-- <h1 align='center'> Penetration time</h1> -->
  <body>
 	
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Bitter&weight=500&size=40&pause=1000&color=3C4CFF&background=AC51FF00&width=500&height=80&lines=P3netrati0n+T1me!)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Bitter&weight=500&size=40&pause=1000&color=3C4CFF&background=AC51FF00&width=500&height=80&lines=P3n3tr4ti0n+T1me!)](https://git.io/typing-svg)
 <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWM2NWI0ZDIwMjA3ZWIyYWRiZmEyYzA5NTFlNThmNTFhYWI1MWE0ZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oz8xA9gtnyVDPZJHW/giphy.gif' width='250'/>
+
 
 <h2 align='center'>Welcome to my offensive security cheat sheet library.</h2>
 <h3 align='center'>Please use responsibly and ethically, especially when exploring sensitive security concepts.</h3>
@@ -697,19 +698,20 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li><a href='https://www.thehacker.recipes/'> thehacker.recipes</a>. Help with AD
 	      <li><a href='https://appsecexplained.gitbook.io/appsecexplained'>appsecexplained.gitbook.io</a>Help with explotation vulns.
 	      <li><a href='https://search-engine-bug-bounty.netlify.app/'> Search engine bug bounty</a>. Help with vulns scanning
-	      <li><a href='https://app.interactsh.com/#/'> interactsh.com</a>. Like a Burp Collaborator.
+	      <li><a href='https://app.interactsh.com/#/'>interactsh.com</a>. Like a Burp Collaborator.
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets, Tips </h3>
-	      <li><a href='https://devhints.io/bash'> Bash scripting</a>
-	      <li><a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How</a> pump nc shell
-	      <li><a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap</a>
-              <li><a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell</a> cheatsheet
-	      <li><a href="https://redteamrecipe.com/powershell-tips-tricks"> PowerShell</a> tips and tricks
-	      <li><a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, OSCP and CTFs
-	      <li><a href='https://www.stationx.net/common-ports-cheat-sheet/'>1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'>2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'> 3</a> can help with ports
-	      <li><a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
-	      <li><a href='https://vimsheet.com/'> A Great Vim</a> Cheat Sheet
-	      <li><a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
-	      <li>Another one <a href='https://tib3rius.com/sqli'> SQLi</a> cheatsheet
+	      <li><a href='https://devhints.io/bash'>Bash scripting</a>
+	      <li><a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'>How</a> pump nc shell
+	      <li><a href='https://www.stationx.net/nmap-cheat-sheet/'>Nmap</a>
+              <li><a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'>PowerShell</a> cheatsheet
+	      <li><a href="https://redteamrecipe.com/powershell-tips-tricks">PowerShell</a> tips and tricks
+	      <li><a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'>ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, OSCP and CTFs
+	      <li><a href='https://www.stationx.net/common-ports-cheat-sheet/'>1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'>2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'>3</a> can help with ports
+	      <li><a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'>Reverse Shell</a> cheatsheet
+	      <li><a href='https://vimsheet.com/'>A Great Vim</a> Cheat Sheet
+	      <li><a href='https://websec.ca/kb/sql_injection'>SQLi</a> cheatsheet
+	      <li>Another one <a href='https://tib3rius.com/sqli'>SQLi</a> cheatsheet
+	      <li><a href='https://acorzo1983.github.io/SQLMapCG/'>SQLMap Command Generator
 	      <li><a href='https://xss.report/'>XSS.report</a>. Help with xss payloads
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVE and Vulnerabilities db </h3>
 	      <li><a href='https://www.first.org/cvss/calculator/3.0'>First.org</a>. CVSS calculator 3.0
