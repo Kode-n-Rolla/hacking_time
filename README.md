@@ -1183,11 +1183,19 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 
 <h2 align='center' id='n9'><em>API</em></h2>
 	<ol>
-		<li><a href='#n9.1'>Tips
-		<li><a href='#n9.2'>Fuzzing
+		<li><a href='#n9.1'>Tools</a>
+		<li><a href='#n9.2'>Fuzzing</a>
 		<li><a href='#n9.3'>GraphQL</a>
-		<li>REST API - in progress
+		<!--<li>REST API - in progress-->
 	</ol>
+ 	<h3 id='n9.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tools</ins></h3>
+  	<ul>
+		<li>Burp Extensions - Autorize, Param Miner
+		<li><a href='https://www.postman.com/downloads/'>Postman</a>
+		<li><a href='https://github.com/ticarpi/jwt_tool'>JWT_Tool</a>
+		<li><a href='https://github.com/assetnote/kiterunner'>Kiterunner</a>
+		<li><a href='https://github.com/s0md3v/Arjun'>Arjun</a>
+	</ul>
 	<h3 id='n9.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuzzing</ins></h3>
 			<ol>
 				<li>Check the JS files to find api endpoints
