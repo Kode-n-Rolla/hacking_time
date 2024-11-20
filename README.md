@@ -1074,14 +1074,14 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h3 align='right'><a href='#start'> <-- Back </a></h3> -->
 
 
-<h2 align='center' id='n6'><em> Tips </em></h2>
+<h2 align='center' id='n6'><em>Tips</em></h2>
 <ol>
-	<li> If you have JSON in request, try to change JSON to XML
-	<li> Command Injection
+	<li>If you have JSON in request, try to change JSON to XML
+	<li>Command Injection
 		&nbsp;&nbsp;<p> If you find Command Injection and the WAF blocks keywords, you can attempt a bypass method by adding a backslash and a newline character between the blacklisted words.
 			<pre><code>c\%0aat /et\%0ac/pas\%0aswd</code></pre>
-	<li> If target use svg files, try to upload svg with XSS or XML payload
-	<li> Interesting file location:
+	<li>If target use svg files, try to upload svg with XSS or XML payload
+	<li>Interesting file location:
 		<p> Windows hashes
 		<ul> Local computer:
 			<li> File: \%systemroot%\system32\config\SAM
@@ -1186,6 +1186,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li><a href='#n9.1'>Tools</a>
 		<li><a href='#n9.2'>Fuzzing</a>
 		<li><a href='#n9.3'>GraphQL</a>
+		<li><a href='#n9.4'>Tips</a>
 		<!--<li>REST API - in progress-->
 	</ol>
  	<h3 id='n9.1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tools</ins></h3>
@@ -1198,12 +1199,15 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	</ul>
 	<h3 id='n9.2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuzzing</ins></h3>
 			<ol>
+				<li>Wordlists:
+					<p><code>seclists/Discovery/Web-Content/api/</code>
+					<p><code>seclists/Discovery/Web-Content/swagger.txt</code>
 				<li>Check the JS files to find api endpoints
 				<li>Try to change methods
 				<li>If BFLA doesn`t allow to see one record, try to get all (/users instead of /user/1)
-				<li><code>/usr/share/seclists/Discovery/Web-Content/api/</code>
 				<li>Try number of version (for example v0, v1, v2, v3, v4 etc)
 				<li>Fuzz parameters and/or query
+			</ol>
 	<h3 id='n9.3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphQL</ins></h3>
  		<ol>
 			<li>Wordlists: /seclists/Discovery/Web-Content/api/
@@ -1218,7 +1222,18 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 					<li>If these common endpoints don't return a GraphQL response, you could also try appending /v1 to the path
 				</ul>
 		</ol>
-
+	<h3 id='n9.4'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tips</ins></h3>
+ 		<ol>
+			<li>Endpoints:
+				<ul>
+					<li>https://target.domain/api
+					<li>https://target.domain/v1, https://target.domain/v2 etc
+					<li>https://target.domain/swagger
+					<li>https://target.domain/docs
+					<li>https://target.domain/rest
+				</ul>
+		</ol>
+					
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
 <h2 align='center' id='n10'><em>WordPress</em></h2>
