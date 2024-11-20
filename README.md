@@ -1200,8 +1200,11 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<h3 id='n9.2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fuzzing</ins></h3>
 			<ol>
 				<li>Wordlists:
-					<p><code>seclists/Discovery/Web-Content/api/</code>
-					<p><code>seclists/Discovery/Web-Content/swagger.txt</code>
+					<p><code>seclists/Discovery/Web-Content/api/</code></p>
+					<p><code>seclists/Discovery/Web-Content/api/objects.txt</code></p>
+					<p><code>seclists/Discovery/Web-Content/api/actions.txt</code></p>
+					<p><code>seclists/Discovery/Web-Content/swagger.txt</code></p>
+					<p><code>seclists/Discovery/Web-Content/common-api-endpoints-mazen160.txt</code></p>
 				<li>Check the JS files to find api endpoints
 				<li>Try to change methods
 				<li>If BFLA doesn`t allow to see one record, try to get all (/users instead of /user/1)
