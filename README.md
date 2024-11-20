@@ -699,7 +699,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li><a href='https://appsecexplained.gitbook.io/appsecexplained'>appsecexplained.gitbook.io</a>Help with explotation vulns.
 	      <li><a href='https://search-engine-bug-bounty.netlify.app/'>Search engine bug bounty</a>. Help with vulns scanning
 	      <li><a href='https://app.interactsh.com/#/'>interactsh.com</a>. Like a Burp Collaborator.
-      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets, Tips </h3>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cheat sheets, hints </h3>
 	      <li><a href='https://devhints.io/bash'>Bash scripting</a>
 	      <li><a href='https://infosecwriteups.com/pimp-my-shell-5-ways-to-upgrade-a-netcat-shell-ecd551a180d2'>How</a> pump nc shell
 	      <li><a href='https://www.stationx.net/nmap-cheat-sheet/'>Nmap</a>
