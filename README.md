@@ -805,13 +805,14 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			      <li><a href='https://pimeyes.com/'>PimEyes</a> - is one of the best facial recognition search engine tools that allows you to perform in-depth image searches on the internet. Advanced 										convolutional neural networks analyze the image you upload to find objects and match them with the database
 			      <li><a href='https://FaceCheck.ID'>FaceCheck.ID</a> - is one of the best reverse image search tools for facial recognition. You can use it to search for images of a specific person. It identifies faces in the photo you upload, and then 				finds similar faces in social media posts, online videos, fraudulent accounts, websites, news and blog pages, as well as in product marketing
 		      </ol>
-      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Password Services </h3>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Password Services</h3>
 	      <li><a href='https://wordlists.assetnote.io/'>wordlists.assetnote.io/</a>
 	      <li><a href='https://cirt.net/passwords'>CIRT.net</a> Default Passwords service
 	      <li><a href='https://default-password.info/'>Default-Password.info</a> Default Passwords service
 	      <li><a href='https://datarecovery.com/rd/default-passwords/'>Datarecovery.com</a> Default Passwords service
 	      <li><a href='https://passwordsdatabase.com/'>Passwordsdatabase</a> another one default passwords service
-	      <li><a href='https://wiki.skullsecurity.org/index.php?title=Passwords'>This</a> wiki page includes the most well-known collections of passwords.
+	      <li><a href='https://wiki.skullsecurity.org/index.php?title=Passwords'>This</a> wiki page includes the most well-known collections of passwords
+	      <li><a href='https://weakpass.com/'>Weekpass.com</a> is a collection of password lists for various purposes from penetration testing to improving password security
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dashboards for Cyber Threat Monitoring </h3>
        	      <li><a href='https://cybermap.kaspersky.com/'>cybermap.kaspersky</a>. A colorful globe designed in the best traditions of Hollywood hacker movies. Its real value lies not in its design but in the informative panel with statistics collected from the 		company's security products. Additionally, Kaspersky Lab supports a dashboard with information on current threats, located <a href='https://statistics.securelist.com/'>here</a>.
 	      <li><a href='https://livethreatmap.radware.com/'>Live Threat Map</a>. Here, you can view summary statistics on cyberattacks over the last hour, day, or month, as well as highlight the most targeted countries, top attack vectors, and most scanned ports.
