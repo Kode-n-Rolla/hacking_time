@@ -24,6 +24,7 @@
       <li>Google Dorking
       <li><a href='https://github.com/aboul3la/Sublist3r'>sublist3r</a>
       <li><a href='https://github.com/projectdiscovery/subfinder'>subfinder</a>
+      <li><a href='https://github.com/projectdiscovery/urlfinder'>urlfinder</a> is a high-speed, passive URL discovery tool
       <li><a href='https://github.com/tomnomnom/assetfinder'>assetfinder</a>
       <li><a href='https://github.com/gotr00t0day/spyhunt'>spyhunt</a>. Comprehensive network scanning and vulnerability assessment tool
       <li><a href='https://github.com/makefu/dnsmap'>dnsmap</a>
