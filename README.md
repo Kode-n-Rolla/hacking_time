@@ -750,6 +750,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li><a href='https://www.hackthebox.com/'>HackTheBox</a>
 	      <li><a href='https://portswigger.net/web-security'>Port Swigger</a>
 	      <li><a href='https://pentesterlab.com/'>Pentersterlab.com</a>. Сourses explaining vulnerabilities
+	      <li><a href='https://www.apisecuniversity.com/'>Apisecuniversity</a>. Free, Real-World‍ API Security Training
 	      <li><a href='https://ohmygit.org'>Ohmygit.org</a>. Help with git in play mode.
 	      <li><a href='https://hackthissite.org/'>HackThisSite</a> - a free website with wargames to test and improve your white hat hacking skills. It offers a variety of hacking challenges in several categories, ncluding basic tasks, fricking, JavaScript, 			forensics, steganography, and more
 	      <li><a href='https://hackaday.com/'>Hackaday</a> - serves up Fresh Hacks Every Day from around the Internet
