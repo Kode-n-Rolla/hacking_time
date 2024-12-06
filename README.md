@@ -1000,7 +1000,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 						<pre><code>name-that-hash --help</code></pre>
 					<li><a href='https://www.kali.org/tools/wafw00f/'>wafw00f</a> - This package identifies and fingerprints Web Application Firewall (WAF) products
 						<pre><code>wafw00f -h</code></pre>
-					<li><a href='https://www.kali.org/tools/gowitness/'>gowitness</a> - Is a website screenshot utility, that uses Chrome Headless to generate screenshots of web interfaces using the command line
+					<li><a href='https://www.kali.org/tools/gowitness/'>gowitness</a> is a website screenshot utility, that uses Chrome Headless to generate screenshots of web interfaces using the command line
+					<li><a href='https://github.com/commixproject/commix'>Commix</a> is an open source penetration testing tool for command injections</li>
  				</ol>
 			<h3 id='n4.5'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Platforms for hacking and pentesting</ins></h3>
    				<ul>
@@ -1192,21 +1193,22 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	</ol>
  	<h3 id='n9.1'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tools</ins></h3>
   	<ul>
-		<li>Burp Extensions - Autorize, Param Miner
-		<li><a href='https://www.postman.com/downloads/'>Postman</a>. Like Burp but for API requests
-		<li><a href='https://github.com/ticarpi/jwt_tool'>JWT_Tool</a>
-		<li><a href='https://github.com/assetnote/kiterunner'>Kiterunner</a>
-		<li><a href='https://github.com/s0md3v/Arjun'>Arjun</a>. For params fuzzing
+		<li>Burp Extensions - <a href='https://portswigger.net/bappstore/f9bbac8c4acf4aefa4d7dc92a991af2f'>Autorize</a>, <a href='https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943'>Param Miner</a></li>
+		<li><a href='https://www.postman.com/downloads/'>Postman</a>. Like Burp but for API requests</li>
+		<li><a href='https://github.com/ticarpi/jwt_tool'>JWT_Tool</a></li>
+		<li><a href='https://github.com/assetnote/kiterunner'>Kiterunner</a></li>
+		<li><a href='https://github.com/s0md3v/Arjun'>Arjun</a>. For params fuzzing</li>
+		<li><a href='https://addons.mozilla.org/en-US/firefox/addon/rested/'>Rested</a> (FireFox extension) - Quick request sender. Usefull with API</li>
 	</ul>
 	<h3 id='n9.2'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tips ←</ins></h3>
 			<ol>
-				<li>Wordlists:
+				<li>Wordlists:</li>
 					<p><code>seclists/Discovery/Web-Content/api/</code></p>
 					<p><code>seclists/Discovery/Web-Content/api/objects.txt</code></p>
 					<p><code>seclists/Discovery/Web-Content/api/actions.txt</code></p>
 					<p><code>seclists/Discovery/Web-Content/swagger.txt</code></p>
 					<p><code>seclists/Discovery/Web-Content/common-api-endpoints-mazen160.txt</code></p>
-				<li>Try to:
+				<li>Try to:</li>
 					<ul>
 						<li>Check the JS files to find api endpoints</li>
 						<li>Change methods</li>
@@ -1270,6 +1272,17 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			</ol>
 	<h3 id='n9.3'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GraphQL</ins></h3>
  		<ol>
+			<li>Tools</li>
+				<ul>
+					<li>Altair GraphQL Client (<a href='https://altairgraphql.dev/'>desktop</a>, <a href='https://addons.mozilla.org/en-US/firefox/search/?q=altair'>FireFox</a>, <a href='https://chromewebstore.google.com/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja?hl=en'>Chrome</a>)</li>
+					<li><a href='https://github.com/nikitastupin/clairvoyance'>Clairvoyance</a>. Obtain GraphQL API schema even if the introspection is disabled</li>
+					<li>InQL (<a href='https://github.com/doyensec/inql'>github</a>, <a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'>burp</a>) - GraphQL Scanner</li>
+					<li><a href='https://github.com/dolevf/graphw00f'>graphw00f</a> - GraphQL Server Fingerprinting</li>
+					<li><a href='https://github.com/assetnote/batchql'>BatchQL</a> - security auditing script</li>
+					<li><a href='https://gitlab.com/dee-see/graphql-path-enum/-/releases/'>graphql-path-enum</a> is a tool that lists the different ways of reaching a given type in a GraphQL schema</li>
+					<li><a href='https://github.com/dolevf/graphql-cop'>GraphQL Cop</a> is a small Python utility to run common security tests against GraphQL APIs</li>
+					<li><a href='https://github.com/nicholasaleks/CrackQL'>CrackQL</a> is a versatile GraphQL penetration testing tool that exploits poor rate-limit and cost analysis controls to brute-force credentials and fuzz operations</li>
+				</ul>
 			<li>Wordlists: <code>/seclists/Discovery/Web-Content/api/</code></li>
 			<li>Request -> To Repeater -> right-click > GraphQL > Set introspection query. To insert an introspection query into the request body to see much more about GraphQL tree data and manipulate</li>
 			<li>Endpoints:</li>
