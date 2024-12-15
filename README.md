@@ -1287,7 +1287,11 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 					<li><a href='https://graphql-kit.com/graphql-voyager/'>graphql-voyager</a> ← upload introspection and see schema</li>
 					<li><a href='https://github.com/dolevf/nmap-graphql-introspection-nse'>nmap-graphql-introspection-nse</a></li>
 				</ul>
-			<li>Wordlists: <code>/seclists/Discovery/Web-Content/api/</code></li>
+			<li>Wordlists:</li> 
+				<ul>
+					<li><code>/seclists/Discovery/Web-Content/api/</code></li>
+					<li><a href='https://github.com/dolevf/Black-Hat-GraphQL/blob/master/ch04/common-graphql-endpoints.txt'>common-graphql-endpoints.txt</a></li>
+				</ul>
 			<li>Request -> To Repeater -> right-click > GraphQL > Set introspection query. To insert an introspection query into the request body to see much more about GraphQL tree data and manipulate</li>
 			<li>Endpoints:</li>
 				<ul>
