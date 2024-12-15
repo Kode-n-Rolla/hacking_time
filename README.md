@@ -1285,6 +1285,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 					<li><a href='https://github.com/dolevf/graphql-cop'>GraphQL Cop</a> is a small Python utility to run common security tests against GraphQL APIs</li>
 					<li><a href='https://github.com/nicholasaleks/CrackQL'>CrackQL</a> is a versatile GraphQL penetration testing tool that exploits poor rate-limit and cost analysis controls to brute-force credentials and fuzz operations</li>
 					<li><a href='https://graphql-kit.com/graphql-voyager/'>graphql-voyager</a> ← upload introspection and see schema</li>
+					<li><a href='https://github.com/dolevf/nmap-graphql-introspection-nse'>nmap-graphql-introspection-nse</a></li>
 				</ul>
 			<li>Wordlists: <code>/seclists/Discovery/Web-Content/api/</code></li>
 			<li>Request -> To Repeater -> right-click > GraphQL > Set introspection query. To insert an introspection query into the request body to see much more about GraphQL tree data and manipulate</li>
