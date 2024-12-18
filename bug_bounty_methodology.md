@@ -47,6 +47,7 @@
       <li><a href='https://www.kali.org/tools/whatweb/'>WhatWeb</a>
       <li>/robots.txt
       <li>/sitemap.xml
+      <li>/.git
       <li>/.well-known/openid-configuration and other /.well-known/... More <a href='https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml'>info</a>
       <li>View source code
       <li><a href='https://otx.alienvault.com/'>Otx.alienvault.com</a>
