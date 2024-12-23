@@ -1290,8 +1290,9 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 				</ul>
 			<li>Wordlists:</li> 
 				<ul>
-					<li><code>/seclists/Discovery/Web-Content/api/</code></li>
+					<li><code>/usr/share/wordlists/seclists/Discovery/Web-Content/api/</code></li>
 					<li><a href='https://github.com/dolevf/Black-Hat-GraphQL/blob/master/ch04/common-graphql-endpoints.txt'>common-graphql-endpoints.txt</a></li>
+					<li><a href='https://github.com/dolevf/Black-Hat-GraphQL/blob/master/resources/non-production-graphql-urls.txt'>non-production-graphql-urls.txt</a></li>
 				</ul>
 			<li>Request -> To Repeater -> right-click > GraphQL > Set introspection query. To insert an introspection query into the request body to see much more about GraphQL tree data and manipulate</li>
 			<li>Endpoints:</li>
