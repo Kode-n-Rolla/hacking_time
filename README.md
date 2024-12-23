@@ -1302,6 +1302,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 					<li>/api</li>
 					<li>/api/graphql</li>
 					<li>/graphql/api</li>
+					<li>/graphql?debug=1</li>
 					<li>/graphql/graphql</li>
 					<li>If these common endpoints don't return a GraphQL response, you could also try appending /v1 to the path</li>
 				</ul>
