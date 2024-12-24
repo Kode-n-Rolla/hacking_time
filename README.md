@@ -971,23 +971,24 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<h3 id='n4.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Burp Suite Extensions</ins></h3>
 					<ul>
 						<li><a href='https://portswigger.net/bappstore/f9bbac8c4acf4aefa4d7dc92a991af2f'>Autorize</a> help to detect authorization vulnerabilities</li>
+						<li><a href='https://portswigger.net/bappstore/470b7057b86f41c396a97903377f3d81'>Logger++</a> allows advanced filters to be defined to highlight interesting entries or filter logs to only those which match the filter</li>
 						<li><a href='https://portswigger.net/bappstore/4826bfa0c67d41a8b518139186693131'>PyCrypt</a> enables users to encrypt and decrypt requests and response for manual and automated application penetration testing</li>
 						<li><a href='https://portswigger.net/bappstore/26aaa5ded2f74beea19e2ed8345a93dd'>JWT Editor</a>. Is a extension or editing, signing, verifying, encrypting and decrypting JSON Web Tokens (JWTs)</li>
-						<li><a href='https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb'>Software Vulnerability Scanner </a> - This extension displays public vulnerabilities for applications detected in the traffic proxied by 							Burp. Essentially, it acts as a layer between Burp and the API of this excellent vulnerability aggregator</li>
-						<li><a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'>Backslash Powered Scanner </a> - Enhances Burp's active scanner using a novel approach capable of finding and confirming both known and 							unknown classes of server-side injection vulnerabilities</li>
-						<li><a href='https://portswigger.net/bappstore/f154175126a04bfe8edc6056f340f52e'>SQLiPy </a> - A tool that integrates Burp Suite with SQLMap using the SQLMap API to check for SQL injection vulnerabilities</li>
-						<li><a href='https://portswigger.net/bappstore/3123d5b5f25c4128894d97ea1acc4976'>Active Scan++ </a> - Expands the range of checks performed by the active and passive scanners. It identifies vulnerabilities such as 	cache poisoning, DNS rebinding, various injections, and also performs additional checks to detect XXE injections and more</li>
-						<li><a href='https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988'>Turbo Intruder </a> - A faster alternative to Intruder equipped with a scriptable engine for sending a large number of HTTP requests and 							analyzing the results. Useful when speed is required</li>
-						<li><a href='https://portswigger.net/bappstore/ae2611da3bbc4687953a1f4ba6a4e04c'>Bypass WAF </a> - A tool for bypassing web application firewalls (WAFs)</li>
-						<li><a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'>BurpJS Link Finder </a> - Helps identify and discover links based on JavaScript in web applications</li>
-						<li><a href='https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122'>403 Bypasser Extension </a> - A tool designed to bypass 403 errors commonly encountered when attempting to access restricted areas of a website</li>
-						<li><a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'> InQL</a> to assist in your GraphQL security testing efforts</li>
+						<li><a href='https://portswigger.net/bappstore/c9fb79369b56407792a7104e3c4352fb'>Software Vulnerability Scanner</a> - This extension displays public vulnerabilities for applications detected in the traffic proxied by 							Burp. Essentially, it acts as a layer between Burp and the API of this excellent vulnerability aggregator</li>
+						<li><a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'>Backslash Powered Scanner</a> - Enhances Burp's active scanner using a novel approach capable of finding and confirming both known and 							unknown classes of server-side injection vulnerabilities</li>
+						<li><a href='https://portswigger.net/bappstore/866df66d339d4bcd9b599772aff32efd'>CSTC, Modular HTTP Manipulator</a> - CyberChef integrated in BurpSuite with live modification of requests at your fingertips</li>
+						<li><a href='https://portswigger.net/bappstore/f154175126a04bfe8edc6056f340f52e'>SQLiPy</a> - A tool that integrates Burp Suite with SQLMap using the SQLMap API to check for SQL injection vulnerabilities</li>
+						<li><a href='https://portswigger.net/bappstore/3123d5b5f25c4128894d97ea1acc4976'>Active Scan++</a> - Expands the range of checks performed by the active and passive scanners. It identifies vulnerabilities such as 	cache poisoning, DNS rebinding, various injections, and also performs additional checks to detect XXE injections and more</li>
+						<li><a href='https://portswigger.net/bappstore/9abaa233088242e8be252cd4ff534988'>Turbo Intruder</a> - A faster alternative to Intruder equipped with a scriptable engine for sending a large number of HTTP requests and 							analyzing the results. Useful when speed is required</li>
+						<li><a href='https://portswigger.net/bappstore/ae2611da3bbc4687953a1f4ba6a4e04c'>Bypass WAF</a> - A tool for bypassing web application firewalls (WAFs)</li>
+						<li><a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'>BurpJS Link Finder</a> - Helps identify and discover links based on JavaScript in web applications</li>
+						<li><a href='https://portswigger.net/bappstore/444407b96d9c4de0adb7aed89e826122'>403 Bypasser Extension</a> - A tool designed to bypass 403 errors commonly encountered when attempting to access restricted areas of a website</li>
+						<li><a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'>InQL</a> to assist in your GraphQL security testing efforts</li>
 						<li><a href='https://portswigger.net/bappstore/9cff8c55432a45808432e26dbb2b41d8'>Backslash Powered Scanner</a>. This extension complements Burp's active scanner by using a novel approach capable of finding and confirming both known and unknown classes of server-side injection vulnerabilities</li>
-						<li><a href='https://github.com/portswigger/hackvertor'> Hackvertor</a> is a tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc</li>
+						<li><a href='https://github.com/portswigger/hackvertor'>Hackvertor</a> is a tag-based conversion tool that supports various escapes and encodings including HTML5 entities, hex, octal, unicode, url encoding etc</li>
 						<li><a href='https://portswigger.net/bappstore/6bf7574b632847faaaa4eb5e42f1757c'>OpenAPI Parser</a>. Extension streamlines the process of assessing web services that use OpenAPI-based APIs</li>
 						<li><a href='https://portswigger.net/bappstore/0e61c786db0c4ac787a08c4516d52ccf'>JS Link Finder</a>. Extension for a passively scanning JavaScript files for endpoint links. - Export results the text file - Exclude 	specific 'js' files e.g. jquery, google-analytics (Professional)</li>
-						<li><a href='https://portswigger.net/bappstore/296e9a0730384be4b2fffef7b4e19b1f'>InQL - GraphQL Scanner</a>. Extension is designed to assist in your GraphQL security testing efforts</li>
-						<li><a href='https://portswigger.net/bappstore/db57ecbe2cb7446292a94aa6181c9278'>Content Type Converter</a>. This extension converts data submitted within requests between various common formats: </li>
+						<li><a href='https://portswigger.net/bappstore/db57ecbe2cb7446292a94aa6181c9278'>Content Type Converter</a>. This extension converts data submitted within requests between various common formats:</li>
 							<ul>
 								<li>JSON To XML
 								<li>XML to JSON
@@ -996,6 +997,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 							</ul>
 						<li><a href='https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943'>Param miner</a>. Extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities</li>
 						<li><a href='https://portswigger.net/bappstore/af490ae7e79546fa81a28d8d0b90874e'>Pentest Mapper</a>. Is a extension that integrates the Burp Suite request logging with a custom application testing checklist</li>
+						<li><a href='https://portswigger.net/bappstore/e4e0f6c4f0274754917dcb5f4937bb9e'>Piper</a> makes integrating external tools into Burp easier</li>
 					</ul>
      			<h3 id='n4.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Kali Tools</ins></h3>
 				 <ol>
