@@ -36,27 +36,28 @@
 
 <h2 align='center' id='n1'><em> Commands </em></h2> 
 Topic contains:
-	<li> Remote Desktop Protocol <a href='#n1.1'> (RDP) </a>
-	<li> <a href='#n1.2'>PowerShell</a>
-	<li> <a href='#n1.3'>Linux</a>
-	<li> <a href='#n1.4'>Windows</a>
-	<li> <a href='#n1.5'>Nmap</a> commands with search vulnerabilities scripts
-	<li> <a href='#n1.6'>Gobuster</a>
-	<li> <a href='#n1.7'>Hydra</a>
-	<li> <a href='#n1.8'>Dirsearch</a>
-	<li> <a href='#n1.9'>Pumping</a> shell
-	<li> <a href='#n1.10'>SQLmap</a>
-	<li> <a href='#n1.11'>John The Ripper</a>
- 	<li> <a href='#n1.12'>Hashcat</a>
-  	<li> <a href='#n1.13'>Google Dorks</a>
-	<li> <a href='#n1.14'>GitHub Dorking</a>
-   	<li> <a href='#n1.15'>Ffuf</a>
-    	<li> <a href='#n1.16'>Rustscan</a>
-      	<li> <a href='#n1.17'>Masscan</a>
-        <li> <a href='#n1.18'>Meterpreter</a>
-	<li> <a href='#n1.19'>CMD (Windows)</a>
-        <li> <a href='#n1.20'>Reverse shell</a>
-	<li> <a href='#n1.21'>Git</a>
+	<li>Remote Desktop Protocol <a href='#n1.1'>(RDP)</a></li>
+	<li><a href='#n1.2'>PowerShell</a></li>
+	<li><a href='#n1.3'>Linux</a></li>
+	<li><a href='#n1.4'>Windows</a></li>
+	<li><a href='#n1.5'>Nmap</a> commands with search vulnerabilities scripts</li>
+	<li><a href='#n1.6'>Gobuster</a></li>
+	<li><a href='#n1.7'>Hydra</a></li>
+	<li><a href='#n1.8'>Dirsearch</a></li>
+	<li><a href='#n1.9'>Pumping</a> shell</li>
+	<li><a href='#n1.10'>SQLmap</a></li>
+	<li><a href='#n1.11'>John The Ripper</a></li>
+ 	<li><a href='#n1.12'>Hashcat</a></li>
+  	<li><a href='#n1.13'>Google Dorks</a></li>
+	<li><a href='#n1.14'>GitHub Dorking</a></li>
+   	<li><a href='#n1.15'>Ffuf</a></li>
+    	<li><a href='#n1.16'>Rustscan</a></li>
+      	<li><a href='#n1.17'>Masscan</a></li>
+        <li><a href='#n1.18'>Meterpreter</a></li>
+	<li><a href='#n1.19'>CMD (Windows)</a></li>
+        <li><a href='#n1.20'>Reverse shell</a></li>
+	<li><a href='#n1.21'>Git</a></li>
+ 	<li><a href='#n1.22'>SSH and id_rsa</a></li>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -565,6 +566,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li> <code>git branch</code> - show branches
 		<li> <code>git tag</code> - show all tags in the repo
  	</ol>
+ <h3 id='n1.22'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>SSH and id_rsa</ins></h3>
+ 	<ul>
+		<li>Copy id_rsa</li>
+		<li>chmod 600 id_rsa</li> to set right permissoon for use (It is required that your private key files are NOT accessible by others.)
+		<li>Connect</li>
+	</ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
