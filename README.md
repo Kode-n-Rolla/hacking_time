@@ -577,11 +577,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
    
 	
 <h2 align='center' id='n2'><em>Payloads</em></h2>
-<li><a href='#n2.1'>LFI and File Upload Linux and Windwos Payloads</a>
-<li><a href='#n2.2'>XSS Payloads</a>
-<li><a href='#n2.3'>CSRF</a>
-<li><a href='#n2.4'>Chains</a>
-<li><a href='#n2.5'>Server Side Template Injection</a>
+<li><a href='#n2.1'>LFI and File Upload Linux and Windwos Payloads</a></li>
+<li><a href='#n2.2'>XSS Payloads</a></li>
+<li><a href='#n2.3'>CSRF</a></li>
+<li><a href='#n2.4'>Chains</a></li>
+<li><a href='#n2.5'>Server Side Template Injection</a></li>
+<li><a href='#n2.6'>CRLF</a></li>
     <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads</h3>
 	<ul>
 		<li><a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'>For Linux</a>
@@ -691,6 +692,13 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<li>Polyglot:
 		<pre><code>${{&lt;%[%'"}}%\</code></pre>
 </ul>
+
+<h3 id='n2.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CRLF</h3>
+	<code>%0D%0A</code>
+ 		<ul>
+			<li>%0D — CR (Carriage Return)</li>
+			<li>%0A — LF (Line Feed)</li>
+		</ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
 	      
@@ -1033,33 +1041,33 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		 <h3 id='n5.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Linux</ins> </h3>
 	  		Some advice to Linux Privilege Escalation
 	    		<ol>
-				<li> Check out user are running - <code> whoami </code>
-				<li> Check out groups does running user belong to - <code> id </code>
-				<li> Check out what is the server named - <code> hostname </code>
-				<li> Check out what subnet did land in - <code> ifconfig </code> or <code> ip -a </code>
-				<li> Check out kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )
-				<li> Check out screen version - <code> screen -v</code>
-				<li> Check out .ssh folder in <code>/home/&lt;USERNAME>/.ssh</code> or <code>/root/.ssh</code>
-				<li> Check out all environment variables <code> env </code>
-				<li> Check out login shells exist on the server - <code> cat /etc/shells </code> 
-				<li> Check out Cron Tab:
+				<li>Check out user are running - <code>whoami</code></li>
+				<li>Check out groups does running user belong to - <code>id</code></li>
+				<li>Check out what is the server named - <code>hostname</code></li>
+				<li>Check out what subnet did land in - <code>ifconfig</code> or <code>ip -a</code></li>
+				<li>Check out kernel ( <code>uname -a</code> ) and OS version ( <code>cat /etc/os-release</code> )</li>
+				<li>Check out screen version - <code> screen -v</code></li>
+				<li>Check out .ssh folder in <code>/home/&lt;USERNAME>/.ssh</code> or <code>/root/.ssh</code></li>
+				<li>Check out all environment variables <code> env </code></li>
+				<li>Check out login shells exist on the server - <code> cat /etc/shells </code> </li>
+				<li>Check out Cron Tab:</li>
 					<p><code>ls -la /etc/cron.d</code>
 					<p><code>ls -la /etc/init.d</code>
-				<li> Check out setuid and setgid 
+				<li>Check out setuid and setgid</li>
 					<p> To find files with sticky bit:
 						<pre><code>find / -perm -u=s -type f 2>/dev/null</code></pre>
 						<pre><code>find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null</code></pre>
       						<pre><code>find / -perm -4000 2>/dev/null</code></pre>
 					<p> To check out rights
 					<p> <pre><code>ls -la</code></pre>
-				<li> Find world writable files for every users - <code> find / -perm -2 -type f 2>/dev/null </code>
-				<li> Check out NOPASSWD sudo command - <code> sudo -l</code>
-				<li> Check out PATH - <code>echo $PATH</code>
-				<li> Check out the routing table by <code> route </code> or <code> netstat -rn </code>
-				<li> Check out arp table - <code> arp -a </code>
-				<li> Check out environ:
+				<li>Find world writable files for every users - <code> find / -perm -2 -type f 2>/dev/null </code></li>
+				<li>Check out NOPASSWD sudo command - <code> sudo -l</code></li>
+				<li>Check out PATH - <code>echo $PATH</code></li>
+				<li>Check out the routing table by <code> route </code> or <code> netstat -rn </code></li>
+				<li>Check out arp table - <code> arp -a </code></li>
+				<li>Check out environ:</li>
 					<p><pre><code> cat /proc/self/environ </code></pre>
-				<li> Check out history:
+				<li>Check out history:</li>
 					<p><code>history</code>
 					<p><code>cat ~/.bash_history</code>
 					<p><code>cat ~/.mysql_history</code>
@@ -1067,10 +1075,16 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 					<p><code>cat ~/.php_history</code>
 					<p><code>cat ~/.atftp_history</code>
 					<p><code>cat ~/.*history | less</code> - all history search
-				<li> Check out executable files in:
+				<li>Check out executable files in:</li>
 					<p><code> home directory </code> and <code> /var/www </code> or the same
-				<li> Check out some additional information about the host itself such as the CPU type/version - <code> lscpu </code>
-				<li> Check out logrotate version - <code> logrotate --version</code>. This <a href='https://github.com/whotwagner/logrotten'> github tool</a> can help with privesc
+				<li>Check out some additional information about the host itself such as the CPU type/version - <code> lscpu </code></li>
+				<li>Check out logrotate version - <code> logrotate --version</code>. This <a href='https://github.com/whotwagner/logrotten'> github tool</a> can help with privesc</li>
+				<li>Look at:</li>
+					<ul>
+						<li>Open ports</li>
+						<li>bat files</li>
+						<li>Interesting permissions</li>
+					</ul>
 	    		</ol>
 	    <h3 id='n5.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows</ins> </h3>
 			<ol>
