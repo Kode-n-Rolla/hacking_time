@@ -1082,7 +1082,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 				<li>Look at:</li>
 					<ul>
 						<li>Open ports</li>
-						<li>bat files</li>
+						<li>.bat and .bak files</li>
 						<li>Interesting permissions</li>
 					</ul>
 	    		</ol>
