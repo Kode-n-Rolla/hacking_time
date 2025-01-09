@@ -585,10 +585,11 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <li><a href='#n2.6'>CRLF</a></li>
     <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads</h3>
 	<ul>
-		<li><a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'>For Linux</a>
-	 	<li><a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Windows'>For Windows</a>
-		<li>%0a to bypass regex rules:
+		<li><a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'>For Linux</a></li>
+	 	<li><a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Windows'>For Windows</a></li>
+		<li>%0a to bypass regex rules:</li>
 			<pre><code>http://vuln.host/some.php?file=%0a../../../../etc/passwd</code></pre>
+		<li>DotDotPwn can help with testing (<code>sudo apt install dotdotpwn</code>)</li>
 	</ul>
      <h3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File Upload Bypassing</h3>
 	<ul>
