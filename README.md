@@ -582,7 +582,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<pre><code>find /var/log -type f -exec sed -i '/YOUR_IP/d' {} \;</code></pre>
 		<li>Recover timestamps</li>
 			<pre><code>touch -r /var/log/auth.log.1 /var/log/auth.log</code></pre>
-			<p>Or use this script if save as second stage</p>
+			<p>Or use this <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/scripts/timestamps_recover.sh'>script</a> if save as in second stage</p>
 		<li>Check result</li>
 			<pre><code>grep 'YOUR_IP' /var/log/*</code></pre>
 	</ol>
