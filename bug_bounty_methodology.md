@@ -40,6 +40,7 @@
         <pre><code>gobuster dns -d &lt;TARGET_DOMAIN.com> -w /usr/share/SecLists/Discovery/DNS/subdomains-top1million-5000.txt</code></pre>
         <pre><code>gobuster vhost -u &lt;TARGET_URL> -w /usr/share/SecLists/Discovery/Web-Content/common.txt --append-domain</code></pre>
       <li><a href='https://github.com/epi052/feroxbuster'>feroxbuster</a></li>
+      <li><a href='https://github.com/GerbenJavado/LinkFinder'>LinkFinder</a>. Help to discover endpoints and their parameters in JavaScript files</li>
       <li><a href='https://github.com/v0re/dirb'>dirb</a></li>
       <li><a href='https://github.com/KajanM/DirBuster'>dirbuster</a></li>
       <li><a href='https://github.com/s0md3v/Arjun'>Arjun</a></li>
