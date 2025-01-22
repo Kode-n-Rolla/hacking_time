@@ -54,6 +54,7 @@
       <li>/.well-known/openid-configuration and other /.well-known/... More <a href='https://www.iana.org/assignments/well-known-uris/well-known-uris.xhtml'>info</a></li>
       <li>View source code</li>
       <li><a href='https://otx.alienvault.com/'>Otx.alienvault.com</a></li>
+      <li><a href='https://github.com/robre/jsmon'>jsom</a>. Monitoring JS files</li>
     </ul>
     <ul><h2>Both</h2>
       <li><a href='https://github.com/owasp-amass/amass'>amass</a>. <code>amass enum -d example.com</code> - active, <code>amass enum -passive -d example.com</code> - passive</li>
