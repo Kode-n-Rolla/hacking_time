@@ -1108,6 +1108,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 						<li>.bat and .bak files</li>
 						<li>Interesting permissions</li>
 					</ul>
+				<li>And check <a href='https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/'>this</a> and <a href='https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md#linux---privilege-escalation'>this</a> links for more help</li>
 	    		</ol>
 	    <h3 id='n5.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows</ins> </h3>
 			<ol>
