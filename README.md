@@ -266,6 +266,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		   <pre><code>stty raw -echo; fg</code></pre>
 		   Then double Enter and we again in shell and input
 		   <pre><code>export TERM=xterm</code></pre>
+	   <li>Or check this <a href='https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys'>link</a> for more help</li>
    </ul>
 
 <h3 id='n1.10'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> SQLmap </ins></h3>
