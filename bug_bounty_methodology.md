@@ -8,6 +8,7 @@
       <li><a href='https://crt.sh/'>crt.sh</a></li>
       <li><a href='https://fofa.info/'>fofa</a></li>
       <li><a href='https://web.archive.org/'>Web archive</a></li>
+      <li><a href='https://github.com/tomnomnom/waybackurls'>waybackurls</a>. CLI tools for web archive. <code>--get-versions</code> flag help to find links on the web.archive.org, if link doesn`t exist now</li>
       <li><a href='https://w3techs.com/'>w3techs.com</a>. Help with technologies on the site</li>
       <li><a href='https://www.whois.com/whois/'>Whois</a></li>
       <li><a href='https://whoisfreaks.com/'>Whois Freaks</a></li>
