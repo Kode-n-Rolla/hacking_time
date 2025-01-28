@@ -775,7 +775,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hashes, encode/decode, cracker, identify </h3>
 	      <li><a href='https://crackstation.net/'>crackstation.net</a> - online password hash cracker
 	      <li><a href='https://www.base64encode.org/'>Base64</a> encode/decode
-	      <li><a href='https://hashes.com/en/tools/hash_identifier'>Identify hash types </a>
+	      <li><a href='https://hashes.com/en/tools/hash_identifier'>hashes.com</a>. Identity and crack hashes
 	      <li><a href='https://gchq.github.io/CyberChef/'>CyberChef</a> - encode/decode service
 	      <li><a href='https://www.kirsle.net/wizards/flask-session.cgi'>Flask Session Cookie Decoder </a>
 	      <li><a href='https://ntlm.pw/'>NTLM.pw</a>. Help with NTLM hashes.
