@@ -6,6 +6,7 @@
         <p>Dork like this help to find subdomains and don`t forget check setting for include Virtual Hosts
           <p><code>(services.tls.certificates.leaf_data.names: &lt;TARGET_DOMAIN>) and services.http.response.status_code=”200"</code>
       <li><a href='https://crt.sh/'>crt.sh</a></li>
+      <li><a href='http://ci-www.threatcrowd.org/'>ThreatCrowd.org</a>.</li>
       <li><a href='https://fofa.info/'>fofa</a></li>
       <li><a href='https://web.archive.org/'>Web archive</a></li>
       <li><a href='https://github.com/tomnomnom/waybackurls'>waybackurls</a>. CLI tools for web archive. <code>--get-versions</code> flag help to find links on the web.archive.org, if link doesn`t exist now</li>
