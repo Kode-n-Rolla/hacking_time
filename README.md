@@ -255,6 +255,9 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
    <ul>
 	   <li>Python way. PTY is a library for pseudo-terminal functionality that is part of the Standard Python Library. There is a nc shell and get pump shell:
 	   <pre><code> python -c 'import pty;pty.spawn("/bin/bash")' </code></pre>
+	   <pre><code>export TERM=xterm</code></pre>
+	   <p>Console to bg (Ctrl+Z) </p>
+	   <pre><code>stty raw -echo; fg</code></pre>
 	   <p>After nc connecting:
 	   	<pre><code>stty raw -echo && fg</code></pre>
 	   <p> If no python:
