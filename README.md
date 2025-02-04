@@ -258,8 +258,6 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	   <pre><code>export TERM=xterm</code></pre>
 	   <p>Console to bg (Ctrl+Z) </p>
 	   <pre><code>stty raw -echo; fg</code></pre>
-	   <p>After nc connecting:
-	   	<pre><code>stty raw -echo && fg</code></pre>
 	   <p> If no python:
 	   	<pre><code>/usr/bin/script -qc /bin/bash /dev/null</code></pre>
  	   <li> Another way:
