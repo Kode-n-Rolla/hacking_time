@@ -1131,60 +1131,60 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 
 <h2 align='center' id='n6'><em>Tips</em></h2>
 <ol>
-	<li>If you have JSON in request, try to change JSON to XML
-	<li>Command Injection
+	<li>If you have JSON in request, try to change JSON to XML</li>
+	<li>Command Injection</li>
 		&nbsp;&nbsp;<p> If you find Command Injection and the WAF blocks keywords, you can attempt a bypass method by adding a backslash and a newline character between the blacklisted words.
 			<pre><code>c\%0aat /et\%0ac/pas\%0aswd</code></pre>
-	<li>If target use svg files, try to upload svg with XSS or XML payload
-	<li>Interesting file location:
-		<p> Windows hashes
-		<ul> Local computer:
-			<li> File: \%systemroot%\system32\config\SAM
-			<li> Registry: HKEY_LOCAL_MACHINE\SAM
-			<li> File: \%systemroot%\system32\confog\SECURITY
-			<li> Registry: HKEY_LOCAL_MACHINE\SECURITY\SAM
+	<li>If target use svg files, try to upload svg with XSS or XML payload</li>
+	<li>Interesting file location:</li>
+		<p>Windows hashes
+		<ul>Local computer:
+			<li> File: \%systemroot%\system32\config\SAM</li>
+			<li> Registry: HKEY_LOCAL_MACHINE\SAM</li>
+			<li> File: \%systemroot%\system32\confog\SECURITY</li>
+			<li> Registry: HKEY_LOCAL_MACHINE\SECURITY\SAM</li>
 		</ul> <p>
 		<ul>Active Directory:
-			<li> %systemroot%\ntds\ntds.dit
+			<li>%systemroot%\ntds\ntds.dit</li>
 		</ul>
-	<li> Identifying Algorithm from the first hash blocks:
+	<li>Identifying Algorithm from the first hash blocks:</li>
 		<ul>
-			<li> Salted MD5	- <code> $1$... </code>
-			<li> SHA-256	- <code> $5$... </code>
-			<li> SHA-512	- <code> $6$... </code>
-			<li> BCrypt	- <code> $2a$... </code>
-			<li> Scrypt	- <code> $7$... </code>
-			<li> Argon2	- <code> $argon2i$... </code>
+			<li> Salted MD5	- <code> $1$... </code></li>
+			<li> SHA-256	- <code> $5$... </code></li>
+			<li> SHA-512	- <code> $6$... </code></li>
+			<li> BCrypt	- <code> $2a$... </code></li>
+			<li> Scrypt	- <code> $7$... </code></li>
+			<li> Argon2	- <code> $argon2i$... </code></li>
    		</ul>
 	<li> Headers:
 		<ul>
-			<li> X-Forwarded-For. (XFF) header is an HTTP header used to identify the original IP address of a client connecting to a web server through an HTTP proxy or load balancer. By including this header, the server can log and track the original 				client's IP address instead of the proxy or load balancer's IP.
+			<li> X-Forwarded-For. (XFF) header is an HTTP header used to identify the original IP address of a client connecting to a web server through an HTTP proxy or load balancer. By including this header, the server can log and track the original 				client's IP address instead of the proxy or load balancer's IP.</li>
 		</ul>
 	<li> Virtual Box:
 		<ul>
-			<li> How to enable Nested VT-x in Windows:
+			<li> How to enable Nested VT-x in Windows:</li>
 				<pre><code>cd C:\Program Files\Oracle\VirtualBox</code></pre>
 				<pre><code>VBoxManage.exe list vms</code></pre>
 				<pre><code>VBoxManage.exe modifyvm &lt;"NAME_OF_MACHINE"> --nested-hw-virt on</code></pre>
 		</ul>
 	<li>Configuration files:
 		<ul>
-			<li> /.htaccess
-			<li> /.htpasswd
-			<li> /web.config
-			<li> /.git/config
-			<li> /nginx.conf
-			<li> /server-status
-			<li> /status
-			<li> /cgi-bin/php.ini
+			<li> /.htaccess</li>
+			<li> /.htpasswd</li>
+			<li> /web.config</li>
+			<li> /.git/config</li>
+			<li> /nginx.conf</li>
+			<li> /server-status</li>
+			<li> /status</li>
+			<li> /cgi-bin/php.ini</li>
    		</ul>
 	<li>Secure your machine!
 		<ul>
-			<li> <a href='https://reqrypt.org/tallow.html'>Tallow</a>. All traffic throw tor
-			<li> <a href='https://safing.io/'>Safing Portmaster</a>. Your firewall
+			<li> <a href='https://reqrypt.org/tallow.html'>Tallow</a>. All traffic throw tor</li>
+			<li> <a href='https://safing.io/'>Safing Portmaster</a>. Your firewall</li>
 		</ul>
 	<li> <a href='https://0xacab.org/jvoisin/mat2'>mat2</a>. Tool gets rid of metadata everywhere
-		<li>Unified Kill Chain
+		<li>Unified Kill Chain</li>
 			<p>1. Reconnaissance (<a href='https://attack.mitre.org/tactics/TA0043/'>MITRE Tactic TA0043</a>)
 			<p>2. Weaponization (<a href='https://attack.mitre.org/tactics/TA0001/'>MITRE Tactic TA0001</a>)
 			<p>3. Social Engineering (<a href='https://attack.mitre.org/tactics/TA0001/'>MITRE Tactic TA0001</a>)
@@ -1193,14 +1193,19 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	  		<p>6. Defence Evasion (<a href='https://attack.mitre.org/tactics/TA0005/'>MITRE Tactic TA0005</a>)
 			<p>7. Command & Control (<a href='https://attack.mitre.org/tactics/TA0011/'>MITRE Tactic TA0011</a>)
 			<p>8. Pivoting (<a href='https://attack.mitre.org/tactics/TA0008/'>MITRE Tactic TA0008)/a>)
-	<li>Jenkins endpoints.
+	<li>Jenkins endpoints.</li>
 		<ul>
 			<li>•  /signup
 			<li>•  /jenkins/signup
 		</ul>
-	<li>403 Bypass
+	<li>403 Bypass</li>
 		<ul>
-			<li>Try to change method to PATCH and add header <code>Accept: application/json</code>
+			<li>Try to change method to PATCH and add header <code>Accept: application/json</code></li>
+		</ul>
+	<li>Default servers` distanation path</li>
+		<ul>
+			<li>Apache and NGINX - <code> /var/www/html</code></li>
+			<li>Microsoft's IIS - <code>c:\inetpub\wwwroot</code></li>
 		</ul>
 </ol>
 
