@@ -28,8 +28,7 @@
 	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Cloud.md'>Cloud</a>
 	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/active_directory'>Active Directory</a>
 	<!--<li> cheat sheet injections
-	Add XSStrike to Tools!
-	Action for achivment	-->
+	Add XSStrike to Tools!-->
  	<p> <h3> <ins>N.B. <-- Back link - Means return to the table of contents.</ins> </h3>
 
 </ol>
@@ -579,7 +578,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
  <h3 id='n1.23'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Clear log files</ins></h3>
  	<ol>
 		<li>Check log file coplies (for example <code>ls -la /var/log/*.gz /var/log/*.1 /var/log/*.old</code>)</li>
-		<li>Save/check timestamps</li>
+		<li>Save timestamps</li>
 			<pre><code>find /var/log -type f -exec touch -r {} {}.timestamp \;</code></pre>
 			<!--<pre><code>stat /var/log/* > /tmp/log_timestamps.txt</code></pre>-->
  		<li>Delete</li>
