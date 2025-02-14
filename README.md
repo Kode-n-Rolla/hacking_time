@@ -689,6 +689,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	    <li> Description of XSS payloads <a href='https://netsec.expert/posts/xss-in-2020/'>here</a> 
    </ol>
 <h3 id='n2.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSRF </h3>
+	<p>Google CSRF POC and user online tools for make CSRF POC and upgrade with tips below</p>
 	<li> Temple for payload:
 	<pre><code>		
 &lt;html&gt;
