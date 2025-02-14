@@ -705,7 +705,9 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<pre><code>&lt;meta name="referrer" content="never"></code></pre>
 	<li> To send malicious request automatic:
  		<pre><code>&lt;script>
-	document.getElementById('csrfForm').submit();
+	window.onload = function() {
+		document.getElementById('csrfForm').submit();
+	};
 &lt;/script></code></pre>
 
 <h3 id='n2.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chains </h3>
