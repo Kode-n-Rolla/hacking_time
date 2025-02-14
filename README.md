@@ -690,6 +690,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
    </ol>
 <h3 id='n2.3'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CSRF </h3>
 	<p>Google CSRF POC and user online tools for make CSRF POC and upgrade with tips below</p>
+	<p>For example, <a href='https://hacktify.in/csrf/'>Hacktify</a> - CSRF PoC Generator</p>
 	<li> Temple for payload:
 	<pre><code>		
 &lt;html&gt;
