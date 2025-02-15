@@ -787,6 +787,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	      <li><a href='https://www.kirsle.net/wizards/flask-session.cgi'>Flask Session Cookie Decoder </a></li>
 	      <li><a href='https://ntlm.pw/'>NTLM.pw</a>. Help with NTLM hashes</li>
 	      <li><a href='https://www.cs.drexel.edu/~jpopyack/IntroCS/HW/RSAWorksheet.html'>RSA</a> calculator</li>
+	      <li><a href='https://cryptii.com/pipes/caesar-cipher'>Caesar cipher</a> cracker</li>
 	      <li><a href='https://www.quipqiup.com/'>quipqiup.com. Solve simple substitution ciphers</a></li>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Learning Path & Practise </h3>
 	      <li><a href='https://www.eccouncil.org/'>CEH</a></li>
