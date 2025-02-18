@@ -10,23 +10,24 @@
 
 <h3 id='start'> There are: </h3>
 <ol>
-	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'>Network tools</a>
-	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'>Web Shells</a>
-	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/scripts'>Scripts</a>
-  	<li><a href='#n1'>Commands</a>
-  	<li><a href='#n2'>Payloads</a> with description. <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/payloads'>Here</a> just payloads in file
-  	<li><a href='#n3'>Sites</a>
-	<li><a href='#n4'>Tools</a>
-	<li><a href='#n5'>Privilege Escalation</a>
-	<li><a href='#n6'>Tips</a>
-	<li><a href='#n7'>GPTs (Agents) for Cybersecurity</a>
-	<li><a href='#n8'>OSINT</a>
-	<li><a href='#n9'>API</a>
-	<li><a href='#n10'>WordPress</a>
-	<li><a href='#n11'>JWT</a>
-	<li>Help with <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest_methodology.md'>Pentesting</a> and <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/bug_bounty_methodology.md'>Bug Bounty</a> processes
-	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Cloud.md'>Cloud</a>
-	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/active_directory'>Active Directory</a>
+	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'>Network tools</a></li>
+	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/shells'>Web Shells</a></li>
+	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/scripts'>Scripts</a></li>
+  	<li><a href='#n1'>Commands</a></li>
+  	<li><a href='#n2'>Payloads</a> with description. <a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/payloads'>Here</a> just payloads in file</li>
+  	<li><a href='#n3'>Sites</a></li>
+	<li><a href='#n4'>Tools</a></li>
+	<li><a href='#n5'>Privilege Escalation</a></li>
+	<li><a href='#n6'>Tips</a></li>
+	<li><a href='#n7'>GPTs (Agents) for Cybersecurity</a></li>
+	<li><a href='#n8'>OSINT</a></li>
+	<li><a href='#n9'>API</a></li>
+	<li><a href='#n10'>WordPress</a></li>
+	<li><a href='#n11'>JWT</a></li>
+	<li>Help with <a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Pentest_methodology.md'>Pentesting</a> processes</li>
+	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Recon.md'>Recon.md</a> (tools)</li>
+	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Cloud.md'>Cloud</a></li>
+	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/active_directory'>Active Directory</a></li>
 	<!--<li> cheat sheet injections
 	Add XSStrike to Tools!-->
  	<p> <h3> <ins>N.B. <-- Back link - Means return to the table of contents.</ins> </h3>
