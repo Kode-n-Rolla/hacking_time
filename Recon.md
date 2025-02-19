@@ -6,7 +6,7 @@
           <p><code>(services.tls.certificates.leaf_data.names: &lt;TARGET_DOMAIN>) and services.http.response.status_code=”200"</code>
       <li><a href='https://netlas.io/'>netlas.io</a>. Like above</li>
       <li><a href='https://crt.sh/'>crt.sh</a></li>
-      <li><a href='https://github.com/projectdiscovery/subfinder'>subfinder</a></li>
+      <li><a href='https://github.com/projectdiscovery/subfinder'>subfinder</a>. Highly recommend use with api keys</li>
       <li><a href='https://github.com/tomnomnom/assetfinder'>assetfinder</a></li>
       <!--<li><a href='http://ci-www.threatcrowd.org/'>ThreatCrowd.org</a>.</li>-->
       <li><a href='https://fofa.info/'>fofa</a></li>
