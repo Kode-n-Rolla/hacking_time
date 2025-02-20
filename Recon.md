@@ -35,6 +35,7 @@
       <li><a href='https://github.com/makefu/dnsmap'>dnsmap</a></li>
     </ul>
     <ul><h2>Active</h2>
+      <li><a href='https://github.com/blechschmidt/massdns'>massdns</a></li>
       <li><a href='https://github.com/projectdiscovery/httpx'>httpx</a>. Check active subdomains</li>
       <li><a href='https://github.com/robertdavidgraham/masscan'>masscan</a></li>
       <li><a href='https://github.com/nmap/nmap'>Nmap</a></li>
