@@ -885,6 +885,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<li><a href='#n4.3'>Burp Suite Extensions</a>
 	<li><a href='#n4.4'>Kali Tools</a>
 	<li><a href='#n4.5'>Platforms for hacking and pentesting</a>
+	<li><a href='#n4.6'>Another tools</a></li>
 </ol>
 	<h3 id='n4.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>GitHub Tools</ins></h3>
 		My GitHub <a href='https://github.com/Kode-n-Rolla?tab=stars'>stars</a> where I categorized github tools.
@@ -1060,6 +1061,10 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
    				<ul>
 					<li><a href='https://pentest-tools.com/'>Pentest-Tools</a></li>
 					<li><a href='https://hackertarget.com/'>HackerTarget</a></li>
+				</ul>
+    			<h3 id='n4.6'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Another tools</ins></h3>
+       				<ul>
+					<li><a href='https://flameshot.org/'>Flameshot</a>. Make screenshots with some additional functions like highlighting. <code>apt install flameshot</code></li>
 				</ul>
 
    
