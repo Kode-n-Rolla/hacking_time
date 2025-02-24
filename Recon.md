@@ -1,6 +1,7 @@
   <h1>Reconnaissance</h1>
     <ul><h2>Passive</h2>
       <li><a href='https://www.shodan.io/'>Shodan</a></li>
+        <p>hostname:domain.com</p>
       <li><a href='https://search.censys.io/'>Censys</a></li>
         <p>Dork like this help to find subdomains and don`t forget check setting for include Virtual Hosts
           <p><code>(services.tls.certificates.leaf_data.names: &lt;TARGET_DOMAIN>) and services.http.response.status_code=”200"</code>
