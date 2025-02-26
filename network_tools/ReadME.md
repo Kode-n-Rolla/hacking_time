@@ -6,4 +6,5 @@
   <li>netcat - simple analogue of netcat</li>
   <li>http_server.go - go http server</li>
   <li>http_sniffer.go - takes headers and requests. Useful for CSRF, SSRF, API</li>
+  <li>headers_checker.go - check CORS, CSP, HSTS, X-Frame-Options</li>
 </ul>
