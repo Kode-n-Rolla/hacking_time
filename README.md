@@ -819,6 +819,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; OSINT and Information Gathering </h3>
 	      <li><a href='https://osintframework.com/'>OSINT Framework</a>Aggregation of all popular tools and resources for OSINT</li>
 	      <li><a href='https://archive.org/'>Archive</a> of sites history</li>
+	      <li><a href='https://www.openstreetmap.org/'>Openstreetmap.org</a></li>
 	      <li><a href='https://www.babelstreet.com/'>Babel street</a></li>
 	      <li><a href='https://crt.sh/'>Crt.sh</a></li>
 	      <li><a href='https://securityheaders.com/'>Securityheaders</a>. Check target site headers</li>
