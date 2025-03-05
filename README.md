@@ -785,6 +785,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li><a href='https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/'>Another dorks helper</a></li>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hashes, encode/decode, cracker, identify </h3>
 	      <li><a href='https://crackstation.net/'>crackstation.net</a> - online password hash cracker</li>
+     	      <li><a href='https://dencode.com/en/'>dencode.com</a>. Many options for encode/decode </li>
 	      <li><a href='https://www.base64encode.org/'>Base64</a> encode/decode</li>
 	      <li><a href='https://hashes.com/en/tools/hash_identifier'>hashes.com</a>. Identity and crack hashes</li>
 	      <li><a href='https://gchq.github.io/CyberChef/'>CyberChef</a> - encode/decode service</li>
