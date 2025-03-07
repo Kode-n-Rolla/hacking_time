@@ -74,6 +74,7 @@
     <ul>
       <li>Add %c0 to url. If XML error, a website is hosted on AWS</li>
         <pre><code>https://site.tld/%c0</code></pre>
+      <li>Search <code>s3.</code> in a source code</li>
     </ul>
 </ol>
 
