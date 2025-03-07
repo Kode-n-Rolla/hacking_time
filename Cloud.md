@@ -6,6 +6,7 @@
   <li><a href='GCP'>Google Cloud Platform</a></li>
 
 <h2 align='center' id='Tools'><em>Third-Party Tools</em></h2>
+Out of list -> IP address can be used to find meta data information from cloud machines is 169.254.169.254
 <ol>
   <li>For AWS:</li>
     <ul>
