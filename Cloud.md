@@ -70,6 +70,11 @@
       <li>If bucket is open, find creds:</li>
         <pre><code>aws s3 cp s3://target-bucket/config.json . cat config.json | grep -i "key"</code></pre>
     </ul>
+  <li>Tips:</li>
+    <ul>
+      <li>Add %c0 to url. If XML error, a website is hosted on AWS</li>
+        <pre><code>https://site.tld/%c0</code></pre>
+    </ul>
 </ol>
 
 <h2 align='center' id='Azure'><em>Azure</em></h2>
