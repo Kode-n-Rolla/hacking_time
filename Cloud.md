@@ -19,6 +19,7 @@
       <li><a href='https://github.com/MindPointGroup/cloudfrunt'>CloudFrunt</a>. To find misconfiguration in AWS CloudFront. Open source</li>
       <li><a href='https://github.com/ihamburglar/Redboto'>Redboto</a>. Collection of script to aid in AWS red team engagements</li>
       <li><a href='https://github.com/jordanpotti/AWSBucketDump'>AWSBucketDump</a>. Quickly enumerate AWS S3 buckets. Open source</li>
+      <li><a href='https://chromewebstore.google.com/detail/s3bucketlist/anngjobjhcbancaaogmlcffohpmcniki'>s3bucketlist</a>. Chrome extension for check buckets</li>
     </ul>
   <li>For Azure:</li>
     <ul>
