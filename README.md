@@ -605,6 +605,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <li><a href='#n2.4'>Chains</a></li>
 <li><a href='#n2.5'>Server Side Template Injection</a></li>
 <li><a href='#n2.6'>CRLF</a></li>
+<li><a href='#n2.7'>SSRF</a></li>
     <h3 id='n2.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; LFI Payloads</h3>
 	<ul>
 		<li><a href='https://raw.githubusercontent.com/DragonJAR/Security-Wordlist/main/LFI-WordList-Linux'>For Linux</a></li>
@@ -733,6 +734,11 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<li>%0D — CR (Carriage Return)</li>
 			<li>%0A — LF (Line Feed)</li>
 		</ul>
+
+ <h3 id='n2.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSRF</h3>
+ <ul>
+	 <li><a href='https://nip.io/'>nip.io</a>. Help with ip payloads</li>
+ </ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
 	      
