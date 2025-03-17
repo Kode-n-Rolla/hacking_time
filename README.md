@@ -1419,7 +1419,9 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<li>CLI</li>
 	<ul>
 		<li>nmap</li>
-		<li>subfinder with API keys</li>
+		<li>massdns</li>
+		<li>shufflesdns</li>
+		<li>subfinder</li>
 		<li>amass</li>
 		<li>assetfinder</li>
 		<li>waybackurls</li>
