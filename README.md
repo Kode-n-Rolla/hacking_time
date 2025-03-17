@@ -28,9 +28,10 @@
 	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Recon.md'>Recon.md</a> (tools)</li>
 	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Cloud.md'>Cloud</a></li>
 	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/active_directory'>Active Directory</a></li>
+	<li><a href='#n12'>Toolkit</a></li>
 	<!--<li> cheat sheet injections
 	Add XSStrike to Tools!-->
- 	<p> <h3> <ins>N.B. <-- Back link - Means return to the table of contents.</ins> </h3>
+ 	<p><h3><ins>N.B. <-- Back link - Means return to the table of contents.</ins></h3>
 
 </ol>
 
@@ -1058,6 +1059,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 						<li><a href='https://portswigger.net/bappstore/17d2949a985c4b7ca092728dba871943'>Param miner</a>. Extension identifies hidden, unlinked parameters. It's particularly useful for finding web cache poisoning vulnerabilities</li>
 						<li><a href='https://portswigger.net/bappstore/af490ae7e79546fa81a28d8d0b90874e'>Pentest Mapper</a>. Is a extension that integrates the Burp Suite request logging with a custom application testing checklist</li>
 						<li><a href='https://portswigger.net/bappstore/e4e0f6c4f0274754917dcb5f4937bb9e'>Piper</a> makes integrating external tools into Burp easier</li>
+						<li><a href='https://portswigger.net/bappstore/815bb4ab64e240618dc673d65016e919'>GAP</a>. Extension helps find potential endpoints, parameters, and generate a custom target wordlist.</li>
+						<li><a href='https://portswigger.net/bappstore/b4915681326648b1a12e4059d71bc909'>Agartha</a>, specializes in advance payload generation and access control assessment</li>
 					</ul>
      			<h3 id='n4.4'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Kali Tools</ins></h3>
 				 <ol>
@@ -1238,16 +1241,16 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 
 <h2 align='center' id='n7'><em>GPTs (Agents) for Cybersecurity </em></h2>
 <ul>
-	<li> <a href='https://chat.openai.com/g/g-U5ZnmObzh-magicunprotect'> MagicUnprotect</a> - allows interacting with the Unprotect knowledge base on malware evasion techniques
-	<li> <a href='https://chat.openai.com/g/g-Vy4rIqiCF-threat-intel-bot'> Threat Intel Bot</a> - GPT agent for retrieving the latest data on APT groups
-	<li> <a href='https://chat.openai.com/g/g-RfQI5RmAX-hacker-news-gpt'> Hacker News GPT</a> - summarizes the most relevant and discussed Hacker News articles
-	<li> <a href='https://chat.openai.com/g/g-fCIE7hCLx-att-ck-mate'> ATT&CK Mate</a> - get any answer about the ATT&CK knowledge base
-	<li> <a href='https://chat.openai.com/g/g-VRtUR3Jpv-smart-contract-auditor'> Smart Contract Audit Assistant</a> - a high-precision tool for auditing smart contracts
-	<li> <a href='https://chat.openai.com/g/g-0p2l975AN-alphahoundai'> AlphaHoundAI</a> - expert in BloodHound CE, Cypher, SharpHound, and related tools
-	<li> <a href='https://chat.openai.com/g/g-UKY6elM2U-zkgpt'> zkGPT</a> - if you want to master cryptography, use this agent
-	<li> <a href='https://chat.openai.com/g/g-Ep6YFTwsn-osistent'> OSISTent</a> - will assist you in solving various OSINT tasks and research
-	<li> <a href='https://chat.openai.com/g/g-hnDH58fct-bug-bounty-assistant'> Bug Bounty Assistant</a> - a guide for web application security
-	<li> <a href='https://github.com/Awesome-GPT-Agents'>  Full List </a> 
+	<li><a href='https://chat.openai.com/g/g-U5ZnmObzh-magicunprotect'>MagicUnprotect</a> - allows interacting with the Unprotect knowledge base on malware evasion techniques</li>
+	<li><a href='https://chat.openai.com/g/g-Vy4rIqiCF-threat-intel-bot'>Threat Intel Bot</a> - GPT agent for retrieving the latest data on APT groups</li>
+	<li><a href='https://chat.openai.com/g/g-RfQI5RmAX-hacker-news-gpt'>Hacker News GPT</a> - summarizes the most relevant and discussed Hacker News articles</li>
+	<li><a href='https://chat.openai.com/g/g-fCIE7hCLx-att-ck-mate'>ATT&CK Mate</a> - get any answer about the ATT&CK knowledge base</li>
+	<li><a href='https://chat.openai.com/g/g-VRtUR3Jpv-smart-contract-auditor'>Smart Contract Audit Assistant</a> - a high-precision tool for auditing smart contracts</li>
+	<li><a href='https://chat.openai.com/g/g-0p2l975AN-alphahoundai'>AlphaHoundAI</a> - expert in BloodHound CE, Cypher, SharpHound, and related tools</li>
+	<li><a href='https://chat.openai.com/g/g-UKY6elM2U-zkgpt'>zkGPT</a> - if you want to master cryptography, use this agent</li>
+	<li><a href='https://chat.openai.com/g/g-Ep6YFTwsn-osistent'>OSISTent</a> - will assist you in solving various OSINT tasks and research</li>
+	<li><a href='https://chat.openai.com/g/g-hnDH58fct-bug-bounty-assistant'>Bug Bounty Assistant</a> - a guide for web application security</li>
+	<li><a href='https://github.com/Awesome-GPT-Agents'>Full List</a></li> 
 </ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
@@ -1408,6 +1411,59 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<li>Try to use JWK if alg is asymmetric encryption (RS256, ES256 etc)
 			<li>If there is a jku, try to put yourself url with a key
 		</ul>
+
+<h3 align='right'><a href='#start'> <-- Back </a></h3> 
+
+<h2 align='center' id='n12'><em>Toolkit</em></h2>
+<ol>
+	<li>CLI</li>
+	<ul>
+		<li>nmap</li>
+		<li>subfinder with API keys</li>
+		<li>amass</li>
+		<li>assetfinder</li>
+		<li>waybackurls</li>
+		<li>httpx</li>
+		<li>sara</li>
+		<li>katana</li>
+		<li>ffuf</li>
+		<li>gobuster</li>
+	</ul>
+	<li>Browser Extensions</li>
+	<ul>
+		<li>Foxy Proxy</li>
+		<li>Wappalyzer</li>
+		<li>WaybackURL</li>
+		<li>Header Editor</li>
+		<li>Cookie-Editor</li>
+		<li>User-Agent Switcher and Manager</li>
+		<li>Altair GraphQL Client</li>
+		<li>RESTED</li>
+		<li>Hack-Tools</li>
+		<li>Max HacKBar</li>
+		<li>OWASP Penetration Testing Kit</li>
+		<li>Beautifer & Minify</li>
+		<li>Shodan</li>
+		<li>.DotGit</li>
+		<li>FireFox Multi-Account Containers</li>
+		<li>KnoXSS</li>
+		<li>Retire.js</li>
+	</ul>
+	<li>Burp Extensions</li>
+	<ul>
+		<li>Autorize</li>
+		<li>Arartha</li>
+		<li>InQL</li>
+		<li>JWT Editor</li>	
+	</ul>
+	<li>Another tools</li>
+	<ul>
+		<li>Postman</li>
+		<li>Shodan</li>
+		<li>Censys</li>
+		<li>crt.sh</li>
+	</ul>
+</ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
