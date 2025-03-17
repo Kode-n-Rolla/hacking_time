@@ -1464,6 +1464,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li>Shodan</li>
 		<li>Censys</li>
 		<li>crt.sh</li>
+		<li>Big Bounty Recon</li>
 	</ul>
 </ol>
 
