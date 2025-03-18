@@ -1430,6 +1430,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li>katana</li>
 		<li>ffuf</li>
 		<li>gobuster</li>
+		<li>LinkFinder</li>
+		<li>SecretFinder</li>
 	</ul>
 	<li>Browser Extensions</li>
 	<ul>
