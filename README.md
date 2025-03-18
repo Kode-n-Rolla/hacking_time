@@ -1419,11 +1419,11 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<li>CLI</li>
 	<ul>
 		<li>nmap</li>
-		<li>massdns</li>
-		<li>shufflesdns</li>
 		<li>subfinder</li>
 		<li>amass</li>
 		<li>assetfinder</li>
+		<li>massdns</li>
+		<li>shufflesdns</li>
 		<li>waybackurls</li>
 		<li>httpx</li>
 		<li>sara</li>
