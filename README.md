@@ -1428,6 +1428,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li>httpx</li>
 		<li>sara</li>
 		<li>katana</li>
+		<li>cewl</li>
 		<li>ffuf</li>
 		<li>gobuster</li>
 		<li>LinkFinder</li>
