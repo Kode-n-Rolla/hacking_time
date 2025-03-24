@@ -1,0 +1,10 @@
+/etc/issue
+/etc/passwd
+/etc/shadow
+/etc/group
+/etc/hosts
+/etc/motd
+/etc/mysql/my.cnf
+/proc/self/environ
+/proc/version
+/proc/cmdline
