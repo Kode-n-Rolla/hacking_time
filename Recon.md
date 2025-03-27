@@ -23,6 +23,7 @@
       <li><a href='https://dnsdumpster.com/'>Dnsdumpster.com</a></li>
       <li><a href='https://centralops.net/co/'>centralops.net</a></li>
       <li><a href='https://urlscan.io/'>Urlscan.io</a></li>
+      <li><a href='https://cyscan.io/'>Cyscnan.io</a>. Passive scan the target url</li>
       <li><code>dig domain.com ANY</code> (<code>dig @ns1.domain.com domain AXFR</code>), <code>nslookup domain.com</code>, <code>host domain.com</code></li>
       <li><a href='https://github.com/laramies/theHarvester'>theHarvester</a></li>
       <li>Social Media</li>
