@@ -1,0 +1,10 @@
+?url=
+?redir=
+?redirect=
+?image=
+?path=
+?load=
+?fetch=
+?proxy=
+?api=
+?endpoint=
