@@ -578,7 +578,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li>Copy id_rsa</li>
 		<li>chmod 600 id_rsa</li> to set right permissoon for use (It is required that your private key files are NOT accessible by others.)
 		<li>Connect:</li>
-			<pre><code>ssh -i id_rsa &lt;USERNAME>@&lt;TARGET_IP></code><pre>
+			<pre><code>ssh -i id_rsa &lt;USERNAME>@&lt;TARGET_IP></code></pre>
 	</ul>
  <h3 id='n1.23'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Clear log files</ins></h3>
  	<ol>
