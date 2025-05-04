@@ -271,6 +271,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		   <pre><code>stty raw -echo; fg</code></pre>
 		   Then double Enter and we again in shell and input
 		   <pre><code>export TERM=xterm</code></pre>
+	   <li><pre><code>/usr/bin/script -qc /bin/bash /dev/null</code></pre></li>
 	   <li>Or check this <a href='https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys'>link</a> for more help</li>
    </ul>
 
