@@ -60,6 +60,7 @@ Topic contains:
 	<li><a href='#n1.21'>Git</a></li>
  	<li><a href='#n1.22'>SSH and id_rsa</a></li>
   	<li><a href='#n1.23'>Clear log files</li>
+   	<li><a href='#n1.24'>Tmux</li>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -596,6 +597,36 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li>Check result</li>
 			<pre><code>grep 'YOUR_IP' /var/log/*</code></pre>
 	</ol>
+ <h3 id='n1.24'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Tmux</ins></h3>
+ 
+ | Action                          | Command / Keybind                         | Notes                                                 |
+|---------------------------------|-------------------------------------------|-------------------------------------------------------|
+| 🆕 Create new session           | `tmux new -s <name>`                      | Start a new tmux session                             |
+| 📋 List all sessions            | `tmux ls`                                 | View running sessions                                |
+| 🔄 Attach to a session         | `tmux attach -t <name>`                   | Reconnect to a session                               |
+| 🛑 Detach from session         | `Ctrl + B`, then `D`                      | Keep session running in background                   |
+| ❌ Kill a session               | `tmux kill-session -t <name>`             | Permanently stop a session                           |
+| ➕ New window                   | `Ctrl + B`, then `C`                      | Like a tab inside a session                          |
+| ↔ Switch between windows       | `Ctrl + B`, then `N` (next) or `P` (prev) | Navigate between tmux windows                        |
+| 🔢 Go to window by number      | `Ctrl + B`, then number (e.g. `1`)        | Fast switch to a specific window                     |
+| ✏️ Rename window               | `Ctrl + B`, then `,`                      | Rename current window                                |
+| 🔁 Reload config file          | `tmux source-file ~/.tmux.conf`           | After editing your config                            |
+| 💥 Close window                | `exit` or `Ctrl + D`                      | Exit the current window                              |
+| 🔍 Search scrollback buffer    | `Ctrl + B`, then `/`                      | Use `n`/`N` to move between results                  |
+| 📜 Enter scroll mode           | `Ctrl + B`, then `[`                      | Navigate output, quit with `q`                       |
+| 📋 Start copy mode             | `Ctrl + B`, then `[` → `Space` → `Enter`  | Select text to copy (depends on config)              |
+| 🪟 Split window (horizontally) | `Ctrl + B`, then `"`                      | Pane above/below                                     |
+| 🪟 Split window (vertically)   | `Ctrl + B`, then `%`                      | Pane left/right                                      |
+| ⬆ Navigate panes               | `Ctrl + B`, then arrow key                | Move between split panes                             |
+| 🔄 Swap panes                  | `Ctrl + B`, then `{` or `}`              | Change pane position                                 |
+| 🛠 Resize pane                 | `Ctrl + B`, then hold `Ctrl` + Arrow      | Depends on your terminal config                      |
+
+---
+
+💡 **Tips**:
+- Use `tmux new -s recon` to start recon tools and come back anytime.
+- Want auto-reconnect? Combine `tmux` with SSH aliases in your `.bashrc`.
+- You can have multiple tmux sessions per server for different tasks (recon, fuzzing, analysis).
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
