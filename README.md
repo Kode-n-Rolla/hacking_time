@@ -1494,10 +1494,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li>Autorize</li>
 		<li>Arartha</li>
 		<li>InQL</li>
-		<li>JWT Editor</li>	
+		<li>JWT Editor</li>
+		<li>Param Miner</li>
 	</ul>
 	<li>Another tools</li>
 	<ul>
+		<li>reNgine</li>
 		<li>Postman</li>
 		<li>Shodan</li>
 		<li>Censys</li>
