@@ -8,6 +8,8 @@
       <pre><code>gcc &lt;FILE_NAME.c> -o &lt;OUTPUT_FILE_NAME></code></pre></p>
     <p>For 32 bit:
       <pre><code>gcc -m32 &lt;FILE_NAME.c> -o &lt;OUTPUT_FILE_NAME></code></pre></p>
-    <p><li>quick_crawl_paths.js</li>
+    <li>quick_crawl_paths.js</li>
       DevTools -> Console. Quick crawl to view endpoints on the page</p>
+    <li>js_hunt.sh</li>
+      Pipeline for findings hidden gems in js files
 </ul>
