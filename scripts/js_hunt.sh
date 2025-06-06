@@ -20,7 +20,7 @@ python3 linkfinder.py -i all_js.txt -o cli > links.txt
 python3 SecretFinder.py -i all_js.txt -o cli > secrets.txt
 
 # - Run the all-in-one analyzer
-python3 lazyegg/lazyegg.py -i all_js.txt > lazyegg_results.txt
+cat all_js.txt | xargs -I{} bash -c 'echo -c "\ntarget : {}\n" && python3 lazyegg.py "{}" --js_urls --domains --ips --leaked_creds --local-storage > lazyegg_results.txt'
 
 # Stage 5: Run nuclei exposures templates (good for secrets in JS, s3 urls etc.)
 nuclei -l all_js.txt -t http/exposures/ -o nuclei_js.txt
