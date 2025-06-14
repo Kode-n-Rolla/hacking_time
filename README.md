@@ -1470,6 +1470,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li>Paramspider</li>
 		<li>SecretFinder</li>
 		<li>JWT_Tool</li>
+		<li>Pacu</li>
 	</ul>
 	<li>Browser Extensions</li>
 	<ul>
