@@ -1032,6 +1032,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			 <h3 id='n4.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Browser extensions</ins></h3>
 				<ul>
 					<li><a href='https://www.wappalyzer.com/'>Wappalyzer</a> (<a href='https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=en'>Chrome</a>) - Defines CMS, JS-libraries, frameworks and another technologies used on the site</li>
+					<li>WhatRuns (<a href='https://addons.mozilla.org/en-US/firefox/addon/whatruns/'>FireFox</a> | <a href='https://chromewebstore.google.com/detail/whatruns/cmkdbmfndkfgebldhnkbfhlneefdaaip'>Chrome</a>) - Discover what runs a website</li>
 					<li>Foxy Proxy (<a href='https://addons.mozilla.org/en-US/firefox/addon/foxyproxy-standard/'>FireFox</a> | <a href='https://chrome.google.com/webstore/detail/foxyproxy-standard/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=en'>Chrome</a>) - Fast change proxy, for example, use with Burp Suite</li>
 					<li>Rested (<a href='https://addons.mozilla.org/en-US/firefox/addon/rested/'>FireFox</a>) - Quick request sender. Usefull with API</li>
 					<li>Altair (<a href='https://addons.mozilla.org/en-US/firefox/search/?q=altair'>FireFox</a> | <a href='https://chromewebstore.google.com/detail/altair-graphql-client/flnheeellpciglgpaodhkhmapeljopja?hl=en'>Chrome</a>) - help with GraphQL requests</li>
