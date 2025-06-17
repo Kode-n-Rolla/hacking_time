@@ -1454,29 +1454,26 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <ol>
 	<li>CLI</li>
 	<ul>
-		<li>nmap</li>
-		<li>subfinder</li>
+		<li>nmap, naabu</li>
+		<li>subfinder, assetfinder, subscraper</li>
 		<li>amass</li>
-		<li>assetfinder</li>
-		<li>massdns</li>
 		<li>shufflesdns</li>
-		<li>waybackurls</li>
-		<li>httpx</li>
+		<li>waybackurls, gau, waymore</li>
+		<li>dnsx, httpx</li>
 		<li>sara</li>
-		<li>katana</li>
+		<li>katana, gospider, hakrawler</li>
 		<li>cewl</li>
-		<li>ffuf</li>
-		<li>gobuster</li>
-		<li>LinkFinder</li>
-		<li>Paramspider</li>
-		<li>SecretFinder</li>
+		<li>wfuzz, gobuster</li>
+		<li>LinkFinder, xnLinkFinder, SecretFinder, lazyegg</li>
+		<li>Paramspider, arjun</li>
 		<li>JWT_Tool</li>
 		<li>Pacu</li>
+		<li>apktool</li>
 	</ul>
 	<li>Browser Extensions</li>
 	<ul>
 		<li>Foxy Proxy</li>
-		<li>Wappalyzer</li>
+		<li>Wappalyzer, WhatRun</li>
 		<li>WaybackURL</li>
 		<li>Header Editor</li>
 		<li>Cookie-Editor</li>
@@ -1496,7 +1493,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<li>Burp Extensions</li>
 	<ul>
 		<li>Autorize</li>
-		<li>Arartha</li>
+		<li>Agartha</li>
 		<li>InQL</li>
 		<li>JWT Editor</li>
 		<li>Param Miner</li>
@@ -1509,6 +1506,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li>Censys</li>
 		<li>crt.sh</li>
 		<li>Big Bounty Recon</li>
+		<li>MobSF</li>
 	</ul>
 </ol>
 
