@@ -781,6 +781,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Someone main </h3>
 	      <li><a href='https://book.hacktricks.xyz/'>HackTricks</a> - must have!!! PrivEsc, brute force, pentest network and wifi, metodologies cheatsheets and much more</li>
 	      <li><a href='https://cloud.hacktricks.xyz/'>Cloud HackTricks</a></li>
+       	      <li><a href='https://viperone.gitbook.io/pentest-everything'>Pentest Everything</li>
               <li><a href='https://ppn.snovvcrash.rocks/'>Pentest notes</a></li>
 	      <li><a href='https://gtfobins.github.io/#'>GTFO</a> bins. How to escalqte privs, how to get shells and much more with binary in target system</li>
 	      <li><a href='https://lolbas-project.github.io/#'>LOLBAS</a>. Help with Windows</li>
@@ -1127,7 +1128,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	 	<li><a href='#n5.2'>Windows</a>
 	</ul>
 		 <h3 id='n5.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Linux</ins> </h3>
-   			<a href='https://book.hacktricks.wiki/en/linux-hardening/linux-privilege-escalation-checklist.html'>Checklist</a>
+   			Checklist <a href='https://book.hacktricks.wiki/en/linux-hardening/linux-privilege-escalation-checklist.html'>what</a>, <a href='https://viperone.gitbook.io/pentest-everything/everything/everything-linux/privilege-escalation-checklist'>how</a>
 	  		<p>Some advice to Linux Privilege Escalation</p>
 	    		<ol>
 				<li>Check out user are running - <code>whoami</code></li>
