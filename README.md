@@ -1127,7 +1127,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	 	<li><a href='#n5.2'>Windows</a>
 	</ul>
 		 <h3 id='n5.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Linux</ins> </h3>
-	  		Some advice to Linux Privilege Escalation
+   			<a href='https://book.hacktricks.wiki/en/linux-hardening/linux-privilege-escalation-checklist.html'>Checklist</a>
+	  		<p>Some advice to Linux Privilege Escalation</p>
 	    		<ol>
 				<li>Check out user are running - <code>whoami</code></li>
 				<li>Check out groups does running user belong to - <code>id</code></li>
