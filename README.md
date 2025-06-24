@@ -1187,12 +1187,6 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
 
 
-<!-- <h2 align='center' id='n7'><em> AWS </em></h2>
-
-
-<h3 align='right'><a href='#start'> <-- Back </a></h3> -->
-
-
 <h2 align='center' id='n6'><em>Tips</em></h2>
 <ol>
 	<li>If you have JSON in request, try to change JSON to XML</li>
