@@ -1435,13 +1435,14 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h2 align='center' id='n11'><em>JWT</em></h2>
 	Some tips:
  		<ul>
-			<li>Great tool for work with JWT - <a href='https://github.com/ticarpi/jwt_tool'>JWT_Tool</a>
-			<li>Try easy change params
-			<li>Check delete all or delete a couple of chars of signature and send a response
-			<li>Try to brute force signature key
-			<li>Send a response without signature and set "alg":"none"(or None, or nOne, or NONE). Try send with and without second dot.
-			<li>Try to use JWK if alg is asymmetric encryption (RS256, ES256 etc)
-			<li>If there is a jku, try to put yourself url with a key
+			<li>Great tool for work with JWT - <a href='https://github.com/ticarpi/jwt_tool'>JWT_Tool</a></li>
+			<li><a href='https://jwtlens.netlify.app/'>JWT Security Analyzer</li>
+			<li>Try easy change params</li>
+			<li>Check delete all or delete a couple of chars of signature and send a response</li>
+			<li>Try to brute force signature key</li>
+			<li>Send a response without signature and set "alg":"none"(or None, or nOne, or NONE). Try send with and without second dot.</li>
+			<li>Try to use JWK if alg is asymmetric encryption (RS256, ES256 etc)</li>
+			<li>If there is a jku, try to put yourself url with a key</li>
 		</ul>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3> 
