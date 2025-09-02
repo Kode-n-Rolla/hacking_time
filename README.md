@@ -29,6 +29,7 @@
 	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/blob/main/Cloud.md'>Cloud</a></li>
 	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/active_directory'>Active Directory</a></li>
 	<li><a href='#n12'>Toolkit</a></li>
+	<li><a href='https://github.com/Kode-n-Rolla/web3'>Web3 Hacking</a></li>
 	<!--<li> cheat sheet injections
 	Add XSStrike to Tools!-->
  	<p><h3><ins>N.B. <-- Back link - Means return to the table of contents.</ins></h3>
