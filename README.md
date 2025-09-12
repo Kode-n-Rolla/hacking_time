@@ -53,11 +53,11 @@ Topic contains:
   	<li><a href='#n1.13'>Google Dorks</a></li>
 	<li><a href='#n1.14'>GitHub Dorking</a></li>
    	<li><a href='#n1.15'>Ffuf</a></li>
-    	<li><a href='#n1.16'>Rustscan</a></li>
-      	<li><a href='#n1.17'>Masscan</a></li>
-        <li><a href='#n1.18'>Meterpreter</a></li>
+    <li><a href='#n1.16'>Rustscan</a></li>
+    <li><a href='#n1.17'>Masscan</a></li>
+    <li><a href='#n1.18'>Meterpreter</a></li>
 	<li><a href='#n1.19'>CMD (Windows)</a></li>
-        <li><a href='#n1.20'>Reverse shell</a></li>
+    <li><a href='#n1.20'>Reverse shell</a></li>
 	<li><a href='#n1.21'>Git</a></li>
  	<li><a href='#n1.22'>SSH and id_rsa</a></li>
   	<li><a href='#n1.23'>Clear log files</li>
@@ -770,7 +770,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<li>%0A — LF (Line Feed)</li>
 		</ul>
 
- <h3 id='n2.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSRF</h3>
+ <h3 id='n2.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSRF</h3>
  <ul>
 	 <li><a href='https://nip.io/'>nip.io</a>. Help with ip payloads</li>
  </ul>
@@ -1177,6 +1177,17 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 						<li>Interesting permissions</li>
 					</ul>
 				<li>And check <a href='https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/'>this</a> and <a href='https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Linux%20-%20Privilege%20Escalation.md#linux---privilege-escalation'>this</a> links for more help</li>
+					<li>Read through root <code>vim</code></li>
+					<pre><code>sudo vim -u NONE -U NONE -n -es +'r /root/root.txt' +'%p' +q /dev/null</code></pre>
+					<ul>
+						<li><code>-u NONE -U NONE</code> — do not load vimrc/gvimrc (no plugins → no erros)</li>
+						<li><code>-n</code> — disable swapfile</li>
+						<li><code>-e -s</code> — Ex mode + silent (non-interactive) mode</li>
+						<li><code>+'r /root/root.txt'</code> — read the file into the buffer</li>
+						<li><code>+'%p'</code> — print the entire buffer to stdout</li>
+						<li><code>+q</code> — quit</li>
+						<li><code>/dev/null</code> — dummy target so no real files are touched</li>
+					</ul>
 	    		</ol>
 	    <h3 id='n5.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows</ins> </h3>
 			<ol>
