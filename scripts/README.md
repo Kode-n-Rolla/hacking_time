@@ -14,5 +14,5 @@
       Pipeline for findings hidden gems in js files
     <li>httpx_filter.sh</li>
       <p>Can fast filtering <code>httpx</code> results</p>
-    <li>Thanks to <code>HackTheBox</code> for linpill and winpill</li>
+    <li>Thanks to <code>HackTheBox</code> for linpill and winpill and these scripts provides a clear overview of what exists on the system</li>
 </ul>
