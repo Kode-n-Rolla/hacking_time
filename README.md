@@ -633,7 +633,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 
 <h3 id='n1.25'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>crackmapexec</ins></h3>
 <ol>
-	<li>Start recon</li>
+	<li>Start recon. (Attencion to the version <code>(SMBv1:True)</code>)</li>
 		<pre><code>crackmapexec smb [IP]</code></pre>
 	<li>Check if a NULL session (anonymous login) is possible</li>
 		<pre><code>crackmapexec smb [IP] -u '' -p '' --users</code></pre>
