@@ -65,8 +65,9 @@ Topic contains:
 	<li><a href='#n1.25'>crackmapexec</li>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
-  <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
-  <p><pre><code> xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard </code></pre>
+  <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'></code></pre>
+  <p><pre><code> xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> +clipboard</code></pre></p>
+<p><pre><code> xfreerdp /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;PASSWORD> /w:1366 /h:768</code></pre></p>
 	
 <h3 id='n1.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>PowerShell commands </ins></h3>
 <ul>
@@ -639,6 +640,10 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<pre><code>crackmapexec smb [IP] -u '' -p '' --users</code></pre>
 	<li>Check the Guest account is enabled and try accessing it without credentials to enumerate available shares</li>
 		<pre><code>crackmapexec smb [IP] -u guest -p '' --shares</code></pre>
+	<li>Try to spider the custom share (Devs)</li>
+		<pre><code>crackmapexec smb [IP] -u "john" -p 'password' --spider Devs --pattern .</code></pre>
+	<li>Specify the Devs share and download the files</li>
+		<pre><code>crackmapexec smb [IP] -u "john" -p 'password' --share Devs --get-file [FILENAME_1] FILENAME_2]</code></pre>
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
