@@ -42,7 +42,7 @@ Topic contains:
 	<li><a href='#n1.2'>PowerShell</a></li>
 	<li><a href='#n1.3'>Linux</a></li>
 	<li><a href='#n1.4'>Windows</a></li>
-	<li><a href='#n1.5'>Nmap</a> commands with search vulnerabilities scripts</li>
+	<li><a href='#n1.5'>Nmap</a></li>
 	<li><a href='#n1.6'>Gobuster</a></li>
 	<li><a href='#n1.7'>Hydra</a></li>
 	<li><a href='#n1.8'>Dirsearch</a></li>
@@ -62,6 +62,7 @@ Topic contains:
  	<li><a href='#n1.22'>SSH and id_rsa</a></li>
   	<li><a href='#n1.23'>Clear log files</li>
    	<li><a href='#n1.24'>Tmux</li>
+	<li><a href='#n1.25'>crackmapexec</li>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'> </code></pre>
@@ -629,6 +630,16 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 - Use `tmux new -s recon` to start recon tools and come back anytime.
 - Want auto-reconnect? Combine `tmux` with SSH aliases in your `.bashrc`.
 - You can have multiple tmux sessions per server for different tasks (recon, fuzzing, analysis).
+
+<h3 id='n1.25'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>crackmapexec</ins></h3>
+<ol>
+	<li>Start recon</li>
+		<pre><code>crackmapexec smb [IP]</code></pre>
+	<li>Check if a NULL session (anonymous login) is possible</li>
+		<pre><code>crackmapexec smb [IP] -u '' -p '' --users</code></pre>
+	<li>Check the Guest account is enabled and try accessing it without credentials to enumerate available shares</li>
+		<pre><code>crackmapexec smb [IP] -u guest -p '' --shares</code></pre>
+</ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
    
