@@ -643,7 +643,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 	<li>Try to spider the custom share (Devs)</li>
 		<pre><code>crackmapexec smb [IP] -u "john" -p 'password' --spider Devs --pattern .</code></pre>
 	<li>Specify the Devs share and download the files</li>
-		<pre><code>crackmapexec smb [IP] -u "john" -p 'password' --share Devs --get-file [FILENAME_1] FILENAME_2]</code></pre>
+		<pre><code>crackmapexec smb [IP] -u "john" -p 'password' --share Devs --get-file [FILENAME] [LOCAL-FILENAME]</code></pre>
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
