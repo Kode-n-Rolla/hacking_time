@@ -195,6 +195,14 @@ Topic contains:
 				<li> W :  write-only access
 			</ul>
 			A full listing of icacls command-line arguments and detailed permission settings can be found <a href='https://ss64.com/nt/icacls.html'>here</a>.
+		<li>Check account`s permissions</li>
+				<pre><code>whoami /priv</code></pre>
+		<li>Check account`s groups</li>
+				<pre><code>whoami /groups</code></pre>
+		<li>List all installed Windows updates (qfe stands for Quick Fix Engineering)</li>
+				<pre><code>wmic qfe</code></pre>
+		<li>View the scheduled tasks</li>
+				<pre><code>schtasks /query /fo LIST /v</code></pre>
 	</ol>
 		
 <h3 id='n1.5'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins> Nmap</ins> with vulnerse script (1)</h3>
