@@ -8,6 +8,17 @@
 <h2 align='center'>Welcome to my offensive security cheat sheet library.</h2>
 <h3 align='center'>Please use responsibly and ethically, especially when exploring sensitive security concepts.</h3>
 
+Starting point:
+<ul>
+	<li>Enumeration is key</li>
+	<li>Pay attention to what you see, what you hear, what you think, what you do</li>
+	<li>Understand the dependencies and relationships</li>
+	<li>Take breaks at least for 20 minutes</li>
+	<li>Try smarter, try differently</li>
+	<li>Have fun</li>
+	<li>You can</li>
+</ul>
+
 <h3 id='start'> There are: </h3>
 <ol>
 	<li><a href='https://github.com/Kode-n-Rolla/pentesting_time/tree/main/network_tools'>Network tools</a></li>
