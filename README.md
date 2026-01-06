@@ -15,8 +15,6 @@ Starting point:
 	<li>Understand the dependencies and relationships</li>
 	<li>Take breaks at least for 20 minutes</li>
 	<li>Try smarter, try differently</li>
-	<li>Have fun</li>
-	<li>You can</li>
 </ul>
 
 <h3 id='start'> There are: </h3>
