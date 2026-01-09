@@ -856,6 +856,7 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<li><a href='https://taksec.github.io/google-dorks-bug-bounty/'>Dorks</a> examples for Bug Bounty</li>
 		<li><a href='https://dorksearch.com'>Dorksearch.com</a></li>
 		<li><a href='https://dorkgenius.com'>Dorkgenius.com</a>. Custom Creator Search Dork</li>
+		<li><a href='https://taksec.github.io/google-dorks-bug-bounty/'>taksec.github.io</a></li>
 		<li><a href='https://dorks.faisalahmed.me'>Dorks helper</a></li>
 		<li><a href='https://nitinyadav00.github.io/Bug-Bounty-Search-Engine/'>Another dorks helper</a></li>
       <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hashes, encode/decode, cracker, identify </h3>
