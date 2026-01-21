@@ -72,6 +72,7 @@ Topic contains:
   	<li><a href='#n1.23'>Clear log files</li>
    	<li><a href='#n1.24'>Tmux</li>
 	<li><a href='#n1.25'>crackmapexec</li>
+	<li><a href='#n1.26'>Pipelines</li>
 		
 <h3 id='n1.1'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Remote Desktop Protocol (RDP): </ins></h3>
   <pre><code> xfreerdp /dynamic-resolution +clipboard /cert:ignore /v:&lt;TARGET_IP> /u:&lt;USERNAME> /p:&lt;'PASSWORD'></code></pre>
@@ -661,6 +662,12 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 		<pre><code>crackmapexec smb [IP] -u "john" -p 'password' --spider Devs --pattern .</code></pre>
 	<li>Specify the Devs share and download the files</li>
 		<pre><code>crackmapexec smb [IP] -u "john" -p 'password' --share Devs --get-file [FILENAME] [LOCAL-FILENAME]</code></pre>
+</ol>
+
+<h3 id='n1.26'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>Pipelines</ins></h3>
+<ol>
+	<li>Recon</li>
+	<pre><code>subfinder -d domain.com - silent | httpx -silent | katana -f ufile</code></pre>
 </ol>
 
 <h3 align='right'><a href='#start'> <-- Back </a></h3>
