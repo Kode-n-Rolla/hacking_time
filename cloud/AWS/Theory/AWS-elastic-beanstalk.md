@@ -1,30 +1,29 @@
-# 🚨 **Краткий план для атаки на Elastic Beanstalk**
+# 🚨 **Quick Attack Checklist for Elastic Beanstalk**
 
-1. **Поиск окружений** → `describe-environments`
-2. **Извлечение конфигураций** → `describe-configuration-settings`
-    - Парсишь `env vars`, IAM роли, типы EC2 и пр.
-3. **Выясняешь, можешь ли ты...**
-    - ➕ **Создать версию приложения**: `CreateApplicationVersion`
-    - 🔁 **Обновить окружение**: `UpdateEnvironment`
-    - 📎 **Ассюмить привязанную IAM роль**
-4. **Если можешь деплоить — можно залить своё приложение с backdoor** 😈
+1. **Enumerate environments** → `describe-environments`
+2. **Extract configurations** → `describe-configuration-settings`
+   - Parse **env vars**, IAM roles, EC2 instance types, etc.
+3. **Figure out whether you can...**
+   - ➕ **Create a new application version**: `CreateApplicationVersion`
+   - 🔁 **Update the environment**: `UpdateEnvironment`
+   - 📎 **Assume the attached IAM role**
+4. **If deployment is possible — you can deploy a malicious app with a backdoor** 😈
 
 ---
 
-## ⚠️ Что может быть в переменных окружения:
+## ⚠️ What you may find in environment variables:
 
 - `DB_PASSWORD`, `API_KEY`, `SECRET_KEY`
-- SMTP креды
-- AWS креды других сервисов
-- Ссылки на внутренние API
+- SMTP credentials
+- AWS credentials for other services
+- Internal API endpoints
 
 ---
 
-Если увидишь:
+If you see:
 
 ```json
 "OptionName": "ServiceRole",
 "Value": "aws-elasticbeanstalk-service-role"
 ```
-
-Сразу проверь эту роль: может, у неё доступ к **S3**, **EC2**, **IAM** или даже **админ**.
+Immediately review this role — it may have access to S3, EC2, IAM, or even admin-level permissions.
