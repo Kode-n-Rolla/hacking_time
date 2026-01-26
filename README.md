@@ -808,8 +808,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 <h3 id='n2.6'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CRLF</h3>
 	<code>%0D%0A</code>
  		<ul>
-			<li>%0D — CR (Carriage Return)</li>
-			<li>%0A — LF (Line Feed)</li>
+			<li>%0D - CR (Carriage Return)</li>
+			<li>%0A - LF (Line Feed)</li>
 		</ul>
 
  <h3 id='n2.7'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSRF</h3>
@@ -1225,13 +1225,13 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 					<li>Read through root <code>vim</code></li>
 					<pre><code>sudo vim -u NONE -U NONE -n -es +'r /root/root.txt' +'%p' +q /dev/null</code></pre>
 					<ul>
-						<li><code>-u NONE -U NONE</code> — do not load vimrc/gvimrc (no plugins → no erros)</li>
-						<li><code>-n</code> — disable swapfile</li>
-						<li><code>-e -s</code> — Ex mode + silent (non-interactive) mode</li>
-						<li><code>+'r /root/root.txt'</code> — read the file into the buffer</li>
-						<li><code>+'%p'</code> — print the entire buffer to stdout</li>
-						<li><code>+q</code> — quit</li>
-						<li><code>/dev/null</code> — dummy target so no real files are touched</li>
+						<li><code>-u NONE -U NONE</code> - do not load vimrc/gvimrc (no plugins → no erros)</li>
+						<li><code>-n</code> - disable swapfile</li>
+						<li><code>-e -s</code> - Ex mode + silent (non-interactive) mode</li>
+						<li><code>+'r /root/root.txt'</code> - read the file into the buffer</li>
+						<li><code>+'%p'</code> - print the entire buffer to stdout</li>
+						<li><code>+q</code> - quit</li>
+						<li><code>/dev/null</code> - dummy target so no real files are touched</li>
 					</ul>
 	    		</ol>
 	    <h3 id='n5.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <ins>Windows</ins> </h3>
