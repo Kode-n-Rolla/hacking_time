@@ -119,3 +119,118 @@ This results in Privilege Escalation + Data Exfiltration.
 - Always restrict which roles Glue can assume
 - Monitor Glue Job scripts and executions (CloudTrail)
 - Isolate sensitive S3 buckets via bucket policies
+
+# Graphs
+
+## 🔗 Attack Graph — AWS Glue
+```
+[Compromised IAM User]
+          |
+          v
+[Enumerate Glue Resources]
+ (get-jobs, get-databases,
+  get-connections)
+          |
+          v
+[Access Glue Job Scripts]
+          |
+          +--> [Hardcoded Secrets]
+          |        |
+          |        v
+          |   [DB / API Access]
+          |
+          +--> [IAM Role Identified]
+                    |
+                    v
+        [Check Permissions of Role]
+                    |
+                    v
+      [S3 / RDS / Redshift Access]
+```
+**💡 What this graph shows:**
+- Glue acts as a data aggregation point.
+- Even without direct admin access, you can:
+- see pipelines,
+- discover secrets,
+- understand data flows,
+- identify roles with excessive permissions.
+
+## ⚠️ Privilege Escalation Graph — Glue + IAM
+```
+[Limited IAM User]
+  |  glue:CreateJob
+  |  glue:StartJobRun
+  |  iam:PassRole
+  v
+[Create Malicious Glue Job]
+          |
+          v
+[Attach High-Privileged IAM Role]
+          |
+          v
+[Execute Arbitrary Code]
+          |
+          v
+[Privilege Escalation]
+          |
+          +--> S3 Full Access
+          +--> RDS Dump
+          +--> IAM Enumeration
+          +--> Lateral Movement
+```
+**💥 Key idea:**
+Glue Job = Remote Code Execution under an IAM Role
+
+If you have:
+   - `CreateJob`
+   - `StartJobRun`
+   - `iam:PassRole`
+
+👉 this is almost always game over.
+
+## 🧠 Expanded Attack Path (Mental Model)
+```
+IAM User
+  |
+  v
+Glue Control Plane
+  |
+  +--> Scripts (code)
+  +--> Connections (creds)
+  +--> Data Catalog (metadata)
+  |
+  v
+Glue Execution Role
+  |
+  v
+AWS Data Plane
+(S3, RDS, Redshift, etc.)
+```
+Glue acts as a bridge between the control plane and the data plane,
+which is why it becomes extremely dangerous when misconfigured.
+
+## 🛡 Defensive Graph (Blue Team View)
+```
+[Glue Job]
+   |
+   +--> Restricted IAM Role
+   |       |
+   |       v
+   |   Least Privilege
+   |
+   +--> Script Review
+   |
+   +--> CloudTrail Monitoring
+   |
+   +--> S3 Bucket Policies
+```
+
+# 🔍 Indicators of High Risk
+```
+[ ] glue:CreateJob
+[ ] glue:StartJobRun
+[ ] iam:PassRole
+[ ] Broad Glue Service Role
+[ ] S3 access from Glue Role
+```
+If 2 or more items are present, look for an escalation path.
