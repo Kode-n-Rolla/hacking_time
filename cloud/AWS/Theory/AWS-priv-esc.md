@@ -39,7 +39,7 @@
 
 | `lambda:*` | `iam:PassRole` | Exist `privesc`? | Desc |
 | --- | --- | --- | --- |
-| ✅ | ✅ | ✅ **YES** | Can create Lambda-func and pass any existing role (e.g., admin) — and run like admin |
+| ✅ | ✅ | ✅ **YES** | Can create Lambda-func and pass any existing role (e.g., admin) - and run like admin |
 | ✅ | ❌ | ❌ **NO** | Can create a func but **can not pass the right role** → without `PassRole` receive an error|
 | ❌ | ✅ | ❌ **NO** | Can pass a role but **can`t create/invoke Lambda**, зmeans there is nowhere to transfer |
 | ❌ | ❌ | ❌ **NO** | No funcs, no roles - chances < min  |
@@ -48,10 +48,10 @@
 
 ### ✅ What you need for **successful `lambda privesc`**:
 
-- **`lambda:CreateFunction`** — create func
-- **`lambda:InvokeFunction`** — invoke func
-- **`iam:PassRole`** — pass IAM role (e.g., admin)
-- (option) **`lambda:DeleteFunction`** — clear by yourself
+- **`lambda:CreateFunction`** - create func
+- **`lambda:InvokeFunction`** - invoke func
+- **`iam:PassRole`** - pass IAM role (e.g., admin)
+- (option) **`lambda:DeleteFunction`** - clear by yourself
 
 ---
 
