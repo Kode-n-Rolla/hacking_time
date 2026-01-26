@@ -8,7 +8,7 @@
 - Function
 - Execution Role
 - Triggers
-- Enviroment Variables (`may contain juicy files`, check FIRST)
+- Enviroment Variables (may contain <a href='https://github.com/Kode-n-Rolla/hacking_time/blob/main/cloud/AWS/juicy-internal-endpoints.md'>juicy endpoints</a>, check FIRST)
 
 ## Pay attention to
 
