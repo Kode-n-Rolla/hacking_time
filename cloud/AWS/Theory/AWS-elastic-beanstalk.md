@@ -7,7 +7,7 @@
    - ➕ **Create a new application version**: `CreateApplicationVersion`
    - 🔁 **Update the environment**: `UpdateEnvironment`
    - 📎 **Assume the attached IAM role**
-4. **If deployment is possible — you can deploy a malicious app with a backdoor** 😈
+4. **If deployment is possible - you can deploy a malicious app with a backdoor** 😈
 
 ---
 
@@ -26,4 +26,4 @@ If you see:
 "OptionName": "ServiceRole",
 "Value": "aws-elasticbeanstalk-service-role"
 ```
-Immediately review this role — it may have access to S3, EC2, IAM, or even admin-level permissions.
+Immediately review this role - it may have access to S3, EC2, IAM, or even admin-level permissions.
