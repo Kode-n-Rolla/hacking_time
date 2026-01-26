@@ -1,0 +1,6 @@
+- 169.254.169.254
+- http://169.254.169.254/metadata/hostname
+- http://169.254.169.254/latest/meta-data/
+- http://169.254.169.254/latest/meta-data/iam/
+- http://169.254.169.254/latest/meta-data/iam/security-credentials/
+- http://169.254.169.254/latest/meta-data/iam/security-credentials/role_name
