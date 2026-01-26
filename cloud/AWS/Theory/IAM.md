@@ -13,7 +13,7 @@
 ## Test for …
 
 - **Privilege Escalation.** Can I go from a low-privilege user to an admin? This is the most common and most impactful finding in cloud environments.
-- **Lateral Movement.** Even if I can’t get admin access, can I move sideways into another user, role, or resource with sensitive access—like an S3 bucket full of data?
+- **Lateral Movement.** Even if I can’t get admin access, can I move sideways into another user, role, or resource with sensitive access-like an S3 bucket full of data?
 - **Data Exfiltration.** Can I take over a Lambda function and send data to my own server?
 - **Persistence.** If I can create access keys for another user, I can quietly backdoor their account without changing their password. That kind of access is hard to detect unless you’ve got solid logging and alerting in place.
 
